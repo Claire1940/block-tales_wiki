@@ -57,7 +57,7 @@
   "tools": {
     "title": "Block Tales",
     "titleHighlight": "Guide Modules",
-    "subtitle": "Jump to the Block Tales module you need: codes, starter help, Demo 5 updates, or the main walkthrough.",
+    "subtitle": "Jump to the Block Tales module you need: codes, beginner help, Demo 5, walkthrough, cards, tier list, bosses, or badges.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -78,6 +78,26 @@
         "icon": "ArrowRight",
         "title": "Block Tales Walkthrough",
         "description": "Chapter-by-chapter route notes from Prologue through Chapter Five"
+      },
+      {
+        "icon": "Package",
+        "title": "Block Tales Cards Guide",
+        "description": "Card types, BP costs, SP use, unlock sources, and combat roles"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Block Tales Card Tier List",
+        "description": "Scenario-based card rankings for bosses, The Pit, and team builds"
+      },
+      {
+        "icon": "Shield",
+        "title": "Block Tales Boss Guide",
+        "description": "Boss mechanics, chapter locations, recommended cards, and fight plans"
+      },
+      {
+        "icon": "Star",
+        "title": "Block Tales Badges Guide",
+        "description": "Story, hidden, collection, Hard Mode, and Demo 5 badge goals"
       }
     ]
   },
@@ -415,12 +435,1523 @@
           "routeTip": "Use the Block Tales Demo 5 module first for update changes, then follow the chapter route card for exact progression."
         }
       ]
+    },
+    "cardsGuide": {
+      "eyebrow": "Cards & Builds",
+      "title": "Block Tales Cards Guide",
+      "subtitle": "Browse the core Block Tales card system by card type, BP cost, SP cost, unlock source, and combat role. Use it to plan early-game decks, boss builds, support builds, and The Pit loadouts.",
+      "intro": "Cards are the main build system in Block Tales. They can add new battle actions, upgrade weapons, improve defense, generate SP, support allies, change field movement, or increase difficulty for extra challenge. Most cards cost Build Points to equip, and BP can be refunded by removing cards from a build.",
+      "items": [
+        {
+          "name": "Build Points",
+          "category": "System",
+          "type": "Deck resource",
+          "bp_cost": "Maximum 30 BP",
+          "activation_cost": "None",
+          "stacking": "Level-up BP choices increase maximum BP by 3 until the 30 BP cap.",
+          "how_to_get": "Choose BP when leveling up; removing equipped cards refunds the BP they cost.",
+          "combat_role": "Controls how many cards can fit into one build and is the main limit on card combinations.",
+          "tags": [
+            "BP",
+            "deck building",
+            "build planning"
+          ]
+        },
+        {
+          "name": "Action Cards",
+          "category": "Card Type",
+          "type": "Battle action",
+          "bp_cost": "Varies by card",
+          "activation_cost": "Usually SP",
+          "stacking": "Many Action Cards can stack to improve effects or change SP cost.",
+          "how_to_get": "Found in locations, bought from card sellers, received from characters, or dropped by enemies.",
+          "combat_role": "Adds selectable combat moves such as healing, status effects, support, or stronger attacks.",
+          "tags": [
+            "action",
+            "SP",
+            "combat menu"
+          ]
+        },
+        {
+          "name": "Passive Cards",
+          "category": "Card Type",
+          "type": "Equipped passive",
+          "bp_cost": "Varies by card",
+          "activation_cost": "None",
+          "stacking": "Some passives stack; others are single-copy build-defining cards.",
+          "how_to_get": "Found, bought, unlocked from boss rewards, or earned from special encounters.",
+          "combat_role": "Changes stats, SP economy, damage output, guard strength, item value, or battle-start effects.",
+          "tags": [
+            "passive",
+            "build",
+            "stats"
+          ]
+        },
+        {
+          "name": "Ball",
+          "category": "Weapon",
+          "type": "Default ranged weapon",
+          "bp_cost": "0 BP",
+          "activation_cost": "None",
+          "stacking": "Default weapon card.",
+          "how_to_get": "Received from JParty.",
+          "combat_role": "Ranged attack that can choose targets, hit Flying enemies, and use the action command second hit to ignore defense.",
+          "tags": [
+            "ball",
+            "ranged",
+            "flying enemies"
+          ]
+        },
+        {
+          "name": "Sword",
+          "category": "Weapon",
+          "type": "Default melee weapon",
+          "bp_cost": "0 BP",
+          "activation_cost": "None",
+          "stacking": "Default weapon card.",
+          "how_to_get": "Received from Shedletsky after defeating Red Noob and Blue Noob.",
+          "combat_role": "Melee attack that pierces part of enemy defense and becomes the base for Sword-slot attack cards.",
+          "tags": [
+            "sword",
+            "melee",
+            "defense pierce"
+          ]
+        },
+        {
+          "name": "Daze",
+          "category": "Attack",
+          "type": "Sword Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Found on Pit Floor 10 and in Splintered Skies, or bought from Sketchy Figure and Wealthy Merchant.",
+          "combat_role": "Applies Dizzy and deals splash damage to the enemy behind the target, making it valuable against dangerous attackers and grouped enemies.",
+          "tags": [
+            "sword",
+            "status",
+            "Dizzy"
+          ]
+        },
+        {
+          "name": "Minimize",
+          "category": "Attack",
+          "type": "Status Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Desna or Gene, and dropped by several noob enemies.",
+          "combat_role": "Applies Small for several turns, lowering threat from enemies that rely on direct attacks.",
+          "tags": [
+            "status",
+            "Small",
+            "control"
+          ]
+        },
+        {
+          "name": "Charge",
+          "category": "Attack",
+          "type": "Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "3 SP",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Bought from Wealthy Merchant or Sketchy Figure.",
+          "combat_role": "Adds +2 attack to the next hit, useful for burst turns, single-target boss damage, and stacked damage builds.",
+          "tags": [
+            "burst",
+            "damage",
+            "boss"
+          ]
+        },
+        {
+          "name": "Charge DEF",
+          "category": "Defense",
+          "type": "Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "3 SP",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Bought from Gene or Banished Knight.",
+          "combat_role": "Grants Halved Damage for three turns, helping survive boss burst windows and Hard Mode encounters.",
+          "tags": [
+            "defense",
+            "Halved Damage",
+            "boss"
+          ]
+        },
+        {
+          "name": "Cure",
+          "category": "Support",
+          "type": "Healing Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Desna or Tai.",
+          "combat_role": "Heals a target for 5 HP, trading offensive power for reliable recovery in long fights and multiplayer support.",
+          "tags": [
+            "healing",
+            "support",
+            "party"
+          ]
+        },
+        {
+          "name": "Feel Fine",
+          "category": "Support",
+          "type": "Status-cleanse Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Found in Outer Scorched Dunes, bought from Gene or Tai, and dropped by status-themed enemies.",
+          "combat_role": "Cures and prevents status ailments for several turns, especially useful in fights with Burn, Dizzy, Freeze, Poison, or other control effects.",
+          "tags": [
+            "status cleanse",
+            "Fine",
+            "boss"
+          ]
+        },
+        {
+          "name": "Bodyguard",
+          "category": "Support",
+          "type": "Protection Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Wealthy Merchant or Sketchy Figure.",
+          "combat_role": "Redirects part of an ally's incoming enemy damage to the user for three turns, making it a strong multiplayer protection tool.",
+          "tags": [
+            "multiplayer",
+            "tank",
+            "support"
+          ]
+        },
+        {
+          "name": "Good Vibes",
+          "category": "Support",
+          "type": "Party sustain Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "3 SP",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Bought from Sketchy Figure or Amber.",
+          "combat_role": "Puts the user to sleep while restoring HP and SP to the party each turn, turning one player into a sustain engine.",
+          "tags": [
+            "party sustain",
+            "SP",
+            "HP"
+          ]
+        },
+        {
+          "name": "Resurrect",
+          "category": "Support",
+          "type": "Revive Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "3 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Sketchy Figure or Tai.",
+          "combat_role": "Revives a downed ally with 5 HP and can also trigger a self-revive once per battle when enough SP is available.",
+          "tags": [
+            "revive",
+            "boss",
+            "party"
+          ]
+        },
+        {
+          "name": "Sacrifice",
+          "category": "Support",
+          "type": "Party healing Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "5 HP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Banished Knight or Sketchy Figure.",
+          "combat_role": "Spends the user's HP to heal the rest of the party, useful when one player is built to tank or recover safely.",
+          "tags": [
+            "party heal",
+            "HP cost",
+            "support"
+          ]
+        },
+        {
+          "name": "Pity SP",
+          "category": "Support",
+          "type": "Emergency SP Action Card",
+          "bp_cost": "0 BP",
+          "activation_cost": "10 HP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Sketchy Figure or Wealthy Merchant.",
+          "combat_role": "Converts HP into 5 SP, allowing emergency SP recovery when a build needs one more action to heal, revive, or defend.",
+          "tags": [
+            "SP recovery",
+            "emergency",
+            "0 BP"
+          ]
+        },
+        {
+          "name": "SP Wire",
+          "category": "Support",
+          "type": "SP transfer Action Card",
+          "bp_cost": "0 BP",
+          "activation_cost": "5 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Gene or Wealthy Merchant.",
+          "combat_role": "Transfers 5 SP from the user to another party member, useful in coordinated teams where one player carries key actions.",
+          "tags": [
+            "SP transfer",
+            "team",
+            "0 BP"
+          ]
+        },
+        {
+          "name": "Launcher",
+          "category": "Weapon",
+          "type": "Ball replacement",
+          "bp_cost": "3 BP",
+          "activation_cost": "None",
+          "stacking": "Single weapon replacement.",
+          "how_to_get": "Bought from Tai or Banished Knight.",
+          "combat_role": "Replaces Ball with an explosive area attack that can apply Defense Down, trading simplicity for stronger multi-enemy pressure.",
+          "tags": [
+            "launcher",
+            "AOE",
+            "weapon replacement"
+          ]
+        },
+        {
+          "name": "Slingshot",
+          "category": "Weapon",
+          "type": "Sword replacement",
+          "bp_cost": "3 BP",
+          "activation_cost": "None",
+          "stacking": "Single weapon replacement.",
+          "how_to_get": "Bought from Tai or Banished Knight.",
+          "combat_role": "Replaces Sword with a ranged multi-pellet attack that gains damage but struggles against enemies with defense unless supported by other cards.",
+          "tags": [
+            "slingshot",
+            "ranged",
+            "weapon replacement"
+          ]
+        },
+        {
+          "name": "Bombardment",
+          "category": "Attack",
+          "type": "Launcher Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Launcher-specific action.",
+          "how_to_get": "Bought from Valor.",
+          "combat_role": "Hits all enemies and pierces up to 2 defense, but failing the action command leaves the user Exhausted.",
+          "tags": [
+            "launcher",
+            "AOE",
+            "defense pierce"
+          ]
+        },
+        {
+          "name": "Hitmarker",
+          "category": "Attack",
+          "type": "Launcher Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "3 SP",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Bought from Banished Knight.",
+          "combat_role": "Adds an Ankh effect to the Launcher gameplan, helping set up safer damage cycles against high-pressure enemies.",
+          "tags": [
+            "launcher",
+            "Ankh",
+            "setup"
+          ]
+        },
+        {
+          "name": "Defend",
+          "category": "Strategy",
+          "type": "Default strategy card",
+          "bp_cost": "0 BP",
+          "activation_cost": "None",
+          "stacking": "Default strategy option.",
+          "how_to_get": "Available as a strategy action.",
+          "combat_role": "Restores SP, improves guard timing, and adds hidden damage reduction for the turn, making it a core survival action.",
+          "tags": [
+            "guard",
+            "SP",
+            "survival"
+          ]
+        },
+        {
+          "name": "Focus",
+          "category": "Strategy",
+          "type": "Sword Energy strategy card",
+          "bp_cost": "0 BP",
+          "activation_cost": "None",
+          "stacking": "Improved by Deep Focus.",
+          "how_to_get": "Available as a strategy action.",
+          "combat_role": "Builds Sword Energy for special attacks, with extra value when combined with Deep Focus.",
+          "tags": [
+            "Sword Energy",
+            "specials",
+            "Deep Focus"
+          ]
+        },
+        {
+          "name": "Knight",
+          "category": "Passive",
+          "type": "Sword build passive",
+          "bp_cost": "3 BP",
+          "activation_cost": "None",
+          "stacking": "Single build-defining passive.",
+          "how_to_get": "Bought from Wealthy Merchant in Vermillion Village.",
+          "combat_role": "Adds Sword or weapon-replacement damage while disabling the Ball slot, making it a core card for melee-focused builds.",
+          "tags": [
+            "Knight build",
+            "damage",
+            "Sword"
+          ]
+        },
+        {
+          "name": "Baller",
+          "category": "Passive",
+          "type": "Ball build passive",
+          "bp_cost": "3 BP",
+          "activation_cost": "None",
+          "stacking": "Single build-defining passive.",
+          "how_to_get": "Bought from Wealthy Merchant.",
+          "combat_role": "Adds Ball or weapon-replacement damage while disabling the Sword slot, making it a core card for ranged-focused builds.",
+          "tags": [
+            "Baller build",
+            "damage",
+            "Ball"
+          ]
+        },
+        {
+          "name": "Aggressor",
+          "category": "Passive",
+          "type": "Damage passive",
+          "bp_cost": "4 BP",
+          "activation_cost": "None",
+          "stacking": "Single-copy passive.",
+          "how_to_get": "Received from Finn McCool after defeating him.",
+          "combat_role": "Adds damage but disables rolling HP, making it powerful for confident players and risky in very hard content.",
+          "tags": [
+            "damage",
+            "high risk",
+            "Finn McCool"
+          ]
+        },
+        {
+          "name": "Ante Up",
+          "category": "Passive",
+          "type": "Precision damage passive",
+          "bp_cost": "4 BP",
+          "activation_cost": "None",
+          "stacking": "Single-copy passive.",
+          "how_to_get": "Bought from Sketchy Figure.",
+          "combat_role": "Adds damage while shrinking timing windows and making failed attacks deal no damage, rewarding clean action-command play.",
+          "tags": [
+            "damage",
+            "timing",
+            "high skill"
+          ]
+        },
+        {
+          "name": "Defend+",
+          "category": "Passive",
+          "type": "Defense passive",
+          "bp_cost": "4 BP",
+          "activation_cost": "None",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Found on Pit Floor 50 or bought from Sketchy Figure.",
+          "combat_role": "Adds defense, helping stabilize Hard Mode, The Pit, and boss fights with heavy incoming damage.",
+          "tags": [
+            "defense",
+            "The Pit",
+            "Hard Mode"
+          ]
+        },
+        {
+          "name": "Happy SP",
+          "category": "Passive",
+          "type": "SP economy passive",
+          "bp_cost": "1 BP",
+          "activation_cost": "None",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Found in Rugged Rainforest and Red Sun Temple.",
+          "combat_role": "Generates SP over time, making it efficient in long fights, boss fights, and support builds.",
+          "tags": [
+            "SP",
+            "long fights",
+            "low BP"
+          ]
+        },
+        {
+          "name": "HP Drain",
+          "category": "Passive",
+          "type": "Sustain passive",
+          "bp_cost": "1 BP",
+          "activation_cost": "None",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Bought from Amber or Sketchy Figure.",
+          "combat_role": "Restores HP on successful hits while reducing damage, supporting attrition builds that value survival over burst.",
+          "tags": [
+            "lifesteal",
+            "sustain",
+            "tradeoff"
+          ]
+        },
+        {
+          "name": "SP Saver",
+          "category": "Passive",
+          "type": "SP cost passive",
+          "bp_cost": "3 BP",
+          "activation_cost": "None",
+          "stacking": "Single-copy passive.",
+          "how_to_get": "Bought from Sketchy Figure.",
+          "combat_role": "Reduces SP card costs by 1 without lowering costs below 1, making action-heavy builds much easier to sustain.",
+          "tags": [
+            "SP economy",
+            "actions",
+            "support"
+          ]
+        },
+        {
+          "name": "Hard Mode",
+          "category": "Difficulty",
+          "type": "Challenge modifier",
+          "bp_cost": "0 BP",
+          "activation_cost": "None",
+          "stacking": "Single difficulty card.",
+          "how_to_get": "Given at the start.",
+          "combat_role": "Increases challenge by doubling damage taken and reducing guard windows while increasing XP gain.",
+          "tags": [
+            "Hard Mode",
+            "challenge",
+            "XP"
+          ]
+        }
+      ]
+    },
+    "cardTierList": {
+      "eyebrow": "Best Cards",
+      "title": "Block Tales Card Tier List",
+      "subtitle": "Compare the best Block Tales cards by real use case: beginner safety, boss fights, The Pit, multiplayer support, Knight builds, and Baller builds.",
+      "intro": "Block Tales cards are strongest when matched to the fight and the build. Damage cards such as Knight, Baller, Ante Up, and Aggressor shine in offense-focused setups, while Happy SP, Defend+, Resurrect, Cure, and Charge DEF are stronger when the goal is survival, support, or long boss fights.",
+      "items": [
+        {
+          "tier": "S - Broad Utility",
+          "summary": "Cards that solve common problems across many builds and stay useful in long fights, boss fights, or team play.",
+          "cards": [
+            {
+              "name": "Happy SP",
+              "bp_cost": "1 BP",
+              "role": "SP engine",
+              "best_for": [
+                "Boss fights",
+                "The Pit",
+                "Support builds"
+              ],
+              "why_it_ranks_here": "Low BP cost and passive SP generation make it useful whenever a fight lasts long enough for extra SP to matter."
+            },
+            {
+              "name": "SP Saver",
+              "bp_cost": "3 BP",
+              "role": "SP cost reduction",
+              "best_for": [
+                "Action-heavy decks",
+                "Support builds",
+                "Boss fights"
+              ],
+              "why_it_ranks_here": "Reduces SP costs for card actions, helping Cure, Resurrect, status cards, and defensive actions stay online."
+            },
+            {
+              "name": "Defend+",
+              "bp_cost": "4 BP",
+              "role": "Defense scaling",
+              "best_for": [
+                "Hard Mode",
+                "The Pit",
+                "High-damage bosses"
+              ],
+              "why_it_ranks_here": "Extra defense is one of the cleanest ways to survive high-pressure fights where missed guards can end a run."
+            },
+            {
+              "name": "Resurrect",
+              "bp_cost": "2 BP",
+              "role": "Revive",
+              "best_for": [
+                "Multiplayer",
+                "Boss fights",
+                "Hard Mode"
+              ],
+              "why_it_ranks_here": "A revive option prevents one mistake from ending a party fight and also gives the user a self-revive trigger when SP is available."
+            },
+            {
+              "name": "Charge DEF",
+              "bp_cost": "1 BP",
+              "role": "Burst defense",
+              "best_for": [
+                "Boss burst turns",
+                "Hard Mode",
+                "New players"
+              ],
+              "why_it_ranks_here": "Halved Damage for multiple turns is strong, cheap protection when a player expects a dangerous attack pattern."
+            }
+          ]
+        },
+        {
+          "tier": "A - Build-Defining Damage",
+          "summary": "Cards that create strong offensive builds but depend heavily on action-command skill, weapon choice, and risk tolerance.",
+          "cards": [
+            {
+              "name": "Knight",
+              "bp_cost": "3 BP",
+              "role": "Sword damage core",
+              "best_for": [
+                "Knight build",
+                "Melee damage",
+                "Single-target pressure"
+              ],
+              "why_it_ranks_here": "Adds Sword-side damage while locking out Ball, making it one of the simplest ways to build around melee offense."
+            },
+            {
+              "name": "Baller",
+              "bp_cost": "3 BP",
+              "role": "Ball damage core",
+              "best_for": [
+                "Baller build",
+                "Ranged damage",
+                "Flying enemies"
+              ],
+              "why_it_ranks_here": "Adds Ball-side damage while locking out Sword, fitting players who prefer ranged targeting and Ball-based attacks."
+            },
+            {
+              "name": "Ante Up",
+              "bp_cost": "4 BP",
+              "role": "High-skill damage",
+              "best_for": [
+                "Clean action-command players",
+                "Boss burst",
+                "Damage races"
+              ],
+              "why_it_ranks_here": "Adds damage but punishes failed timing with zero damage, so it is best when the player can consistently hit commands."
+            },
+            {
+              "name": "Aggressor",
+              "bp_cost": "4 BP",
+              "role": "High-risk damage",
+              "best_for": [
+                "Confident players",
+                "Fast clears",
+                "Controlled fights"
+              ],
+              "why_it_ranks_here": "Adds damage but removes rolling HP, which makes it powerful in controlled fights and dangerous in very hard content."
+            },
+            {
+              "name": "Charge",
+              "bp_cost": "1 BP",
+              "role": "Burst setup",
+              "best_for": [
+                "Boss damage",
+                "Big single hits",
+                "Damage combos"
+              ],
+              "why_it_ranks_here": "Adds a strong next-hit attack boost and fits many offensive turns, especially when stacked with weapon damage passives."
+            }
+          ]
+        },
+        {
+          "tier": "A - Long-Fight Engines",
+          "summary": "Cards that become stronger when a battle lasts many turns or when a run needs consistent recovery instead of short burst.",
+          "cards": [
+            {
+              "name": "SP Regen+",
+              "bp_cost": "2 BP",
+              "role": "Defensive SP engine",
+              "best_for": [
+                "Defend turns",
+                "SP-hungry builds",
+                "The Pit"
+              ],
+              "why_it_ranks_here": "Improves SP gained from defensive play, giving tankier builds more fuel for expensive actions."
+            },
+            {
+              "name": "HP Drain",
+              "bp_cost": "1 BP",
+              "role": "Hit-based sustain",
+              "best_for": [
+                "Attrition builds",
+                "Solo play",
+                "Long fights"
+              ],
+              "why_it_ranks_here": "Trades damage for healing on successful hits, which is valuable when survival matters more than burst."
+            },
+            {
+              "name": "SP Drain",
+              "bp_cost": "1 BP",
+              "role": "Hit-based SP sustain",
+              "best_for": [
+                "Multi-turn fights",
+                "SP cycling",
+                "Low-damage utility builds"
+              ],
+              "why_it_ranks_here": "Restores SP on successful hits while lowering damage, making it a utility choice for players who need more card actions."
+            },
+            {
+              "name": "Safe Guard",
+              "bp_cost": "2 BP",
+              "role": "Guard improvement",
+              "best_for": [
+                "New players",
+                "Hard Mode",
+                "Boss patterns"
+              ],
+              "why_it_ranks_here": "Makes guarding more effective, which matters when damage reduction is more valuable than raw attack."
+            },
+            {
+              "name": "Deep Focus",
+              "bp_cost": "1 BP",
+              "role": "Sword Energy gain",
+              "best_for": [
+                "Special attacks",
+                "Focus turns",
+                "Boss setups"
+              ],
+              "why_it_ranks_here": "Improves Focus turns and supports builds that want to reach Sword Energy attacks more reliably."
+            }
+          ]
+        },
+        {
+          "tier": "B - Team Support",
+          "summary": "Cards that become much stronger in multiplayer because they protect, heal, revive, or feed resources to teammates.",
+          "cards": [
+            {
+              "name": "Cure",
+              "bp_cost": "2 BP",
+              "role": "Single-target heal",
+              "best_for": [
+                "Support players",
+                "Multiplayer",
+                "Boss fights"
+              ],
+              "why_it_ranks_here": "Reliable healing keeps allies alive, especially when one teammate is carrying damage or utility."
+            },
+            {
+              "name": "Bodyguard",
+              "bp_cost": "1 BP",
+              "role": "Ally protection",
+              "best_for": [
+                "Tank builds",
+                "Protecting low-HP allies",
+                "Team bosses"
+              ],
+              "why_it_ranks_here": "Lets one player absorb part of an ally's incoming damage, enabling planned tank-and-support play."
+            },
+            {
+              "name": "Good Vibes",
+              "bp_cost": "2 BP",
+              "role": "Party HP and SP recovery",
+              "best_for": [
+                "Long team fights",
+                "SP support",
+                "Sustain teams"
+              ],
+              "why_it_ranks_here": "Turns the user into a recovery engine while the rest of the team keeps fighting."
+            },
+            {
+              "name": "SP Wire",
+              "bp_cost": "0 BP",
+              "role": "SP transfer",
+              "best_for": [
+                "Coordinated teams",
+                "Revive setups",
+                "Support chains"
+              ],
+              "why_it_ranks_here": "Moves SP to the teammate who needs it most, which is valuable when one player holds Cure, Resurrect, or a key attack card."
+            },
+            {
+              "name": "Sacrifice",
+              "bp_cost": "1 BP",
+              "role": "Party healing",
+              "best_for": [
+                "Tank support",
+                "Emergency recovery",
+                "Multiplayer"
+              ],
+              "why_it_ranks_here": "Converts the user's HP into healing for the rest of the party, making it a strong emergency support option."
+            }
+          ]
+        },
+        {
+          "tier": "Tech - Matchup Picks",
+          "summary": "Cards that are excellent in specific fights, enemy formations, or weapon builds rather than universally best.",
+          "cards": [
+            {
+              "name": "Feel Fine",
+              "bp_cost": "2 BP",
+              "role": "Status prevention",
+              "best_for": [
+                "Status-heavy bosses",
+                "Burn",
+                "Dizzy",
+                "Freeze"
+              ],
+              "why_it_ranks_here": "Strong when status effects are the main threat, but less urgent in fights that only test damage and guarding."
+            },
+            {
+              "name": "Daze",
+              "bp_cost": "1 BP",
+              "role": "Dizzy and splash control",
+              "best_for": [
+                "Grouped enemies",
+                "Dangerous attackers",
+                "Sword decks"
+              ],
+              "why_it_ranks_here": "Useful for control and splash, especially when lowering enemy pressure matters."
+            },
+            {
+              "name": "Minimize",
+              "bp_cost": "1 BP",
+              "role": "Small status",
+              "best_for": [
+                "Direct attackers",
+                "Enemy control",
+                "Safety turns"
+              ],
+              "why_it_ranks_here": "Best when lowering an enemy's threat buys enough time to heal, set up, or finish another target."
+            },
+            {
+              "name": "Cannonball",
+              "bp_cost": "2 BP",
+              "role": "Ball safety tech",
+              "best_for": [
+                "Spiky enemies",
+                "Flaming enemies",
+                "Ball builds"
+              ],
+              "why_it_ranks_here": "Lets Ball hit dangerous contact enemies without popping, which is important in specific matchups."
+            },
+            {
+              "name": "Bombardment",
+              "bp_cost": "1 BP",
+              "role": "Launcher AOE",
+              "best_for": [
+                "Multi-enemy waves",
+                "Defense enemies",
+                "Launcher builds"
+              ],
+              "why_it_ranks_here": "Excellent for area damage when the player can manage Launcher timing and the Exhausted penalty risk."
+            }
+          ]
+        }
+      ]
+    },
+    "bossGuide": {
+      "eyebrow": "Bosses",
+      "title": "Block Tales Boss Guide",
+      "subtitle": "Track the major Block Tales bosses by chapter, location, mechanic, reward, and recommended card approach.",
+      "intro": "Block Tales boss fights often test more than damage. Good guarding, SP management, status control, defensive turns, and the right card package can matter more than a simple attack build, especially in Hard Mode, optional superbosses, and Chapter 5.",
+      "items": [
+        {
+          "name": "Supreme Ant",
+          "chapter": "Chapter 1",
+          "type": "Main boss",
+          "location": "Icy Caves exit",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "10 HP"
+            },
+            {
+              "label": "Summons",
+              "value": "Ant Armies with 2 HP"
+            }
+          ],
+          "core_mechanics": [
+            "Summons Ant Armies during the fight.",
+            "Punishes players who ignore small enemies for too long."
+          ],
+          "recommended_cards": [
+            "Ball",
+            "Linebounce",
+            "Defend",
+            "Charge"
+          ],
+          "strategy_focus": "Clear summons quickly, keep enough SP for defensive turns, and use clean action commands to avoid spending too many recovery items early."
+        },
+        {
+          "name": "Sentient Statue",
+          "chapter": "Chapter 1",
+          "type": "Main boss",
+          "location": "Blackrock Castle",
+          "stats": [
+            {
+              "label": "Role",
+              "value": "Chapter 1 castle boss"
+            }
+          ],
+          "core_mechanics": [
+            "Appears before the Cruel King fight line.",
+            "Tests guard timing and basic resource management."
+          ],
+          "recommended_cards": [
+            "Defend",
+            "Charge DEF",
+            "Cure",
+            "Safe Guard"
+          ],
+          "strategy_focus": "Treat it as a guard-check fight: defend on dangerous turns, conserve SP, and avoid entering Cruel King with a weak item supply."
+        },
+        {
+          "name": "Cruel King",
+          "chapter": "Chapter 1",
+          "type": "Final boss",
+          "location": "Blackrock Castle throne room; Cold Nirvana rematch",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "30 HP"
+            },
+            {
+              "label": "Level",
+              "value": "90"
+            }
+          ],
+          "core_mechanics": [
+            "Uses Scepter Strike, Freeze, Refreshing Heal, and Call for Help.",
+            "Can summon Loyal Knight and Crossbow Crony allies.",
+            "Has a no-damage badge challenge through Stylish."
+          ],
+          "recommended_cards": [
+            "Defend",
+            "Charge DEF",
+            "Cure",
+            "Feel Fine",
+            "Charge"
+          ],
+          "strategy_focus": "Control summoned enemies before they snowball, guard Freeze turns carefully, and keep SP available for healing or defense instead of spending every turn on damage."
+        },
+        {
+          "name": "Supreme Mosquito",
+          "chapter": "Chapter 2",
+          "type": "Optional superboss",
+          "location": "Below the Ant Hill exit after backtracking with the Iron Sword",
+          "stats": [
+            {
+              "label": "Reward",
+              "value": "Investor card"
+            },
+            {
+              "label": "Badge",
+              "value": "Alternate Reality"
+            }
+          ],
+          "core_mechanics": [
+            "Optional backtrack boss tied to a hidden route.",
+            "Rewards an economy-focused passive card after defeat."
+          ],
+          "recommended_cards": [
+            "Cure",
+            "Charge DEF",
+            "Defend",
+            "Happy SP",
+            "Safe Guard"
+          ],
+          "strategy_focus": "Enter with a stable defensive setup, use Defend to protect SP flow, and prioritize survival over risky burst because the reward is optional but valuable."
+        },
+        {
+          "name": "Bubonic Plant",
+          "chapter": "Chapter 2",
+          "type": "Final boss",
+          "location": "Griefer's Crib",
+          "stats": [
+            {
+              "label": "Story role",
+              "value": "Chapter 2 final boss"
+            },
+            {
+              "label": "Badge",
+              "value": "Panacea"
+            }
+          ],
+          "core_mechanics": [
+            "Closes the Chapter 2 Griefer route.",
+            "A key fight for players moving from early-game fundamentals into longer boss patterns."
+          ],
+          "recommended_cards": [
+            "Charge DEF",
+            "Cure",
+            "Feel Fine",
+            "Defend",
+            "Happy SP"
+          ],
+          "strategy_focus": "Keep a balanced setup: one or two defensive options, a reliable heal, and enough SP generation to avoid running dry before the end of the fight."
+        },
+        {
+          "name": "Hatred",
+          "chapter": "Chapter 3",
+          "type": "Final boss",
+          "location": "Dream World",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "50 HP"
+            },
+            {
+              "label": "Defense",
+              "value": "1"
+            },
+            {
+              "label": "Level",
+              "value": "92"
+            }
+          ],
+          "core_mechanics": [
+            "Has Double Turns.",
+            "Uses Corruption, PK Thunder, Charge Outburst, and Call for Help.",
+            "Can pressure players through repeated high-threat turns."
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Cure",
+            "Resurrect",
+            "Feel Fine",
+            "Happy SP"
+          ],
+          "strategy_focus": "Plan for multiple attacks per cycle, use defensive cards before burst windows, and keep revive or healing access ready before HP starts rolling down."
+        },
+        {
+          "name": "Mutant",
+          "chapter": "Chapter 3",
+          "type": "Optional superboss",
+          "location": "Telamon Manor Red Room and basement route",
+          "stats": [
+            {
+              "label": "Badge",
+              "value": "Uncanny Encounter"
+            },
+            {
+              "label": "Reward path",
+              "value": "Manor Attic access"
+            }
+          ],
+          "core_mechanics": [
+            "Optional superboss connected to Telamon Manor progression.",
+            "Defeating it unlocks access to later reward space."
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Cure",
+            "Resurrect",
+            "Safe Guard"
+          ],
+          "strategy_focus": "Bring a defensive loadout first, then add damage once the fight's timing is comfortable; optional superbosses punish underprepared glass-cannon builds."
+        },
+        {
+          "name": "The Ancients",
+          "chapter": "Chapter 4",
+          "type": "Final boss",
+          "location": "Red Sun Temple",
+          "stats": [
+            {
+              "label": "Half-HP shift",
+              "value": "Fine and NRG Disable"
+            },
+            {
+              "label": "Protection",
+              "value": "Invincible while Vessels are alive"
+            }
+          ],
+          "core_mechanics": [
+            "Uses Wheel, Beam, Fireball, Ultra Beam, and Call for Help.",
+            "Summoned Vessels must be defeated before the boss can be damaged again.",
+            "Fireball can apply Burn, and Beam-based attacks can pressure multiple defensive checks."
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Feel Fine",
+            "Launcher",
+            "Baller",
+            "Ante Up",
+            "Resurrect"
+          ],
+          "strategy_focus": "Clear Vessels fast, protect against status pressure, and save defensive resources for Ultra Beam cycles instead of spending every turn on damage."
+        },
+        {
+          "name": "Finn McCool",
+          "chapter": "Chapter 4",
+          "type": "Optional superboss",
+          "location": "South route from Vermillion Village",
+          "stats": [
+            {
+              "label": "Reward",
+              "value": "Aggressor card"
+            },
+            {
+              "label": "Badge",
+              "value": "Converging Timelines"
+            }
+          ],
+          "core_mechanics": [
+            "Optional superboss that rewards a high-risk damage passive.",
+            "Functions as a build check for players who want stronger offensive cards."
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Cure",
+            "Happy SP",
+            "Resurrect"
+          ],
+          "strategy_focus": "Use a stable defensive core first, then add burst tools once guard timing is consistent; the Aggressor reward is strongest after the player can survive without rolling HP."
+        },
+        {
+          "name": "The Magnificent",
+          "chapter": "Chapter 5",
+          "type": "Main boss",
+          "location": "Wizard Tower",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "600 HP"
+            },
+            {
+              "label": "Fight rule",
+              "value": "Ends after several turns when it blows itself up"
+            }
+          ],
+          "core_mechanics": [
+            "The huge HP bar is not meant to be fully depleted normally.",
+            "The fight is about surviving the sequence until the scripted finish."
+          ],
+          "recommended_cards": [
+            "Charge DEF",
+            "Defend+",
+            "Cure",
+            "Good Vibes",
+            "Happy SP"
+          ],
+          "strategy_focus": "Do not over-invest in burst damage; prioritize survival, SP flow, and safe defensive turns until the encounter resolves."
+        },
+        {
+          "name": "The Trinity",
+          "chapter": "Chapter 5",
+          "type": "Main boss trio",
+          "location": "Trinity Castle",
+          "stats": [
+            {
+              "label": "Bosses",
+              "value": "Reginald, Azuri, and Robur"
+            }
+          ],
+          "core_mechanics": [
+            "A trio fight that asks players to manage multiple boss threats at once.",
+            "Rewards builds that can combine damage, support, and resource control."
+          ],
+          "recommended_cards": [
+            "Launcher",
+            "Bombardment",
+            "Cure",
+            "Resurrect",
+            "SP Saver",
+            "Charge DEF"
+          ],
+          "strategy_focus": "Use area or multi-target pressure where possible, keep revive access ready, and avoid letting SP fall too low before the final Chapter 5 stretch."
+        },
+        {
+          "name": "Frostmaw",
+          "chapter": "Chapter 5",
+          "type": "Final boss",
+          "location": "The Windforce",
+          "stats": [
+            {
+              "label": "Loss condition",
+              "value": "Cassie must stay alive"
+            },
+            {
+              "label": "Badge",
+              "value": "Windproof"
+            }
+          ],
+          "core_mechanics": [
+            "Final Chapter 5 boss after The Trinity and Seventh Sanctum route.",
+            "If Cassie is defeated, the fight is lost.",
+            "Commonly pushes players to protect a specific ally instead of only managing personal HP."
+          ],
+          "recommended_cards": [
+            "Bodyguard",
+            "Cure",
+            "Resurrect",
+            "Charge DEF",
+            "Good Vibes",
+            "Happy SP"
+          ],
+          "strategy_focus": "Build around ally protection: keep Cassie safe, preserve SP for recovery, and use defensive cards before dangerous turns rather than reacting after damage lands."
+        }
+      ]
+    },
+    "badgesGuide": {
+      "eyebrow": "Badges & Completion",
+      "title": "Block Tales Badges Guide",
+      "subtitle": "Find Block Tales achievements and badges by chapter, including story badges, Hard Mode clears, card collection milestones, hidden badges, and Demo 5 completion goals.",
+      "intro": "Block Tales badges reward story progress, hidden interactions, completion milestones, Hard Mode boss clears, card collecting, BUX collecting, challenge clears, and demo participation. Use this section as a 100% completion checklist while moving through each chapter.",
+      "items": [
+        {
+          "section": "Universal & Collection Badges",
+          "description": "Badges that are not locked to one story chapter and can be tracked across the whole save file.",
+          "badges": [
+            {
+              "name": "Humble Beginnings",
+              "unlock": "Start a new save file.",
+              "obtainable": "Yes",
+              "note": "Basic progression badge."
+            },
+            {
+              "name": "Loaded Deck",
+              "unlock": "Reach 30 BP in one save file.",
+              "obtainable": "Yes",
+              "note": "Requires reaching level 10 through BP level-up choices."
+            },
+            {
+              "name": "Card Collector",
+              "unlock": "Collect 15 unique cards.",
+              "obtainable": "Yes",
+              "note": "Part of the card collection milestone line."
+            },
+            {
+              "name": "Card Connoisseur",
+              "unlock": "Collect 30 unique cards.",
+              "obtainable": "Yes",
+              "note": "Continue buying, finding, and earning cards across chapters."
+            },
+            {
+              "name": "Card Hoarder",
+              "unlock": "Collect 45 unique cards.",
+              "obtainable": "Yes",
+              "note": "Requires deeper exploration and shop purchases."
+            },
+            {
+              "name": "Card Enthusiast",
+              "unlock": "Collect 60 unique cards.",
+              "obtainable": "Yes",
+              "note": "Late collection milestone for players tracking all cards."
+            },
+            {
+              "name": "Card Goblin",
+              "unlock": "Collect 75 unique cards.",
+              "obtainable": "Yes",
+              "note": "High-end card collection milestone."
+            },
+            {
+              "name": "Bombastic",
+              "unlock": "Defeat four enemies with one bomb.",
+              "obtainable": "Yes",
+              "note": "Commonly completed against grouped low-HP enemies such as Ant Armies."
+            },
+            {
+              "name": "Savior",
+              "unlock": "Heal another player after they take mortal damage.",
+              "obtainable": "Yes",
+              "note": "A multiplayer-focused recovery badge."
+            },
+            {
+              "name": "True DPS",
+              "unlock": "Deal at least 12 damage in one hit to one enemy.",
+              "obtainable": "Yes",
+              "note": "Damage buffs, Charge stacks, and high-damage cards make this easier."
+            }
+          ]
+        },
+        {
+          "section": "Prologue & Chapter 1 Badges",
+          "description": "Early story, Bizville, Blackrock Castle, Cruel King, and Chapter 1 challenge badges.",
+          "badges": [
+            {
+              "name": "A Price to Pay",
+              "unlock": "Choose the hostile dialogue option with Tutorial Terry and lose the encounter.",
+              "obtainable": "Yes",
+              "note": "Hidden prologue interaction."
+            },
+            {
+              "name": "Free Balloon Day",
+              "unlock": "Cut the strings of the balloon cart in Bizville with the sword.",
+              "obtainable": "Yes",
+              "note": "Hidden Bizville interaction."
+            },
+            {
+              "name": "Buyers Remorse",
+              "unlock": "Reallocate stats at Bizville Library.",
+              "obtainable": "Yes",
+              "note": "Linked to stat reset and build experimentation."
+            },
+            {
+              "name": "King of the Sea",
+              "unlock": "Catch all 10 fish at the Bizville Meadows fishing spot.",
+              "obtainable": "Yes",
+              "note": "Completion-style side activity."
+            },
+            {
+              "name": "Hello World",
+              "unlock": "Complete the prologue by defeating Red Noob, Blue Noob, and Noobador.",
+              "obtainable": "Yes",
+              "note": "Story progression badge."
+            },
+            {
+              "name": "Dethroned",
+              "unlock": "Defeat Cruel King.",
+              "obtainable": "Yes",
+              "note": "Main Chapter 1 final boss badge."
+            },
+            {
+              "name": "Stylish",
+              "unlock": "Defeat Cruel King without taking damage.",
+              "obtainable": "Yes",
+              "note": "Can be earned through the Cold Nirvana rematch."
+            },
+            {
+              "name": "Bloxxer",
+              "unlock": "Defeat every Chapter 1 boss with Hard Mode equipped.",
+              "obtainable": "Yes",
+              "note": "Covers Blue Noob, Red Noob, Noobador, Supreme Ant, Banished Knight, Sentient Statue, and Cruel King."
+            },
+            {
+              "name": "Rock and a Hard Place",
+              "unlock": "Free Jim with Dynamite, then return to Roadtown.",
+              "obtainable": "Yes",
+              "note": "Roadtown side objective."
+            },
+            {
+              "name": "Heartless",
+              "unlock": "Leave Jim behind and defeat Cruel King.",
+              "obtainable": "Yes",
+              "note": "Alternative Jim outcome badge."
+            },
+            {
+              "name": "Hot Seat",
+              "unlock": "Use Dynamite on the sleeping Loyal Knight in the Blackrock Castle jail.",
+              "obtainable": "Yes",
+              "note": "Hidden castle interaction."
+            }
+          ]
+        },
+        {
+          "section": "Chapter 2 Badges",
+          "description": "Rugged Rainforest, Griefer route, Bubonic Plant, arcade, and optional superboss badges.",
+          "badges": [
+            {
+              "name": "Panacea",
+              "unlock": "Defeat Bubonic Plant.",
+              "obtainable": "Yes",
+              "note": "Main Chapter 2 completion badge."
+            },
+            {
+              "name": "Alternate Reality",
+              "unlock": "Defeat Supreme Mosquito below the Ant Hill exit after clearing the vegetation with Iron Sword.",
+              "obtainable": "Yes",
+              "note": "Optional superboss badge."
+            },
+            {
+              "name": "Dangerous Living",
+              "unlock": "Defeat every Chapter 2 boss with Hard Mode equipped.",
+              "obtainable": "Yes",
+              "note": "Covers Komodo Dragon, both Griefer fights, Bigfoot, and Bubonic Plant."
+            },
+            {
+              "name": "Personal Baggage",
+              "unlock": "Reach Nirvana by talking to Guru west of Bizville Airport.",
+              "obtainable": "Yes",
+              "note": "Route and exploration badge."
+            },
+            {
+              "name": "Helpful Hand",
+              "unlock": "Complete the grandma fire ant side quest.",
+              "obtainable": "Yes",
+              "note": "Side quest badge."
+            },
+            {
+              "name": "Good Noodle",
+              "unlock": "Beat the Mudroads high score in Bizville Arcade.",
+              "obtainable": "Yes",
+              "note": "Arcade challenge badge."
+            },
+            {
+              "name": "Is this a joke?",
+              "unlock": "Be defeated by a Purple Frog attack.",
+              "obtainable": "Yes",
+              "note": "The defeat must come from the Purple Frog rather than from self-damage or another player."
+            }
+          ]
+        },
+        {
+          "section": "Chapter 3 Badges",
+          "description": "Dream World, Hatred, Telamon Manor, Cruel King summon, and Hard Mode badges.",
+          "badges": [
+            {
+              "name": "Redemption",
+              "unlock": "Defeat Hatred.",
+              "obtainable": "Yes",
+              "note": "Main Chapter 3 completion badge."
+            },
+            {
+              "name": "Monster Hunter",
+              "unlock": "Defeat every Chapter 3 boss with Hard Mode equipped.",
+              "obtainable": "Yes",
+              "note": "Covers Green Noob, Purple Noob, Turkey, Slasher, Greed, Solitude, Fear, and Hatred."
+            },
+            {
+              "name": "A Call for Help!",
+              "unlock": "Fight Cruel King five times in Cold Nirvana to obtain Call: Cruel King.",
+              "obtainable": "Yes",
+              "note": "Winning the rematches is not required."
+            },
+            {
+              "name": "Disgusting Mistake",
+              "unlock": "Consume Mistake.",
+              "obtainable": "Yes",
+              "note": "Hidden item-use badge."
+            },
+            {
+              "name": "Noisemaker",
+              "unlock": "Discover every megaphone sound in Dream World in one session.",
+              "obtainable": "Yes",
+              "note": "Exploration and interaction badge."
+            }
+          ]
+        },
+        {
+          "section": "Chapter 4 Badges",
+          "description": "Red Sun Temple, The Ancients, Finn McCool, Turitopulis, VLAD, and Chapter 4 Hard Mode badges.",
+          "badges": [
+            {
+              "name": "Heat Resistant",
+              "unlock": "Defeat The Ancients.",
+              "obtainable": "Yes",
+              "note": "Main Chapter 4 completion badge."
+            },
+            {
+              "name": "Blood Red Sun",
+              "unlock": "Defeat every Chapter 4 boss with Hard Mode equipped.",
+              "obtainable": "Yes",
+              "note": "Covers Great Flocci, Temple Guardian, Captain Trotter, and The Ancients."
+            },
+            {
+              "name": "Converging Timelines",
+              "unlock": "Defeat Finn McCool.",
+              "obtainable": "Yes",
+              "note": "Optional superboss badge tied to the Aggressor card reward."
+            },
+            {
+              "name": "Strange Tastes",
+              "unlock": "Give the Cookbook to the Kitchen Wizard and craft The Special using Compost and Onion Ring.",
+              "obtainable": "Yes",
+              "note": "Cooking and side-objective badge."
+            },
+            {
+              "name": "True Panacea",
+              "unlock": "Talk to Mayor Thaniyel in Turitopulis after crafting The Special and let the cutscene play.",
+              "obtainable": "Yes",
+              "note": "Follow-up badge after The Special."
+            },
+            {
+              "name": "So it's true...",
+              "unlock": "Use Garlic in battle with VLAD.",
+              "obtainable": "Yes",
+              "note": "Hidden battle interaction."
+            }
+          ]
+        },
+        {
+          "section": "Chapter 5 & Demo 5 Badges",
+          "description": "Demo 5 badges, Telamon Manor, Trinity, Frostmaw, evacuation goals, and Chapter 5 Hard Mode completion.",
+          "badges": [
+            {
+              "name": "Played Demo 5",
+              "unlock": "Play Block Tales during Demo 5.",
+              "obtainable": "Yes",
+              "note": "Current demo participation badge."
+            },
+            {
+              "name": "What are the odds?",
+              "unlock": "Find the rare 1-in-100 camel encounter.",
+              "obtainable": "Yes",
+              "note": "Rare-event badge tied to Demo 5 exploration."
+            },
+            {
+              "name": "Uncanny Encounter",
+              "unlock": "Find and defeat Mutant inside the Telamon Manor basement route.",
+              "obtainable": "Yes",
+              "note": "Optional superboss badge."
+            },
+            {
+              "name": "No Biggie...",
+              "unlock": "Recreate the Mona Lisa.",
+              "obtainable": "Yes",
+              "note": "Demo 5 hidden-objective badge."
+            },
+            {
+              "name": "Proof of a Hero",
+              "unlock": "Evacuate 10 NPCs scattered through Trinity by interacting with them.",
+              "obtainable": "Yes",
+              "note": "Chapter 5 rescue checklist badge."
+            },
+            {
+              "name": "Windproof",
+              "unlock": "Complete Chapter 5 by defeating Frostmaw.",
+              "obtainable": "Yes",
+              "note": "Main Chapter 5 completion badge."
+            },
+            {
+              "name": "Usurper",
+              "unlock": "Defeat every Chapter 5 boss with Hard Mode equipped.",
+              "obtainable": "Yes",
+              "note": "Covers The Magnificent, Reginald, The Trinity, and Frostmaw."
+            }
+          ]
+        },
+        {
+          "section": "Demo Legacy Badges",
+          "description": "Past demo participation and older challenge badges that function as historical completion markers.",
+          "badges": [
+            {
+              "name": "Played Demo 1",
+              "unlock": "Played during Demo 1.",
+              "obtainable": "No",
+              "note": "Legacy demo badge."
+            },
+            {
+              "name": "Played Demo 2",
+              "unlock": "Played during Demo 2.",
+              "obtainable": "No",
+              "note": "Legacy demo badge."
+            },
+            {
+              "name": "Played Demo 3",
+              "unlock": "Played during Demo 3.",
+              "obtainable": "No",
+              "note": "Legacy demo badge."
+            },
+            {
+              "name": "Played Demo 4",
+              "unlock": "Played during Demo 4.",
+              "obtainable": "No",
+              "note": "Legacy demo badge."
+            },
+            {
+              "name": "Pit Fighter",
+              "unlock": "Clear every floor of The Pit before Demo 4.",
+              "obtainable": "No",
+              "note": "Legacy challenge badge."
+            },
+            {
+              "name": "Outrageous Builder",
+              "unlock": "Reach the maximum level.",
+              "obtainable": "No",
+              "note": "Listed as a max-level milestone."
+            }
+          ]
+        }
+      ]
     }
   },
   "faq": {
     "title": "Block Tales Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything players need to know about Block Tales chapters, cards, codes, and Demo 5.",
+    "subtitle": "Everything players need to know about Block Tales chapters, cards, bosses, badges, codes, and Demo 5.",
     "questions": [
       {
         "question": "What is Block Tales?",
@@ -445,6 +1976,18 @@
       {
         "question": "Where can I play Block Tales?",
         "answer": "You can play Block Tales on Roblox from the official Block Tales game page."
+      },
+      {
+        "question": "How should I use the Block Tales Cards Guide?",
+        "answer": "Use the Block Tales Cards Guide to compare card types, BP cost, SP cost, unlock source, stacking rules, and combat role before changing your build."
+      },
+      {
+        "question": "What does the Block Tales Boss Guide cover?",
+        "answer": "The Block Tales Boss Guide covers chapter bosses, optional superbosses, locations, core mechanics, recommended cards, and strategy focus for each major fight."
+      },
+      {
+        "question": "Can the Block Tales Badges Guide help with completion?",
+        "answer": "Yes. The Block Tales Badges Guide groups story, hidden, collection, Hard Mode, Demo 5, and legacy badges into chapter-based completion checklists."
       }
     ]
   },

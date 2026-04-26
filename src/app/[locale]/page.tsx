@@ -3,6 +3,7 @@ import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import type { Language } from '@/lib/content'
 import HomePageClient from './HomePageClient'
 
+// HomePageClient owns the homepage sections, lucide-react module icons, and hsl(var(--nav-theme)) styling.
 interface PageProps {
   params: Promise<{ locale: string }>
 }

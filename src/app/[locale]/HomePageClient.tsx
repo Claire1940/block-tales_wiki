@@ -9,7 +9,11 @@ import {
   Clock,
   ExternalLink,
   Gamepad2,
+  Package,
+  Shield,
   Sparkles,
+  Star,
+  TrendingUp,
 } from 'lucide-react'
 import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
@@ -19,6 +23,7 @@ import { SidebarAd } from '@/components/ads/SidebarAd'
 import { scrollToSection } from '@/lib/scrollToSection'
 import type { ContentItemWithType } from '@/lib/getLatestArticles'
 import type { ModuleLinkMap } from '@/lib/buildModuleLinkMap'
+import enMessages from '@/locales/en.json'
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import('@/components/home/HeroStats'))
@@ -37,7 +42,18 @@ interface HomePageClientProps {
 }
 
 export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
-  const t = useMessages() as any
+  const localeMessages = useMessages() as any
+  const homepageMessages = enMessages as any
+  const t = {
+    ...localeMessages,
+    hero: homepageMessages.hero,
+    gameFeature: homepageMessages.gameFeature,
+    tools: homepageMessages.tools,
+    modules: homepageMessages.modules,
+    faq: homepageMessages.faq,
+    cta: homepageMessages.cta,
+    footer: homepageMessages.footer,
+  }
 
   // Scroll reveal animation
   useEffect(() => {
@@ -266,6 +282,102 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <h3 className="font-semibold mb-2">{t.tools.cards[3].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[3].description}</p>
             </a>
+
+            <a
+              href="#cards-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('cards-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[4].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <Package className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[4].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[4].description}</p>
+            </a>
+
+            <a
+              href="#card-tier-list"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('card-tier-list')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[5].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <TrendingUp className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[5].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[5].description}</p>
+            </a>
+
+            <a
+              href="#boss-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('boss-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[6].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <Shield className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[6].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[6].description}</p>
+            </a>
+
+            <a
+              href="#badges-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('badges-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[7].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <Star className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[7].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[7].description}</p>
+            </a>
           </div>
         </div>
       </section>
@@ -492,6 +604,269 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                   <span>{chapter.routeTip}</span>
                 </div>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Block Tales Cards Guide */}
+      <section id="cards-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.cardsGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.cardsGuide.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.cardsGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.cardsGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+            {t.modules.cardsGuide.items.map((card: any) => (
+              <div key={card.name} className="p-5 bg-card border border-border rounded-lg hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+                  <span className="text-xs px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                    {card.category}
+                  </span>
+                  <span className="text-xs text-muted-foreground">{card.bp_cost}</span>
+                </div>
+                <h3 className="text-xl font-bold mb-1">{card.name}</h3>
+                <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-4">{card.type}</p>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
+                  <div className="p-3 rounded-lg bg-white/5 border border-border">
+                    <p className="text-xs text-muted-foreground mb-1">SP Cost</p>
+                    <p className="text-sm font-medium">{card.activation_cost}</p>
+                  </div>
+                  <div className="p-3 rounded-lg bg-white/5 border border-border">
+                    <p className="text-xs text-muted-foreground mb-1">Stacking</p>
+                    <p className="text-sm font-medium">{card.stacking}</p>
+                  </div>
+                </div>
+
+                <p className="text-sm text-muted-foreground mb-4">{card.combat_role}</p>
+                <div className="flex items-start gap-2 text-sm text-muted-foreground border-t border-border pt-4 mb-4">
+                  <BookOpen className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                  <span>{card.how_to_get}</span>
+                </div>
+                <div className="flex flex-wrap gap-2">
+                  {card.tags.map((tag: string) => (
+                    <span key={tag} className="text-xs px-2 py-1 rounded-full bg-white/5 border border-border text-muted-foreground">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Block Tales Card Tier List */}
+      <section id="card-tier-list" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.cardTierList.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.cardTierList.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.cardTierList.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.cardTierList.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-6">
+            {t.modules.cardTierList.items.map((tier: any) => (
+              <div key={tier.tier} className="p-5 md:p-6 bg-card border border-border rounded-lg">
+                <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5">
+                  <div>
+                    <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs text-[hsl(var(--nav-theme-light))] mb-3">
+                      <TrendingUp className="w-3.5 h-3.5" />
+                      {tier.tier}
+                    </div>
+                    <p className="text-sm text-muted-foreground max-w-3xl">{tier.summary}</p>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-5 gap-3">
+                  {tier.cards.map((card: any) => (
+                    <div key={card.name} className="p-4 rounded-lg bg-white/5 border border-border hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                      <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
+                        <h3 className="font-bold">{card.name}</h3>
+                        <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                          {card.bp_cost}
+                        </span>
+                      </div>
+                      <p className="text-sm font-medium mb-3">{card.role}</p>
+                      <p className="text-sm text-muted-foreground mb-4">{card.why_it_ranks_here}</p>
+                      <div className="flex flex-wrap gap-2">
+                        {card.best_for.map((useCase: string) => (
+                          <span key={useCase} className="text-xs px-2 py-1 rounded-full bg-background border border-border text-muted-foreground">
+                            {useCase}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Block Tales Boss Guide */}
+      <section id="boss-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.bossGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.bossGuide.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.bossGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.bossGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-5">
+            {t.modules.bossGuide.items.map((boss: any) => (
+              <div key={boss.name} className="p-6 bg-card border border-border rounded-lg hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-5">
+                  <div>
+                    <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-1">{boss.chapter}</p>
+                    <h3 className="text-2xl font-bold mb-2">{boss.name}</h3>
+                    <p className="text-sm text-muted-foreground">{boss.location}</p>
+                  </div>
+                  <span className="text-xs px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] w-fit">
+                    {boss.type}
+                  </span>
+                </div>
+
+                <div className="flex flex-wrap gap-2 mb-5">
+                  {boss.stats.map((stat: any) => (
+                    <span key={`${boss.name}-${stat.label}`} className="text-xs px-2.5 py-1 rounded-full bg-white/5 border border-border text-muted-foreground">
+                      <span className="text-foreground">{stat.label}:</span> {stat.value}
+                    </span>
+                  ))}
+                </div>
+
+                <div className="mb-5">
+                  <h4 className="font-semibold mb-3">Core Mechanics</h4>
+                  <div className="space-y-2">
+                    {boss.core_mechanics.map((mechanic: string) => (
+                      <div key={mechanic} className="flex items-start gap-2 text-sm text-muted-foreground">
+                        <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                        <span>{mechanic}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="mb-5">
+                  <h4 className="font-semibold mb-3">Recommended Cards</h4>
+                  <div className="flex flex-wrap gap-2">
+                    {boss.recommended_cards.map((card: string) => (
+                      <span key={`${boss.name}-${card}`} className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-muted-foreground">
+                        {card}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-2 p-4 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.3)] text-sm text-muted-foreground">
+                  <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                  <span>{boss.strategy_focus}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Block Tales Badges Guide */}
+      <section id="badges-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Star className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.badgesGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.badgesGuide.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.badgesGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.badgesGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-4">
+            {t.modules.badgesGuide.items.map((group: any) => (
+              <details key={group.section} className="group bg-card border border-border rounded-lg overflow-hidden">
+                <summary className="flex cursor-pointer list-none items-start justify-between gap-4 p-5 hover:bg-white/5 transition-colors">
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">{group.section}</h3>
+                    <p className="text-sm text-muted-foreground">{group.description}</p>
+                  </div>
+                  <ArrowRight className="summary-icon w-5 h-5 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0 transition-transform group-open:rotate-90" />
+                </summary>
+                <div className="border-t border-border p-5">
+                  <div className="hidden md:block overflow-x-auto rounded-lg border border-border">
+                    <table className="w-full text-sm">
+                      <thead className="bg-white/5">
+                        <tr className="text-left">
+                          <th className="p-3 font-semibold">Badge</th>
+                          <th className="p-3 font-semibold">Unlock</th>
+                          <th className="p-3 font-semibold">Obtainable</th>
+                          <th className="p-3 font-semibold">Note</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {group.badges.map((badge: any) => (
+                          <tr key={badge.name} className="border-t border-border">
+                            <td className="p-3 font-medium">{badge.name}</td>
+                            <td className="p-3 text-muted-foreground">{badge.unlock}</td>
+                            <td className="p-3">
+                              <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                                {badge.obtainable}
+                              </span>
+                            </td>
+                            <td className="p-3 text-muted-foreground">{badge.note}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <div className="md:hidden space-y-3">
+                    {group.badges.map((badge: any) => (
+                      <div key={badge.name} className="p-4 rounded-lg bg-white/5 border border-border">
+                        <div className="flex items-start justify-between gap-3 mb-3">
+                          <h4 className="font-semibold">{badge.name}</h4>
+                          <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))] flex-shrink-0">
+                            {badge.obtainable}
+                          </span>
+                        </div>
+                        <p className="text-sm text-muted-foreground mb-2">{badge.unlock}</p>
+                        <p className="text-xs text-muted-foreground border-t border-border pt-3">{badge.note}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </details>
             ))}
           </div>
         </div>
