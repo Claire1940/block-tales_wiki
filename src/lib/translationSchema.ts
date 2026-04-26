@@ -24,8 +24,11 @@ export const StatSchema = z.object({
 
 export const StepSchema = z.object({
   title: z.string(),
-  description: z.string()
-})
+  description: z.string().optional(),
+  goal: z.string().optional(),
+  details: z.string().optional(),
+  beginnerTip: z.string().optional()
+}).passthrough()
 
 export const SectionSchema = z.object({
   title: z.string(),

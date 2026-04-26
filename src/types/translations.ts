@@ -22,7 +22,10 @@ export interface Stat {
 
 export interface Step {
   title: string
-  description: string
+  description?: string
+  goal?: string
+  details?: string
+  beginnerTip?: string
 }
 
 export interface Section {

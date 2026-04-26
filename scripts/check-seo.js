@@ -56,8 +56,9 @@ function addResult(type, category, message, details = null) {
 function checkRobotsAndSitemap() {
   log('\n📋 检查 robots.txt 和 sitemap.xml...', 'cyan')
 
-  // 检查 robots.txt
+  // 检查 robots.txt（支持 public 静态文件和 App Router 动态 robots.ts）
   const robotsPath = path.join(projectRoot, 'public', 'robots.txt')
+  const robotsRoutePath = path.join(projectRoot, 'src', 'app', 'robots.ts')
   if (fs.existsSync(robotsPath)) {
     const content = fs.readFileSync(robotsPath, 'utf-8')
     if (content.includes('Sitemap:')) {
@@ -65,14 +66,24 @@ function checkRobotsAndSitemap() {
     } else {
       addResult('warnings', 'Robots', '⚠ robots.txt 缺少 Sitemap 引用')
     }
+  } else if (fs.existsSync(robotsRoutePath)) {
+    const content = fs.readFileSync(robotsRoutePath, 'utf-8')
+    if (content.includes('sitemap')) {
+      addResult('passed', 'Robots', '✓ App Router robots.ts 存在且包含 Sitemap 引用')
+    } else {
+      addResult('warnings', 'Robots', '⚠ App Router robots.ts 缺少 Sitemap 引用')
+    }
   } else {
     addResult('errors', 'Robots', '✗ robots.txt 不存在')
   }
 
-  // 检查 sitemap.xml
+  // 检查 sitemap.xml（支持 public 静态文件和 App Router 动态 sitemap.ts）
   const sitemapPath = path.join(projectRoot, 'public', 'sitemap.xml')
+  const sitemapRoutePath = path.join(projectRoot, 'src', 'app', 'sitemap.ts')
   if (fs.existsSync(sitemapPath)) {
     addResult('passed', 'Sitemap', '✓ sitemap.xml 存在')
+  } else if (fs.existsSync(sitemapRoutePath)) {
+    addResult('passed', 'Sitemap', '✓ App Router sitemap.ts 存在')
   } else {
     addResult('warnings', 'Sitemap', '⚠ sitemap.xml 不存在（Next.js 可能动态生成）')
   }
@@ -165,14 +176,21 @@ function checkImages() {
 
   const publicDir = path.join(projectRoot, 'public')
 
-  // 检查 OG Image
+  // 检查 OG Image：模板可能使用 public/og-image.jpg，也可能在 metadata 中使用 hero.webp
   const ogImagePath = path.join(publicDir, 'og-image.jpg')
+  const heroWebpPath = path.join(publicDir, 'images', 'hero.webp')
+  const heroPngPath = path.join(publicDir, 'images', 'hero.png')
   if (fs.existsSync(ogImagePath)) {
     const stats = fs.statSync(ogImagePath)
     const sizeKB = (stats.size / 1024).toFixed(2)
     addResult('passed', 'Images', `✓ og-image.jpg 存在 (${sizeKB} KB)`)
+  } else if (fs.existsSync(heroWebpPath) || fs.existsSync(heroPngPath)) {
+    const imagePath = fs.existsSync(heroWebpPath) ? heroWebpPath : heroPngPath
+    const stats = fs.statSync(imagePath)
+    const sizeKB = (stats.size / 1024).toFixed(2)
+    addResult('passed', 'Images', `✓ 元数据主图存在 (${path.relative(publicDir, imagePath)}, ${sizeKB} KB)`)
   } else {
-    addResult('errors', 'Images', '✗ og-image.jpg 不存在')
+    addResult('errors', 'Images', '✗ 缺少 og-image.jpg 或 images/hero 主图')
   }
 
   // 检查 Favicon
@@ -216,17 +234,19 @@ function checkHreflangs() {
 function checkStructuredData() {
   log('\n📊 检查结构化数据...', 'cyan')
 
-  // 检查是否有 JSON-LD 配置
-  const layoutPath = path.join(projectRoot, 'src', 'app', '[locale]', 'layout.tsx')
-  if (fs.existsSync(layoutPath)) {
-    const content = fs.readFileSync(layoutPath, 'utf-8')
+  const structuredFiles = [
+    path.join(projectRoot, 'src', 'app', '[locale]', 'layout.tsx'),
+    path.join(projectRoot, 'src', 'app', '[locale]', 'page.tsx'),
+    path.join(projectRoot, 'src', 'components', 'content', 'ArticleStructuredData.tsx'),
+    path.join(projectRoot, 'src', 'components', 'content', 'ListStructuredData.tsx'),
+  ].filter(fs.existsSync)
 
-    // 检查是否有 Organization schema
-    if (content.includes('Organization') || content.includes('WebSite')) {
-      addResult('passed', 'Structured', '✓ 包含结构化数据配置')
-    } else {
-      addResult('warnings', 'Structured', '⚠ 未找到结构化数据（建议添加 Organization/WebSite schema）')
-    }
+  const content = structuredFiles.map(file => fs.readFileSync(file, 'utf-8')).join('\n')
+
+  if (content.includes('application/ld+json') || content.includes('SearchAction') || content.includes('WebSite') || content.includes('Article')) {
+    addResult('passed', 'Structured', '✓ 包含 JSON-LD 结构化数据配置')
+  } else {
+    addResult('warnings', 'Structured', '⚠ 未找到结构化数据（建议添加 Organization/WebSite schema）')
   }
 }
 
@@ -251,15 +271,17 @@ function checkPageStructure() {
   }
 
   // 检查 FAQ
-  if (translations.faq?.items && translations.faq.items.length > 0) {
-    addResult('passed', 'Content', `✓ FAQ 包含 ${translations.faq.items.length} 个问题`)
+  const faqItems = translations.faq?.items || translations.faq?.questions || []
+  if (faqItems.length > 0) {
+    addResult('passed', 'Content', `✓ FAQ 包含 ${faqItems.length} 个问题`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少 FAQ 内容')
   }
 
   // 检查工具/资源
-  if (translations.tools?.items && translations.tools.items.length > 0) {
-    addResult('passed', 'Content', `✓ 工具/资源包含 ${translations.tools.items.length} 个项目`)
+  const toolItems = translations.tools?.items || translations.tools?.cards || []
+  if (toolItems.length > 0) {
+    addResult('passed', 'Content', `✓ 工具/资源包含 ${toolItems.length} 个项目`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少工具/资源内容')
   }

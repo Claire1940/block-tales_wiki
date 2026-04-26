@@ -1,46 +1,48 @@
 {
   "categories": [
     {
+      "category": "更新",
+      "keywords": [
+        "Block Tales demo 5",
+        "Block Tales 第5章",
+        "Block Tales 最新更新",
+        "Block Tales 新闻"
+      ]
+    },
+    {
+      "category": "角色",
+      "keywords": [
+        "Block Tales griefer",
+        "Block Tales builderman",
+        "Block Tales shedletsky",
+        "Block Tales accountant jim"
+      ]
+    },
+    {
       "category": "指南",
       "keywords": [
-        "lucid blocks 指南"
+        "Block Tales 新手指南",
+        "Block Tales 如何获得 knight",
+        "Block Tales 如何升级",
+        "Block Tales 解谜攻略"
       ]
     },
     {
-      "category": "合成",
+      "category": "卡牌",
       "keywords": [
-        "lucid blocks 合成配方",
-        "lucid blocks 神化系统"
+        "Block Tales 全卡牌",
+        "Block Tales baller card",
+        "Block Tales hp finder",
+        "Block Tales safe guard"
       ]
     },
     {
-      "category": "物品",
+      "category": "构筑",
       "keywords": [
-        "lucid blocks 信仰法杖",
-        "lucid blocks 蜜蜂滑翔器",
-        "lucid blocks 箱子",
-        "lucid blocks 锇"
-      ]
-    },
-    {
-      "category": "生物群系",
-      "keywords": [
-        "lucid blocks 提亚玛纳地脉"
-      ]
-    },
-    {
-      "category": "建造",
-      "keywords": [
-        "lucid blocks 感质空间"
-      ]
-    },
-    {
-      "category": "技术支持",
-      "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks 全屏",
-        "lucid blocks 多人模式",
-        "lucid blocks 安卓版"
+        "Block Tales best build",
+        "Block Tales baller build",
+        "Block Tales launcher build",
+        "Block Tales support build"
       ]
     }
   ]

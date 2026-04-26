@@ -1,26 +1,26 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Block Tales Wiki - Cards、ボス、チャプター攻略ガイド",
+      "description": "Robloxのターン制RPG、Block TalesのWikiで、Cards、ボス、チャプター、Badges、BUX、武器、場所、初心者向けヒント、アップデート情報をチェックしましょう。",
+      "keywords": "Block Tales Wiki, Block Tales Cards, Block Tales ボス, Block Tales チャプター, Block Tales BUX, Block Tales Badges, Roblox RPG ガイド, Block Tales ビルド",
+      "ogTitle": "Block Tales Wiki - Cards、ボス、チャプター攻略ガイド",
+      "ogDescription": "Robloxのターン制RPG、Block TalesのWikiで、Cards、ボス、チャプター、Badges、BUX、武器、場所、初心者向けヒント、アップデート情報をチェックしましょう。",
+      "twitterTitle": "Block Tales Wiki - Cards、ボス、チャプター攻略ガイド",
+      "twitterDescription": "Block Tales Wikiでは、Cards、ボス、チャプター、Badges、BUX、武器、場所、初心者向けヒント、Roblox RPGのアップデート情報を網羅しています。"
     }
   },
   "nav": {
-    "updates": "Updates",
-    "characters": "Characters",
-    "guide": "Guide",
+    "updates": "アップデート",
+    "characters": "キャラクター",
+    "guide": "ガイド",
     "cards": "Cards",
-    "builds": "Builds"
+    "builds": "ビルド"
   },
   "common": {
     "home": "ホーム",
     "more": "もっと見る",
-    "playNow": "Steamでプレイ",
+    "playNow": "Robloxでプレイ",
     "switchLanguage": "言語を切り替える",
     "switchTheme": "テーマを切り替える",
     "lightMode": "ライトモード",
@@ -32,899 +32,3236 @@
     "readMore": "続きを読む"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "レトロなRobloxターン制RPG",
+    "title": "Block Tales Wiki",
+    "description": "Block Tales Wikiは、チャプター攻略、Cards、ボス、BUXの場所、Badges、アップデートガイドを通じて、プレイヤーがレトロなRobloxターン制RPGをマスターするのを助けます。",
+    "getFreeCodesCTA": "Block Talesガイドを見る",
+    "playOnRobloxCTA": "RobloxでBlock Talesをプレイ",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "1.17億+",
+        "label": "総訪問数"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "8.4万+",
+        "label": "アクティブプレイヤー"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "78.1万+",
+        "label": "お気に入り"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "95%",
+        "label": "評価"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "Block Talesのゲームプレイ",
+    "description": "チャプター攻略、ターン制バトル、Cards、ボス、Badges、BUX、ストーリーアップデートを中心に構成されたレトロなRoblox RPGを探索しましょう。"
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "リソース",
-    "subtitle": "Lucid Blocksでの探索、クラフト、生存に必要なすべての情報",
+    "title": "Block Tales",
+    "titleHighlight": "ガイドモジュール",
+    "subtitle": "コード、初心者向けヘルプ、Demo 5、攻略、Cards、ボス、Badges、アイテム、武器、ステータス、ドロップ、場所、The Pit、アップデート、ストーリーの振り返りなど、必要なBlock Talesモジュールへ移動しましょう。",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "初心者ガイド",
-        "description": "最初のステップ、探索、序盤の進め方"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis クラフト",
-        "description": "フリーフォーム・フュージョンシステムと序盤のレシピ"
-      },
-      {
-        "icon": "Hammer",
-        "title": "ツールと武器",
-        "description": "フロストピック、アズラエル、__PROTECTED_6a765cb2__、その他"
-      },
-      {
-        "icon": "Package",
-        "title": "ストレージとインベントリ",
-        "description": "キャッシュキューブ、キャビネット、クオリアストレージ"
-      },
-      {
-        "icon": "Home",
-        "title": "クオリアと拠点建築",
-        "description": "パーソナルクオリアと拠点のセットアップ"
-      },
-      {
-        "icon": "Eye",
-        "title": "ワールドエリア",
-        "description": "Fog Meadow、エッセンスの沼地、その他"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "クリーチャーと敵",
-        "description": "マネキン、クモ、そして生き残る方法"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "移動用装備",
-        "description": "__PROTECTED_6a765cb2__、グライダーグローブ、__PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "農業と成長",
-        "description": "種の進行と素材集め"
-      },
-      {
-        "icon": "Star",
-        "title": "序盤のおすすめアンロック",
-        "description": "プレイ開始1時間で優先すべきアップグレード"
-      },
-      {
         "icon": "ClipboardCheck",
-        "title": "実績トラッカー",
-        "description": "全19個のSteamの実績と解除条件"
+        "title": "Block Tales コード",
+        "description": "現在のメインゲーム報酬状況と公式アップデートチャンネル"
       },
       {
-        "icon": "MessageCircle",
-        "title": "シングルプレイヤーFAQ",
-        "description": "プラットフォーム、価格、協力プレイ、言語に関する質問"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deckとコントローラー",
-        "description": "Proton 9.0.4のセットアップとコントローラーのヒント"
-      },
-      {
-        "icon": "Settings",
-        "title": "設定とアクセシビリティ",
-        "description": "手の非表示、__PROTECTED_38625270__、表示オプション"
+        "icon": "BookOpen",
+        "title": "Block Tales 初心者ガイド",
+        "description": "HP、SP、BP、Cards、ブロッキング、序盤のルート優先順位"
       },
       {
         "icon": "Clock",
-        "title": "アップデートとパッチノート",
-        "description": "最近の修正とロードマップ"
+        "title": "Block Tales Demo 5 ガイド",
+        "description": "チャプター5、Trouble on the Heights、Windforce、リライトによる変更点"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Block Tales 攻略",
+        "description": "プロローグからチャプター5までのチャプター別ルート解説"
+      },
+      {
+        "icon": "Package",
+        "title": "Block Tales Cards ガイド",
+        "description": "Cardの種類、BPコスト、SP消費、入手方法、戦闘での役割"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Block Tales Card ティアリスト",
+        "description": "ボス戦、The Pit、チームビルド別のシナリオ別Cardランキング"
       },
       {
         "icon": "Shield",
-        "title": "クラッシュ修正",
-        "description": "__PROTECTED_38625270__の確認、ログのパス、バグ報告"
+        "title": "Block Tales ボスガイド",
+        "description": "ボスのギミック、出現場所、推奨Cards、攻略プラン"
+      },
+      {
+        "icon": "Star",
+        "title": "Block Tales Badges ガイド",
+        "description": "ストーリー、隠し要素、コレクション、ハードモード、Demo 5のBadges目標"
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "Block Tales アイテムガイド",
+        "description": "回復料理、SP回復、攻撃アイテム、バフ、ボス戦の準備"
+      },
+      {
+        "icon": "Swords",
+        "title": "Block Tales 武器ガイド",
+        "description": "Sword、Ball、代用武器、SFOTHの剣、Sword Energy"
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Block Tales ステータス・レベル上げガイド",
+        "description": "HP、SP、BP、レベルアップ、ステータス振り直し、Sword Energy、ビルドルート"
+      },
+      {
+        "icon": "Gem",
+        "title": "Block Tales 敵ドロップガイド",
+        "description": "ドロップアイテム、レアCards、周回ターゲット、チャプター別ノート"
+      },
+      {
+        "icon": "Map",
+        "title": "Block Tales 場所・マップガイド",
+        "description": "Bizville、チャプタールート、ショップ、ボスへの入り口、移動手段"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Block Tales Pit of 100 Trials ガイド",
+        "description": "階層範囲、敵のテーマ、チェックポイント、報酬、準備ノート"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Block Tales アップデート・パッチノート",
+        "description": "Demo 5、チャプター公開、バランス調整、新しいCardsとアイテム"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Block Tales ストーリー・設定の振り返り",
+        "description": "チャプターの順序、SFOTHの剣、主要キャラクター、場所"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks 初心者ガイド",
-      "displayType": "steps",
-      "intro": "まずは探索、融合、そして進行がどのように繋がっているかを学ぶことから始めましょう。Lucid Blocks では試行錯誤が報われます。序盤の進行は、珍しい素材を集め、組み合わせを試し、自分だけのクオリアを解放することから始まります。",
+    "codes": {
+      "eyebrow": "コードと報酬",
+      "title": "Block Tales コード",
+      "subtitle": "メインのBlock Tales RPGで利用可能な報酬を追跡し、スピンオフのコードは除外します。",
+      "intro": "このBlock Talesコードモジュールは、メインのRobloxターン制RPG用です。コアなBlock Tales体験を同名のスピンオフ作品と区別し、プレイヤーが報酬状況を明確に確認できるようにします。",
+      "statusCard": {
+        "code": "メインゲームのコード状況",
+        "status": "現在の状況",
+        "reward": "現在、Block TalesのメインRPGで有効な引き換えコードはありません。",
+        "howToUse": "報酬カードを追加する前にこのステータスを確認してください。公式ゲーム、開発者コミュニティ、またはアップデート告知で公開された後にのみ、実際のBlock Talesコードを追加してください。"
+      },
+      "items": [
+        {
+          "code": "ROBLOX ゲームページ",
+          "status": "主要エントリ",
+          "reward": "プレイ可能な体験が Spaceman Moonbase による Block Tales [DEMO 5] であることを確認します。",
+          "howToUse": "新しいイベント、報酬、またはデモのアップデートが登場した際は、まずゲームページを確認してください。"
+        },
+        {
+          "code": "SPACEMAN MOONBASE",
+          "status": "開発者コミュニティ",
+          "reward": "Block Talesの開発者コミュニティによるアップデート情報。",
+          "howToUse": "新しい報酬キャンペーンやアップデートが開始された際は、コミュニティの告知を確認してください。"
+        },
+        {
+          "code": "@BlocktalesDev",
+          "status": "開発者アップデート",
+          "reward": "公開通知、ティーザー、Demo 5などの期間限定アップデート投稿。",
+          "howToUse": "新しいデモ、チャプター、またはイベントが告知された際の迅速なアップデート追跡に利用してください。"
+        },
+        {
+          "code": "リリースノート",
+          "status": "パッチノート",
+          "reward": "新しいチャプター、Cards、アイテム、敵、およびバランス調整に関する公開アップデートノート。",
+          "howToUse": "実際のBlock Talesアップデート内容を報酬に関する噂と区別するためにリリースノートを活用してください。"
+        },
+        {
+          "code": "タワーディフェンスとの区別",
+          "status": "異なるエクスペリエンス",
+          "reward": "Block Tales Tower Defenseのコードは、メインのBlock Tales RPGでは使用できません。",
+          "howToUse": "タワーディフェンスのキャッシュや無料アイテムのコードは、このメインゲーム用コードトラッカーには含めないでください。"
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "スターターガイド",
+      "title": "Block Tales 初心者ガイド",
+      "subtitle": "チャプターの探索、ターン制バトル、レベルアップ、Cardsの構築といったBlock Talesの基本ループを学びましょう。",
+      "intro": "Block Talesは、クラシックなRPGの戦闘とチャプター制の進行にインスパイアされたRobloxのターン制RPGです。新規プレイヤーはまず、HP、SP、BP、Cards、ブロッキング、そしてプロローグからチャプター1への序盤のルートを理解する必要があります。",
       "steps": [
         {
-          "title": "本格的に動く前に探索する",
-          "description": "外へ歩き出し、一般的なブロックを採掘し、見つけた奇妙なドロップアイテムはすべて取っておきましょう。序盤の進行は、決まったクエストをこなすことよりも、素材が何に変化するかを発見することに重点が置かれています。"
+          "title": "プロローグから始める",
+          "goal": "ストーリーの設定と基本操作を学ぶ。",
+          "details": "Block Talesのメインストーリーは、プレイヤーが2010年に送り戻され、Tutorial Terryの部屋で目覚め、Roblox HQに向かうよう指示されるところから始まります。プロローグでは、実際の戦闘、ダッシュ、レベルアップ、Wooden Sword、そして最初のCardチュートリアルを学びます。",
+          "beginnerTip": "稼ぎ作業（グラインド）をする前にストーリーの指示に従ってください。序盤のメカニクスはルートに沿って導入されます。"
         },
         {
-          "title": "早めに自分専用のクオリアを解放する",
-          "description": "自分専用のクオリアは、序盤で最も重要なマイルストーンの一つです。体制を立て直し、拠点を構築するための信頼できる場所となります。"
+          "title": "HP、SP、BPを理解する",
+          "goal": "レベルアップ報酬を選ぶ前に、各主要ステータスの役割を知る。",
+          "details": "HPはプレイヤーの体力で、10から始まります。SPは戦闘中にCardのアビリティを使用するために消費され、BPは装備できるCardsの数を制御します。",
+          "beginnerTip": "生存が厳しいと感じたらHPを、アクティブなCardsを頻繁に使うならSPを、デッキに余裕が欲しいならBPを選びましょう。"
         },
         {
-          "title": "序盤の素早い進行にオスミウムを活用する",
-          "description": "オスミウムは序盤で最も役立つ素材の一つです。オスミウムと棒を組み合わせて、素早い採掘が可能な「フロストピック」を作るのが人気の序盤ルートです。"
+          "title": "ビルドシステムとしてCardsを活用する",
+          "goal": "Cardsを装備して、攻撃、ユーティリティ、防御、戦略を変更する。",
+          "details": "Cardsはキャラクター、場所、ショップ、敵のドロップから入手できます。多くのCardsは装備にBPを必要とし、アクティブなCardsは戦闘で使用する際にSPを消費します。",
+          "beginnerTip": "序盤のプレイヤーは、メイン攻撃Card1枚、防御オプション1枚、ユーティリティCard1枚というシンプルなデッキを維持するのがおすすめです。"
         },
         {
-          "title": "優れた融合を記録する",
-          "description": "成功した組み合わせはジャーナルに記録しておきましょう。Lucid Blocks には膨大な融合パターンがあるため、有用な結果を書き留めておくことで大幅な時間の節約になります。"
+          "title": "ターン制バトルを練習する",
+          "goal": "攻撃のタイミング、ブロッキング、適切なアクションを使い分けて勝利する。",
+          "details": "戦闘では、攻撃、防御、味方の補助、Cardsの使用といったターンアクションを行います。HPとSPのゲージは戦闘画面の下部にあり、タイミングよくブロッキングすることで被ダメージを軽減できます。",
+          "beginnerTip": "ブロッキングをBlock Talesの核心スキルとして扱いましょう。繰り返し回復するよりもリソースを節約できます。"
+        },
+        {
+          "title": "チャプター1のルートを進む",
+          "goal": "迷わずにプロローグから最初のフルチャプターへ移行する。",
+          "details": "Noobadorの後、プレイヤーは洞窟に入り、Ballのインタラクションを学び、Roadtownに到着し、Accountant Jimを捜索し、Dynamiteを使用してBlackrock Castleへと進みます。",
+          "beginnerTip": "道が塞がっているように見えるときは、最新のフィールドツールやCardを確認してください。序盤の障害物は通常、新しいインタラクションを教えるためのものです。"
+        },
+        {
+          "title": "計画的にレベルアップする",
+          "goal": "100 XPごとのレベルアップ選択をプレイスタイルに合わせて活用する。",
+          "details": "レベルアップには100 XPを消費し、HPを5、SPを5、またはBPを3増やすことができます。選択後、アップグレードされたステータスは新しい上限まで回復します。",
+          "beginnerTip": "序盤のバランスの良い進め方として、まずは安全のためにHPを取り、装備したい有用なCardsが増えてきたらBPを取るのが効果的です。"
         }
-      ],
-      "quickTips": [
-        "Apotheosis には固定のレシピリストは必要ありません。",
-        "無限に生成される世界では、より高く、あるいはより深く移動することで、全く異なる素材が見つかることがあります。",
-        "移動ツールやユーティリティ装備を解放し始めると、プレイの快適さが劇的に向上します。",
-        "序盤に迷うのは普通のことですが、最初の優れた融合が成功すれば、便利なツール、ストレージ、移動手段が次々と手に入るようになります。"
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis クラフト",
-      "displayType": "cards",
-      "intro": "Apotheosis は、このゲームの制限のない融合システムです。従来のレシピ本を暗記する代わりに、素材を組み合わせ、結果を観察し、時間をかけて自分だけのクラフト知識を築き上げていきます。",
-      "cards": [
-        {
-          "name": "フリーフォームな融合",
-          "description": "Apotheosis では、固定のレシピリストに従うことなく、さまざまなアイテムを融合させることができます。"
-        },
-        {
-          "name": "複数の有用な結果",
-          "description": "素材によって、特定の結果に繋がりやすい傾向があります。コミュニティの発見によれば、似たような投入素材からでも、実用的なツール、ストレージ、あるいは戦闘用のアップグレードを作成可能です。"
-        },
-        {
-          "name": "ジャーナル優先のクラフト",
-          "description": "Apotheosis を学ぶ最良の方法は、成功した組み合わせを記録することです。ジャーナルはすぐにあなた専用のクラフトリファレンスになります。"
-        },
-        {
-          "name": "コミュニティ検証済みの序盤の融合",
-          "description": "序盤の代表例としては、オスミウム＋棒で「フロストピック」、棒＋タングステンの付属肢で「アズラエル」、アズラエル＋磁鉄鉱で「触手レイピア」などが挙げられます。"
-        }
-      ],
-      "milestones": [
-        "アイテムを融合させる",
-        "害獣を融合させる",
-        "神聖なアーティファクトを融合させる"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks ツールと武器",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks では、公式のユーティリティ装備とコミュニティが発見した序盤の武器が混在しています。最適なセットアップは通常、素早い採掘、安全な移動、そして信頼できる戦闘手段を組み合わせたものです。",
+    "demo5Guide": {
+      "eyebrow": "Demo 5 アップデート",
+      "title": "Block Tales Demo 5 ガイド",
+      "subtitle": "Demo 5、チャプター5、Trouble on the Heights、Windforce、およびリライトアップデートの概要です。",
+      "intro": "Demo 5は、チャプター5の追加と広範なリライトが行われた2026年4月25日のBlock Talesアップデートです。このモジュールは、復帰プレイヤーが変更点、最初にプレイすべき内容、注目すべき新システムを素早く把握するのに役立ちます。",
       "items": [
         {
-          "name": "フロストピック",
-          "type": "採掘ツール",
-          "description": "オスミウムと棒から作られる、高速で安価な序盤用ピッケル。プレイヤーはこれを使って序盤の素材集めを加速させます。"
+          "date": "2026年4月25日",
+          "title": "Demo 5 - チャプター5 + リライト公開",
+          "summary": "Block Talesにチャプター5とリライト版を含むDemo 5が実装されました。",
+          "highlights": [
+            "チャプター5の追加",
+            "Trouble on the Heightsの追加",
+            "リライトアップデートの公開"
+          ]
         },
         {
-          "name": "アズラエル",
-          "type": "初期武器",
-          "description": "棒とタングステンの付属肢からクラフトできる、実用的な序盤の武器ルートです。"
+          "date": "Demo 5",
+          "title": "チャプター5: Trouble on the Heights",
+          "summary": "チャプター5はメインのチャプター構造を継続し、HeightsとWindforceへ向かう新しいルートを中心に展開します。",
+          "highlights": [
+            "新しいチャプターの入り口",
+            "Windforceの進行",
+            "チャプター5の新しい導入およびエンディングアセット"
+          ]
         },
         {
-          "name": "触手レイピア",
-          "type": "強化武器",
-          "description": "アズラエルと磁鉄鉱を組み合わせて作る強力な発展武器。プレイヤー間で共有されている、序盤から中盤にかけて最も有用な戦闘ルートの一つです。"
+          "date": "Demo 5",
+          "title": "新しいプレイ可能コンテンツ",
+          "summary": "このアップデートでは、復帰プレイヤー向けに大幅な進行コンテンツが追加されました。",
+          "highlights": [
+            "The Pitに10の新しい階層",
+            "26種類の新しい敵",
+            "22種類の新しいアイテム",
+            "12種類の新しいCards",
+            "Bizville銀行"
+          ]
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "移動能力と垂直方向の探索を大幅に向上させる公式の移動アイテムです。"
+          "date": "Demo 5",
+          "title": "QoL（利便性）の向上",
+          "summary": "Demo 5では、セーブ、インベントリ、アバターのカスタマイズシステムが改善されました。",
+          "highlights": [
+            "セーブファイルの名前変更",
+            "全アイテムの預け入れ機能",
+            "アバター・フレーバー",
+            "気絶アニメーション用の待機フレーバー",
+            "パワーショットのアニメーション"
+          ]
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "より安全かつ効率的に距離を移動するのに役立つ公式の移動アイテムです。"
+          "date": "Demo 5",
+          "title": "ストーリーリライトの変更点",
+          "summary": "リライトによりストーリーの演出が拡張され、初期のシーンが調整されました。",
+          "highlights": [
+            "謎の人物のシーン追加",
+            "複数キャラクターの台詞リライト",
+            "チャプター2および4に新しいカットシーン追加",
+            "チャプター4のエンディングカットシーン更新",
+            "VoicesがVisionsに置き換え"
+          ]
         },
         {
-          "name": "ボールワンド",
-          "type": "ユーティリティ武器",
-          "description": "戦闘やパズルの選択肢を広げる公式の遠距離ユーティリティアイテムです。"
-        },
-        {
-          "name": "スキューバダイビングギア",
-          "type": "移動装備",
-          "description": "通常は探索が困難な場所へ到達するための公式ユーティリティアイテムです。"
-        },
-        {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "中核となるツールセットの一部として公式に推奨されており、脅威や障害物を突破するのに役立ちます。"
+          "date": "Demo 5",
+          "title": "戦闘とCardの調整",
+          "summary": "アップデートにより、いくつかの戦闘インタラクションとCard関連システムが変更されました。",
+          "highlights": [
+            "スリングショットとダイナマイトに新しいアクションコマンドを追加",
+            "ハイパーボールのバウンドがアクションに",
+            "Thorns（トゲ）の再設計",
+            "TIXのドロップ調整",
+            "敵アイコンの更新"
+          ]
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks ストレージとインベントリ",
-      "displayType": "solutionCards",
-      "intro": "Lucid Blocks では早い段階からインベントリが圧迫されるため、ストレージの構築を優先目標にすべきです。実際のプレイヤーによって検証されたいくつかの解決策がすでに確立されています。",
-      "solutions": [
+    "walkthrough": {
+      "eyebrow": "ストーリー攻略",
+      "title": "Block Tales 攻略",
+      "subtitle": "プレプロローグとプロローグからチャプター5までのBlock Talesメインルートを辿りましょう。",
+      "intro": "この攻略モジュールはBlock Talesをストーリーチャプターごとに整理しており、プレイヤーが行き詰まった箇所をすぐに確認できます。各チャプターカードは、主な目的、重要なエリア、主要なアンロック要素、重要な戦闘に焦点を当てています。",
+      "chapters": [
         {
-          "name": "キャッシュキューブ",
-          "role": "チェスト型ストレージ",
-          "description": "キャッシュキューブは最も初期に利用可能な実用的なストレージであり、プレイヤーの間ではゲーム内の主要なチェスト型コンテナとして扱われています。"
+          "chapter": "プレプロローグ",
+          "title": "VIPイベントへの参加",
+          "mainObjective": "Roblox VIPコンベンションに到着し、ストーリーの設定を学び、タイムトラベル事件を発生させる。",
+          "keyAreas": [
+            "ホテル",
+            "Roblox HQ",
+            "VIPコンベンション"
+          ],
+          "keyUnlocks": [
+            "オープニング戦闘チュートリアル",
+            "スーパーボールのチュートリアルシーン"
+          ],
+          "majorFights": [
+            "Helmet Noob",
+            "Nooblet"
+          ],
+          "routeTip": "このセグメントは、2010年のメインアドベンチャーが始まる前のストーリー導入部として扱ってください。"
         },
         {
-          "name": "キャビネット",
-          "role": "簡易拠点ストレージ",
-          "description": "キャビネットも確認されているストレージの選択肢です。共有されている序盤のレシピでは、カットウッド1つと紐1つを使用します。"
+          "chapter": "プロローグ: ハロー・ワールド！",
+          "title": "2010年の冒険開始",
+          "mainObjective": "Tutorial Terryの部屋で目覚め、Roblox HQに到達し、Shedletskyを救出し、Red Noob、Blue Noob、Noobadorを追跡する。",
+          "keyAreas": [
+            "Tutorial Terryの部屋",
+            "East Bizville",
+            "Roblox HQ",
+            "Bizville Meadows"
+          ],
+          "keyUnlocks": [
+            "Wooden Sword",
+            "Power Stab",
+            "Cardチュートリアル"
+          ],
+          "majorFights": [
+            "Red Noob & Blue Noob",
+            "Noobador"
+          ],
+          "routeTip": "Wooden Swordで木の板を壊しましょう。Power Stabは最初の本格的なダメージアップグレードとして活用してください。"
         },
         {
-          "name": "個人用クオリア",
-          "role": "長期ストレージハブ",
-          "description": "解放されると、個人用クオリアは素材を整理し、落ち着いてクラフトを行い、拠点を拡張するための自然な拠点となります。"
+          "chapter": "チャプター1: 城への突入",
+          "title": "Ice Daggerの回収",
+          "mainObjective": "洞窟からRoadtownへ移動し、Accountant Jimを救出し、Blackrock Castleに潜入してCruel Kingを倒す。",
+          "keyAreas": [
+            "Icy Caves",
+            "Roadtown",
+            "Snowy Thicket",
+            "Blackrock Castle"
+          ],
+          "keyUnlocks": [
+            "Ballインタラクションのチュートリアル",
+            "Dynamite",
+            "Ice Dagger"
+          ],
+          "majorFights": [
+            "Supreme Ant",
+            "Banished Knight",
+            "Spiky Killbot",
+            "Sentient Statue",
+            "Cruel King"
+          ],
+          "routeTip": "城の道が塞がっているときは、地下、屋根裏、武器庫、ダイナー、キッチンを通るパズルルートを探してください。"
         },
         {
-          "name": "ジャーナルによる追跡",
-          "role": "インベントリの効率化",
-          "description": "有用な組み合わせをジャーナルに記録することで、素材の無駄を減らし、インベントリ管理を大幅に楽にすることができます。"
+          "chapter": "チャプター2: 毒の時間",
+          "title": "Venomshankを追って",
+          "mainObjective": "Plainstownへ飛び、サバンナと熱帯雨林を通り抜け、Grieferを追い詰め、Venomshankのチャプターを完了する。",
+          "keyAreas": [
+            "Plainstown",
+            "サバンナ",
+            "Ant Hill",
+            "Turitopulis",
+            "Rugged Rainforest",
+            "Mango Tree",
+            "Sacred Hollow",
+            "Griefer's Crib"
+          ],
+          "keyUnlocks": [
+            "縮小（Shrinking）",
+            "Rocket Boots",
+            "Iron Sword",
+            "Venomshank"
+          ],
+          "majorFights": [
+            "Komodo Dragon",
+            "Griefer",
+            "Bigfoot",
+            "Bubonic Plant"
+          ],
+          "routeTip": "Rocket BootsとIron Swordはどちらもルートの障害を解決するため、アンロックするたびに分岐道を再確認しましょう。"
+        },
+        {
+          "chapter": "チャプター3: 諸聖人の日の前夜",
+          "title": "Telamonの屋敷へ",
+          "mainObjective": "列車でSpooksvilleへ向かい、Telamonの屋敷に到達し、Ghost Potionを準備してカタコンベに入り、Ghostwalkerルートに立ち向かう。",
+          "keyAreas": [
+            "Bizville Railways",
+            "列車",
+            "Spooksville",
+            "Telamon's Manor",
+            "Haunted Manor",
+            "カタコンベ",
+            "夢の世界"
+          ],
+          "keyUnlocks": [
+            "Call: Red n' Blue",
+            "Ghost Potion",
+            "Hyperball",
+            "Ghostwalker"
+          ],
+          "majorFights": [
+            "Helmet Bandit",
+            "Green Noob & Purple Noob",
+            "Live Turkey",
+            "Slasher"
+          ],
+          "routeTip": "屋敷のルートはパズルが多めです。料理の材料、幽霊との対話、Hyperballによる床の破壊を把握しておきましょう。"
+        },
+        {
+          "chapter": "チャプター4: 発掘調査",
+          "title": "Firebrandを求めて",
+          "mainObjective": "砂漠のルートを横断し、古代の墓とRed Sun寺院の道を進み、Firebrandのチャプターを完了する。",
+          "keyAreas": [
+            "Scorched Dunes",
+            "Ancient Tomb",
+            "オアシス",
+            "Vermillion Village",
+            "海賊のキャンプ",
+            "Temple of the Red Sun",
+            "Mount Red Sun"
+          ],
+          "keyUnlocks": [
+            "Ship-in-a-Bottle",
+            "Shovel",
+            "Firebrand"
+          ],
+          "majorFights": [
+            "The Great Flocci",
+            "Captain Trotter",
+            "The Ancients"
+          ],
+          "routeTip": "このチャプターでは、船、砂、松明、光、山の移動セクションなど、より多くの環境パズルが待ち受けています。"
+        },
+        {
+          "chapter": "チャプター5: Trouble on the Heights",
+          "title": "Demo 5 ルートのプレイ",
+          "mainObjective": "チャプター4から新しいDemo 5チャプターへと進み、HeightsとWindforceを目指す。",
+          "keyAreas": [
+            "The Heights",
+            "Sword Fight on the Heights ルート"
+          ],
+          "keyUnlocks": [
+            "Windforce",
+            "新しいCards",
+            "新しいアイテム"
+          ],
+          "majorFights": [
+            "Demo 5 の敵とボス"
+          ],
+          "routeTip": "まずBlock Tales Demo 5モジュールでアップデート内容を確認し、その後チャプター攻略カードに従って正確に進行してください。"
         }
-      ],
-      "managementTips": [
-        "レアなドロップ品を溜め込む前に、信頼できるストレージを一つ確保することを優先しましょう。",
-        "個人用クオリアが利用可能になったら、そこを中心に構築を進めましょう。",
-        "クラフト素材、戦闘ツール、移動装備を分けて保管することで、アップグレードの計画が立てやすくなります。",
-        "ジャーナルを単なるクラフトの発見用ではなく、インベントリ管理の一部として活用しましょう。"
       ]
     },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks クオリアと拠点建築",
-      "displayType": "cards",
-      "intro": "クオリアは Lucid Blocks における最も重要な進行マイルストーンの一つです。体制を整え、素材を保管し、探索の成果を徐々に本格的な拠点へと変えていくための個人空間を提供します。",
-      "cards": [
-        {
-          "name": "個人用クオリア",
-          "description": "クオリアの解放は序盤のマイルストーンであり、広い世界を探索する中で戻ってくるための信頼できる場所となります。"
-        },
-        {
-          "name": "ストレージ優先の建築",
-          "description": "多くのプレイヤーは、整理されたクラフトスペースや建築スペースを持つ大きな拠点にする前に、まずクオリアをストレージハブとして使い始めます。"
-        },
-        {
-          "name": "クリエイティブな自宅建築",
-          "description": "Lucid Blocks はクリエイティブな建築をサポートしており、プレイヤーはすでにクオリアの空間を利用して家やパーソナライズされたレイアウトを作成しています。"
-        },
-        {
-          "name": "進行のハブ",
-          "description": "強力な拠点は、探索で得た戦利品、クラフト素材、種、ツール、移動装備を分類するのに役立ち、次のアップグレード計画を容易にします。"
-        }
-      ],
-      "highlights": [
-        "クオリアに入る",
-        "素材を安全に保管する",
-        "実用性から装飾へと拡張する",
-        "拠点のスペースを活用してクラフトや農業を支援する"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks 世界の地域",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks は無限の世界生成を採用しているため、プレイヤーは常に新しい環境や構造物を発見し続けています。実績やコミュニティの議論には、すでにいくつかの地名が登場しています。",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "コミュニティ注目エリア",
-          "description": "Fog Meadow は、隠れた脅威や危険な遭遇に関連する緊張感のあるエリアとして、プレイヤーの間ですでに知られています。"
-        },
-        {
-          "name": "ティアマナ・レイライン",
-          "type": "発見ランドマーク",
-          "description": "ティアマナ・レイラインは独自の実績マイルストーンを持つほど重要であり、これまでに判明している中で最も明確な名前付きの発見場所の一つです。"
-        },
-        {
-          "name": "クロナクオリア",
-          "type": "建築スペース",
-          "description": "プレイヤーはすでにクロナクオリアを、家を建てたり、素材を保管したり、より永続的なレイアウトを試したりする場所として利用しています。"
-        },
-        {
-          "name": "エッセンスの沼地",
-          "type": "ファーミングエリア",
-          "description": "エッセンスの沼地は、特にスライムとの戦闘や経験値稼ぎに役立つファーミング場所としてプレイヤー間で共有されています。"
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks クリーチャーと敵",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks は超現実的なクリーチャーと現実的な危険が混ざり合っています。公式の説明やコミュニティの投稿は、奇妙な生命、敵対的な脅威、そしてプレイヤーがすぐに覚えるような印象的な遭遇に満ちた世界を指し示しています。",
-      "creatures": [
-        {
-          "name": "マネキン",
-          "role": "敵対的な敵",
-          "description": "マネキンはこの世界における公式な名前を持つ敵の一つであり、ゲームの超現実的な脅威リストの一部です。"
-        },
-        {
-          "name": "ぷにぷにジェル",
-          "role": "敵対的な敵",
-          "description": "ぷにぷにジェルも公式な名前を持つ敵タイプであり、ゲームの奇妙な生物学的スタイルを象徴しています。"
-        },
-        {
-          "name": "高次元の存在",
-          "role": "敵対的な敵",
-          "description": "これらの存在は、世界のより抽象的で不安をかき立てる敵ラインナップの一部として登場します。"
-        },
-        {
-          "name": "巨大クモ",
-          "role": "主要な脅威",
-          "description": "クモはコミュニティの議論で最も即座に恐れられている敵の一つであり、明らかに記憶に残る危険な存在です。"
-        },
-        {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "名前付きクリーチャー",
-          "description": "__PROTECTED_26ee183b__ は独自の実績を持つほど注目に値し、ゲーム内で最も明確な名前付きクリーチャーとの遭遇の一つです。"
-        },
-        {
-          "name": "可愛い害獣",
-          "role": "インタラクティブな生物",
-          "description": "害獣は融合の進行に関わるだけでなく、名前を付けることもでき、標準的な敵よりも個人的な役割を持ちます。"
-        },
-        {
-          "name": "冒涜的なクリーチャー",
-          "role": "エリートの脅威",
-          "description": "冒涜的なクリーチャーは専用の戦闘実績に関連付けられており、重要な敵との遭遇として位置づけられています。"
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks 移動装備",
-      "displayType": "itemCards",
-      "intro": "移動手段のアップグレードは、Lucid Blocks におけるプレイの快適さを最も大きく向上させる要素の一つです。最初の移動ツールを解放すれば、探索はより速く、より安全に、そしてより実りあるものになります。",
+    "cardsGuide": {
+      "eyebrow": "Cardsとビルド",
+      "title": "Block Tales Cardsガイド",
+      "subtitle": "Block Talesの主要なCardシステムを、Cardの種類、BPコスト、SPコスト、入手方法、戦闘での役割ごとに閲覧できます。序盤のデッキ、ボス用ビルド、サポート用ビルド、The Pitの装備構成の計画に役立ててください。",
+      "intro": "CardsはBlock Talesにおける主要なビルドシステムです。新しいバトルアクションの追加、武器の強化、防御の向上、SPの生成、味方のサポート、フィールド移動の変更、あるいはさらなる挑戦のための難易度上昇などが可能です。ほとんどのCardsは装備にBuild Pointsを消費しますが、ビルドからCardsを外すことでBPは返却されます。",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "移動ツール",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、専用の実績も用意されています。"
+          "name": "Build Points",
+          "category": "システム",
+          "type": "デッキリソース",
+          "bp_cost": "最大 30 BP",
+          "activation_cost": "なし",
+          "stacking": "レベルアップ時のBP選択により、上限の30 BPに達するまで最大BPが3ずつ増加します。",
+          "how_to_get": "レベルアップ時にBPを選択します。装備中のCardsを外すと、そのコスト分のBPが返却されます。",
+          "combat_role": "1つのビルドに組み込めるCardsの数を制御し、Cardの組み合わせにおける主な制限となります。",
+          "tags": [
+            "BP",
+            "デッキ構築",
+            "ビルド計画"
+          ]
         },
         {
-          "name": "グライダーグローブ",
-          "type": "空中移動",
-          "description": "グライダーグローブはよりスムーズな移動を可能にし、独自の実績を持つもう一つの主要な進行マイルストーンです。"
+          "name": "Action Cards",
+          "category": "Cardタイプ",
+          "type": "バトルアクション",
+          "bp_cost": "Cardによって異なる",
+          "activation_cost": "通常はSP",
+          "stacking": "多くのAction Cardsは重ねることで効果を向上させたり、SPコストを変更したりできます。",
+          "how_to_get": "各地で見つける、Card販売者から購入する、キャラクターから受け取る、または敵からドロップします。",
+          "combat_role": "回復、状態異常、サポート、より強力な攻撃など、選択可能な戦闘アクションを追加します。",
+          "tags": [
+            "アクション",
+            "SP",
+            "戦闘メニュー"
+          ]
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "移動ツール",
-          "description": "ビィ・グライダーは、効率的に距離を移動するための移動ツールキットの一部として公式に推奨されています。"
+          "name": "Passive Cards",
+          "category": "Cardタイプ",
+          "type": "装備パッシブ",
+          "bp_cost": "Cardによって異なる",
+          "activation_cost": "なし",
+          "stacking": "一部のパッシブは重複可能です。その他はビルドの方向性を決定づける1枚制限のCardです。",
+          "how_to_get": "発見、購入、ボス報酬からのアンロック、または特別な遭遇から獲得します。",
+          "combat_role": "ステータス、SP効率、与ダメージ、ガード強度、アイテムの価値、または戦闘開始時のエフェクトを変更します。",
+          "tags": [
+            "パッシブ",
+            "ビルド",
+            "ステータス"
+          ]
         },
         {
-          "name": "ボールワンド",
-          "type": "ユーティリティ装備",
-          "description": "ボールワンドは公式に推奨されている特殊ツールの一つで、世界を移動したり干渉したりする方法を広げてくれます。"
+          "name": "Ball",
+          "category": "武器",
+          "type": "初期遠距離武器",
+          "bp_cost": "0 BP",
+          "activation_cost": "なし",
+          "stacking": "初期武器Card。",
+          "how_to_get": "JPartyから受け取る。",
+          "combat_role": "ターゲットを選択でき、飛行している敵に命中し、アクションコマンドの2打目で防御を無視できる遠距離攻撃です。",
+          "tags": [
+            "ball",
+            "遠距離",
+            "飛行する敵"
+          ]
         },
         {
-          "name": "スキューバダイビングギア",
-          "type": "探索装備",
-          "description": "スキューバダイビングギアは、通常では探索が困難なエリアに到達するための中核的なユーティリティセットとして公式にリストされています。"
+          "name": "Sword",
+          "category": "武器",
+          "type": "初期近接武器",
+          "bp_cost": "0 BP",
+          "activation_cost": "なし",
+          "stacking": "初期武器Card。",
+          "how_to_get": "Red NoobとBlue Noobを倒した後、Shedletskyから受け取る。",
+          "combat_role": "敵の防御を一部貫通する近接攻撃で、Swordスロットの攻撃Cardのベースとなります。",
+          "tags": [
+            "sword",
+            "近接",
+            "防御貫通"
+          ]
         },
         {
-          "name": "爆発物",
-          "type": "ユーティリティ・ダメージ",
-          "description": "爆発物は公式に推奨されていると同時に実績マイルストーンにも関連付けられており、ゲームの中核的なユーティリティ進行の一部となっています。"
+          "name": "Daze",
+          "category": "攻撃",
+          "type": "Sword Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "最大5枚まで重複可能。",
+          "how_to_get": "Pitの10階やSplintered Skiesで見つけるか、Sketchy FigureやWealthy Merchantから購入します。",
+          "combat_role": "ターゲットにDizzyを付与し、背後の敵にスプラッシュダメージを与えます。危険なアタッカーや密集した敵に対して有効です。",
+          "tags": [
+            "sword",
+            "状態異常",
+            "Dizzy"
+          ]
+        },
+        {
+          "name": "Minimize",
+          "category": "攻撃",
+          "type": "状態異常 Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "最大5枚まで重複可能。",
+          "how_to_get": "DesnaまたはGeneから購入するか、複数のnoob系の敵からドロップします。",
+          "combat_role": "数ターンの間Smallを付与し、直接攻撃に頼る敵からの脅威を下げます。",
+          "tags": [
+            "状態異常",
+            "Small",
+            "コントロール"
+          ]
+        },
+        {
+          "name": "Charge",
+          "category": "攻撃",
+          "type": "Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "3 SP",
+          "stacking": "最大3枚まで重複可能。",
+          "how_to_get": "Wealthy MerchantまたはSketchy Figureから購入します。",
+          "combat_role": "次の攻撃に攻撃力+2を加算します。バーストターン、単体ボスのダメージ、ダメージ特化ビルドに有用です。",
+          "tags": [
+            "バースト",
+            "ダメージ",
+            "ボス"
+          ]
+        },
+        {
+          "name": "Charge DEF",
+          "category": "防御",
+          "type": "Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "3 SP",
+          "stacking": "最大3枚まで重複可能。",
+          "how_to_get": "GeneまたはBanished Knightから購入します。",
+          "combat_role": "3ターンの間ダメージ半減を付与し、ボスのバースト攻撃やHard Modeでの遭遇を生き延びるのに役立ちます。",
+          "tags": [
+            "防御",
+            "Halved Damage",
+            "ボス"
+          ]
+        },
+        {
+          "name": "Cure",
+          "category": "サポート",
+          "type": "回復 Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "2 SP",
+          "stacking": "最大5枚まで重複可能。",
+          "how_to_get": "DesnaまたはTaiから購入します。",
+          "combat_role": "ターゲットのHPを5回復します。攻撃力を犠牲にして、長期戦やマルチプレイヤーでのサポートにおいて確実なリカバリー手段を提供します。",
+          "tags": [
+            "回復",
+            "サポート",
+            "パーティ"
+          ]
+        },
+        {
+          "name": "Feel Fine",
+          "category": "サポート",
+          "type": "状態異常解除 Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "2 SP",
+          "stacking": "最大5枚まで重複可能。",
+          "how_to_get": "Outer Scorched Dunesで見つける、GeneまたはTaiから購入する、または状態異常系の敵からドロップします。",
+          "combat_role": "数ターンの間、状態異常を治療し防ぎます。Burn、Dizzy、Freeze、Poisonなどの妨害効果がある戦闘で特に有用です。",
+          "tags": [
+            "状態異常解除",
+            "Fine",
+            "ボス"
+          ]
+        },
+        {
+          "name": "Bodyguard",
+          "category": "サポート",
+          "type": "保護 Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "最大5枚まで重複可能。",
+          "how_to_get": "Wealthy MerchantまたはSketchy Figureから購入します。",
+          "combat_role": "3ターンの間、味方が受けるダメージの一部を使用者が肩代わりします。マルチプレイヤーにおける強力な保護ツールです。",
+          "tags": [
+            "マルチプレイヤー",
+            "タンク",
+            "サポート"
+          ]
+        },
+        {
+          "name": "Good Vibes",
+          "category": "サポート",
+          "type": "パーティ維持 Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "3 SP",
+          "stacking": "最大3枚まで重複可能。",
+          "how_to_get": "Sketchy FigureまたはAmberから購入します。",
+          "combat_role": "使用者を眠り状態にする代わりに、毎ターンパーティのHPとSPを回復させ、一人のプレイヤーを維持エンジンへと変えます。",
+          "tags": [
+            "パーティ維持",
+            "SP",
+            "HP"
+          ]
+        },
+        {
+          "name": "Resurrect",
+          "category": "サポート",
+          "type": "蘇生 Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "3 SP",
+          "stacking": "最大5枚まで重複可能。",
+          "how_to_get": "Sketchy FigureまたはTaiから購入します。",
+          "combat_role": "倒れた味方をHP 5で蘇生させます。また、十分なSPがある場合は、一度だけ自己蘇生を発動させることも可能です。",
+          "tags": [
+            "蘇生",
+            "ボス",
+            "パーティ"
+          ]
+        },
+        {
+          "name": "Sacrifice",
+          "category": "サポート",
+          "type": "パーティ回復 Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "5 HP",
+          "stacking": "最大5枚まで重複可能。",
+          "how_to_get": "Banished KnightまたはSketchy Figureから購入します。",
+          "combat_role": "使用者のHPを消費してパーティの他のメンバーを回復します。一人のプレイヤーがタンクや安全な回復役としてビルドされている場合に有用です。",
+          "tags": [
+            "パーティ回復",
+            "HP消費",
+            "サポート"
+          ]
+        },
+        {
+          "name": "Pity SP",
+          "category": "サポート",
+          "type": "緊急SP Action Card",
+          "bp_cost": "0 BP",
+          "activation_cost": "10 HP",
+          "stacking": "最大5枚まで重複可能。",
+          "how_to_get": "Sketchy FigureまたはWealthy Merchantから購入します。",
+          "combat_role": "HPを5 SPに変換します。回復、蘇生、防御などのアクションを行うためにあと少しSPが必要な緊急時に役立ちます。",
+          "tags": [
+            "SP回復",
+            "緊急",
+            "0 BP"
+          ]
+        },
+        {
+          "name": "SP Wire",
+          "category": "サポート",
+          "type": "SP譲渡 Action Card",
+          "bp_cost": "0 BP",
+          "activation_cost": "5 SP",
+          "stacking": "最大5枚まで重複可能。",
+          "how_to_get": "GeneまたはWealthy Merchantから購入します。",
+          "combat_role": "使用者から別のパーティメンバーに5 SPを譲渡します。一人のプレイヤーが重要なアクションを担当する連携の取れたチームで有用です。",
+          "tags": [
+            "SP譲渡",
+            "チーム",
+            "0 BP"
+          ]
+        },
+        {
+          "name": "Launcher",
+          "category": "武器",
+          "type": "Ballの置き換え",
+          "bp_cost": "3 BP",
+          "activation_cost": "なし",
+          "stacking": "単一の武器置き換え。",
+          "how_to_get": "TaiまたはBanished Knightから購入します。",
+          "combat_role": "Ballを爆発的な範囲攻撃に置き換えます。Defense Downを付与できる可能性があり、単純さの代わりに複数の敵への強力な圧力を得られます。",
+          "tags": [
+            "launcher",
+            "範囲攻撃",
+            "武器置き換え"
+          ]
+        },
+        {
+          "name": "Slingshot",
+          "category": "武器",
+          "type": "Swordの置き換え",
+          "bp_cost": "3 BP",
+          "activation_cost": "なし",
+          "stacking": "単一の武器置き換え。",
+          "how_to_get": "TaiまたはBanished Knightから購入します。",
+          "combat_role": "Swordを遠距離の多弾攻撃に置き換えます。ダメージは増加しますが、他のCardsでサポートしない限り、防御力の高い敵には苦戦します。",
+          "tags": [
+            "slingshot",
+            "遠距離",
+            "武器置き換え"
+          ]
+        },
+        {
+          "name": "Bombardment",
+          "category": "攻撃",
+          "type": "Launcher Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Launcher専用アクション。",
+          "how_to_get": "Valorから購入します。",
+          "combat_role": "すべての敵を攻撃し、最大2の防御を貫通しますが、アクションコマンドに失敗すると使用者がExhausted状態になります。",
+          "tags": [
+            "launcher",
+            "範囲攻撃",
+            "防御貫通"
+          ]
+        },
+        {
+          "name": "Hitmarker",
+          "category": "攻撃",
+          "type": "Launcher Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "3 SP",
+          "stacking": "最大3枚まで重複可能。",
+          "how_to_get": "Banished Knightから購入します。",
+          "combat_role": "Launcherの戦術にAnkh効果を追加し、プレッシャーの強い敵に対してより安全なダメージサイクルを構築するのに役立ちます。",
+          "tags": [
+            "launcher",
+            "Ankh",
+            "セットアップ"
+          ]
+        },
+        {
+          "name": "Defend",
+          "category": "戦略",
+          "type": "初期戦略Card",
+          "bp_cost": "0 BP",
+          "activation_cost": "なし",
+          "stacking": "初期戦略オプション。",
+          "how_to_get": "戦略アクションとして利用可能。",
+          "combat_role": "SPを回復し、ガードのタイミングを改善し、そのターンの隠れたダメージ軽減を追加する、生存のための核心的なアクションです。",
+          "tags": [
+            "ガード",
+            "SP",
+            "生存"
+          ]
+        },
+        {
+          "name": "Focus",
+          "category": "戦略",
+          "type": "Sword Energy戦略Card",
+          "bp_cost": "0 BP",
+          "activation_cost": "なし",
+          "stacking": "Deep Focusによって強化されます。",
+          "how_to_get": "戦略アクションとして利用可能。",
+          "combat_role": "特殊攻撃のためのSword Energyを蓄積します。Deep Focusと組み合わせることでさらに価値が高まります。",
+          "tags": [
+            "Sword Energy",
+            "必殺技",
+            "Deep Focus"
+          ]
+        },
+        {
+          "name": "Knight",
+          "category": "パッシブ",
+          "type": "Swordビルドパッシブ",
+          "bp_cost": "3 BP",
+          "activation_cost": "なし",
+          "stacking": "ビルドを決定づける1枚制限のパッシブ。",
+          "how_to_get": "Vermillion VillageのWealthy Merchantから購入します。",
+          "combat_role": "Ballスロットを無効化する代わりに、Swordまたは置き換え武器のダメージを増加させます。近接特化ビルドの核となるCardです。",
+          "tags": [
+            "Knightビルド",
+            "ダメージ",
+            "Sword"
+          ]
+        },
+        {
+          "name": "Baller",
+          "category": "パッシブ",
+          "type": "Ballビルドパッシブ",
+          "bp_cost": "3 BP",
+          "activation_cost": "なし",
+          "stacking": "ビルドを決定づける1枚制限のパッシブ。",
+          "how_to_get": "Wealthy Merchantから購入します。",
+          "combat_role": "Swordスロットを無効化する代わりに、Ballまたは置き換え武器のダメージを増加させます。遠距離特化ビルドの核となるCardです。",
+          "tags": [
+            "Ballerビルド",
+            "ダメージ",
+            "Ball"
+          ]
+        },
+        {
+          "name": "Aggressor",
+          "category": "パッシブ",
+          "type": "ダメージパッシブ",
+          "bp_cost": "4 BP",
+          "activation_cost": "なし",
+          "stacking": "1枚制限のパッシブ。",
+          "how_to_get": "Finn McCoolを倒した後、彼から受け取る。",
+          "combat_role": "ダメージを増加させますが、HPのローリングを無効化します。自信のあるプレイヤーには強力ですが、非常に高難易度のコンテンツではリスクが伴います。",
+          "tags": [
+            "ダメージ",
+            "ハイリスク",
+            "Finn McCool"
+          ]
+        },
+        {
+          "name": "Ante Up",
+          "category": "パッシブ",
+          "type": "精密ダメージパッシブ",
+          "bp_cost": "4 BP",
+          "activation_cost": "なし",
+          "stacking": "1枚制限のパッシブ。",
+          "how_to_get": "Sketchy Figureから購入します。",
+          "combat_role": "ダメージを増加させますが、アクションのタイミング判定を厳しくし、失敗した攻撃のダメージをゼロにします。正確なアクションコマンド操作が報われるCardです。",
+          "tags": [
+            "ダメージ",
+            "タイミング",
+            "ハイスキル"
+          ]
+        },
+        {
+          "name": "Defend+",
+          "category": "パッシブ",
+          "type": "防御パッシブ",
+          "bp_cost": "4 BP",
+          "activation_cost": "なし",
+          "stacking": "最大3枚まで重複可能。",
+          "how_to_get": "Pitの50階で見つけるか、Sketchy Figureから購入します。",
+          "combat_role": "防御力を加算し、Hard Mode、The Pit、および被ダメージの大きいボス戦での安定性を高めます。",
+          "tags": [
+            "防御",
+            "The Pit",
+            "Hard Mode"
+          ]
+        },
+        {
+          "name": "Happy SP",
+          "category": "パッシブ",
+          "type": "SP効率パッシブ",
+          "bp_cost": "1 BP",
+          "activation_cost": "なし",
+          "stacking": "最大3枚まで重複可能。",
+          "how_to_get": "Rugged RainforestやRed Sun Templeで見つかります。",
+          "combat_role": "時間経過とともにSPを生成し、長期戦、ボス戦、サポートビルドにおいて効率を発揮します。",
+          "tags": [
+            "SP",
+            "長期戦",
+            "低BP"
+          ]
+        },
+        {
+          "name": "HP Drain",
+          "category": "パッシブ",
+          "type": "維持パッシブ",
+          "bp_cost": "1 BP",
+          "activation_cost": "なし",
+          "stacking": "最大3枚まで重複可能。",
+          "how_to_get": "AmberまたはSketchy Figureから購入します。",
+          "combat_role": "攻撃成功時にHPを回復しますが、与ダメージが減少します。瞬間火力よりも生存を重視する消耗戦ビルドをサポートします。",
+          "tags": [
+            "ライフスティール",
+            "維持",
+            "トレードオフ"
+          ]
+        },
+        {
+          "name": "SP Saver",
+          "category": "パッシブ",
+          "type": "SPコストパッシブ",
+          "bp_cost": "3 BP",
+          "activation_cost": "なし",
+          "stacking": "1枚制限のパッシブ。",
+          "how_to_get": "Sketchy Figureから購入します。",
+          "combat_role": "SP Cardのコストを1減少させます（1未満にはなりません）。アクションを多用するビルドの維持が大幅に容易になります。",
+          "tags": [
+            "SP効率",
+            "アクション",
+            "サポート"
+          ]
+        },
+        {
+          "name": "Hard Mode",
+          "category": "難易度",
+          "type": "チャレンジ修飾子",
+          "bp_cost": "0 BP",
+          "activation_cost": "なし",
+          "stacking": "1枚制限の難易度Card。",
+          "how_to_get": "開始時に付与されます。",
+          "combat_role": "被ダメージを2倍にし、ガードの受付時間を短縮する代わりに、獲得XPを増加させて難易度を上げます。",
+          "tags": [
+            "Hard Mode",
+            "チャレンジ",
+            "XP"
+          ]
         }
-      ],
-      "unlockMilestones": [
-        "フックショットを使いこなす",
-        "グライダーグローブで空を飛ぶ",
-        "投射物ワンドを構える",
-        "爆発物を構える"
       ]
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks 農業と成長",
-      "displayType": "mixedCards",
-      "intro": "成長は Lucid Blocks における真の進行の一部です。農業は単に植えて収穫するだけでなく、ツール、武器、クラフトの選択肢を維持するための反復可能な素材ルートを確立することでもあります。",
-      "sections": [
+    "cardTierList": {
+      "eyebrow": "最強のCards",
+      "title": "Block Tales Cardティアリスト",
+      "subtitle": "初心者の安全性、ボス戦、The Pit、マルチプレイヤーのサポート、Knightビルド、Ballerビルドなど、実際の使用例に基づいて最適なBlock TalesのCardsを比較します。",
+      "intro": "Block TalesのCardsは、戦闘やビルドに合わせて選ぶことで真価を発揮します。Knight、Baller、Ante Up、Aggressorなどのダメージ系Cardsは攻撃重視のセットアップで輝き、Happy SP、Defend+、Resurrect、Cure、Charge DEFは生存、サポート、または長期のボス戦を目的とする場合に強力です。",
+      "items": [
         {
-          "name": "種の進行",
-          "description": "種を植えて肥料を与えることはゲーム内の重要なマイルストーンであり、完全に成長したナッツを収穫することも同じ成長パスの一部です。"
-        },
-        {
-          "name": "素材ファーミング",
-          "description": "実用的な序盤のファーミングループは「水銀カプセル」を作成することです。これにより、反復可能なクラフト素材となる触手やグーをドロップする小さなスライムが出現します。"
-        },
-        {
-          "name": "ツールの維持",
-          "description": "オスミウム、ガラスの破片、植物、スライム素材を安定して集められるようになると、その後のクラフトのための資源ファーミングがより強力になります。"
-        },
-        {
-          "name": "拠点のルーチン",
-          "description": "最適な農業セットアップは食料以上のものを支えます。ストレージ、移動ツール、武器のアップグレード、そして将来の融合実験に供給されるべきです。"
-        }
-      ],
-      "growthMilestones": [
-        "種に肥料を与える",
-        "完全に成長したナッツを収穫する",
-        "反復可能な素材ループを作成する",
-        "農業を長期的な進行に組み込む"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks おすすめの序盤解放要素",
-      "displayType": "priorityCards",
-      "intro": "最強の序盤解放要素は、安全性、ストレージ、そして移動能力を向上させるものです。Lucid Blocks では、いくつかの実用的なアップグレードがその後のゲームプレイ全体を非常にスムーズにします。",
-      "priorities": [
-        {
-          "name": "個人用クオリア",
-          "priority": "必須",
-          "description": "個人用クオリアにアクセスできるようになると、プレイが格段に安定します。ストレージ、建築、体制の立て直しのための信頼できるハブとして機能します。"
-        },
-        {
-          "name": "フロストピック",
-          "priority": "極めて高い",
-          "description": "オスミウムと棒で作れる、高速で安価な序盤の採掘ツール。序盤の資源収集を加速させるために最も有用なアップグレードの一つです。"
-        },
-        {
-          "name": "キャッシュキューブ",
-          "priority": "極めて高い",
-          "description": "インベントリの圧迫は早くから始まるため、最初の信頼できるチェスト型コンテナを手に入れることは、プレイの快適さを大きく向上させます。"
-        },
-        {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "高い",
-          "description": "フックショットはゲーム内で最も明確な移動のマイルストーンの一つであり、探索をより速く、より安全にします。"
-        },
-        {
-          "name": "グライダーグローブ",
-          "priority": "高い",
-          "description": "グライダーグローブはもう一つの大きな機動力ブーストをもたらし、長距離の移動をはるかに効率的にします。"
-        },
-        {
-          "name": "投射物ワンドまたは爆弾",
-          "priority": "高い",
-          "description": "遠距離ツールや爆発物の選択肢を持つことで、危険な敵や試練形式の遭遇に対してより安全に対処できるようになります。"
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks 実績トラッカー",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks には現在 19 個の Steam 実績があり、それらは探索、クラフト、移動、戦闘、成長の進行に自然に分類されます。",
-      "groups": [
-        {
-          "name": "探索",
-          "achievements": [
+          "tier": "S - 幅広い汎用性",
+          "summary": "多くのビルドで共通の課題を解決し、長期戦、ボス戦、またはチームプレイにおいて有用であり続けるCards。",
+          "cards": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "クオリアに入る。"
+              "name": "Happy SP",
+              "bp_cost": "1 BP",
+              "role": "SPエンジン",
+              "best_for": [
+                "ボス戦",
+                "The Pit",
+                "サポートビルド"
+              ],
+              "why_it_ranks_here": "低いBPコストとパッシブなSP生成により、追加のSPが必要になるような長期戦において常に役立ちます。"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "ティアマナ・レイラインを発見する。"
+              "name": "SP Saver",
+              "bp_cost": "3 BP",
+              "role": "SPコスト削減",
+              "best_for": [
+                "アクション重視のデッキ",
+                "サポートビルド",
+                "ボス戦"
+              ],
+              "why_it_ranks_here": "CardアクションのSPコストを削減し、Cure、Resurrect、ステータス系Cards、防御アクションを維持しやすくします。"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "ティアマナの試練を乗り越える。"
+              "name": "Defend+",
+              "bp_cost": "4 BP",
+              "role": "防御スケーリング",
+              "best_for": [
+                "Hard Mode",
+                "The Pit",
+                "高ダメージのボス"
+              ],
+              "why_it_ranks_here": "追加の防御力は、ガードミスが命取りになる高圧的な戦闘を生き延びるための最も確実な方法の一つです。"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "隠し実績。"
+              "name": "Resurrect",
+              "bp_cost": "2 BP",
+              "role": "蘇生",
+              "best_for": [
+                "マルチプレイヤー",
+                "ボス戦",
+                "Hard Mode"
+              ],
+              "why_it_ranks_here": "蘇生手段があることで、一度のミスでパーティが全滅するのを防ぎ、SPがあれば使用者自身の自己蘇生も可能になります。"
+            },
+            {
+              "name": "Charge DEF",
+              "bp_cost": "1 BP",
+              "role": "バースト防御",
+              "best_for": [
+                "ボスのバーストターン",
+                "Hard Mode",
+                "新規プレイヤー"
+              ],
+              "why_it_ranks_here": "数ターンの間ダメージを半減させる効果は、危険な攻撃パターンが予想される際の強力かつ安価な保護手段となります。"
             }
           ]
         },
         {
-          "name": "クラフトと召喚",
-          "achievements": [
+          "tier": "A - ビルドを決定づけるダメージ",
+          "summary": "強力な攻撃ビルドを構築しますが、アクションコマンドのスキル、武器の選択、およびリスク許容度に大きく依存するCards。",
+          "cards": [
             {
-              "title": "Apotheosis α",
-              "description": "アイテムを融合させる。"
+              "name": "Knight",
+              "bp_cost": "3 BP",
+              "role": "Swordダメージの核",
+              "best_for": [
+                "Knightビルド",
+                "近接ダメージ",
+                "単体への圧力"
+              ],
+              "why_it_ranks_here": "Ballを封印する代わりにSword側のダメージを増加させます。近接攻撃中心のビルドを組むための最もシンプルな方法の一つです。"
             },
             {
-              "title": "Apotheosis β",
-              "description": "害獣を融合させる。"
+              "name": "Baller",
+              "bp_cost": "3 BP",
+              "role": "Ballダメージの核",
+              "best_for": [
+                "Ballerビルド",
+                "遠距離ダメージ",
+                "飛行する敵"
+              ],
+              "why_it_ranks_here": "Swordを封印する代わりにBall側のダメージを増加させます。遠距離攻撃やBallベースの攻撃を好むプレイヤーに適しています。"
             },
             {
-              "title": "Apotheosis γ",
-              "description": "神聖なアーティファクトを融合させる。"
+              "name": "Ante Up",
+              "bp_cost": "4 BP",
+              "role": "高スキルダメージ",
+              "best_for": [
+                "アクションコマンドが得意なプレイヤー",
+                "ボスのバースト",
+                "ダメージレース"
+              ],
+              "why_it_ranks_here": "ダメージを増加させますが、タイミングを外すとダメージがゼロになるペナルティがあります。コマンドを安定して成功させられる場合に最適です。"
             },
             {
-              "title": "Archangel β",
-              "description": "信仰を召喚する。"
+              "name": "Aggressor",
+              "bp_cost": "4 BP",
+              "role": "ハイリスクダメージ",
+              "best_for": [
+                "自信のあるプレイヤー",
+                "高速クリア",
+                "制御された戦闘"
+              ],
+              "why_it_ranks_here": "ダメージを増加させますが、ローリングHPをなくします。制御された戦闘では強力ですが、非常に難易度の高いコンテンツでは危険です。"
+            },
+            {
+              "name": "Charge",
+              "bp_cost": "1 BP",
+              "role": "バーストの準備",
+              "best_for": [
+                "ボスダメージ",
+                "強力な単発ヒット",
+                "ダメージコンボ"
+              ],
+              "why_it_ranks_here": "次の攻撃に強力なブーストを加え、多くの攻撃ターンに適合します。特に武器ダメージのパッシブと重ねると効果的です。"
             }
           ]
         },
         {
-          "name": "移動とユーティリティ",
-          "achievements": [
+          "tier": "A - 長期戦エンジン",
+          "summary": "戦闘が多くのターンに及ぶ場合や、短期的なバーストよりも安定した回復が必要な場合に強力になるCards。",
+          "cards": [
             {
-              "title": "Virtue α",
-              "description": "グライダーグローブで空を飛ぶ。"
+              "name": "SP Regen+",
+              "bp_cost": "2 BP",
+              "role": "防御的SPエンジン",
+              "best_for": [
+                "防御ターン",
+                "SP消費の激しいビルド",
+                "The Pit"
+              ],
+              "why_it_ranks_here": "防御プレイから得られるSPを増加させ、耐久重視のビルドが高コストのアクションを行うための燃料を供給します。"
             },
             {
-              "title": "Virtue β",
-              "description": "フックショットを使いこなす。"
+              "name": "HP Drain",
+              "bp_cost": "1 BP",
+              "role": "ヒットベースの維持",
+              "best_for": [
+                "消耗戦ビルド",
+                "ソロプレイ",
+                "長期戦"
+              ],
+              "why_it_ranks_here": "ダメージを犠牲にしてヒット成功時に回復を行います。バーストよりも生存が重要な場合に価値があります。"
             },
             {
-              "title": "Archangel α",
-              "description": "投射物ワンドを構える。"
+              "name": "SP Drain",
+              "bp_cost": "1 BP",
+              "role": "ヒットベースのSP維持",
+              "best_for": [
+                "複数ターンの戦闘",
+                "SPサイクリング",
+                "低ダメージのユーティリティビルド"
+              ],
+              "why_it_ranks_here": "ダメージを下げつつヒット成功時にSPを回復します。より多くのCardアクションを必要とするプレイヤー向けのユーティリティな選択肢です。"
             },
             {
-              "title": "Archangel γ",
-              "description": "爆発物を構える。"
+              "name": "Safe Guard",
+              "bp_cost": "2 BP",
+              "role": "ガード改善",
+              "best_for": [
+                "新規プレイヤー",
+                "Hard Mode",
+                "ボスのパターン"
+              ],
+              "why_it_ranks_here": "ガードの効果を高めます。純粋な攻撃力よりもダメージ軽減が重要な場面で役立ちます。"
+            },
+            {
+              "name": "Deep Focus",
+              "bp_cost": "1 BP",
+              "role": "Sword Energy獲得",
+              "best_for": [
+                "特殊攻撃",
+                "フォーカスターン",
+                "ボスのセットアップ"
+              ],
+              "why_it_ranks_here": "フォーカスターンを改善し、Sword Energy攻撃をより確実に発動させたいビルドをサポートします。"
             }
           ]
         },
         {
-          "name": "戦闘とクリーチャー",
-          "achievements": [
+          "tier": "B - チームサポート",
+          "summary": "味方を守る、回復する、蘇生する、またはリソースを供給するため、マルチプレイヤーで大幅に強力になるCards。",
+          "cards": [
             {
-              "title": "__PROTECTED_26ee183b__ の虐殺",
-              "description": "罪のないバブルベアを倒す。"
+              "name": "Cure",
+              "bp_cost": "2 BP",
+              "role": "単体回復",
+              "best_for": [
+                "サポートプレイヤー",
+                "マルチプレイヤー",
+                "ボス戦"
+              ],
+              "why_it_ranks_here": "確実な回復で味方を生存させます。特に一人のチームメイトがダメージやユーティリティを担っている場合に有効です。"
             },
             {
-              "title": "Archangel δ",
-              "description": "冒涜的なクリーチャーを排除する。"
+              "name": "Bodyguard",
+              "bp_cost": "1 BP",
+              "role": "味方の保護",
+              "best_for": [
+                "タンクビルド",
+                "低HPの味方の保護",
+                "チームでのボス戦"
+              ],
+              "why_it_ranks_here": "一人のプレイヤーが味方の受けるダメージの一部を肩代わりできるようにし、計画的なタンク＆サポートプレイを可能にします。"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "死亡する。"
+              "name": "Good Vibes",
+              "bp_cost": "2 BP",
+              "role": "パーティのHPおよびSP回復",
+              "best_for": [
+                "長期のチーム戦",
+                "SPサポート",
+                "維持重視のチーム"
+              ],
+              "why_it_ranks_here": "他のチームメンバーが戦い続ける間、使用者を回復エンジンに変えます。"
             },
             {
-              "title": "Dominion γ",
-              "description": "可愛い害獣に名前を付ける。"
+              "name": "SP Wire",
+              "bp_cost": "0 BP",
+              "role": "SP譲渡",
+              "best_for": [
+                "連携の取れたチーム",
+                "蘇生セットアップ",
+                "サポートチェイン"
+              ],
+              "why_it_ranks_here": "最も必要としているチームメイトにSPを移動させます。一人のプレイヤーがCure、Resurrect、または主要な攻撃Cardを持っている場合に価値があります。"
+            },
+            {
+              "name": "Sacrifice",
+              "bp_cost": "1 BP",
+              "role": "パーティ回復",
+              "best_for": [
+                "タンクサポート",
+                "緊急回復",
+                "マルチプレイヤー"
+              ],
+              "why_it_ranks_here": "使用者のHPをパーティ全体の回復に変換します。強力な緊急サポート手段となります。"
             }
           ]
         },
         {
-          "name": "成長と農業",
-          "achievements": [
+          "tier": "Tech - 特定状況向けの選択",
+          "summary": "普遍的に最適というわけではなく、特定の戦闘、敵の編成、または武器ビルドにおいて優れた効果を発揮するCards。",
+          "cards": [
             {
-              "title": "Dominion α",
-              "description": "種に肥料を与える。"
+              "name": "Feel Fine",
+              "bp_cost": "2 BP",
+              "role": "状態異常防止",
+              "best_for": [
+                "状態異常を多用するボス",
+                "燃焼",
+                "めまい",
+                "凍結"
+              ],
+              "why_it_ranks_here": "状態異常が主な脅威である場合には強力ですが、ダメージとガードのみが試される戦闘では緊急性は低くなります。"
             },
             {
-              "title": "Dominion β",
-              "description": "完全に成長したナッツを収穫する。"
+              "name": "Daze",
+              "bp_cost": "1 BP",
+              "role": "めまいとスプラッシュ制御",
+              "best_for": [
+                "集団の敵",
+                "危険な攻撃者",
+                "Swordデッキ"
+              ],
+              "why_it_ranks_here": "制御やスプラッシュダメージに有用で、特に敵の圧力を下げることが重要な場合に役立ちます。"
             },
             {
-              "title": "Dominion δ",
-              "description": "隠し実績。"
+              "name": "Minimize",
+              "bp_cost": "1 BP",
+              "role": "Small状態異常",
+              "best_for": [
+                "直接攻撃者",
+                "敵の制御",
+                "安全なターン"
+              ],
+              "why_it_ranks_here": "敵の脅威を下げることで、回復、セットアップ、または別のターゲットを倒すための時間を稼げる場合に最適です。"
+            },
+            {
+              "name": "Cannonball",
+              "bp_cost": "2 BP",
+              "role": "Ballの安全対策",
+              "best_for": [
+                "棘のある敵",
+                "燃えている敵",
+                "Ballビルド"
+              ],
+              "why_it_ranks_here": "接触すると危険な敵に対しても、Ballが破裂せずに攻撃できるようにします。特定の対面で重要です。"
+            },
+            {
+              "name": "Bombardment",
+              "bp_cost": "1 BP",
+              "role": "Launcherの範囲攻撃",
+              "best_for": [
+                "複数の敵のウェーブ",
+                "防御力の高い敵",
+                "Launcherビルド"
+              ],
+              "why_it_ranks_here": "LauncherのタイミングとExhaustedペナルティのリスクを管理できる場合、範囲ダメージとして非常に優れています。"
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks シングルプレイヤーおよびプラットフォーム FAQ",
-      "displayType": "accordion",
-      "intro": "これらは、Lucid Blocks を購入する前にプレイヤーからよく寄せられる、プラットフォームとアクセスに関する核心的な質問です。",
-      "faqs": [
+    "bossGuide": {
+      "eyebrow": "ボス",
+      "title": "Block Tales ボスガイド",
+      "subtitle": "チャプター、場所、ギミック、報酬、推奨されるCardアプローチごとに、Block Talesの主要なボスを確認します。",
+      "intro": "Block Talesのボス戦では、ダメージ以外の要素が試されることがよくあります。特にHard Mode、オプションの隠しボス、チャプター5では、単純な攻撃ビルドよりも、適切なガード、SP管理、状態異常制御、防御ターン、そして適切なCardの組み合わせが重要になります。",
+      "items": [
         {
-          "question": "Lucid Blocks はシングルプレイヤーですか？",
-          "answer": "はい。Lucid Blocks はシングルプレイヤー専用ゲームです。"
+          "name": "Supreme Ant",
+          "chapter": "Chapter 1",
+          "type": "メインボス",
+          "location": "氷の洞窟の出口",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "10 HP"
+            },
+            {
+              "label": "召喚",
+              "value": "HP 2のAnt Armies"
+            }
+          ],
+          "core_mechanics": [
+            "戦闘中にAnt Armiesを召喚します。",
+            "雑魚敵を長く放置しすぎるプレイヤーを追い詰めます。"
+          ],
+          "recommended_cards": [
+            "Ball",
+            "Linebounce",
+            "Defend",
+            "Charge"
+          ],
+          "strategy_focus": "召喚された敵を素早く倒し、防御ターンのために十分なSPを確保し、正確なアクションコマンドを使用して序盤に回復アイテムを使いすぎないようにしましょう。"
         },
         {
-          "question": "マルチプレイヤーや協力プレイの予定はありますか？",
-          "answer": "いいえ。リリース時および将来のアップデートにおいて、マルチプレイヤーの予定はありません。"
+          "name": "Sentient Statue",
+          "chapter": "Chapter 1",
+          "type": "メインボス",
+          "location": "ブラックロック城",
+          "stats": [
+            {
+              "label": "役割",
+              "value": "チャプター1の城のボス"
+            }
+          ],
+          "core_mechanics": [
+            "Cruel King戦の直前に登場します。",
+            "ガードのタイミングと基本的なリソース管理が試されます。"
+          ],
+          "recommended_cards": [
+            "Defend",
+            "Charge DEF",
+            "Cure",
+            "Safe Guard"
+          ],
+          "strategy_focus": "ガードの習熟度を確認する戦いとして扱いましょう。危険なターンには防御し、SPを節約し、アイテムが不足した状態でCruel Kingに挑むことのないようにしてください。"
         },
         {
-          "question": "Lucid Blocks はどこでプレイできますか？",
-          "answer": "現在は Windows 用に Steam で配信されています。"
+          "name": "Cruel King",
+          "chapter": "Chapter 1",
+          "type": "最終ボス",
+          "location": "ブラックロック城の玉座の間、Cold Nirvanaでの再戦",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "30 HP"
+            },
+            {
+              "label": "レベル",
+              "value": "90"
+            }
+          ],
+          "core_mechanics": [
+            "Scepter Strike、Freeze、Refreshing Heal、Call for Helpを使用します。",
+            "味方としてLoyal KnightやCrossbow Cronyを召喚することがあります。",
+            "StylishによるノーダメージのBadgesチャレンジがあります。"
+          ],
+          "recommended_cards": [
+            "Defend",
+            "Charge DEF",
+            "Cure",
+            "Feel Fine",
+            "Charge"
+          ],
+          "strategy_focus": "召喚された敵が手に負えなくなる前に処理し、Freezeターンは慎重にガードし、毎ターン攻撃に費やすのではなく回復や防御のためにSPを残しておきましょう。"
         },
         {
-          "question": "Lucid Blocks の価格はいくらですか？",
-          "answer": "Steam で 9.99 ドルです。"
+          "name": "Supreme Mosquito",
+          "chapter": "Chapter 2",
+          "type": "オプションの隠しボス",
+          "location": "Iron Sword入手後に戻った際のAnt Hill出口の下",
+          "stats": [
+            {
+              "label": "報酬",
+              "value": "InvestorのCard"
+            },
+            {
+              "label": "Badges",
+              "value": "Alternate Reality"
+            }
+          ],
+          "core_mechanics": [
+            "隠しルートに関連する、戻って戦うタイプのオプションボスです。",
+            "撃破すると、経済重視のパッシブCardが手に入ります。"
+          ],
+          "recommended_cards": [
+            "Cure",
+            "Charge DEF",
+            "Defend",
+            "Happy SP",
+            "Safe Guard"
+          ],
+          "strategy_focus": "安定した防御セットアップで挑み、Defendを使用してSPの流れを守りましょう。報酬はオプションですが貴重なため、リスクのあるバーストよりも生存を優先してください。"
         },
         {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
+          "name": "Bubonic Plant",
+          "chapter": "Chapter 2",
+          "type": "最終ボス",
+          "location": "Griefer's Crib",
+          "stats": [
+            {
+              "label": "ストーリー上の役割",
+              "value": "チャプター2の最終ボス"
+            },
+            {
+              "label": "Badges",
+              "value": "Panacea"
+            }
+          ],
+          "core_mechanics": [
+            "チャプター2のGrieferルートを締めくくります。",
+            "序盤の基本から、より長いボスのパターンへと移行するプレイヤーにとって重要な戦いです。"
+          ],
+          "recommended_cards": [
+            "Charge DEF",
+            "Cure",
+            "Feel Fine",
+            "Defend",
+            "Happy SP"
+          ],
+          "strategy_focus": "バランスの取れたセットアップを心がけましょう。1つか2つの防御手段、確実な回復、そして戦闘終了前に枯渇しない程度のSP生成を用意してください。"
         },
         {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Steam Deck では、Proton 9.0 または 9.0.4 の使用が一般的に推奨されています。"
+          "name": "Hatred",
+          "chapter": "Chapter 3",
+          "type": "最終ボス",
+          "location": "夢の世界",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "50 HP"
+            },
+            {
+              "label": "防御力",
+              "value": "1"
+            },
+            {
+              "label": "レベル",
+              "value": "92"
+            }
+          ],
+          "core_mechanics": [
+            "2回行動を行います。",
+            "Corruption、PK Thunder、Charge Outburst、Call for Helpを使用します。",
+            "高い脅威となるターンを繰り返すことでプレイヤーに圧力をかけます。"
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Cure",
+            "Resurrect",
+            "Feel Fine",
+            "Happy SP"
+          ],
+          "strategy_focus": "1サイクルにつき複数の攻撃が来ることを想定し、バーストの機会の前に防御系Cardsを使用しましょう。HPが減り始める前に、蘇生や回復の手段を準備しておいてください。"
         },
         {
-          "question": "Lucid Blocks は Linux で動作しますか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
+          "name": "Mutant",
+          "chapter": "Chapter 3",
+          "type": "オプションの隠しボス",
+          "location": "Telamon Manorの赤い部屋と地下ルート",
+          "stats": [
+            {
+              "label": "Badges",
+              "value": "Uncanny Encounter"
+            },
+            {
+              "label": "報酬パス",
+              "value": "屋根裏部屋へのアクセス"
+            }
+          ],
+          "core_mechanics": [
+            "Telamon Manorの進行に関連するオプションの隠しボスです。",
+            "倒すことで、後の報酬エリアへのアクセスが解放されます。"
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Cure",
+            "Resurrect",
+            "Safe Guard"
+          ],
+          "strategy_focus": "まずは防御的な装備で挑み、戦闘のタイミングに慣れてからダメージを追加しましょう。オプションの隠しボスは、準備不足の「紙装甲」ビルドを容赦なく追い詰めます。"
         },
         {
-          "question": "Mac や Android はサポートされますか？",
-          "answer": "将来的にサポートされる可能性はありますが、現時点でのローンチプラットフォームではありません。"
+          "name": "The Ancients",
+          "chapter": "Chapter 4",
+          "type": "最終ボス",
+          "location": "赤い太陽の神殿",
+          "stats": [
+            {
+              "label": "HP半分時の変化",
+              "value": "FineおよびNRG無効化"
+            },
+            {
+              "label": "保護",
+              "value": "Vesselが生きている間は無敵"
+            }
+          ],
+          "core_mechanics": [
+            "Wheel、Beam、Fireball、Ultra Beam、Call for Helpを使用します。",
+            "召喚されたVesselを倒さない限り、ボスにダメージを与えることはできません。",
+            "Fireballは燃焼を付与することがあり、ビーム系の攻撃は複数の防御チェックで圧力をかけてきます。"
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Feel Fine",
+            "Launcher",
+            "Baller",
+            "Ante Up",
+            "Resurrect"
+          ],
+          "strategy_focus": "Vesselを素早く倒し、状態異常の圧力から身を守り、毎ターン攻撃するのではなくUltra Beamのサイクルに備えて防御リソースを温存しましょう。"
         },
         {
-          "question": "Lucid Blocks に翻訳はありますか？",
-          "answer": "いいえ。現在、翻訳の予定はありません。"
+          "name": "Finn McCool",
+          "chapter": "Chapter 4",
+          "type": "オプションの隠しボス",
+          "location": "Vermillion Villageからの南ルート",
+          "stats": [
+            {
+              "label": "報酬",
+              "value": "AggressorのCard"
+            },
+            {
+              "label": "Badges",
+              "value": "Converging Timelines"
+            }
+          ],
+          "core_mechanics": [
+            "ハイリスクなダメージパッシブを報酬として与えるオプションの隠しボスです。",
+            "より強力な攻撃用Cardsを求めるプレイヤーにとってのビルドチェックとして機能します。"
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Cure",
+            "Happy SP",
+            "Resurrect"
+          ],
+          "strategy_focus": "まずは安定した防御の核を使い、ガードのタイミングが安定してからバーストツールを追加しましょう。報酬のAggressorは、ローリングHPなしで生存できるようになってからが最も強力です。"
         },
         {
-          "question": "Lucid Blocks はアップデートされ続けますか？",
-          "answer": "はい。リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+          "name": "The Magnificent",
+          "chapter": "Chapter 5",
+          "type": "メインボス",
+          "location": "魔術師の塔",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "600 HP"
+            },
+            {
+              "label": "戦闘ルール",
+              "value": "数ターン後に自爆して終了します"
+            }
+          ],
+          "core_mechanics": [
+            "膨大なHPバーは、通常の方法で完全に削りきるためのものではありません。",
+            "この戦闘は、スクリプト化された結末まで一連の攻撃を生き延びることが目的です。"
+          ],
+          "recommended_cards": [
+            "Charge DEF",
+            "Defend+",
+            "Cure",
+            "Good Vibes",
+            "Happy SP"
+          ],
+          "strategy_focus": "バーストダメージに過剰投資しないでください。決着がつくまで、生存、SPの流れ、そして安全な防御ターンを優先しましょう。"
+        },
+        {
+          "name": "The Trinity",
+          "chapter": "Chapter 5",
+          "type": "メインボス（3体）",
+          "location": "トリニティ城",
+          "stats": [
+            {
+              "label": "ボス",
+              "value": "Reginald、Azuri、Robur"
+            }
+          ],
+          "core_mechanics": [
+            "複数のボスの脅威を同時に管理することが求められる3体との戦闘です。",
+            "ダメージ、サポート、リソース管理を兼ね備えたビルドが報われます。"
+          ],
+          "recommended_cards": [
+            "Launcher",
+            "Bombardment",
+            "Cure",
+            "Resurrect",
+            "SP Saver",
+            "Charge DEF"
+          ],
+          "strategy_focus": "可能な限り範囲攻撃や複数ターゲットへの圧力を利用し、蘇生の手段を常に用意し、チャプター5の最終局面に備えてSPを低くしすぎないようにしてください。"
+        },
+        {
+          "name": "Frostmaw",
+          "chapter": "Chapter 5",
+          "type": "最終ボス",
+          "location": "The Windforce",
+          "stats": [
+            {
+              "label": "敗北条件",
+              "value": "Cassieを生存させる必要があります"
+            },
+            {
+              "label": "Badges",
+              "value": "Windproof"
+            }
+          ],
+          "core_mechanics": [
+            "The TrinityとSeventh Sanctumルートの後の、チャプター5の最終ボスです。",
+            "Cassieが倒されると、敗北となります。",
+            "自分のHPを管理するだけでなく、特定の味方を守ることをプレイヤーに強います。"
+          ],
+          "recommended_cards": [
+            "Bodyguard",
+            "Cure",
+            "Resurrect",
+            "Charge DEF",
+            "Good Vibes",
+            "Happy SP"
+          ],
+          "strategy_focus": "味方の保護を中心にビルドを組みましょう。Cassieを安全に保ち、回復のためにSPを温存し、ダメージを受けてから対処するのではなく、危険なターンの前に防御系Cardsを使用してください。"
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck とコントローラー",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks は Steam Deck で動作しますが、デフォルト設定では調整が必要な場合があります。メニュー操作や一般的なプレイにおいては、キーボードとマウスの方がスムーズです。",
-      "faqs": [
+    "badgesGuide": {
+      "eyebrow": "Badges とコンプリート",
+      "title": "Block Tales Badges ガイド",
+      "subtitle": "ストーリーの Badges、Hard Modeクリア、Cards 収集のマイルストーン、隠し Badges、Demo 5 の完了目標など、チャプターごとの Block Tales のアチーブメントと Badges を確認できます。",
+      "intro": "Block Tales の Badges は、ストーリーの進行、隠されたインタラクション、コンプリートのマイルストーン、Hard Modeボスの撃破、Cards 収集、BUX 収集、チャレンジのクリア、デモへの参加に対して与えられます。各チャプターを進める際の100%コンプリート用チェックリストとしてこのセクションを活用してください。",
+      "items": [
         {
-          "question": "Lucid Blocks は Steam Deck で動作しますか？",
-          "answer": "はい。Proton 9.0 で良好に動作します。また、Proton 9.0.4 は Steam Deck の問題に対する一般的な修正方法として共有されています。"
+          "section": "ユニバーサル＆コレクション Badges",
+          "description": "特定のストーリーチャプターに限定されず、セーブファイル全体で追跡可能な Badges。",
+          "badges": [
+            {
+              "name": "謙虚な始まり",
+              "unlock": "新しいセーブファイルを開始する。",
+              "obtainable": "はい",
+              "note": "基本的な進行 Badges。"
+            },
+            {
+              "name": "満載のデッキ",
+              "unlock": "1つのセーブファイルで30 BP に到達する。",
+              "obtainable": "はい",
+              "note": "BP のレベルアップ選択によりレベル10に到達する必要があります。"
+            },
+            {
+              "name": "Cards コレクター",
+              "unlock": "15種類のユニークな Cards を収集する。",
+              "obtainable": "はい",
+              "note": "Cards 収集マイルストーンの一部。"
+            },
+            {
+              "name": "Cards 鑑定家",
+              "unlock": "30種類のユニークな Cards を収集する。",
+              "obtainable": "はい",
+              "note": "チャプターを通じて Cards の購入、発見、獲得を続けてください。"
+            },
+            {
+              "name": "Cards ホーダー",
+              "unlock": "45種類のユニークな Cards を収集する。",
+              "obtainable": "はい",
+              "note": "より深い探索とショップでの購入が必要です。"
+            },
+            {
+              "name": "Cards 愛好家",
+              "unlock": "60種類のユニークな Cards を収集する。",
+              "obtainable": "はい",
+              "note": "すべての Cards を追跡しているプレイヤー向けの後半のマイルストーン。"
+            },
+            {
+              "name": "Cards ゴブリン",
+              "unlock": "75種類のユニークな Cards を収集する。",
+              "obtainable": "はい",
+              "note": "ハイエンドな Cards 収集マイルストーン。"
+            },
+            {
+              "name": "ボンバスティック",
+              "unlock": "1つの爆弾で4体の敵を倒す。",
+              "obtainable": "はい",
+              "note": "Ant Armies などの低 HP の敵が密集している場所で達成するのが一般的です。"
+            },
+            {
+              "name": "救世主",
+              "unlock": "致命的なダメージを受けた他のプレイヤーを回復させる。",
+              "obtainable": "はい",
+              "note": "マルチプレイヤー向けのリカバリー Badges。"
+            },
+            {
+              "name": "真のDPS",
+              "unlock": "1回の攻撃で1体の敵に少なくとも12ダメージを与える。",
+              "obtainable": "はい",
+              "note": "ダメージバフ、Chargeスタック、高ダメージの Cards を使用すると達成しやすくなります。"
+            }
+          ]
         },
         {
-          "question": "Steam Deck の操作が効かない場合はどうすればよいですか？",
-          "answer": "互換性設定を強制し、ゲームを Proton 9.0.4 に切り替えてください。デフォルト設定ではコントローラー入力が正しく受け付けられない場合があります。"
+          "section": "プロローグ＆チャプター1の Badges",
+          "description": "初期ストーリー、Bizville、Blackrock Castle、Cruel King、およびチャプター1のチャレンジ Badges。",
+          "badges": [
+            {
+              "name": "支払うべき代償",
+              "unlock": "Tutorial Terry との会話で敵対的な選択肢を選び、戦闘に敗北する。",
+              "obtainable": "はい",
+              "note": "プロローグの隠しインタラクション。"
+            },
+            {
+              "name": "無料風船の日",
+              "unlock": "Bizville にある風船カートの紐を剣で切る。",
+              "obtainable": "はい",
+              "note": "Bizville の隠しインタラクション。"
+            },
+            {
+              "name": "購入者の後悔",
+              "unlock": "Bizville Library でステータスを再配分する。",
+              "obtainable": "はい",
+              "note": "ステータスリセットとビルドの試行錯誤に関連。"
+            },
+            {
+              "name": "海の王",
+              "unlock": "Bizville Meadows の釣りスポットで全10種類の魚を釣る。",
+              "obtainable": "はい",
+              "note": "コンプリート系のサイド要素。"
+            },
+            {
+              "name": "ハロー・ワールド",
+              "unlock": "Red Noob、Blue Noob、Noobador を倒してプロローグを完了する。",
+              "obtainable": "はい",
+              "note": "ストーリー進行 Badges。"
+            },
+            {
+              "name": "廃位",
+              "unlock": "Cruel King を倒す。",
+              "obtainable": "はい",
+              "note": "チャプター1のメインボス Badges。"
+            },
+            {
+              "name": "スタイリッシュ",
+              "unlock": "ダメージを受けずに Cruel King を倒す。",
+              "obtainable": "はい",
+              "note": "Cold Nirvana での再戦でも獲得可能。"
+            },
+            {
+              "name": "ブロクサー",
+              "unlock": "Hard Mode を装備した状態でチャプター1のすべてのボスを倒す。",
+              "obtainable": "はい",
+              "note": "Blue Noob、Red Noob、Noobador、Supreme Ant、Banished Knight、Sentient Statue、Cruel King が対象。"
+            },
+            {
+              "name": "板挟み",
+              "unlock": "ダイナマイトで Jim を救出し、Roadtown に戻る。",
+              "obtainable": "はい",
+              "note": "Roadtown のサイド目標。"
+            },
+            {
+              "name": "無情",
+              "unlock": "Jim を置き去りにして Cruel King を倒す。",
+              "obtainable": "はい",
+              "note": "Jim に関するもう一つの結末の Badges。"
+            },
+            {
+              "name": "針のむしろ",
+              "unlock": "Blackrock Castle の牢獄で眠っている Loyal Knight にダイナマイトを使用する。",
+              "obtainable": "はい",
+              "note": "城内の隠しインタラクション。"
+            }
+          ]
         },
         {
-          "question": "Lucid Blocks はコントローラーに対応していますか？",
-          "answer": "はい。ただし、ゲームのメニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。"
+          "section": "チャプター2の Badges",
+          "description": "Rugged Rainforest、Griefer ルート、Bubonic Plant、アーケード、およびオプションのスーパーボス Badges。",
+          "badges": [
+            {
+              "name": "万能薬",
+              "unlock": "Bubonic Plant を倒す。",
+              "obtainable": "はい",
+              "note": "チャプター2のメインクリア Badges。"
+            },
+            {
+              "name": "別現実",
+              "unlock": "Iron Sword で植物を除去した後、Ant Hill の出口の下にいる Supreme Mosquito を倒す。",
+              "obtainable": "はい",
+              "note": "オプションのスーパーボス Badges。"
+            },
+            {
+              "name": "危険な生活",
+              "unlock": "Hard Mode を装備した状態でチャプター2のすべてのボスを倒す。",
+              "obtainable": "はい",
+              "note": "Komodo Dragon、両方の Griefer 戦、Bigfoot、Bubonic Plant が対象。"
+            },
+            {
+              "name": "個人的な荷物",
+              "unlock": "Bizville Airport の西にいる Guru と話し、Nirvana に到達する。",
+              "obtainable": "はい",
+              "note": "ルートおよび探索 Badges。"
+            },
+            {
+              "name": "助けの手",
+              "unlock": "おばあちゃんヒアリのサイドクエストを完了する。",
+              "obtainable": "はい",
+              "note": "サイドクエスト Badges。"
+            },
+            {
+              "name": "グッドヌードル",
+              "unlock": "Bizville Arcade の Mudroads でハイスコアを更新する。",
+              "obtainable": "はい",
+              "note": "アーケードチャレンジ Badges。"
+            },
+            {
+              "name": "冗談だろ？",
+              "unlock": "Purple Frog の攻撃で敗北する。",
+              "obtainable": "はい",
+              "note": "敗北は自傷ダメージや他のプレイヤーではなく、Purple Frog による攻撃である必要があります。"
+            }
+          ]
         },
         {
-          "question": "Linux のサポートは可能ですか？",
-          "answer": "はい。Linux および Steam Deck において、Proton 9.0 で良好に動作することが報告されています。"
+          "section": "チャプター3の Badges",
+          "description": "Dream World、Hatred、Telamon Manor、Cruel King の召喚、および Hard Mode の Badges。",
+          "badges": [
+            {
+              "name": "救済",
+              "unlock": "Hatred を倒す。",
+              "obtainable": "はい",
+              "note": "チャプター3のメインクリア Badges。"
+            },
+            {
+              "name": "モンスターハンター",
+              "unlock": "Hard Mode を装備した状態でチャプター3のすべてのボスを倒す。",
+              "obtainable": "はい",
+              "note": "Green Noob、Purple Noob、Turkey、Slasher、Greed、Solitude、Fear、Hatred が対象。"
+            },
+            {
+              "name": "助けを呼ぶ声！",
+              "unlock": "Cold Nirvana で Cruel King と5回戦い、Call: Cruel King を入手する。",
+              "obtainable": "はい",
+              "note": "再戦に勝利する必要はありません。"
+            },
+            {
+              "name": "嫌な失敗",
+              "unlock": "Mistake を消費する。",
+              "obtainable": "はい",
+              "note": "隠しアイテム使用 Badges。"
+            },
+            {
+              "name": "ノイズメーカー",
+              "unlock": "1回のセッションで Dream World にあるすべてのメガホン音を発見する。",
+              "obtainable": "はい",
+              "note": "探索およびインタラクション Badges。"
+            }
+          ]
         },
         {
-          "question": "最適な入力設定は何ですか？",
-          "answer": "メニューのナビゲーションや一般的なプレイにおいては、キーボードとマウスが最もスムーズな選択肢です。"
+          "section": "チャプター4の Badges",
+          "description": "Red Sun Temple、The Ancients、Finn McCool、Turitopulis、VLAD、およびチャプター4の Hard Mode Badges。",
+          "badges": [
+            {
+              "name": "耐熱性",
+              "unlock": "The Ancients を倒す。",
+              "obtainable": "はい",
+              "note": "チャプター4のメインクリア Badges。"
+            },
+            {
+              "name": "血塗られた赤い太陽",
+              "unlock": "Hard Mode を装備した状態でチャプター4のすべてのボスを倒す。",
+              "obtainable": "はい",
+              "note": "Great Flocci、Temple Guardian、Captain Trotter、The Ancients が対象。"
+            },
+            {
+              "name": "収束するタイムライン",
+              "unlock": "Finn McCool を倒す。",
+              "obtainable": "はい",
+              "note": "Aggressor カードの報酬に関連するオプションのスーパーボス Badges。"
+            },
+            {
+              "name": "奇妙な味",
+              "unlock": "Kitchen Wizard に Cookbook を渡し、Compost と Onion Ring を使って The Special を作成する。",
+              "obtainable": "はい",
+              "note": "料理およびサイド目標 Badges。"
+            },
+            {
+              "name": "真の万能薬",
+              "unlock": "The Special を作成した後、Turitopulis で Mayor Thaniyel と話し、カットシーンを見る。",
+              "obtainable": "はい",
+              "note": "The Special 作成後のフォローアップ Badges。"
+            },
+            {
+              "name": "本当だったんだ…",
+              "unlock": "VLAD との戦闘中に Garlic を使用する。",
+              "obtainable": "はい",
+              "note": "戦闘中の隠しインタラクション。"
+            }
+          ]
+        },
+        {
+          "section": "チャプター5＆ Demo 5 の Badges",
+          "description": "Demo 5 の Badges、Telamon Manor、Trinity、Frostmaw、避難目標、およびチャプター5の Hard Mode クリア。",
+          "badges": [
+            {
+              "name": "Demo 5 をプレイした",
+              "unlock": "Demo 5 の期間中に Block Tales をプレイする。",
+              "obtainable": "はい",
+              "note": "現在のデモ参加 Badges。"
+            },
+            {
+              "name": "確率は？",
+              "unlock": "100分の1の確率で発生する珍しいラクダとの遭遇を見つける。",
+              "obtainable": "はい",
+              "note": "Demo 5 の探索に関連するレアイベント Badges。"
+            },
+            {
+              "name": "奇妙な遭遇",
+              "unlock": "Telamon Manor の地下ルートで Mutant を見つけて倒す。",
+              "obtainable": "はい",
+              "note": "オプションのスーパーボス Badges。"
+            },
+            {
+              "name": "大したことない…",
+              "unlock": "モナ・リザを再現する。",
+              "obtainable": "はい",
+              "note": "Demo 5 の隠し目標 Badges。"
+            },
+            {
+              "name": "英雄の証",
+              "unlock": "Trinity に散らばっている10人のNPCに話しかけて避難させる。",
+              "obtainable": "はい",
+              "note": "チャプター5の救助チェックリスト Badges。"
+            },
+            {
+              "name": "防風",
+              "unlock": "Frostmaw を倒してチャプター5を完了する。",
+              "obtainable": "はい",
+              "note": "チャプター5のメインクリア Badges。"
+            },
+            {
+              "name": "簒奪者",
+              "unlock": "Hard Mode を装備した状態でチャプター5のすべてのボスを倒す。",
+              "obtainable": "はい",
+              "note": "The Magnificent、Reginald、The Trinity、Frostmaw が対象。"
+            }
+          ]
+        },
+        {
+          "section": "デモ・レガシー Badges",
+          "description": "過去のデモ参加や、歴史的な完了の証として機能する古いチャレンジ Badges。",
+          "badges": [
+            {
+              "name": "Demo 1 をプレイした",
+              "unlock": "Demo 1 の期間中にプレイした。",
+              "obtainable": "いいえ",
+              "note": "レガシーデモ Badges。"
+            },
+            {
+              "name": "Demo 2 をプレイした",
+              "unlock": "Demo 2 の期間中にプレイした。",
+              "obtainable": "いいえ",
+              "note": "レガシーデモ Badges。"
+            },
+            {
+              "name": "Demo 3 をプレイした",
+              "unlock": "Demo 3 の期間中にプレイした。",
+              "obtainable": "いいえ",
+              "note": "レガシーデモ Badges。"
+            },
+            {
+              "name": "Demo 4 をプレイした",
+              "unlock": "Demo 4 の期間中にプレイした。",
+              "obtainable": "いいえ",
+              "note": "レガシーデモ Badges。"
+            },
+            {
+              "name": "ピットファイター",
+              "unlock": "Demo 4 より前に The Pit のすべての階層をクリアする。",
+              "obtainable": "いいえ",
+              "note": "レガシーチャレンジ Badges。"
+            },
+            {
+              "name": "アウトレイジャス・ビルダー",
+              "unlock": "最大レベルに到達する。",
+              "obtainable": "いいえ",
+              "note": "最大レベル到達のマイルストーンとして記載。"
+            }
+          ]
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks 設定とアクセシビリティ",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks には、プレイヤーが最初にゲームを起動した際に重要となる、いくつかの実用的な設定と互換性に関する注意点があります。",
-      "settings": [
+    "itemsGuide": {
+      "eyebrow": "インベントリ・データベース",
+      "title": "Block Tales アイテムガイド",
+      "subtitle": "ボス戦に挑む前に、回復料理、SP回復アイテム、攻撃アイテム、バフアイテム、そして主要な戦闘用消耗品を比較しましょう。",
+      "intro": "Block Tales のアイテムは、HP や SP の回復、バフの付与、状態異常の治療、敵への攻撃、料理のレシピ、またはフィールド探索のサポートに使用されます。このデータベースでは、プレイヤーが購入、調理、発見、釣り、または敵から入手できる実用的なアイテムを紹介しており、何を保持し、売り、あるいは強敵のために温存するかを素早く判断できます。",
+      "items": [
         {
-          "name": "ディスプレイ設定",
-          "type": "快適性オプション",
-          "description": "ディスプレイ設定には、画面上の手を表示しないようにするオプションが含まれています。"
+          "item": "Apple",
+          "category": "回復 / 状態異常回復",
+          "effect": "HP を 5 回復し、毒を治す。使用すると Apple Core が手に入る。",
+          "obtainment": "Tulip、Darren、Fridge Raider が販売。また、Hedgehog、Gaur、Toxic Spearman から 10.2% の確率でドロップ。",
+          "best_use": "毒を使う敵が多い序盤の安全な回復手段。",
+          "keep_or_spend": "毒の多いルートのために数個持っておく。安い回復手段が必要な時だけ購入する。"
         },
         {
-          "name": "グラフィックスの互換性",
-          "type": "システム要件",
-          "description": "グラフィックスを正しくレンダリングするには __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや深刻なグラフィックの不具合が発生する可能性があります。"
+          "item": "Apple Core",
+          "category": "少量回復 / 状態異常回復",
+          "effect": "HP を 1 回復し、毒を治す。",
+          "obtainment": "Apple 使用後に入手。Tulip が販売。複数の毒属性の敵から 20.7% の確率でドロップ。",
+          "best_use": "HP の減少が少ない時の低コストな毒治療。",
+          "keep_or_spend": "自由に使用して良い。ボス戦用というよりはユーティリティアイテム。"
         },
         {
-          "name": "入力の好み",
-          "type": "操作設定",
-          "description": "コントローラーのサポートは存在しますが、メニューがコントローラー操作向けに構築されていないため、キーボードとマウスの方がスムーズな体験が得られます。"
+          "item": "Cheezburger",
+          "category": "回復",
+          "effect": "HP を 5 回復する。",
+          "obtainment": "Lorenzo、Will、Barley、Aloe が販売。Ant Army、Devious Rat、Crossbow Crony、Snory Bear、Hungry Wolf から 6.4% の確率でドロップ。",
+          "best_use": "序盤から中盤のルートにおける信頼できる基本的な回復手段。",
+          "keep_or_spend": "標準的な HP 回復として数個持っておく。"
         },
         {
-          "name": "言語サポート",
-          "type": "ローカライズ",
-          "description": "現在の設定は英語のみであり、現時点では翻訳の予定はありません。"
+          "item": "Double Cheezburger",
+          "category": "回復",
+          "effect": "HP を 8 回復する。",
+          "obtainment": "Lorenzo、Fridge Raider が販売。Spiky Devil、Flaming Horse から 4.4%、複数の毒属性の敵から 2.4% の確率でドロップ。",
+          "best_use": "ボス戦や長いチャプターのルートにおける、より強力な瞬間回復。",
+          "keep_or_spend": "ちょっとしたダメージに使うのではなく、手ごわい戦いのために取っておく。"
+        },
+        {
+          "item": "Brownie",
+          "category": "回復",
+          "effect": "HP を 6 回復し、使用後に Bitten Brownie になる。",
+          "obtainment": "2つの Bitten Brownies から調理。Will、Eska が販売。Cheeky Eagle、Spiky Killbot から 0.4% の確率でドロップ。",
+          "best_use": "使用後にもう一度小さな回復アイテムが残るため、効率的な2段階回復が可能。",
+          "keep_or_spend": "インベントリに余裕があるなら持っておくと良い。"
+        },
+        {
+          "item": "Cake",
+          "category": "HP / SP 回復",
+          "effect": "HP を 5、SP を 15 回復する。",
+          "obtainment": "Will が販売。",
+          "best_use": "SP を激しく消費する Cards 中心ビルド向けの強力な維持アイテム。",
+          "keep_or_spend": "ボス戦や The Pit のような耐久戦のために取っておく。"
+        },
+        {
+          "item": "Dragonfruit",
+          "category": "SP 回復 / 状態異常保護",
+          "effect": "SP を 5 回復し、3ターンの間 Fine 状態を付与する。",
+          "obtainment": "Tulip が販売。",
+          "best_use": "Fine 状態が状態異常耐性を高めるため、デバフを多用する敵との戦いの前に有効。",
+          "keep_or_spend": "SP Cards に依存したビルドなら購入する。"
+        },
+        {
+          "item": "Falafel",
+          "category": "HP / SP 回復 / 防御バフ",
+          "effect": "HP と SP を 6 ずつ回復し、3ターンの間 DEF Up LV 2 を付与する。",
+          "obtainment": "Chickpeas と Pita から調理。",
+          "best_use": "ボスや危険な敵グループに対する価値の高い防御・維持手段。",
+          "keep_or_spend": "日常的な移動用ではなく、困難な遭遇のために温存する。"
+        },
+        {
+          "item": "Hot Chocolate",
+          "category": "状態異常保護",
+          "effect": "3ターンの間 Fine 状態を付与する。",
+          "obtainment": "Barley が販売。Ant Army、Devious Rat、Crossbow Crony、Snory Bear、Hungry Wolf、Banished Knight、Loyal Knight、Supreme Ant、Sentient Statue、Cruel King から 9.8% の確率でドロップ。",
+          "best_use": "デバフを連発されるルートでの状態異常防止。",
+          "keep_or_spend": "状態異常が激しいエリアのために持っておく。危険が始まる前に使用すること。"
+        },
+        {
+          "item": "Bomb",
+          "category": "攻撃アイテム",
+          "effect": "全ての敵に 2 ダメージを与え、プレイヤーもダメージを受ける。",
+          "obtainment": "Lorenzo、Annihilator が販売。Bee Happy、Winged Zombie から 20.3%、その他多くの序盤の敵から低確率でドロップ。",
+          "best_use": "敵が複数いて、自分の HP が自傷ダメージに耐えられる時の素早い範囲攻撃。",
+          "keep_or_spend": "慎重に使用する。HP が低い時は避けること。"
+        },
+        {
+          "item": "Cherry Bomb",
+          "category": "攻撃アイテム",
+          "effect": "全ての敵に 3 ダメージを与え、プレイヤーもダメージを受ける。",
+          "obtainment": "Cherry と Bomb から調理。Fridge Raider が販売。Spiky Devil、Flaming Horse から 12.8% の確率でドロップ。",
+          "best_use": "危険な複数敵との戦闘における、より強力な一掃オプション。",
+          "keep_or_spend": "戦闘を素早く終わらせることが重要な時のために取っておく。"
+        },
+        {
+          "item": "Flash Bomb",
+          "category": "攻撃 / 妨害アイテム",
+          "effect": "全ての敵とプレイヤーに 2 ダメージを与え、Dizzy LV 1 を付与する。",
+          "obtainment": "Dizzy Dial と Bomb から調理。Zuka が販売。Vessel、Vulture、Temple Guardian、The Great Flocci、The Ancients、および複数のチャプター4の敵から約 2.6%-2.8% の確率でドロップ。",
+          "best_use": "敵グループ全体の動きを遅らせる必要がある時の妨害手段。",
+          "keep_or_spend": "自分も Dizzy 状態になるリスクを冒す価値がある時に使用する。"
+        },
+        {
+          "item": "Epicsauce",
+          "category": "武器バフ",
+          "effect": "Burn Enchant LV 2 を付与し、次の攻撃で1ターンの間 Burn LV 2 を与えるようにする。",
+          "obtainment": "Manor Forest と Dream Path B で発見。Sharp Nooblet から 3.7%、Smugupine から 3.6% の確率でドロップ。",
+          "best_use": "影響力の大きい攻撃の前に使用し、プレッシャーを高める。",
+          "keep_or_spend": "ボスのや、火傷ダメージが有効なタフな敵のために持っておく。"
+        },
+        {
+          "item": "Hot Leaf Juice",
+          "category": "蘇生",
+          "effect": "倒れた味方を HP 5 で蘇生させる。",
+          "obtainment": "Hedgehog、Gaur、Toxic Spearman から 6% の確率でドロップ。",
+          "best_use": "マルチプレイヤーやパーティ重視の戦闘における緊急回復。",
+          "keep_or_spend": "ボス戦や長いチャレンジランのために取っておく。"
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks アップデートとパッチノート",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks では、リリース直後の迅速な修正や小規模なユーザビリティのアップデートがすでに行われています。",
-      "entries": [
+    "weaponsGuide": {
+      "eyebrow": "戦闘ツール",
+      "title": "Block Tales 武器ガイド",
+      "subtitle": "Sword、Ball、代替武器、SFOTH の剣、そして Sword Energy について理解し、それらを中心に Cards ビルドを構築しましょう。",
+      "intro": "Block Tales の武器は、アクション Cards、フィールドアビリティ、チャプター進行、そしてビルドの個性に結びついています。Sword と Ball が基本戦闘を定義し、Slingshot や Launcher がそれらのスロットを置き換え、SFOTH の剣は Sword Energy を消費して強力な特殊効果を発動します。",
+      "items": [
         {
-          "title": "アップデート 2.8.2",
-          "type": "UI アップデート",
-          "description": "メインメニューの「awaken（目覚める）」を「exit（終了）」に変更しました。"
+          "name": "Sword",
+          "slot": "基本の剣",
+          "type": "アクション武器 Cards",
+          "effect": "地上にいる最初の敵に 1-2 ダメージを与え、ターゲットの防御力の 50% を貫通する。戦闘外では、バリケードを破壊したり、近くのアイテムを拾ったり、First Strike LV 1 で戦闘を開始したりできる。",
+          "obtainment": "プロローグで Red Noob と Blue Noob を倒した後、Shedletsky から入手。",
+          "best_use": "部分的な防御貫通により信頼性が高いため、防御力を持つ地上敵に対して最適。",
+          "caution": "飛行している敵は攻撃できず、トゲを持つ敵を攻撃するとプレイヤーがダメージを受ける可能性がある。"
         },
         {
-          "title": "起動時のクラッシュに関する小規模パッチ",
+          "name": "Iron Sword",
+          "slot": "剣のアップグレード",
+          "type": "直接的な Sword のアップグレード",
+          "effect": "Sword の基本ダメージを 1 増加させ、マップ上の密集した草木を破壊できるようになる。",
+          "obtainment": "チャプター2の Mango Tree で Bigfoot を倒した後に入手。",
+          "best_use": "戦闘能力を向上させ、探索範囲を広げるための重要な進行アップグレード。",
+          "caution": "別の武器としてスロットを置き換えるのではなく、Sword を直接強化する。"
+        },
+        {
+          "name": "Ball",
+          "slot": "基本のボール",
+          "type": "遠距離アクション武器 Cards",
+          "effect": "デフォルトで 1 ダメージを与える。アクションコマンドに成功すると、防御力を無視して 1 ダメージを与える2回目のヒットが追加される。",
+          "obtainment": "プロローグ前の Mysterious Figure と出会うシーンで JParty から入手。",
+          "best_use": "あらゆる敵をターゲットにでき、飛行している敵への攻撃、遠くのアイテムの回収、ひび割れた石柱の破壊に最適。",
+          "caution": "トゲや炎を持つ敵に当たると Ball が割れてダメージが無効化され、Cannonball を装備していない限りプレイヤーは 1 SP を得る。"
+        },
+        {
+          "name": "Slingshot",
+          "slot": "剣の代替",
+          "type": "代替武器 Cards",
+          "effect": "Sword を投射物攻撃に置き換える。基本の Sword よりも高いダメージを与えることができ、飛行中やトゲを持つ敵にも当たるが、防御力を持つ敵にはダメージを与えられない。",
+          "obtainment": "Tai から 300 TIX、または Banished Knight から 150 TIX で購入。",
+          "best_use": "近接接触がリスクになる戦闘や、飛行・トゲ属性のターゲットに確実に当てたい場合に有効。",
+          "caution": "装甲が厚い敵や防御力の高い敵に対しては避けること。"
+        },
+        {
+          "name": "Launcher",
+          "slot": "ボールの代替",
+          "type": "範囲遠距離武器 Cards",
+          "effect": "Ball をロケット攻撃に置き換える。ターゲットに 3ターンの間 DEF Down LV 1 を付与し、防御力を 1 貫通し、隣接する敵にも飛散ダメージを与える。",
+          "obtainment": "Tai から 300 TIX、または Banished Knight から 150 TIX で購入。",
+          "best_use": "遠距離狙撃、デバフ、飛散ダメージを兼ね備えているため、敵グループに対して強力。",
+          "caution": "タイミングを外すと自爆し、ダメージを与えられず、2ターンの間 Exhaustion 状態になる。"
+        },
+        {
+          "name": "Ice Dagger",
+          "slot": "SFOTH の剣",
+          "type": "Sword Energy 特殊技",
+          "effect": "Sword Energy を 1 消費し、パーティ全員の最大 HP と SP の 20%（最低 HP 5、SP 3）を回復する。",
+          "obtainment": "チャプター1で Cruel King を倒した後に入手。",
+          "best_use": "パーティの HP と SP の両方を回復できるため、長期戦における最高の維持ツール。",
+          "caution": "Sword Energy を使用するため、攻撃的な SFOTH の剣の選択肢と競合する。"
+        },
+        {
+          "name": "Venomshank",
+          "slot": "SFOTH の剣",
+          "type": "Sword Energy 特殊技",
+          "effect": "Sword Energy を 1 消費し、全ての敵に防御無視の 2 ダメージを与え、3ターンの間 Poison LV 1 を付与する。",
+          "obtainment": "チャプター2で Bubonic Plant を倒した後、Mayor Thaniyel から受け取る。",
+          "best_use": "毒が有効で、持続的なダメージが必要な敵グループに対して最適。",
+          "caution": "Komodo Dragon や Bubonic Plant など、毒無効の敵には毒を与えられない。"
+        },
+        {
+          "name": "Ghostwalker",
+          "slot": "SFOTH の剣",
+          "type": "Sword Energy 特殊技",
+          "effect": "Sword Energy を 2 消費し、パーティ全員に Dodgy LV 1 を付与する。",
+          "obtainment": "チャプター3で Hatred を倒した後、プレイヤーの魂を完全に浄化することで入手。",
+          "best_use": "瞬間ダメージよりも生存が重要な時の、最高の防御的 SFOTH の剣。",
+          "caution": "Ice Dagger や Venomshank よりも多くの Sword Energy を消費する。"
+        },
+        {
+          "name": "Firebrand",
+          "slot": "SFOTH の剣",
+          "type": "Sword Energy 特殊技",
+          "effect": "Sword Energy を 2 消費し、全ての敵に防御無視の 5 ダメージを与え、Burn LV 1 と 3ターンの ATK Down LV 2 を付与する。",
+          "obtainment": "チャプター4で The Ancients を倒した後に入手。",
+          "best_use": "ダメージ、火傷、敵の攻撃力減少を兼ね備えているため、終盤の最高の範囲プレッシャーツール。",
+          "caution": "「攻撃時に解除される」系のステータス効果の恩恵は受けない。"
+        },
+        {
+          "name": "Sword Energy",
+          "slot": "SFOTH リソース",
+          "type": "戦闘リソース",
+          "effect": "各戦闘を 0.5 から開始し、敵のターンやプレイヤーの攻撃によって増加し、SFOTH の剣の燃料となる。SFOTH の剣を1つ入手するごとに、最大エネルギーゲージが 1 増加する。",
+          "obtainment": "戦闘中に自然に獲得するほか、Focus、NRG Regen、および Green Tea、Matcha Dorayaki、Chickpeas、Olives、Kunafa、Starfruit などの特定のアイテムで獲得可能。",
+          "best_use": "ボスのフェーズに合わせて計画する。回復には Ice Dagger、防御には Ghostwalker、一斉攻撃には Firebrand のためにエネルギーを温存する。",
+          "caution": "大人数のパーティでは Focus による獲得エネルギーが少なくなるため、マルチプレイヤーでのペース配分はソロプレイとは異なる。"
+        }
+      ]
+    },
+    "statsAndLevelingGuide": {
+      "eyebrow": "進行状況",
+      "title": "Block Tales ステータスとレベルアップガイド",
+      "subtitle": "次のアップグレードを選ぶ前に、HP、SP、BP、レベルアップ、リスペック、Sword Energy の役割を学びましょう。",
+      "intro": "Block Tales のレベルアップは 100 XP ごとに発生し、HP、SP、BP の3つの主要な選択肢があります。HP は生存を助け、SP はより多くのアビリティの使用を可能にし、BP はビルドに装備できる Cards の数を決定します。",
+      "items": [
+        {
+          "stat_or_system": "レベルアップ",
+          "role": "100 XP に到達することで発生するメインの進行メカニズム。",
+          "level_up_change": "レベルアップごとに、プレイヤーは +5 HP、+5 SP、または +3 BP のいずれかを選択できる。",
+          "cap_or_start": "レベル上限は 4 から始まり、プロローグを含む各チャプターの終了時に 4 ずつ増加する。チャプター5リリースの時点での最大レベルは 24。",
+          "recovery_or_respec": "レベルアップするとプレイヤーの HP と SP が全回復する。Bizville Library では 1ポイントにつき 15 TIX でステータスの振り直しができる。",
+          "build_advice": "現在のボトルネックを解消するステータスを選ぶ。生存には HP、アビリティ使用には SP、ビルドの拡張には BP。"
+        },
+        {
+          "stat_or_system": "ハートポイント (HP)",
+          "role": "戦闘中のプレイヤーの体力。",
+          "level_up_change": "HP レベルアップを選択するごとに最大 HP が +5 される。",
+          "cap_or_start": "プレイヤーは 10 HP で開始し、レベルアップや HP+ Cards で増やすことができる。",
+          "recovery_or_respec": "戦闘勝利、食べ物、Cure、Ice Dagger、Healing Pads、Beds、Happy HP、HP Drain、Sacrifice 効果、Good Vibes、Anchor などで回復可能。",
+          "build_advice": "敵のパターンを学習している間、ボス戦、または近接攻撃や自傷アイテムでダメージを受けるビルドの場合は HP を優先する。"
+        },
+        {
+          "stat_or_system": "スペシャルポイント (SP)",
+          "role": "戦闘でアビリティや Cards の技を使用するためのアクションポイント。",
+          "level_up_change": "SP レベルアップを選択するごとに最大 SP が +5 される。",
+          "cap_or_start": "Cards なしのレベルアップによる最大 SP は 90。",
+          "recovery_or_respec": "戦闘勝利、SP 回復アイテム、Ice Dagger、Healing Pads、Beds、Train Spa のジャグジー、Happy SP、SP Drain、Pity SP、Defending（防御）、Passing（パス）、非使用者向けの SP Wire などで回復可能。",
+          "build_advice": "装備している Cards は強力だが、戦闘終了前にリソースが尽きてしまう場合は SP を優先する。"
+        },
+        {
+          "stat_or_system": "ビルドポイント (BP)",
+          "role": "プレイヤーが装備できる Cards の数を決定する。",
+          "level_up_change": "BP レベルアップを選択するごとに最大 BP が +3 される。",
+          "cap_or_start": "最大 BP は 30。",
+          "recovery_or_respec": "装備している Cards を外すと、その BP コストが払い戻される。",
+          "build_advice": "新しい Cards でビルドの幅が広がる時、特に Knight、Baller、サポート、防御、または SP 節約構成にする場合は BP を優先する。"
+        },
+        {
+          "stat_or_system": "Sword Energy (NRG)",
+          "role": "Ice Dagger、Venomshank、Ghostwalker、Firebrand などの SFOTH の剣に使用される戦闘リソース。",
+          "level_up_change": "通常のレベルアップ選択肢ではない。SFOTH の剣を1つ入手するごとに最大 NRG ゲージが 1 増加する。",
+          "cap_or_start": "各戦闘は 0.5 の Sword Energy で開始される。",
+          "recovery_or_respec": "敵のターン、プレイヤーの攻撃、低 HP 時の攻撃、Focus、Deep Focus、NRG Regen、および Green Tea、Matcha Dorayaki、Chickpeas、Olives、Kunafa、Starfruit などのアイテムで獲得可能。",
+          "build_advice": "長期戦に向けて NRG の計画を立てる。回復には Ice Dagger、毒のプレッシャーには Venomshank、防御には Ghostwalker、終盤のバーストには Firebrand。"
+        },
+        {
+          "stat_or_system": "初心者向けステータスルート",
+          "role": "アクションコマンドや敵の挙動を学んでいるプレイヤー向けのシンプルなアップグレードパス。",
+          "level_up_change": "頻繁に力尽きるなら HP から始め、装備する価値のある Cards を見つけたら BP を、Cards の技でリソースが足りなくなったら SP を追加する。",
+          "cap_or_start": "ビルドが専門化する前に適している。",
+          "recovery_or_respec": "後で Bizville Library のステータス変更オプションで修正可能。",
+          "build_advice": "安定した初心者ビルドは、まず生存、次に Cards の柔軟性、そして SP 効率を重視するのが一般的。"
+        },
+        {
+          "stat_or_system": "ボス戦向けステータスルート",
+          "role": "ミス、SP コスト、防御が重要になる長期戦のためのアップグレード論理。",
+          "level_up_change": "Cards を使いつつ連続攻撃に耐える必要があるなら、HP と SP を混ぜる。防御やサポート Cards がビルドの肝である場合は BP を追加する。",
+          "cap_or_start": "ボスが低い HP や SP 不足を突いてくるチャプターに最適。",
+          "recovery_or_respec": "HP/SP アイテムを持ち歩き、Ice Dagger や Ghostwalker のターンのために Sword Energy を計画する。",
+          "build_advice": "ボス戦用ビルドでは、Cards 構成が明確にサポートしていない限り、1つのステータスだけに過剰投資するのは避けるべき。"
+        },
+        {
+          "stat_or_system": "カードビルド向けステータスルート",
+          "role": "Knight、Baller、ユーティリティ、サポート、またはパッシブ重視の構成のためのアップグレード論理。",
+          "level_up_change": "BP はより多くの Cards を解放し、SP はアクティブな Cards の技を何回使えるかを決定する。",
+          "cap_or_start": "BP には 30 ポイントの硬い上限があるが、HP と SP は Cards でさらに拡張できる。",
+          "recovery_or_respec": "Cards を外すと BP が戻るため、永続的なステータス選択よりも試行錯誤が容易。",
+          "build_advice": "装備できる Cards が足りずにビルドが弱く感じるなら BP を。Cards は装備できるが技を使うコストが払えないなら SP を選択する。"
+        }
+      ]
+    },
+    "enemyDropsGuide": {
+      "eyebrow": "ドロップ集め",
+      "title": "Block Tales 敵ドロップガイド",
+      "subtitle": "全ての敵のページを繰り返し確認する代わりに、便利なアイテム、レアな Cards、そしてチャプターごとのファーミング対象を見つけましょう。",
+      "intro": "Block Tales の敵は、戦闘中にリストされたアイテムや Cards を持っていることがあります。目に見える所持品は撃破後にドロップする可能性があり、隠しドロップは敵の HP バーの下に表示されることがあります。各敵は一度に1つのアイテムまたはカードしか持てません。",
+      "items": [
+        {
+          "farming_target": "敵のドロップシステム",
+          "chapter_or_area": "全チャプター",
+          "notable_drops": "敵はジャーナルのエントリーにあるアイテムや Cards を持っている場合があります。目に見える所持アイテムやカードは 50% のドロップ率ですが、敵の HP バーの下に表示されているアイテムは確定ドロップです。",
+          "best_for": "アイテムが可視か、隠されているか、表示されていないかによってファーミングの仕組みが異なることを理解する。",
+          "farm_note": "各敵はアイテムまたはカードを1つしか持てません。敵が何かを目に見える形で持っている場合、隠しアイテムを同時に持つことはできません。"
+        },
+        {
+          "farming_target": "Nooblet / Helmet Noob / Cultist Noob / Knightly Noob / Blue Noob / Red Noob / Noobador",
+          "chapter_or_area": "プロローグ",
+          "notable_drops": "Apple Juice 7%, Bomb 7%, Hypno Glasses 3.5%, Tickle Stick 3.5%, Hot Chocolate 2.7%, Minimize 1.6%, Slow Go 1.6%.",
+          "best_for": "序盤の Bomb、Apple Juice、および最初のユーティリティ Cards 集め。",
+          "farm_note": "後のチャプターに進む前に、安価な消耗品が必要な場合に適した序盤ルート。"
+        },
+        {
+          "farming_target": "Winged Nooblet",
+          "chapter_or_area": "プロローグ",
+          "notable_drops": "Bomb 7.4%, Hypno Glasses 3.7%, Dizzy Dial 3.7%, Cheezburger 3.7%, Bloxy Cola 2.9%, ATK-FX R 1.7%, Slow Go 1.7%.",
+          "best_for": "序盤の飛行敵ドロップと小さな回復アイテムの集め。",
+          "farm_note": "Sword は飛行している敵を自然にターゲットできないため、Ball や他の遠距離手段を用意すること。"
+        },
+        {
+          "farming_target": "Sharp Nooblet",
+          "chapter_or_area": "プロローグ",
+          "notable_drops": "Bomb 7.4%, Epicsauce 3.7%, Hypno Glasses 3.7%, Cheezburger 3.7%, Bloxy Cola 2.9%, Slow Go 1.7%, Softener 1.7%.",
+          "best_for": "序盤の Epicsauce、Softener、および Bomb の集め。",
+          "farm_note": "敵のトゲ（Spiky）特性が有効な場合、不用意な近接攻撃は避けること。"
+        },
+        {
+          "farming_target": "Ant Army / Devious Rat / Snory Bear / Hungry Wolf / Banished Knight / Loyal Knight / Crossbow Crony / Sentient Statue / Supreme Ant / Cruel King",
+          "chapter_or_area": "チャプター1: Storming The Castle",
+          "notable_drops": "Worm 19.7%, Hot Chocolate 9.8%, Cheezburger 6.4%, Dizzy Dial 2.5%, Ice Storm 2%, Free Ice 1.2%, Taco 1%, Strawberry Ice Cream 1%.",
+          "best_for": "Hot Chocolate、Cheezburger、および Free Ice の集め。",
+          "farm_note": "回復アイテムと氷テーマのユーティリティの基本在庫を構築するのに強力なチャプタールート。"
+        },
+        {
+          "farming_target": "Cheeky Eagle / Spiky Killbot",
+          "chapter_or_area": "チャプター1",
+          "notable_drops": "Forbidden Drink 24.8%, Bitten Brownie 4%, Glue 3.2%, Onion Ring 2.8%, Ice Storm 2.5%, Snowball 1.5%, Vanilla Ice Cream 1.2%, Bloxy Cola 1.2%, Brownie 0.4%.",
+          "best_for": "Snowball カード狙いと特別なチャプター1消耗品。",
+          "farm_note": "このグループには飛行とトゲの両方の特性が含まれるため、それらへの対策を計画すること。"
+        },
+        {
+          "farming_target": "Smugupine",
+          "chapter_or_area": "チャプター1",
+          "notable_drops": "Iron's Choice 5.7%, Bomb 5%, Tickle Stick 4.1%, Epicsauce 3.6%, Hypno Glasses 3.6%, Chocolate Ice Cream 2.9%, ROBAR 2.9%, Storm Tea 0.6%.",
+          "best_for": "Epicsauce、Tickle Stick、および Iron Cafe スタイルのアイテム集め。",
+          "farm_note": "基本的な回復料理よりもユーティリティアイテムが欲しい場合に適したターゲット。"
+        },
+        {
+          "farming_target": "Komodo Dragon / Tree Golem / Toxic Dartman / Venom Wizard / Purple Frog / Bigfoot / Griefer / Bubonic Plant",
+          "chapter_or_area": "チャプター2: A Toxic Time",
+          "notable_drops": "Apple Core 20.7%, Dumpling 5.3%, Bomb 4.8%, Green Pepper 3.1%, Dizzy Dial 3.1%, Double Cheezburger 2.4%, Feel Fine 1%, Free Poison 0.7%, Green Tea 0.3%.",
+          "best_for": "毒エリアの回復、Dumpling、Double Cheezburger、および Free Poison の集め。",
+          "farm_note": "毒治療手段を持ち歩き、ここでは Apple Core を集めることを検討する。ドロッププールが毒対策を強力にサポートしている。"
+        },
+        {
+          "farming_target": "Flying Mantis / Mosquito Swarm / Supreme Mosquito",
+          "chapter_or_area": "チャプター2",
+          "notable_drops": "Papaya 13.9%, Mango 5.4%, Pineapple 3.9%, Jackfruit 3.7%, Orange 3.7%, Chocolate Ice Cream 2.9%, Tickle Stick 1.2%, Free Poison 1%.",
+          "best_for": "フルーツベースの回復と Free Poison の集め。",
+          "farm_note": "効率的な集めのために、Ball、Sword Toss、Slingshot、またはその他の対空オプションを使用すること。"
+        },
+        {
+          "farming_target": "Hedgehog / Gaur / Toxic Spearman",
+          "chapter_or_area": "チャプター2",
+          "notable_drops": "Apple 10.2%, Hot Leaf Juice 6%, Red Pepper 5.6%, Lemon 4.7%, Bahulu 4.3%, Cinnamon Roll 2.3%, Thorns 2%, Bomb 1.1%.",
+          "best_for": "Apple、Hot Leaf Juice、および Thorns の集め。",
+          "farm_note": "Hot Leaf Juice は倒れた味方を蘇生できるため、強敵との戦いに備える際に有用。"
+        },
+        {
+          "farming_target": "Gorilla",
+          "chapter_or_area": "チャプター2",
+          "notable_drops": "Banana 20.8%, Worm 12.1%, Coconut 10.1%, Call: Gorilla 7.1%.",
+          "best_for": "召喚 Cards 集めと SP 関連の料理ルート。",
+          "farm_note": "Call: Gorilla は Gorilla に直接紐付いているため、非常に分かりやすいファーミング対象の1つ。"
+        },
+        {
+          "farming_target": "Bandit / Big Bandit / Helmet Bandit / Purple Noob / Green Noob / Zombie / Skeleton / Squatter / VLAD / Ghost of HAX / Turkey / Slasher / Smiling Bear / Borange Boy / Mold Man / Confident Boulder / F'Ella / Greed / Solitude / Fear / Phobia / Apparition / Hatred",
+          "chapter_or_area": "チャプター3: All Hallows' Eve",
+          "notable_drops": "Bloxy Cola 22.2%, Mr Batty 5.4%, Applesauce 5.1%, Glue 2.9%, Slateskin Potion 2.3%, Cherry Bomb 2.2%, Orange Juice 1.3%, Pie 0.4%.",
+          "best_for": "Applesauce、Cherry Bomb、および広範なハロウィンルートの消耗品。",
+          "farm_note": "グループ回復や範囲攻撃アイテムの中盤の補充に適したルート。"
+        },
+        {
+          "farming_target": "Winged Zombie / Bee Happy",
+          "chapter_or_area": "チャプター3",
+          "notable_drops": "Bomb 20.3%, Smoked Trout 4.5%, Cherry 3.9%, Gulab Kulfi 2.6%, HP Finder 1.1%, Cookie Dough 1.1%, First Aid Kit 1.1%, Unadon 1.1%.",
+          "best_for": "Bomb の集めと HP Finder 狙い。",
+          "farm_note": "素早く Bomb が欲しい時の強力なファーミング対象。"
+        },
+        {
+          "farming_target": "Sharp Zombie / Your Bombing Pal",
+          "chapter_or_area": "チャプター3",
+          "notable_drops": "Mistake 20.1%, Magnifying Glass 4.8%, Dumpling 4.8%, Haunted Cheezburger 4%, Milkshake 2.9%, Malay Spongecake 2.1%, Anchor 1.6%, Cherry Pie 1%.",
+          "best_for": "Anchor、Haunted Cheezburger、および調理関連アイテムの集め。",
+          "farm_note": "特別な食べ物やパッシブ Cards のドロップを集めているプレイヤーに適したルート。"
+        },
+        {
+          "farming_target": "Nasty Badger / Tomb Raider / Deleter / Scorched Statue / Pirate / Flintlock Pirate / Anubis / Scarab / Camel? / Ramblin' Pot / Mummy / Flame Warrior / Pirate Spirit / Megaphone Man / Shotgun Bloke / The Right Hand / The Left Hand / Captain Trotter / Finn McCool",
+          "chapter_or_area": "チャプター4: Excavation Exploration",
+          "notable_drops": "Garlic 14.3%, Olives 12.8%, Egg 3.3%, Kiwi 2.9%, Relic 2.8%, Flash Bomb 2.6%, Fig 2%, Free Fire 1.5%.",
+          "best_for": "チャプター4の料理、Relic、Flash Bomb、および Free Fire の集め。",
+          "farm_note": "炎テーマのエリアや砂漠エリアでの戦いに備える際の終盤の有用なルート。"
+        },
+        {
+          "farming_target": "Vulture / Vessel / The Great Flocci / Temple Guardian / The Ancients",
+          "chapter_or_area": "チャプター4",
+          "notable_drops": "Hardtack 11.7%, Couscous 10.3%, Chickpeas 10.1%, Thunder Bolt 2.8%, Grapes 2.8%, Flash Bomb 2.8%, Kunafa 2%, Fireball 1.2%, Shish Tawook 0.4%.",
+          "best_for": "Fireball カード狙い、Kunafa、Chickpeas、および終盤の SP/NRG 料理の補充。",
+          "farm_note": "このグループには飛行する敵が含まれるため、信頼できる対空手段を用意すること。"
+        },
+        {
+          "farming_target": "Spiky Devil / Flaming Horse",
+          "chapter_or_area": "チャプター4",
+          "notable_drops": "Cherry Bomb 12.8%, Relic 9.3%, Double Cheezburger 4.4%, Thunder Bolt 4%, Stinky Latte 3.7%, Mammoul 1.8%, Cookie 1.8%, Sand 0.5%.",
+          "best_for": "Cherry Bomb と Relic の集め。",
+          "farm_note": "炎やトゲの特性に対処できる構成でない限り、これらの敵に Ball をぶつけるのは避けること。"
+        },
+        {
+          "farming_target": "Mimic",
+          "chapter_or_area": "チャプター4",
+          "notable_drops": "Sand 8%, Witches Brew 6%, Cherry 6%, Cookie Dough 6%, Pumpkin 4%, Haunted Cheezburger 4%, Pie 4%, Relic 4%, Cookie 2%, Shawarma 0.2%.",
+          "best_for": "レアな食べ物、Relic、および特別な調理材料の集め。",
+          "farm_note": "基本的な回復アイテムよりも、珍しいドロップを求めるコレクターに最適。"
+        },
+        {
+          "farming_target": "敵の Cards ドロップ",
+          "chapter_or_area": "全チャプター",
+          "notable_drops": "Snowball 1.5%, Minimize 1.6%, Fireball 1.2%, Softener 1.7%, Free Ice 1.5%, Free Poison 1%, Free Fire 1.5%, Feel Fine 1%, Call: Gorilla 7.1%, Thorns 1.8%, Slow Go 約 1.6%-1.7%, Anchor 1.6%, HP Finder 1.1%.",
+          "best_for": "消耗品アイテムではなく、特定の Cards を集めているプレイヤー。",
+          "farm_note": "チャプター全体を盲目的に回るのではなく、そのカードに関連付けられた敵グループを狙ってファーミングすること。"
+        }
+      ]
+    },
+    "locationsAndMapGuide": {
+      "eyebrow": "World Map",
+      "title": "Block Tales Locations and Map Guide",
+      "subtitle": "Find the main hubs, chapter routes, shops, card vendors, boss entrances, and travel connections across Block Tales.",
+      "intro": "Use this Block Tales map guide as a route index: start from Bizville, move through Roblox HQ, follow each chapter area in order, and jump to the place tied to the card, item, boss, or story objective you need.",
+      "items": [
+        {
+          "name": "Bizville",
+          "chapter": "Pre-Prologue / Hub",
+          "region_type": "Main town hub",
+          "how_to_access": "Loaded when a new save file starts, then revisited between chapters.",
+          "main_uses": [
+            "Lorenzo's Shop for HP and SP recovery items",
+            "The Library for stat respecs",
+            "Alleyway card purchases from Sketchy Figure during the Prologue",
+            "The Docks route to Vermillion Village after Chapter 3",
+            "The Sewers entrance to The Pit of 100 Trials"
+          ],
+          "connected_routes": [
+            "Roblox HQ",
+            "Bizville Meadows",
+            "West Bizville Airport",
+            "Bizville Railways",
+            "The Docks",
+            "The Pit of 100 Trials"
+          ]
+        },
+        {
+          "name": "Roblox HQ and Bizville Meadows",
+          "chapter": "Prologue: Hello World!",
+          "region_type": "Story hub and early combat route",
+          "how_to_access": "Head through East Bizville into Bizville Meadows, then enter Roblox HQ near the Meadows entrance.",
+          "main_uses": [
+            "Progress the early story after the VIP Convention setup",
+            "Fight Red Noob and Blue Noob inside Roblox HQ",
+            "Use the Meadows route toward the Caves",
+            "Visit the Fishing Spot for fish items"
+          ],
+          "connected_routes": [
+            "Bizville",
+            "Bizville Meadows",
+            "Caves",
+            "Noobador boss route"
+          ]
+        },
+        {
+          "name": "Blackrock Castle",
+          "chapter": "Chapter One: Storming the Castle",
+          "region_type": "Castle dungeon and first SFOTH sword finale",
+          "how_to_access": "Progress from the Caves through Roadtown, Mount Blackrock, and Snowy Thicket.",
+          "main_uses": [
+            "Solve the prison-cell code route",
+            "Get the Blackrock Diner Key and access the castle kitchen path",
+            "Pick up the Shrinking card in the Blackrock Kitchen route",
+            "Reach the throne room for the Cruel King fight",
+            "Obtain the Ice Dagger after Chapter One"
+          ],
+          "connected_routes": [
+            "Roadtown",
+            "Snowy Thicket",
+            "Blackrock Castle Entrance",
+            "Blackrock Castle Lobby",
+            "Blackrock Kitchen",
+            "Blackrock Throne Room"
+          ]
+        },
+        {
+          "name": "Rugged Rainforest and Sacred Hollow",
+          "chapter": "Chapter Two: A Toxic Time",
+          "region_type": "Jungle progression and Venomshank route",
+          "how_to_access": "Use the West Bizville Airport route to Plainstown, then continue through Savannah, Turitopulis, and the rainforest.",
+          "main_uses": [
+            "Fight the Komodo Dragon and receive Rocket Boots",
+            "Use Coconut Water Machine interactions",
+            "Follow Griefer encounters through the rainforest",
+            "Reach Mango Tree, Sacred Hollow, and Griefer's Crib",
+            "Obtain the Venomshank after defeating Bubonic Plant"
+          ],
+          "connected_routes": [
+            "Plainstown",
+            "Savannah",
+            "Turitopulis",
+            "Rugged Rainforest",
+            "Mango Tree",
+            "Sacred Hollow",
+            "Griefer's Crib"
+          ]
+        },
+        {
+          "name": "Bizville Railways, Spooksville, and Telamon's Manor",
+          "chapter": "Chapter Three: All Hallows' Eve",
+          "region_type": "Train route, haunted manor, and Ghostwalker route",
+          "how_to_access": "Receive the Train Ticket from Shedletsky, then board from Bizville Railways in West Bizville.",
+          "main_uses": [
+            "Clear the invaded train route",
+            "Reach Spooksville and the cemetery path",
+            "Enter Telamon's Manor and its haunted version",
+            "Complete Ghost Chef ingredient objectives",
+            "Descend into the Catacombs and trigger the Dream World route"
+          ],
+          "connected_routes": [
+            "Bizville Railways",
+            "Spooksville",
+            "Cemetery",
+            "Telamon's Manor",
+            "Haunted Manor",
+            "Catacombs",
+            "Dream World"
+          ]
+        },
+        {
+          "name": "Dream World",
+          "chapter": "Chapter Three: All Hallows' Eve",
+          "region_type": "Mindscape dungeon and emotion-boss route",
+          "how_to_access": "Touch the Ghostwalker in the Catacombs, then progress through the player's mind.",
+          "main_uses": [
+            "Move through The House, The Path, and Dream World Hub",
+            "Clear Greed, Solitude, and Fear paths",
+            "Use Ghost Potion timing in the red-tinted Hatred route",
+            "Defeat Hatred and purify the player's soul",
+            "Obtain the Ghostwalker after Chapter Three"
+          ],
+          "connected_routes": [
+            "Dream World Hub",
+            "Greed Path",
+            "Solitude Path",
+            "Fear Path",
+            "Hatred Maze",
+            "Hatred Boss Fight"
+          ]
+        },
+        {
+          "name": "Scorched Dunes and Temple of the Red Sun",
+          "chapter": "Chapter Four: Excavation Exploration",
+          "region_type": "Desert route, puzzle temple, and Firebrand route",
+          "how_to_access": "Use Bizville Docks after Chapter Three, then travel by boat to the Scorched Dunes.",
+          "main_uses": [
+            "Clear desert enemies and cave-style puzzle sections",
+            "Defeat The Great Flocci and obtain the Bottled Ship",
+            "Visit Vermillion Village for cards and items",
+            "Solve four Scorched Ruins puzzles to open the Temple of the Red Sun",
+            "Use temple orb, sequence, and mirror puzzles before the Firebrand finale"
+          ],
+          "connected_routes": [
+            "Outer Scorched Dunes",
+            "Scorched Dunes",
+            "Ancient Tomb",
+            "Oasis",
+            "Pirate Camp",
+            "Vermillion Village",
+            "Temple of the Red Sun",
+            "Red Sun River"
+          ]
+        },
+        {
+          "name": "The Heights",
+          "chapter": "Chapter Five: Trouble on the Heights",
+          "region_type": "Demo 5 sky route and Windforce chapter route",
+          "how_to_access": "Use the West Bizville In the Cards building route and helicopter-pad path unlocked for Chapter Five progression.",
+          "main_uses": [
+            "Enter the Demo 5 chapter route",
+            "Clear the Wizard Tower boss path",
+            "Travel through Redcliff toward Reginald",
+            "Challenge the Trinity in Trinity Castle",
+            "Complete the Seventh Sanctum and fight Frostmaw for the Windforce finale"
+          ],
+          "connected_routes": [
+            "Wizard Tower",
+            "Redcliff",
+            "Reginald's Throne",
+            "Trinity Castle",
+            "The Windforce",
+            "Seventh Sanctum"
+          ]
+        }
+      ]
+    },
+    "pitOf100TrialsGuide": {
+      "eyebrow": "Challenge Mode",
+      "title": "Block Tales Pit of 100 Trials Guide",
+      "subtitle": "Plan your Pit run by floor range, enemy theme, TIX payout, checkpoint floors, and card rewards.",
+      "intro": "The Block Tales Pit of 100 Trials is entered through the Bizville Sewers after obtaining Shrinking from Blackrock Castle. Enemy sets escalate by chapter theme, and every tenth floor acts as a reward floor with a Healing Pad, spawn point, and card reward.",
+      "items": [
+        {
+          "range": "Entry and Floor 0",
+          "theme": "Unlock and staging area",
+          "enemy_focus": [],
+          "safe_floor_reward": "Bed and spawn point on Floor 0",
+          "base_tix": "0",
+          "recommended_prep": [
+            "Bring HP and SP recovery before entering",
+            "Equip a simple survival build before pushing beyond the first checkpoint",
+            "Use Shrinking to enter the tunnel toward the sewers"
+          ]
+        },
+        {
+          "range": "Floors 1-10",
+          "theme": "Prologue enemies",
+          "enemy_focus": [
+            "Helmet Noob",
+            "Knightly Noob",
+            "Cultist Noob",
+            "Sharp Nooblet",
+            "Winged Nooblet",
+            "Red Noob",
+            "Blue Noob",
+            "Noobador"
+          ],
+          "safe_floor_reward": "Floor 10: Healing Pad, spawn point, Daze card",
+          "base_tix": "90",
+          "recommended_prep": [
+            "Use this range for early TIX practice",
+            "Prioritize consistent blocks and basic HP sustain",
+            "Treat Floor 9 as the first boss-check floor"
+          ]
+        },
+        {
+          "range": "Floors 11-20",
+          "theme": "Chapter One enemies",
+          "enemy_focus": [
+            "Hungry Wolf",
+            "Cheeky Eagle",
+            "Crossbow Crony",
+            "Banished Knight",
+            "Sentient Statue",
+            "Spiky Killbot",
+            "Supreme Ant"
+          ],
+          "safe_floor_reward": "Floor 20: Healing Pad, spawn point, Free Ice card",
+          "base_tix": "132",
+          "recommended_prep": [
+            "Prepare for higher incoming damage from castle and mountain enemies",
+            "Bring multi-target options for grouped enemies",
+            "Use bombs or strong single-target damage when bulky enemies appear"
+          ]
+        },
+        {
+          "range": "Floors 21-30",
+          "theme": "Chapter Two enemies",
+          "enemy_focus": [
+            "Hedgehog",
+            "Flying Mantis",
+            "Purple Frog",
+            "Mosquito Swarm",
+            "Gaur",
+            "Gorilla",
+            "Toxic Dartman",
+            "Toxic Spearman",
+            "Venom Wizard",
+            "Bigfoot",
+            "Komodo Dragon"
+          ],
+          "safe_floor_reward": "Floor 30: Healing Pad, spawn point, Thorns card",
+          "base_tix": "137",
+          "recommended_prep": [
+            "Carry healing for poison-heavy jungle waves",
+            "Use defensive cards before Floor 29 Komodo Dragon pressure",
+            "Keep enough SP for enemies that punish slow single-target clears"
+          ]
+        },
+        {
+          "range": "Floors 31-40",
+          "theme": "Chapter Three and Dream World enemies",
+          "enemy_focus": [
+            "Bandit",
+            "Helmet Bandit",
+            "Big Bandit",
+            "Winged Zombie",
+            "Sharp Zombie",
+            "Turkey",
+            "Slasher",
+            "Greed",
+            "Solitude",
+            "Fear"
+          ],
+          "safe_floor_reward": "Floor 40: Healing Pad, spawn point, Deep Focus card",
+          "base_tix": "155",
+          "recommended_prep": [
+            "Bring status control and SP recovery",
+            "Expect mixed physical and spooky enemy patterns",
+            "Save resources for Floors 38-39 where emotion bosses appear"
+          ]
+        },
+        {
+          "range": "Floors 41-50",
+          "theme": "Chapter Four desert and temple enemies",
+          "enemy_focus": [
+            "Nasty Badger",
+            "Spiky Devil",
+            "Vulture",
+            "Deleter",
+            "Tomb Raider",
+            "Ramblin' Pot",
+            "Anubis",
+            "Scarab",
+            "Flame Warrior",
+            "Temple Guardian",
+            "Captain Trotter"
+          ],
+          "safe_floor_reward": "Floor 50: Healing Pad, spawn point, Defend+ card",
+          "base_tix": "187",
+          "recommended_prep": [
+            "Use fire-resistant routing and strong guard timing",
+            "Reserve burst damage for Floor 49 Captain Trotter lineup",
+            "Defensive builds gain strong value from the Defend+ reward"
+          ]
+        },
+        {
+          "range": "Floors 51-60",
+          "theme": "Demo 5 and Chapter Five enemies",
+          "enemy_focus": [
+            "Chosen",
+            "Flying Cloudie",
+            "Pterosaur",
+            "Basher",
+            "Redcliff Knight",
+            "Mage Walker",
+            "Redcliff Archer",
+            "Sky Knight",
+            "Astral Elite",
+            "Astral Summoner",
+            "Wind Spirit",
+            "Dark Spirit",
+            "The Magnificent",
+            "Reginald",
+            "Robur",
+            "Azuri"
+          ],
+          "safe_floor_reward": "Floor 60: Healing Pad, spawn point, Pack Tactics card",
+          "base_tix": "High-floor TIX range",
+          "recommended_prep": [
+            "Bring a late-game survival build before pushing this range",
+            "Plan around mixed Chapter Five enemies and returning boss threats",
+            "Keep ally, defense, and SP tools ready for the final stretch"
+          ]
+        }
+      ]
+    },
+    "updatesAndPatchNotes": {
+      "eyebrow": "更新情報",
+      "title": "Block Tales の更新情報とパッチノート",
+      "subtitle": "主要な Block Tales のリリース、Demo 5 の変更点、新しいチャプター、Pit の拡張、Cards、アイテム、バランス調整、および公式のゲームステータスを追跡します。",
+      "intro": "この Block Tales 更新ハブは、リリース日、パッチノート、次回のデモの検索意図に合わせて構築されています。各エントリは、新しいストーリーコンテンツ、新しいフロア範囲、新しい Cards やアイテム、バランスアップデート、UI の変更、進行機能など、プレイヤーにとっての変化に焦点を当てています。",
+      "items": [
+        {
+          "date": "2026年4月25日",
+          "release": "Demo 5 - チャプター5 + リライト版リリース",
+          "type": "メインアップデート",
+          "highlights": [
+            "チャプター5：Trouble on the Heights をリリース",
+            "Pit に10の新しいフロアを追加",
+            "26種類の新しい敵を追加",
+            "22種類の新しいアイテムを追加",
+            "12枚の新しい Cards を追加",
+            "Bizville Bank を追加",
+            "アイテムの全預け入れ機能を追加",
+            "セーブファイルの命名機能を追加",
+            "Power Shot のアニメーションを追加",
+            "アバターと待機中のフレーバーを拡張"
+          ],
+          "story_changes": [
+            "Mysterious Figure のシーンを追加",
+            "重要キャラクターの表情の変化を追加",
+            "チャプター2とチャプター4のカットシーンを追加",
+            "チャプター4のエンディングカットシーンを更新",
+            "「VOICES」の用語を「VISIONS」に置換"
+          ],
+          "balance_changes": [
+            "スリングショットとダイナマイトに新しいアクションコマンドを追加",
+            "Hyperball のバウンドがアクションに変更",
+            "敵のアイコンを更新",
+            "Thorns（刺）の仕組みを刷新",
+            "TIX のドロップ量を調整"
+          ]
+        },
+        {
+          "date": "2026年4月25日",
+          "release": "Demo 5 リリース当日の修正",
           "type": "ホットフィックス",
-          "description": "起動時にゲームがクラッシュしていたプレイヤー向けに、専用のパッチがリリースされました。"
+          "highlights": [
+            "表示名の特殊文字によって発生していたダイアログのソフトロックを修正"
+          ],
+          "story_changes": [],
+          "balance_changes": []
         },
         {
-          "title": "リリース後のコンテンツサポート",
-          "type": "ロードマップ注記",
-          "description": "リリース後にいくつかのコンテンツアップデートが予定されていますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+          "date": "2025年5月31日",
+          "release": "Demo 4 - チャプター4 + プレプロローグ・リリース",
+          "type": "メインアップデート",
+          "highlights": [
+            "メインストーリーキャンペーンにプレプロローグを追加",
+            "メインストーリーキャンペーンにチャプター4を追加",
+            "Pit の41〜49階をアンロック",
+            "24種類の新しいアイテムを追加",
+            "Aggressor、Infect、Free Fire の Cards を追加",
+            "Cards デッキのロードアウト機能を追加",
+            "保管用アイテムボックスを追加",
+            "2つの材料を使った料理機能を追加",
+            "セーブスロットを2つ追加"
+          ],
+          "story_changes": [
+            "チャプター2の後に Turitopulis へ戻り、Thaniyel 市長を訪ねて Griefer の容態について知るイベントを追加",
+            "チャプター4の後に Vermillion Village の裏ボスルートを追加"
+          ],
+          "balance_changes": [
+            "ダイナマイトのダメージを増加",
+            "Linebounce のダメージを調整",
+            "Summoner の HP スケーリングを改善",
+            "Free Fire、Free Ice、Free Poison が Ball スロットを制限しないように変更",
+            "複数の BP コストを調整"
+          ]
+        },
+        {
+          "date": "2024年10月21日",
+          "release": "Demo 3 - チャプター3 リリース",
+          "type": "メインアップデート",
+          "highlights": [
+            "メインストーリーキャンペーンにチャプター3を追加",
+            "Pit の31〜39階をアンロック",
+            "戦闘を支援する仲間（Allies）を追加",
+            "Library にビルドステータスの更新機能を追加",
+            "7枚の新しい Cards を追加",
+            "25種類の新しいアイテムを追加",
+            "Kitchen Wizard による料理機能を追加",
+            "敵図鑑（Enemy Index）を追加"
+          ],
+          "story_changes": [
+            "Telamon's Manor、Haunted Manor ルート、Catacombs、Dream World がチャプター3の核心ルートに"
+          ],
+          "balance_changes": [
+            "ほとんどの敵の HP とダメージを減少",
+            "考えていない時のローリングヘルスメーターの速度を減少",
+            "敵図鑑を通じてアイテムのドロップ率を可視化",
+            "いくつかの Cards とアイテムの効果を調整"
+          ]
+        },
+        {
+          "date": "2024年7月6日",
+          "release": "Demo 2 - チャプター2 リリース",
+          "type": "メインアップデート",
+          "highlights": [
+            "メインストーリーにチャプター2を追加",
+            "Pit の次の10フロアをアンロック",
+            "空港ルートの近くに最終ボスとの再戦機能を追加",
+            "Arcade にエンドレスミニゲームを追加",
+            "Turitopulis にスリングショットとランチャー武器を追加",
+            "Bizville に5つの難易度 Cards を追加",
+            "Bizville に寄付者スタンドを追加",
+            "25種類の新しいショップアイテムを追加"
+          ],
+          "story_changes": [
+            "Plainstown、Turitopulis、Rugged Rainforest、Sacred Hollow、Griefer、Venomshank がチャプター2の主要ルートに"
+          ],
+          "balance_changes": [
+            "ハードモードを再調整",
+            "Ice Dagger のパーティ回復量を調整",
+            "Cards 重複時の SP コストを変更",
+            "Cards をベンダーに TIX で売却可能に",
+            "敵のアイテムドロップ率を増加"
+          ]
+        },
+        {
+          "date": "2024年5月16日",
+          "release": "Demo 1 - 公開リリース",
+          "type": "リリースアップデート",
+          "highlights": [
+            "Block Tales Demo 1 を一般公開",
+            "プロローグとチャプター1のルートを確立",
+            "Blackrock Castle と Cruel King が最初の主要チャプターのフィナーレに"
+          ],
+          "story_changes": [
+            "Builderman の誘拐事件、Shedletsky のクエスト、最初の SFOTH の剣探しが開始"
+          ],
+          "balance_changes": [
+            "タブレットメニューの UI スケーリングを修正",
+            "Terry のスーパーボールチュートリアルでのソフトロックを修正",
+            "Xbox および PC 用のバトル UI ナビゲーターの初期化を修正",
+            "Spiky Killbot の HP を低下"
+          ]
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks クラッシュ修正とトラブルシューティング",
-      "displayType": "steps",
-      "intro": "起動時やクラッシュに関する差し迫った問題は、パッチレベル、グラフィックスサポート、プラットフォームの互換性、ログの順に確認してください。",
-      "steps": [
+    "storyAndLoreRecap": {
+      "eyebrow": "ストーリーのまとめ",
+      "title": "Block Tales ストーリーと設定のまとめ",
+      "subtitle": "最新デモを開始する前に、メインストーリー、SFOTH の剣探し、チャプターの順序、重要キャラクター、主要な転換点をおさらいしましょう。",
+      "intro": "Block Tales は、Builderman の誘拐と、Shedletsky から依頼された Sword Fight on the Heights (SFOTH) の剣の回収任務に挑むプレイヤーの物語です。各チャプターでプレイヤーは新しい地域へ向かい、強力なボスとの対決を経て、新たなストーリーの剣を武器庫に加えていきます。",
+      "items": [
         {
-          "title": "最新のクラッシュホットフィックスをインストールする",
-          "description": "起動時にゲームがクラッシュする場合は、まずアップデートを行い、最新の起動クラッシュ用パッチで再度テストしてください。"
+          "heading": "プレプロローグ：Roblox VIP コンベンション",
+          "summary": "物語は Roblox 本部の Roblox VIP コンベンションから始まります。Builderman が演説を行っている最中、Mysterious Figure が乱入して現代の Roblox を批判し、手下に Builderman を拘束するよう命じます。プレイヤーは Elder Penguin から立ち上がって Superball を使うよう促され、最初の戦いに巻き込まれます。",
+          "key_characters": [
+            "Player",
+            "Builderman",
+            "Mysterious Figure",
+            "JParty",
+            "Elder Penguin",
+            "Harry",
+            "Mary"
+          ],
+          "key_locations": [
+            "Hotel",
+            "Bizville",
+            "Roblox HQ"
+          ],
+          "sword_reward": "なし"
         },
         {
-          "title": "__PROTECTED_38625270__ のサポートを確認する",
-          "description": "Lucid Blocks には __PROTECTED_38625270__ のサポートが必要です。__PROTECTED_38625270__ に対応していないシステムでは、クラッシュや重大なレンダリングの問題が発生する可能性があります。"
+          "heading": "プロローグ：Hello World!",
+          "summary": "プレイヤーは Tutorial Terry のベッドで目を覚まし、Builderman が誘拐されたことを知ります。Roblox 本部に到着すると、負傷した Shedletsky を発見。Red Noob と Blue Noob を倒して木刀を受け取り、Meadows ルートを通って Noobador へ向かいます。",
+          "key_characters": [
+            "Player",
+            "Tutorial Terry",
+            "Shedletsky",
+            "Red Noob",
+            "Blue Noob",
+            "Noobador"
+          ],
+          "key_locations": [
+            "Bizville",
+            "Roblox HQ",
+            "Bizville Meadows",
+            "Caves"
+          ],
+          "sword_reward": "なし"
         },
         {
-          "title": "Steam Deck で Proton 9.0.4 を使用する",
-          "description": "Steam Deck で入力や起動の挙動に問題がある場合は、互換性設定を強制し、Proton 9.0.4 に切り替えてください。"
+          "heading": "チャプター1：城への進撃",
+          "summary": "プレイヤーは Caves を抜け、不自然な冬に閉ざされた町 Roadtown に到着します。旅は Snowy Thicket を経て Blackrock Castle へと続き、最終ボスである Cruel King が使用する Ice Dagger を回収することで幕を閉じます。",
+          "key_characters": [
+            "Cruel King",
+            "Mayor Monty",
+            "Accountant Jim",
+            "Banished Knight",
+            "Kitchen Wizard",
+            "Tutorial Terry"
+          ],
+          "key_locations": [
+            "Caves",
+            "Roadtown",
+            "Snowy Thicket",
+            "Blackrock Castle",
+            "Blackrock Throne Room"
+          ],
+          "sword_reward": "Ice Dagger"
         },
         {
-          "title": "クラッシュログを収集する",
-          "description": "Windows の「ファイル名を指定して実行」を開き、「%APPDATA%」を貼り付けて、lucid blocks/logs フォルダに移動し、トラブルシューティング用の .txt ファイルを収集してください。"
+          "heading": "チャプター2：毒に染まる時",
+          "summary": "Ice Dagger 回収後、Shedletsky は Venomshank を取り戻すためにプレイヤーを Plainstown と Rugged Rainforest へ向かわせます。このチャプターでは Thaniyel 市長、Griefer、ジャングルの探索、Rocket Boots、Sacred Hollow、そして Griefer の Bubonic Plant への変貌が中心となります。",
+          "key_characters": [
+            "Shedletsky",
+            "Mayor Thaniyel",
+            "Griefer",
+            "Komodo Dragon",
+            "Bigfoot",
+            "Bubonic Plant"
+          ],
+          "key_locations": [
+            "Plainstown",
+            "Savannah",
+            "Turitopulis",
+            "Rugged Rainforest",
+            "Mango Tree",
+            "Sacred Hollow",
+            "Griefer's Crib"
+          ],
+          "sword_reward": "Venomshank"
         },
         {
-          "title": "問題を正しく報告する",
-          "description": "公式 Discord の bug-reports フォーラム、または Steam コミュニティページで、ログとデバイスの詳細を共有してください。"
+          "heading": "チャプター3：オール・ハロウズ・イヴ",
+          "summary": "Shedletsky は Ghostwalker を回収するため、プレイヤーを Telamon's Manor へ送ります。Spooksville 行きの列車が襲われ、屋敷は呪われ、Catacombs が Ghostwalker へと繋がります。それに触れるとプレイヤーは Dream World へ送られ、Greed、Solitude、Fear、そして Hatred と対峙することになります。",
+          "key_characters": [
+            "Shedletsky",
+            "Noobador",
+            "Red Noob",
+            "Blue Noob",
+            "Green Noob",
+            "Purple Noob",
+            "Ghost Chef",
+            "Hatred"
+          ],
+          "key_locations": [
+            "Bizville Railways",
+            "Spooksville",
+            "Telamon's Manor",
+            "Haunted Manor",
+            "Catacombs",
+            "Dream World"
+          ],
+          "sword_reward": "Ghostwalker"
+        },
+        {
+          "heading": "チャプター4：発掘探索",
+          "summary": "Ghostwalker 確保後、Shedletsky はプレイヤーを Bizville Docks 経由で Scorched Dunes へ送り、Temple of the Red Sun から Firebrand を回収させます。このルートでは The Great Flocci、Captain Trotter、Calypso、砂漠のパズル、神殿の守護者、そして The Ancients が関わる Firebrand のフィナーレが登場します。",
+          "key_characters": [
+            "Shedletsky",
+            "The Great Flocci",
+            "Captain Trotter",
+            "Calypso",
+            "Temple Guardian",
+            "The Ancients"
+          ],
+          "key_locations": [
+            "Scorched Dunes",
+            "Ancient Tomb",
+            "Oasis",
+            "Pirate Camp",
+            "Vermillion Village",
+            "Temple of the Red Sun",
+            "Red Sun River",
+            "Mount Red Sun"
+          ],
+          "sword_reward": "Firebrand"
+        },
+        {
+          "heading": "チャプター5：Trouble on the Heights",
+          "summary": "チャプター5では、Demo 5 で導入された Heights ルートへ向かいます。進行パスには Wizard Tower、Redcliff、Reginald's Throne、Trinity Castle、Seventh Sanctum が含まれ、最終的に Windforce を巡る Frostmaw とのボス戦が行われます。",
+          "key_characters": [
+            "The Magnificent",
+            "Reginald",
+            "Azuri",
+            "Robur",
+            "Cassie",
+            "Frostmaw"
+          ],
+          "key_locations": [
+            "The Heights",
+            "Wizard Tower",
+            "Redcliff",
+            "Reginald's Throne",
+            "Trinity Castle",
+            "Seventh Sanctum",
+            "The Windforce"
+          ],
+          "sword_reward": "Windforce"
+        },
+        {
+          "heading": "SFOTH 剣の順序",
+          "summary": "主な剣の進行はチャプター報酬の構造に従います：チャプター1の後に Ice Dagger、チャプター2の後に Venomshank、チャプター3の後に Ghostwalker、チャプター4の後に Firebrand、チャプター5の後に Windforce。剣のエネルギーは NRG とも呼ばれ、SFOTH の剣のアクションに使用される戦闘リソースです。",
+          "key_characters": [
+            "Shedletsky",
+            "Player"
+          ],
+          "key_locations": [
+            "Blackrock Castle",
+            "Rugged Rainforest",
+            "Catacombs",
+            "Temple of the Red Sun",
+            "The Heights"
+          ],
+          "sword_reward": "Ice Dagger, Venomshank, Ghostwalker, Firebrand, Windforce"
         }
       ]
     }
   },
   "faq": {
-    "title": "よくある",
+    "title": "Block Tales よくある",
     "titleHighlight": "質問",
-    "subtitle": "Lucid Blocks に関するすべての情報",
+    "subtitle": "Block Tales のチャプター、Cards、ボス、Badges、コード、および Demo 5 についてプレイヤーが知っておくべきことのすべて。",
     "questions": [
       {
-        "question": "Lucid Blocks はシングルプレイヤーゲームですか？",
-        "answer": "はい。Lucid Blocks はシングルプレイヤー専用のゲームであり、マルチプレイヤーや協力プレイの予定はありません。"
+        "question": "Block Tales とは何ですか？",
+        "answer": "Block Tales は Spaceman Moonbase による Roblox のターン制 RPG で、チャプター形式のルート、Cards ビルド、ボス、Badges、BUX、ストーリーアップデートが特徴です。"
       },
       {
-        "question": "Lucid Blocks における Apotheosis システムとは何ですか？",
-        "answer": "Apotheosis は Lucid Blocks のフリーフォーム・フュージョン・クラフトシステムです。決まったレシピに従うのではなく、素材を組み合わせて独自のクラフトパスを発見していきます。"
+        "question": "Block Tales にコードはありますか？",
+        "answer": "Block Tales Codes モジュールはメイン RPG の報酬ステータスを追跡しており、同様の名前を持つスピンオフ作品のコードリストとは区別されています。"
       },
       {
-        "question": "Lucid Blocks はどこでプレイできますか？",
-        "answer": "Lucid Blocks は現在、Windows向けに Steam で配信されています。Linuxおよび Steam Deckへの対応は、Proton 9.0を通じて提供されています。"
+        "question": "Block Tales の新規プレイヤーが最初に学ぶべきことは？",
+        "answer": "Block Tales の新規プレイヤーは、後半のチャプターに進む前に、HP、SP、BP、Cards、ブロッキング、レベルアップ時の選択、およびプロローグのルートについて学ぶ必要があります。"
       },
       {
-        "question": "Lucid Blocks の価格はいくらですか？",
-        "answer": "Lucid Blocks は Steam で9.99ドルです。"
+        "question": "Block Tales Demo 5 で何が変わりましたか？",
+        "answer": "Block Tales Demo 5 では、チャプター5「Trouble on the Heights」、Windforce の進行、新しい敵、新しいアイテム、新しい Cards、The Pit のフロア、およびリライトによる変更が追加されました。"
       },
       {
-        "question": "Lucid Blocks はコントローラーに対応していますか？",
-        "answer": "はい。ただし、メニューがコントローラー操作を前提に設計されていないため、コントローラーでのプレイは推奨されません。キーボードとマウスの方がスムーズに操作できます。"
+        "question": "Block Tales Walkthrough（攻略ガイド）はどのように役立ちますか？",
+        "answer": "Block Tales Walkthrough は、現在の全チャプターを目的、重要エリア、アンロック要素、主要な戦闘、ルートのヒントごとに整理しています。"
       },
       {
-        "question": "Lucid Blocks のアップデートはありますか？",
-        "answer": "はい。リリース後にいくつかのコンテンツアップデートを予定していますが、無期限に定期的なスケジュールで継続することを意図したものではありません。"
+        "question": "Block Tales はどこで遊べますか？",
+        "answer": "Roblox の公式 Block Tales ゲームページからプレイできます。"
+      },
+      {
+        "question": "Block Tales Cards ガイドはどのように使えばよいですか？",
+        "answer": "Block Tales Cards ガイドを使用して、ビルドを変更する前に、Cards の種類、BP コスト、SP コスト、入手方法、重複ルール、戦闘での役割を比較してください。"
+      },
+      {
+        "question": "Block Tales Boss ガイドには何が含まれていますか？",
+        "answer": "Block Tales Boss ガイドは、各主要な戦闘におけるチャプターボス、オプションの裏ボス、場所、核となる仕組み、推奨される Cards、および戦略の焦点を網羅しています。"
+      },
+      {
+        "question": "Block Tales Badges ガイドはコンプリートに役立ちますか？",
+        "answer": "はい。Block Tales Badges ガイドは、ストーリー、隠し要素、コレクション、ハードモード、Demo 5、レガシーの Badges をチャプターごとのコンプリートチェックリストにまとめています。"
+      },
+      {
+        "question": "Block Tales Items ガイドはどのように使えばよいですか？",
+        "answer": "Block Tales Items ガイドを使用して、回復、SP 回復、状態異常耐性、攻撃アイテム、蘇生オプション、およびボス戦前の所持品の選択を比較してください。"
+      },
+      {
+        "question": "Block Tales Weapons ガイドは何を説明していますか？",
+        "answer": "Block Tales Weapons ガイドは、剣、ボール、代替武器、SFOTH の剣、剣のエネルギー、入手ルート、最適な使用方法、および注意点を説明しています。"
+      },
+      {
+        "question": "Block Tales Stats and Leveling ガイドで最も重要なステータスは何ですか？",
+        "answer": "Block Tales Stats and Leveling ガイドは、HP、SP、BP、レベルアップの選択肢、ステータス振り直し（respec）オプション、剣のエネルギー、および実用的なビルドルートをカバーしています。"
+      },
+      {
+        "question": "Block Tales Enemy Drops ガイドはファーミングにどう役立ちますか？",
+        "answer": "Block Tales Enemy Drops ガイドは、アイテムドロップ、Cards ドロップ、ファーミング対象、チャプター、ルートのメモをまとめているため、プレイヤーは明確な目標を持って収集を行えます。"
       }
     ]
   },
   "cta": {
-    "title": "Lucid Blocksを探索する準備はできましたか？",
-    "description": "DiscordのLucid Blocksコミュニティに参加して、ガイドや最新情報、ディスカッションをチェックしましょう！",
-    "joinCommunity": "Discordに参加",
-    "joinGame": "Steamでプレイ"
+    "title": "ブロック・テイルズをプレイする準備はできましたか？",
+    "description": "チャプターの更新、ボスの攻略法、Cardsのビルド、BUXのルート、プレイヤーの発見などを求めて、ブロック・テイルズのコミュニティに参加しましょう。",
+    "joinCommunity": "ブロック・テイルズのDiscordに参加する",
+    "joinGame": "Robloxでブロック・テイルズをプレイする"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Lucid Blocksのクラフト、バイオーム、クリーチャー、実績、サバイバルガイドに関する完全なリソースハブです。",
+    "title": "ブロック・テイルズ Wiki",
+    "description": "ブロック・テイルズのチャプター、Cards、ボス、BUXの場所、Badges、アイテム、アップデートガイドの完全なリソースハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam コミュニティ",
-    "steamStore": "Steam ストア",
-    "about": "このサイトについて",
+    "discord": "ブロック・テイルズ Discord",
+    "twitter": "Xのブロック・テイルズ",
+    "reddit": "r/blocktales",
+    "robloxGroup": "Spaceman Moonbase",
+    "robloxGame": "Robloxでプレイ",
+    "about": "概要",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 Lucid Blocks Wiki. Lucid Blocksの開発元とは提携していません。",
+    "copyright": "Copyright 2026 Block Tales Wiki. Roblox CorporationまたはSpaceman Moonbaseとは提携していません。",
     "disclaimer": "非公式のファン作成リソースサイトです。"
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks 攻略ガイド",
-      "description": "初心者向けの基本から、高度な Apotheosis 戦略まで網羅した完全攻略ガイド。サバイバルとクラフトを極めましょう。",
-      "metaTitle": "Lucid Blocks 攻略ガイド - 初心者から上級者向けの戦略",
-      "metaDescription": "初心者向けのヒント、Apotheosis システム、サバイバル戦略、そしてシュールなサンドボックスの世界を攻略するための専門的な戦術を網羅した Lucid Blocks 完全ガイド。",
-      "categoryLabel": "ゲームガイド",
-      "whatIs": "ガイドとは？",
-      "whatIsDescription": "ゲームの仕組み、サバイバル戦略、Apotheosis クラフトシステムを網羅した包括的なガイド。最初の一歩から高度なテクニックまで、すべてを学びましょう。",
-      "why": "なぜガイドを読むのか？",
+    "updates": {
+      "title": "ブロック・テイルズのアップデート",
+      "description": "ブロック・テイルズのDemo 5、チャプターのリリース、ストーリーの書き換え、パッチノート、今後のコンテンツを1つのアップデートハブで確認しましょう。",
+      "metaTitle": "ブロック・テイルズのアップデート - Demo 5、チャプターニュース＆パッチノート",
+      "metaDescription": "Demo 5の範囲、チャプターニュース、パッチノート、ストーリーの書き換え、新しいボス、Cards、アイテム、今後のコンテンツなど、ブロック・テイルズのアップデートを追跡します。",
+      "categoryLabel": "アップデート",
+      "whatIs": "ブロック・テイルズのアップデートとは？",
+      "whatIsDescription": "ブロック・テイルズのアップデートは、リリースのニュース、Demo 5の変更点、チャプターの追加、ストーリーの書き換えノート、新しいボス、バランス調整、将来のコンテンツの兆候をまとめたものです。",
+      "why": "なぜブロック・テイルズのアップデートを読むのか？",
       "whySteps": {
-        "step1Title": "基本システムを学ぶ",
-        "step1Description": "Apotheosis システムを理解し、初心者が陥りやすいミスを回避しましょう",
-        "step2Title": "素早い進行",
-        "step2Description": "シュールな世界で生き残り、繁栄するための実証済みの道筋を辿りましょう",
-        "step3Title": "戦略を極める",
-        "step3Description": "探索とクラフトのための高度な戦術を身につけましょう"
+        "step1Title": "新しいチャプターを追跡する",
+        "step1Description": "どのブロック・テイルズのデモ、チャプター、エリア、ボス、ストーリー展開が公開されたか、または新しく発表されたかを確認します。",
+        "step2Title": "ゲームプレイの変更を確認する",
+        "step2Description": "現在のブロック・テイルズの進行に影響を与えるCards、アイテム、敵、ルート、バランスの変更を追跡します。",
+        "step3Title": "復帰の計画を立てる",
+        "step3Description": "大規模なデモやパッチが到着したときに、どのブロック・テイルズのクエスト、エリア、ビルドを再訪すべきかを知ることができます。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのガイド"
+      "featured": "おすすめ＆必須",
+      "all": "すべてのブロック・テイルズのアップデート"
     },
-    "crafting": {
-      "title": "Lucid Blocks クラフト",
-      "description": "エッセンスの仕組み、レシピ、強力なアイテムを作るためのクラフト戦略など、Apotheosis 合成システムをマスターしましょう。",
-      "metaTitle": "Lucid Blocks クラフト - Apotheosis システムとレシピ",
-      "metaDescription": "Lucid Blocks の Apotheosis クラフトシステムを極める。エッセンスの仕組み、合成レシピ、強力な道具や武器を作るための戦略を学びましょう。",
-      "categoryLabel": "クラフトシステム",
-      "whatIs": "クラフトとは？",
-      "whatIsDescription": "Apotheosis システムは、最大6つのアイテムを組み合わせて新しいレシピを発見する、独自のエッセンス駆動型合成メカニズムです。固定されたクラフトメニューはなく、実験が鍵となります。",
-      "why": "なぜクラフトを極めるのか？",
+    "characters": {
+      "title": "ブロック・テイルズのキャラクター",
+      "description": "ブロック・テイルズのキャラクター、ボス、NPC、ストーリーの役割、遭遇ノート、チャプターごとのキャラクターガイドを探索しましょう。",
+      "metaTitle": "ブロック・テイルズのキャラクター - ボス、NPC＆ストーリーガイド",
+      "metaDescription": "ボス、NPC、ストーリーの役割、場所、遭遇、チャプターの攻略コンテキストを網羅したブロック・テイルズのキャラクターガイドを閲覧できます。",
+      "categoryLabel": "キャラクター",
+      "whatIs": "ブロック・テイルズのキャラクターとは？",
+      "whatIsDescription": "ブロック・テイルズのキャラクターには、チャプターの進行や戦闘計画に関連する主要なストーリーの人物、ボス、味方、NPC、遭遇ターゲットが含まれます。",
+      "why": "なぜブロック・テイルズのキャラクターを調べるのか？",
       "whySteps": {
-        "step1Title": "強力なアイテムをアンロック",
-        "step1Description": "合成を通じて、不可欠な道具、武器、移動用装備を発見しましょう",
-        "step2Title": "エッセンスを理解する",
-        "step2Description": "アイテムのエッセンスがどのように組み合わさり、予測可能な結果を生み出すかを学びましょう",
-        "step3Title": "リソースを最適化",
-        "step3Description": "希釈メカニズムを使用して、安価な材料から出力を最大化しましょう"
+        "step1Title": "ストーリーの役割を理解する",
+        "step1Description": "ブロック・テイルズのキャラクターをチャプター、目的、派閥、主要なストーリーの転換点に結びつけます。",
+        "step2Title": "遭遇に備える",
+        "step2Description": "重要なブロック・テイルズの戦闘やクエストに入る前に、ボスやNPCのコンテキストを確認します。",
+        "step3Title": "主要なNPCを見つける",
+        "step3Description": "キャラクターガイドを使用して、ブロック・テイルズのクエスト依頼者、味方、ショップ、チャプター固有のインタラクションを見つけます。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのクラフトガイド"
+      "featured": "おすすめ＆必須",
+      "all": "すべてのブロック・テイルズのキャラクター"
     },
-    "items": {
-      "title": "Lucid Blocks アイテム",
-      "description": "道具、武器、移動用装備、収納ソリューションを網羅した詳細なアイテムガイド。クラフトレシピや使い方のヒントも掲載。",
-      "metaTitle": "Lucid Blocks アイテム - 道具、武器、装備ガイド",
-      "metaDescription": "道具、武器、移動用装備、収納を含む Lucid Blocks の完全アイテムデータベース。各アイテムを効果的に作り、使用する方法を学びましょう。",
-      "categoryLabel": "アイテム＆装備",
-      "whatIs": "アイテムとは？",
-      "whatIsDescription": "道具、武器、移動用装備、機能的なアイテムに関する包括的なガイド。クラフトレシピ、使用戦略、最適な組み合わせを学びましょう。",
-      "why": "なぜアイテムガイドをチェックするのか？",
+    "guide": {
+      "title": "ブロック・テイルズ ガイド",
+      "description": "進行のヒント、アンロックルート、パズルの答え、アイテムへのアクセス、キーバインド、チャプターのヘルプにブロック・テイルズのガイド記事を活用してください。",
+      "metaTitle": "ブロック・テイルズ ガイド - 進行、アンロック、パズル＆ヒント",
+      "metaDescription": "騎士のアンロック、応急処置、キーバインド、パズルの解決策、材料、アイテムルート、ゲームプレイの基本に関するブロック・テイルズのガイド記事を読みましょう。",
+      "categoryLabel": "ガイド",
+      "whatIs": "ブロック・テイルズ ガイドとは？",
+      "whatIsDescription": "ブロック・テイルズのガイドカテゴリは、メカニクス、アンロック、パズル、キーバインド、消耗品、ルート、チャプターの目的に関する実用的なハウツー記事をカバーしています。",
+      "why": "なぜブロック・テイルズのガイドを使うのか？",
       "whySteps": {
-        "step1Title": "クラフトレシピを学ぶ",
-        "step1Description": "Apotheosis を使用して、不可欠な道具や武器をクラフトする方法を発見しましょう",
-        "step2Title": "装備を最適化",
-        "step2Description": "プレイスタイルや進行状況に合わせて最適なアイテムを選びましょう",
-        "step3Title": "生存率を高める",
-        "step3Description": "移動用装備や武器を装備して、危険な世界を探索しましょう"
+        "step1Title": "進行の詰まりを解消する",
+        "step1Description": "パズル、ロックされた道、レシピ、ルート固有の目的について、ブロック・テイルズの直接的な手順を確認できます。",
+        "step2Title": "便利なツールをアンロックする",
+        "step2Description": "ブロック・テイルズのチャプターをよりスムーズにするCards、アイテム、キーバインド設定、回復オプションを見つけます。",
+        "step3Title": "基本的なプレイを向上させる",
+        "step3Description": "ブロック・テイルズのデモ全体を通じて、タイミング、計画、リソースの使用、探索の習慣を強化します。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのアイテム"
+      "featured": "おすすめ＆必須",
+      "all": "すべてのブロック・テイルズのガイド記事"
     },
-    "biomes": {
-      "title": "Lucid Blocks バイオーム",
-      "description": "世界の各地域、環境の特徴、リソースの場所、各バイオームでのサバイバルのヒントを探索しましょう。",
-      "metaTitle": "Lucid Blocks バイオーム - 世界の地域と探索",
-      "metaDescription": "ティアマナ・レイライン、Fog Meadow、シュールな地域を含む Lucid Blocks のバイオームを探索。リソースを見つけ、危険を回避し、無限の世界を旅しましょう。",
-      "categoryLabel": "世界の地域",
-      "whatIs": "バイオームとは？",
-      "whatIsDescription": "世界のさまざまな地域、環境の特徴、リソースの分布、危険地帯に関するガイド。各エリアで何が待ち受けているか、どのように準備すべきかを学びましょう。",
-      "why": "なぜバイオームを探索するのか？",
+    "cards": {
+      "title": "ブロック・テイルズのCards",
+      "description": "BPの計画、Cardsの効果、戦闘の役割、入手ノート、ビルドの相乗効果でブロック・テイルズのCardsをマスターしましょう。",
+      "metaTitle": "ブロック・テイルズのCards - 効果、場所＆ビルド計画",
+      "metaDescription": "HP Finder、Safe Guard、Aggressor、Griefer、Drawback Cards、BPコスト、効果、場所、ビルドの相乗効果を含むブロック・テイルズのCardsについて学びましょう。",
+      "categoryLabel": "CARDS",
+      "whatIs": "ブロック・テイルズのCardsとは？",
+      "whatIsDescription": "ブロック・テイルズのCardsは、戦闘、防御、ユーティリティ、回復、リスクと報酬の設定、遭遇固有の戦略のための主要なビルドツールです。",
+      "why": "なぜブロック・テイルズのCardsを学ぶのか？",
       "whySteps": {
-        "step1Title": "リソースを見つける",
-        "step1Description": "各地域特有の希少な材料やエッセンスの場所を特定しましょう",
-        "step2Title": "危険を回避",
-        "step2Description": "環境の危険や敵対的な生物について理解しましょう",
-        "step3Title": "探索を計画",
-        "step3Description": "各バイオームのタイプに合わせて、適切な道具と装備を準備しましょう"
+        "step1Title": "ビルドを形作る",
+        "step1Description": "武器、パーティの役割、チャプタールートに合ったCardsにブロック・テイルズのBPを費やします。",
+        "step2Title": "主要な戦闘に対処する",
+        "step2Description": "ボス、隠された遭遇、長いダンジョンルートのために、攻撃、防御、ユーティリティのCardsを選択します。",
+        "step3Title": "Cardsの入手先を見つける",
+        "step3Description": "ブロック・テイルズのCardsガイドを使用して、アンロック要件、場所、クエスト、実用的な使用例を特定します。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのバイオーム"
+      "featured": "おすすめ＆必須",
+      "all": "すべてのブロック・テイルズのCards"
     },
-    "building": {
-      "title": "Lucid Blocks 建築",
-      "description": "クオリア個人次元、拠点建築、収納管理、クリエイティブな建設テクニックをマスターしましょう。",
-      "metaTitle": "Lucid Blocks 建築 - クオリアと拠点建設",
-      "metaDescription": "クオリア個人次元、拠点建設、収納ソリューション、クリエイティブな建築テクニックなど、Lucid Blocks の建築を極めましょう。",
-      "categoryLabel": "建築＆拠点",
-      "whatIs": "建築とは？",
-      "whatIsDescription": "クオリア個人次元システム、拠点建設、収納管理、クリエイティブな建築に関するガイド。シュールな世界の中に自分だけの安息の地を作る方法を学びましょう。",
-      "why": "なぜ拠点を建てるのか？",
+    "builds": {
+      "title": "ブロック・テイルズのビルド",
+      "description": "武器、Cards、BP、SP、パーティの役割、ボス戦略、Demo 5のバランス調整を中心にブロック・テイルズのビルドを計画しましょう。",
+      "metaTitle": "ブロック・テイルズのビルド - 最強Cards、武器＆Demo 5セットアップ",
+      "metaDescription": "Cardsの相乗効果、武器の選択、BP計画、SP管理、ボス戦略、Demo 5のセットアップアドバイスでブロック・テイルズのビルドを作成しましょう。",
+      "categoryLabel": "ビルド",
+      "whatIs": "ブロック・テイルズのビルドとは？",
+      "whatIsDescription": "ブロック・テイルズのビルドは、武器の選択、Cardsの構成、BPの配分、SP管理、アイテム、パーティの役割を1つの集中したプレイスタイルに組み合わせたものです。",
+      "why": "なぜブロック・テイルズのビルドを計画するのか？",
       "whySteps": {
-        "step1Title": "安全な場所を作る",
-        "step1Description": "収納やクラフト作業のための安全な拠点を確立しましょう",
-        "step2Title": "リソースを管理",
-        "step2Description": "収納ソリューションを使用して、材料を効率的に整理しましょう",
-        "step3Title": "クオリアをアンロック",
-        "step3Description": "究極の利便性を備えた個人のポケット次元にアクセスしましょう"
+        "step1Title": "武器に合わせる",
+        "step1Description": "ブロック・テイルズのCardsやリソースを、ボール、ランチャー、サポート、またはその他の武器中心の戦略と組み合わせます。",
+        "step2Title": "BPを効率的に使う",
+        "step2Description": "ブロック・テイルズのダメージ、防御、またはユーティリティ計画をサポートするCardsを選択することで、無駄なBPを避けます。",
+        "step3Title": "ボスに適応する",
+        "step3Description": "ボスのフェーズ、状態異常、クラウドコントロール、長いDemo 5の遭遇に合わせて、ブロック・テイルズのビルドを調整します。"
       },
-      "featured": "注目・必須ガイド",
-      "all": "すべての建築ガイド"
-    },
-    "support": {
-      "title": "Lucid Blocks サポート",
-      "description": "テクニカルサポート、プラットフォームの互換性、パフォーマンスの最適化、一般的な問題のトラブルシューティング。",
-      "metaTitle": "Lucid Blocks サポート - テクニカルヘルプと修正",
-      "metaDescription": "Steam Deck のセットアップ、クラッシュの修正、パフォーマンスの最適化、プラットフォームの互換性ガイドなど、Lucid Blocks のテクニカルサポートを受けられます。",
-      "categoryLabel": "テクニカルサポート",
-      "whatIs": "サポートとは？",
-      "whatIsDescription": "プラットフォームの互換性、パフォーマンスの最適化、クラッシュの修正、一般的な問題を網羅したテクニカルガイド。Steam Deck、マルチプレイヤーに関する質問、設定などのヘルプ。",
-      "why": "なぜサポートをチェックするのか？",
-      "whySteps": {
-        "step1Title": "技術的な問題を解決",
-        "step1Description": "クラッシュ、パフォーマンスの問題、互換性の問題を解決しましょう",
-        "step2Title": "パフォーマンスを最適化",
-        "step2Description": "お使いのプラットフォームで最高の体験を得るために設定を構成しましょう",
-        "step3Title": "プラットフォームの互換性",
-        "step3Description": "Steam Deck、コントローラーのサポート、システム要件について学びましょう"
-      },
-      "featured": "注目・必須ガイド",
-      "all": "すべてのサポート記事"
+      "featured": "おすすめ＆必須",
+      "all": "すべてのブロック・テイルズのビルド"
     }
   }
 }

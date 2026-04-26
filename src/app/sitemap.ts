@@ -12,28 +12,17 @@ const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'mo
 	'copyright': { priority: 0.3, changeFrequency: 'yearly' },
 }
 
-// 内容类型优先级配置
-const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+function getContentTypePriority(contentType: ContentType): number {
+	if (contentType === 'updates' || contentType === 'guide') return 0.9
+	if (contentType === 'cards' || contentType === 'builds') return 0.8
+	if (contentType === 'characters') return 0.75
+	return 0.7
 }
 
-// 内容更新频率配置
-const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+function getContentTypeChangeFrequency(contentType: ContentType): 'daily' | 'weekly' | 'monthly' {
+	if (contentType === 'updates') return 'daily'
+	if (contentType === 'guide' || contentType === 'cards' || contentType === 'builds') return 'weekly'
+	return 'monthly'
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -78,8 +67,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 							: `${BASE_URL}/${locale}/${contentType}/${article.slug}`
 
 					// 获取该内容类型的优先级和更新频率
-					const priority = contentTypePriority[contentType] || 0.7
-					const changeFrequency = contentTypeChangeFrequency[contentType] || 'weekly'
+					const priority = getContentTypePriority(contentType as ContentType)
+					const changeFrequency = getContentTypeChangeFrequency(contentType as ContentType)
 
 					sitemap.push({
 						url: articleUrl,

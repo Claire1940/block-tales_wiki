@@ -1,9 +1,3267 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Block Tales - Guia de Cards, Chefes e Capítulos",
+      "description": "Explore a Wiki de Block Tales para encontrar cards, chefes, capítulos, badges, BUX, armas, locais, dicas para iniciantes e atualizações para o RPG de turno do Roblox.",
+      "keywords": "Block Tales Wiki, cards de Block Tales, chefes de Block Tales, capítulos de Block Tales, BUX de Block Tales, badges de Block Tales, guia RPG Roblox, builds de Block Tales",
+      "ogTitle": "Wiki de Block Tales - Guia de Cards, Chefes e Capítulos",
+      "ogDescription": "Explore a Wiki de Block Tales para encontrar cards, chefes, capítulos, badges, BUX, armas, locais, dicas para iniciantes e atualizações para o RPG de turno do Roblox.",
+      "twitterTitle": "Wiki de Block Tales - Guia de Cards, Chefes e Capítulos",
+      "twitterDescription": "A Wiki de Block Tales cobre cards, chefes, capítulos, badges, BUX, armas, locais, dicas para iniciantes e atualizações do RPG do Roblox."
+    }
+  },
   "nav": {
-    "updates": "Updates",
-    "characters": "Characters",
-    "guide": "Guide",
+    "updates": "Atualizações",
+    "characters": "Personagens",
+    "guide": "Guia",
     "cards": "Cards",
     "builds": "Builds"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais"
+  },
+  "hero": {
+    "badge": "RPG de Turno Retrô no Roblox",
+    "title": "Wiki de Block Tales",
+    "description": "A Wiki de Block Tales ajuda os jogadores a dominar o RPG de turno retrô do Roblox com detonados de capítulos, cards, chefes, localizações de BUX, badges e guias de atualização.",
+    "getFreeCodesCTA": "Ver Guias de Block Tales",
+    "playOnRobloxCTA": "Jogar Block Tales no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "117M+",
+        "label": "Visitas Totais"
+      },
+      "stat2": {
+        "value": "84K+",
+        "label": "Jogadores Ativos"
+      },
+      "stat3": {
+        "value": "781K+",
+        "label": "Favoritos"
+      },
+      "stat4": {
+        "value": "95%",
+        "label": "Avaliação"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Block Tales",
+    "description": "Explore um RPG retrô no Roblox construído em torno de rotas de capítulos, batalhas de turno, cards, chefes, badges, BUX e atualizações de história."
+  },
+  "tools": {
+    "title": "Block Tales",
+    "titleHighlight": "Módulos de Guia",
+    "subtitle": "Pule para o módulo de Block Tales que você precisa: códigos, ajuda para iniciantes, Demo 5, detonado, cards, chefes, badges, itens, armas, atributos, drops, locais, The Pit, atualizações ou resumo da história.",
+    "cards": [
+      {
+        "icon": "ClipboardCheck",
+        "title": "Códigos de Block Tales",
+        "description": "Status atual de recompensas do jogo principal e canais oficiais de atualização"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Block Tales",
+        "description": "HP, SP, BP, cards, bloqueio e prioridades de rota iniciais"
+      },
+      {
+        "icon": "Clock",
+        "title": "Guia da Demo 5 de Block Tales",
+        "description": "Capítulo Cinco, Trouble on the Heights, Windforce e mudanças de reescrita"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Detonado de Block Tales",
+        "description": "Notas de rota capítulo por capítulo, do Prólogo ao Capítulo Cinco"
+      },
+      {
+        "icon": "Package",
+        "title": "Guia de Cards de Block Tales",
+        "description": "Tipos de cards, custos de BP, uso de SP, fontes de desbloqueio e funções de combate"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Tier List de Cards de Block Tales",
+        "description": "Rankings de cards baseados em cenários para chefes, The Pit e builds de equipe"
+      },
+      {
+        "icon": "Shield",
+        "title": "Guia de Chefes de Block Tales",
+        "description": "Mecânicas de chefes, localizações de capítulos, cards recomendados e planos de luta"
+      },
+      {
+        "icon": "Star",
+        "title": "Guia de Badges de Block Tales",
+        "description": "Objetivos de badges de história, ocultas, coleção, Hard Mode e Demo 5"
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "Guia de Itens de Block Tales",
+        "description": "Comidas de cura, restauradores de SP, itens de ataque, buffs e escolhas de preparação para chefes"
+      },
+      {
+        "icon": "Swords",
+        "title": "Guia de Armas de Block Tales",
+        "description": "Espada, Bola, armas de substituição, espadas SFOTH e Sword Energy"
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Guia de Atributos e Nível de Block Tales",
+        "description": "HP, SP, BP, Level Up, respec, Sword Energy e rotas de build"
+      },
+      {
+        "icon": "Gem",
+        "title": "Guia de Drops de Inimigos de Block Tales",
+        "description": "Drops de itens, cards raros, alvos de farming, capítulos e notas de rota"
+      },
+      {
+        "icon": "Map",
+        "title": "Guia de Locais e Mapa de Block Tales",
+        "description": "Bizville, rotas de capítulos, lojas, entradas de chefes e links de viagem"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Guia de Pit of 100 Trials de Block Tales",
+        "description": "Intervalos de andares, temas de inimigos, checkpoints, recompensas e notas de preparação"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Atualizações e Notas de Patch de Block Tales",
+        "description": "Demo 5, lançamentos de capítulos, mudanças de balanceamento, novos cards e itens"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Resumo da História e Lore de Block Tales",
+        "description": "Ordem da história dos capítulos, espadas SFOTH, personagens principais e locais"
+      }
+    ]
+  },
+  "modules": {
+    "codes": {
+      "eyebrow": "Códigos e Recompensas",
+      "title": "Códigos de Block Tales",
+      "subtitle": "Acompanhe as recompensas resgatáveis para o RPG principal de Block Tales e mantenha os códigos de spin-offs fora da lista.",
+      "intro": "Use este módulo de Códigos de Block Tales para o RPG de turno principal do Roblox. Ele separa a experiência principal de Block Tales de spin-offs com nomes semelhantes e oferece aos jogadores um lugar limpo para verificar o status das recompensas.",
+      "statusCard": {
+        "code": "STATUS DE CÓDIGOS DO JOGO PRINCIPAL",
+        "status": "Status atual",
+        "reward": "Nenhum código de resgate ativo para o RPG principal está listado no momento para Block Tales.",
+        "howToUse": "Use este status antes de adicionar qualquer card de recompensa. Adicione um código real de Block Tales apenas após ele aparecer no jogo oficial, na comunidade de desenvolvedores ou em anúncios de atualização."
+      },
+      "items": [
+        {
+          "code": "PÁGINA DO JOGO NO ROBLOX",
+          "status": "Entrada primária",
+          "reward": "Confirma que a experiência jogável é Block Tales [DEMO 5] por Spaceman Moonbase.",
+          "howToUse": "Verifique a página do jogo primeiro quando um novo evento, recompensa ou atualização de demo aparecer."
+        },
+        {
+          "code": "SPACEMAN MOONBASE",
+          "status": "Comunidade de desenvolvedores",
+          "reward": "Atualizações da comunidade de desenvolvedores para Block Tales.",
+          "howToUse": "Verifique os anúncios da comunidade quando uma nova campanha de recompensa ou atualização for lançada."
+        },
+        {
+          "code": "@BlocktalesDev",
+          "status": "Atualizações do desenvolvedor",
+          "reward": "Avisos de lançamento, teasers e postagens de atualização sensíveis ao tempo, como a Demo 5.",
+          "howToUse": "Use este canal para rastreamento rápido de atualizações quando uma nova demo, capítulo ou evento for anunciado."
+        },
+        {
+          "code": "NOTAS DE LANÇAMENTO",
+          "status": "Notas de patch",
+          "reward": "Notas de atualização públicas para novos capítulos, cards, itens, inimigos e mudanças de balanceamento.",
+          "howToUse": "Use as notas de lançamento para separar o conteúdo real de atualização de Block Tales de conversas sobre recompensas."
+        },
+        {
+          "code": "SEPARAÇÃO DE TOWER DEFENSE",
+          "status": "Experiência diferente",
+          "reward": "Códigos de Block Tales Tower Defense não são resgatáveis no RPG principal de Block Tales.",
+          "howToUse": "Mantenha códigos de dinheiro ou brindes de Tower Defense fora deste rastreador de códigos do jogo principal."
+        }
+      ]
+    },
+    "beginnerGuide": {
+      "eyebrow": "Guia de Início",
+      "title": "Guia para Iniciantes de Block Tales",
+      "subtitle": "Aprenda o ciclo principal de Block Tales: explore capítulos, lute em batalhas de turno, suba de nível e monte seu conjunto de cards.",
+      "intro": "Block Tales é um RPG de turno no Roblox inspirado em combates de RPG clássicos e progressão baseada em capítulos. Novos jogadores devem primeiro entender HP, SP, BP, cards, bloqueio e a rota inicial do Prólogo ao Capítulo Um.",
+      "steps": [
+        {
+          "title": "Comece pelo Prólogo",
+          "goal": "Aprenda a configuração da história e os controles básicos.",
+          "details": "A história principal de Block Tales começa depois que o Jogador é enviado de volta para 2010, acorda no quarto do Tutorial Terry e é direcionado para o QG do Roblox. O Prólogo ensina combate real, investida (dash), subida de nível, a Espada de Madeira e o primeiro tutorial de cards.",
+          "beginnerTip": "Siga as orientações da história antes de fazer grind; as mecânicas iniciais são introduzidas através da própria rota."
+        },
+        {
+          "title": "Entenda HP, SP e BP",
+          "goal": "Saiba o que cada atributo principal controla antes de escolher as recompensas de subida de nível.",
+          "details": "HP é a vida do Jogador e começa em 10. SP é gasto em habilidades de cards em batalha, enquanto BP controla quantos cards podem ser equipados.",
+          "beginnerTip": "Escolha HP quando a sobrevivência parecer difícil, SP quando usar cards ativos com frequência e BP quando seu deck precisar de mais espaço."
+        },
+        {
+          "title": "Use Cards como seu Sistema de Build",
+          "goal": "Equipe cards para mudar ataques, utilidade, defesa e estratégia.",
+          "details": "Cards podem ser obtidos de personagens, locais, lojas e drops de inimigos. Muitos cards exigem BP para equipar, e cards ativos geralmente gastam SP quando usados em combate.",
+          "beginnerTip": "Jogadores iniciantes de Block Tales devem manter um deck simples: um card de ataque principal, uma opção defensiva e um card de utilidade."
+        },
+        {
+          "title": "Pratique o Combate de Turno",
+          "goal": "Vença lutas acertando o tempo dos ataques, bloqueando e usando a ação correta.",
+          "details": "O combate usa ações de turno para atacar, defender, ajudar aliados e usar cards. Os medidores de HP e SP ficam na parte inferior da tela de batalha, e o bloqueio reduz o dano recebido quando bem cronometrado.",
+          "beginnerTip": "Trate o bloqueio como uma habilidade essencial de Block Tales; ele economiza mais recursos do que curar repetidamente."
+        },
+        {
+          "title": "Siga a Rota do Capítulo Um",
+          "goal": "Mova-se do Prólogo para o primeiro capítulo completo sem se perder.",
+          "details": "Depois de Noobador, o Jogador entra nas cavernas, aprende mais interações com a bola, chega a Roadtown, procura pelo Contador Jim, usa Dinamite e avança em direção ao Castelo Blackrock.",
+          "beginnerTip": "Quando um caminho parecer bloqueado, revise sua ferramenta de campo ou card mais recente; obstáculos iniciais geralmente ensinam uma nova interação."
+        },
+        {
+          "title": "Suba de Nível com um Plano",
+          "goal": "Use cada escolha de subida de nível de 100 XP para apoiar seu estilo de jogo.",
+          "details": "Uma subida de nível consome 100 XP e permite aos jogadores aumentar o HP em 5, o SP em 5 ou o BP em 3. O atributo melhorado é restaurado ao seu novo limite após a escolha.",
+          "beginnerTip": "Uma progressão inicial equilibrada em Block Tales funciona bem: pegue HP para segurança, depois BP assim que tiver cards úteis suficientes para equipar."
+        }
+      ]
+    },
+    "demo5Guide": {
+      "eyebrow": "Atualização Demo 5",
+      "title": "Guia da Demo 5 de Block Tales",
+      "subtitle": "Uma visão geral para o jogador sobre a Demo 5, Capítulo Cinco, Trouble on the Heights, Windforce e a atualização de reescrita.",
+      "intro": "A Demo 5 é a atualização de 25 de abril de 2026 de Block Tales que adiciona o Capítulo Cinco e uma ampla revisão de reescrita. Este módulo ajuda os jogadores que estão retornando a ver rapidamente o que mudou, o que jogar primeiro e quais novos sistemas merecem atenção.",
+      "items": [
+        {
+          "date": "25 de abril de 2026",
+          "title": "Demo 5 - Lançamento do Capítulo 5 + Reescrita",
+          "summary": "Block Tales recebeu a Demo 5 com o Capítulo Cinco e o lançamento da reescrita.",
+          "highlights": [
+            "Capítulo Cinco adicionado",
+            "Trouble on the Heights adicionado",
+            "Atualização de reescrita lançada"
+          ]
+        },
+        {
+          "date": "Demo 5",
+          "title": "Capítulo Cinco: Trouble on the Heights",
+          "summary": "O Capítulo Cinco continua a estrutura principal de capítulos e centraliza a nova rota em direção a Heights e Windforce.",
+          "highlights": [
+            "Nova entrada de capítulo",
+            "Progressão de Windforce",
+            "Novos recursos de introdução e final do Capítulo Cinco"
+          ]
+        },
+        {
+          "date": "Demo 5",
+          "title": "Novo Conteúdo Jogável",
+          "summary": "A atualização adiciona novos conteúdos importantes de progressão para jogadores que retornam ao Block Tales.",
+          "highlights": [
+            "10 novos andares do Pit",
+            "26 novos inimigos",
+            "22 novos itens",
+            "12 novos cards",
+            "Banco de Bizville"
+          ]
+        },
+        {
+          "date": "Demo 5",
+          "title": "Adições de Qualidade de Vida",
+          "summary": "A Demo 5 melhora os sistemas de salvamento, inventário e personalização de avatar.",
+          "highlights": [
+            "Nomear arquivos de salvamento",
+            "Armazenar todos os itens",
+            "Avatar Flavors",
+            "Idle Flavors para animações de desmaio",
+            "Animações de Power Shot"
+          ]
+        },
+        {
+          "date": "Demo 5",
+          "title": "Mudanças na Reescrita da História",
+          "summary": "A reescrita expande a apresentação da história e ajusta cenas anteriores.",
+          "highlights": [
+            "Cenas da Figura Misteriosa adicionadas",
+            "Diálogos reescritos para vários personagens",
+            "Novas cutscenes nos Capítulos 2 e 4",
+            "Cutscene final do Capítulo 4 atualizada",
+            "Vozes substituídas por Visões"
+          ]
+        },
+        {
+          "date": "Demo 5",
+          "title": "Ajustes de Combate e Cards",
+          "summary": "A atualização altera várias interações de combate e sistemas relacionados a cards.",
+          "highlights": [
+            "Estilingue e Dinamite recebem um novo comando de ação",
+            "O quique da Hyperball torna-se uma ação",
+            "Thorns reformulado",
+            "Drops de TIX ajustados",
+            "Ícones de inimigos atualizados"
+          ]
+        }
+      ]
+    },
+    "walkthrough": {
+      "eyebrow": "Detonado da História",
+      "title": "Detonado de Block Tales",
+      "subtitle": "Siga a rota principal de Block Tales desde o Pré-Prólogo e Prólogo até o Capítulo Cinco.",
+      "intro": "Este módulo de detonado organiza Block Tales por capítulo da história para que os jogadores possam pular para o ponto exato onde estão travados. Cada card de capítulo foca no objetivo principal, áreas importantes, desbloqueios principais e lutas importantes.",
+      "chapters": [
+        {
+          "chapter": "Pré-Prólogo",
+          "title": "Comparecer ao VIP",
+          "mainObjective": "Chegue à Convenção VIP do Roblox, aprenda a configuração da história e desencadeie o incidente de viagem no tempo.",
+          "keyAreas": [
+            "Hotel",
+            "QG do Roblox",
+            "Convenção VIP"
+          ],
+          "keyUnlocks": [
+            "Tutorial de combate de abertura",
+            "Momento do tutorial da Superball"
+          ],
+          "majorFights": [
+            "Helmet Noob",
+            "Nooblet"
+          ],
+          "routeTip": "Use este segmento de Block Tales como a introdução da história antes do início da aventura principal de 2010."
+        },
+        {
+          "chapter": "Prólogo: Hello World!",
+          "title": "Comece a Aventura de 2010",
+          "mainObjective": "Acorde no quarto do Tutorial Terry, chegue ao QG do Roblox, resgate Shedletsky e persiga Red Noob, Blue Noob e Noobador.",
+          "keyAreas": [
+            "Quarto do Tutorial Terry",
+            "Leste de Bizville",
+            "QG do Roblox",
+            "Campos de Bizville"
+          ],
+          "keyUnlocks": [
+            "Espada de Madeira",
+            "Power Stab",
+            "Tutorial de cards"
+          ],
+          "majorFights": [
+            "Red Noob & Blue Noob",
+            "Noobador"
+          ],
+          "routeTip": "Quebre tábuas de madeira com a Espada de Madeira e trate o Power Stab como seu primeiro upgrade real de dano."
+        },
+        {
+          "chapter": "Capítulo Um: Storming the Castle",
+          "title": "Recupere a Adaga de Gelo",
+          "mainObjective": "Viaje das cavernas para Roadtown, resgate o Contador Jim, entre no Castelo Blackrock e derrote o Rei Cruel.",
+          "keyAreas": [
+            "Cavernas Geladas",
+            "Roadtown",
+            "Bosque Nevado",
+            "Castelo Blackrock"
+          ],
+          "keyUnlocks": [
+            "Tutorial de interação com bola",
+            "Dinamite",
+            "Adaga de Gelo"
+          ],
+          "majorFights": [
+            "Formiga Suprema",
+            "Cavaleiro Banido",
+            "Killbot Espinhoso",
+            "Estátua Sentiente",
+            "Rei Cruel"
+          ],
+          "routeTip": "Quando o caminho do castelo estiver bloqueado, procure por rotas de quebra-cabeça pelo porão, sótão, arsenal, lanchonete e cozinha."
+        },
+        {
+          "chapter": "Capítulo Dois: A Toxic Time",
+          "title": "Persiga a Venomshank",
+          "mainObjective": "Voe para Plainstown, viaje pela savana e floresta tropical, persiga Griefer e termine o capítulo da Venomshank.",
+          "keyAreas": [
+            "Plainstown",
+            "Savana",
+            "Formigueiro",
+            "Turitopulis",
+            "Floresta Tropical Acidentada",
+            "Mangueira",
+            "Vão Sagrado",
+            "Crib do Griefer"
+          ],
+          "keyUnlocks": [
+            "Encolhimento",
+            "Botas de Foguete",
+            "Espada de Ferro",
+            "Venomshank"
+          ],
+          "majorFights": [
+            "Dragão de Komodo",
+            "Griefer",
+            "Pé Grande",
+            "Planta Bubônica"
+          ],
+          "routeTip": "As Botas de Foguete e a Espada de Ferro resolvem bloqueios de rota, então revisite caminhos divididos após cada desbloqueio."
+        },
+        {
+          "chapter": "Capítulo Três: All Hallows' Eve",
+          "title": "Entre na Mansão de Telamon",
+          "mainObjective": "Pegue o trem para Spooksville, chegue à Mansão de Telamon, prepare a Poção Fantasma, entre nas catacumbas e enfrente a rota da Ghostwalker.",
+          "keyAreas": [
+            "Ferrovias de Bizville",
+            "Trem",
+            "Spooksville",
+            "Mansão de Telamon",
+            "Mansão Assombrada",
+            "Catacumbas",
+            "Mundo dos Sonhos"
+          ],
+          "keyUnlocks": [
+            "Call: Red n' Blue",
+            "Poção Fantasma",
+            "Hyperball",
+            "Ghostwalker"
+          ],
+          "majorFights": [
+            "Bandido de Capacete",
+            "Green Noob & Purple Noob",
+            "Peru Vivo",
+            "Slasher"
+          ],
+          "routeTip": "A rota da mansão é cheia de quebra-cabeças; acompanhe os ingredientes culinários, interações com fantasmas e quebras de chão com a Hyperball."
+        },
+        {
+          "chapter": "Capítulo Quatro: Excavation Exploration",
+          "title": "Busque a Firebrand",
+          "mainObjective": "Atravesse a rota do deserto, trabalhe pela Tumba Antiga e pelo caminho do templo do Sol Vermelho, depois complete o capítulo da Firebrand.",
+          "keyAreas": [
+            "Dunas Escaldantes",
+            "Tumba Antiga",
+            "Oásis",
+            "Vila Vermillion",
+            "Acampamento Pirata",
+            "Templo do Sol Vermelho",
+            "Monte Sol Vermelho"
+          ],
+          "keyUnlocks": [
+            "Navio na Garrafa",
+            "Pá",
+            "Firebrand"
+          ],
+          "majorFights": [
+            "O Grande Flocci",
+            "Capitão Trotter",
+            "Os Anciões"
+          ],
+          "routeTip": "Espere mais quebra-cabeças ambientais neste capítulo de Block Tales, incluindo seções de travessia de navio, areia, tocha, luz e montanha."
+        },
+        {
+          "chapter": "Capítulo Cinco: Trouble on the Heights",
+          "title": "Jogue a Rota da Demo 5",
+          "mainObjective": "Continue do Capítulo Quatro para o novo capítulo da Demo 5 e avance em direção a Heights e Windforce.",
+          "keyAreas": [
+            "The Heights",
+            "Rota de Sword Fight on the Heights"
+          ],
+          "keyUnlocks": [
+            "Windforce",
+            "Novos cards",
+            "Novos itens"
+          ],
+          "majorFights": [
+            "Inimigos e chefes da Demo 5"
+          ],
+          "routeTip": "Use o módulo da Demo 5 de Block Tales primeiro para ver as mudanças da atualização, depois siga o card da rota do capítulo para a progressão exata."
+        }
+      ]
+    },
+    "cardsGuide": {
+      "eyebrow": "Cards & Builds",
+      "title": "Block Tales Cards Guide",
+      "subtitle": "Browse the core Block Tales card system by card type, BP cost, SP cost, unlock source, and combat role. Use it to plan early-game decks, boss builds, support builds, and The Pit loadouts.",
+      "intro": "Cards are the main build system in Block Tales. They can add new battle actions, upgrade weapons, improve defense, generate SP, support allies, change field movement, or increase difficulty for extra challenge. Most cards cost Build Points to equip, and BP can be refunded by removing cards from a build.",
+      "items": [
+        {
+          "name": "Build Points",
+          "category": "System",
+          "type": "Deck resource",
+          "bp_cost": "Maximum 30 BP",
+          "activation_cost": "None",
+          "stacking": "Level-up BP choices increase maximum BP by 3 until the 30 BP cap.",
+          "how_to_get": "Choose BP when leveling up; removing equipped cards refunds the BP they cost.",
+          "combat_role": "Controls how many cards can fit into one build and is the main limit on card combinations.",
+          "tags": [
+            "BP",
+            "deck building",
+            "build planning"
+          ]
+        },
+        {
+          "name": "Action Cards",
+          "category": "Card Type",
+          "type": "Battle action",
+          "bp_cost": "Varies by card",
+          "activation_cost": "Usually SP",
+          "stacking": "Many Action Cards can stack to improve effects or change SP cost.",
+          "how_to_get": "Found in locations, bought from card sellers, received from characters, or dropped by enemies.",
+          "combat_role": "Adds selectable combat moves such as healing, status effects, support, or stronger attacks.",
+          "tags": [
+            "action",
+            "SP",
+            "combat menu"
+          ]
+        },
+        {
+          "name": "Passive Cards",
+          "category": "Card Type",
+          "type": "Equipped passive",
+          "bp_cost": "Varies by card",
+          "activation_cost": "None",
+          "stacking": "Some passives stack; others are single-copy build-defining cards.",
+          "how_to_get": "Found, bought, unlocked from boss rewards, or earned from special encounters.",
+          "combat_role": "Changes stats, SP economy, damage output, guard strength, item value, or battle-start effects.",
+          "tags": [
+            "passive",
+            "build",
+            "stats"
+          ]
+        },
+        {
+          "name": "Ball",
+          "category": "Weapon",
+          "type": "Default ranged weapon",
+          "bp_cost": "0 BP",
+          "activation_cost": "None",
+          "stacking": "Default weapon card.",
+          "how_to_get": "Received from JParty.",
+          "combat_role": "Ranged attack that can choose targets, hit Flying enemies, and use the action command second hit to ignore defense.",
+          "tags": [
+            "ball",
+            "ranged",
+            "flying enemies"
+          ]
+        },
+        {
+          "name": "Sword",
+          "category": "Weapon",
+          "type": "Default melee weapon",
+          "bp_cost": "0 BP",
+          "activation_cost": "None",
+          "stacking": "Default weapon card.",
+          "how_to_get": "Received from Shedletsky after defeating Red Noob and Blue Noob.",
+          "combat_role": "Melee attack that pierces part of enemy defense and becomes the base for Sword-slot attack cards.",
+          "tags": [
+            "sword",
+            "melee",
+            "defense pierce"
+          ]
+        },
+        {
+          "name": "Daze",
+          "category": "Attack",
+          "type": "Sword Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Found on Pit Floor 10 and in Splintered Skies, or bought from Sketchy Figure and Wealthy Merchant.",
+          "combat_role": "Applies Dizzy and deals splash damage to the enemy behind the target, making it valuable against dangerous attackers and grouped enemies.",
+          "tags": [
+            "sword",
+            "status",
+            "Dizzy"
+          ]
+        },
+        {
+          "name": "Minimize",
+          "category": "Attack",
+          "type": "Status Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Desna or Gene, and dropped by several noob enemies.",
+          "combat_role": "Applies Small for several turns, lowering threat from enemies that rely on direct attacks.",
+          "tags": [
+            "status",
+            "Small",
+            "control"
+          ]
+        },
+        {
+          "name": "Charge",
+          "category": "Attack",
+          "type": "Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "3 SP",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Bought from Wealthy Merchant or Sketchy Figure.",
+          "combat_role": "Adds +2 attack to the next hit, useful for burst turns, single-target boss damage, and stacked damage builds.",
+          "tags": [
+            "burst",
+            "damage",
+            "boss"
+          ]
+        },
+        {
+          "name": "Charge DEF",
+          "category": "Defense",
+          "type": "Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "3 SP",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Bought from Gene or Banished Knight.",
+          "combat_role": "Grants Halved Damage for three turns, helping survive boss burst windows and Hard Mode encounters.",
+          "tags": [
+            "defense",
+            "Halved Damage",
+            "boss"
+          ]
+        },
+        {
+          "name": "Cure",
+          "category": "Support",
+          "type": "Healing Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Desna or Tai.",
+          "combat_role": "Heals a target for 5 HP, trading offensive power for reliable recovery in long fights and multiplayer support.",
+          "tags": [
+            "healing",
+            "support",
+            "party"
+          ]
+        },
+        {
+          "name": "Feel Fine",
+          "category": "Support",
+          "type": "Status-cleanse Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Found in Outer Scorched Dunes, bought from Gene or Tai, and dropped by status-themed enemies.",
+          "combat_role": "Cures and prevents status ailments for several turns, especially useful in fights with Burn, Dizzy, Freeze, Poison, or other control effects.",
+          "tags": [
+            "status cleanse",
+            "Fine",
+            "boss"
+          ]
+        },
+        {
+          "name": "Bodyguard",
+          "category": "Support",
+          "type": "Protection Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Wealthy Merchant or Sketchy Figure.",
+          "combat_role": "Redirects part of an ally's incoming enemy damage to the user for three turns, making it a strong multiplayer protection tool.",
+          "tags": [
+            "multiplayer",
+            "tank",
+            "support"
+          ]
+        },
+        {
+          "name": "Good Vibes",
+          "category": "Support",
+          "type": "Party sustain Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "3 SP",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Bought from Sketchy Figure or Amber.",
+          "combat_role": "Puts the user to sleep while restoring HP and SP to the party each turn, turning one player into a sustain engine.",
+          "tags": [
+            "party sustain",
+            "SP",
+            "HP"
+          ]
+        },
+        {
+          "name": "Resurrect",
+          "category": "Support",
+          "type": "Revive Action Card",
+          "bp_cost": "2 BP",
+          "activation_cost": "3 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Sketchy Figure or Tai.",
+          "combat_role": "Revives a downed ally with 5 HP and can also trigger a self-revive once per battle when enough SP is available.",
+          "tags": [
+            "revive",
+            "boss",
+            "party"
+          ]
+        },
+        {
+          "name": "Sacrifice",
+          "category": "Support",
+          "type": "Party healing Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "5 HP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Banished Knight or Sketchy Figure.",
+          "combat_role": "Spends the user's HP to heal the rest of the party, useful when one player is built to tank or recover safely.",
+          "tags": [
+            "party heal",
+            "HP cost",
+            "support"
+          ]
+        },
+        {
+          "name": "Pity SP",
+          "category": "Support",
+          "type": "Emergency SP Action Card",
+          "bp_cost": "0 BP",
+          "activation_cost": "10 HP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Sketchy Figure or Wealthy Merchant.",
+          "combat_role": "Converts HP into 5 SP, allowing emergency SP recovery when a build needs one more action to heal, revive, or defend.",
+          "tags": [
+            "SP recovery",
+            "emergency",
+            "0 BP"
+          ]
+        },
+        {
+          "name": "SP Wire",
+          "category": "Support",
+          "type": "SP transfer Action Card",
+          "bp_cost": "0 BP",
+          "activation_cost": "5 SP",
+          "stacking": "Stacks up to 5 copies.",
+          "how_to_get": "Bought from Gene or Wealthy Merchant.",
+          "combat_role": "Transfers 5 SP from the user to another party member, useful in coordinated teams where one player carries key actions.",
+          "tags": [
+            "SP transfer",
+            "team",
+            "0 BP"
+          ]
+        },
+        {
+          "name": "Launcher",
+          "category": "Weapon",
+          "type": "Ball replacement",
+          "bp_cost": "3 BP",
+          "activation_cost": "None",
+          "stacking": "Single weapon replacement.",
+          "how_to_get": "Bought from Tai or Banished Knight.",
+          "combat_role": "Replaces Ball with an explosive area attack that can apply Defense Down, trading simplicity for stronger multi-enemy pressure.",
+          "tags": [
+            "launcher",
+            "AOE",
+            "weapon replacement"
+          ]
+        },
+        {
+          "name": "Slingshot",
+          "category": "Weapon",
+          "type": "Sword replacement",
+          "bp_cost": "3 BP",
+          "activation_cost": "None",
+          "stacking": "Single weapon replacement.",
+          "how_to_get": "Bought from Tai or Banished Knight.",
+          "combat_role": "Replaces Sword with a ranged multi-pellet attack that gains damage but struggles against enemies with defense unless supported by other cards.",
+          "tags": [
+            "slingshot",
+            "ranged",
+            "weapon replacement"
+          ]
+        },
+        {
+          "name": "Bombardment",
+          "category": "Attack",
+          "type": "Launcher Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "2 SP",
+          "stacking": "Launcher-specific action.",
+          "how_to_get": "Bought from Valor.",
+          "combat_role": "Hits all enemies and pierces up to 2 defense, but failing the action command leaves the user Exhausted.",
+          "tags": [
+            "launcher",
+            "AOE",
+            "defense pierce"
+          ]
+        },
+        {
+          "name": "Hitmarker",
+          "category": "Attack",
+          "type": "Launcher Action Card",
+          "bp_cost": "1 BP",
+          "activation_cost": "3 SP",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Bought from Banished Knight.",
+          "combat_role": "Adds an Ankh effect to the Launcher gameplan, helping set up safer damage cycles against high-pressure enemies.",
+          "tags": [
+            "launcher",
+            "Ankh",
+            "setup"
+          ]
+        },
+        {
+          "name": "Defend",
+          "category": "Strategy",
+          "type": "Default strategy card",
+          "bp_cost": "0 BP",
+          "activation_cost": "None",
+          "stacking": "Default strategy option.",
+          "how_to_get": "Available as a strategy action.",
+          "combat_role": "Restores SP, improves guard timing, and adds hidden damage reduction for the turn, making it a core survival action.",
+          "tags": [
+            "guard",
+            "SP",
+            "survival"
+          ]
+        },
+        {
+          "name": "Focus",
+          "category": "Strategy",
+          "type": "Sword Energy strategy card",
+          "bp_cost": "0 BP",
+          "activation_cost": "None",
+          "stacking": "Improved by Deep Focus.",
+          "how_to_get": "Available as a strategy action.",
+          "combat_role": "Builds Sword Energy for special attacks, with extra value when combined with Deep Focus.",
+          "tags": [
+            "Sword Energy",
+            "specials",
+            "Deep Focus"
+          ]
+        },
+        {
+          "name": "Knight",
+          "category": "Passive",
+          "type": "Sword build passive",
+          "bp_cost": "3 BP",
+          "activation_cost": "None",
+          "stacking": "Single build-defining passive.",
+          "how_to_get": "Bought from Wealthy Merchant in Vermillion Village.",
+          "combat_role": "Adds Sword or weapon-replacement damage while disabling the Ball slot, making it a core card for melee-focused builds.",
+          "tags": [
+            "Knight build",
+            "damage",
+            "Sword"
+          ]
+        },
+        {
+          "name": "Baller",
+          "category": "Passive",
+          "type": "Ball build passive",
+          "bp_cost": "3 BP",
+          "activation_cost": "None",
+          "stacking": "Single build-defining passive.",
+          "how_to_get": "Bought from Wealthy Merchant.",
+          "combat_role": "Adds Ball or weapon-replacement damage while disabling the Sword slot, making it a core card for ranged-focused builds.",
+          "tags": [
+            "Baller build",
+            "damage",
+            "Ball"
+          ]
+        },
+        {
+          "name": "Aggressor",
+          "category": "Passive",
+          "type": "Damage passive",
+          "bp_cost": "4 BP",
+          "activation_cost": "None",
+          "stacking": "Single-copy passive.",
+          "how_to_get": "Received from Finn McCool after defeating him.",
+          "combat_role": "Adds damage but disables rolling HP, making it powerful for confident players and risky in very hard content.",
+          "tags": [
+            "damage",
+            "high risk",
+            "Finn McCool"
+          ]
+        },
+        {
+          "name": "Ante Up",
+          "category": "Passive",
+          "type": "Precision damage passive",
+          "bp_cost": "4 BP",
+          "activation_cost": "None",
+          "stacking": "Single-copy passive.",
+          "how_to_get": "Bought from Sketchy Figure.",
+          "combat_role": "Adds damage while shrinking timing windows and making failed attacks deal no damage, rewarding clean action-command play.",
+          "tags": [
+            "damage",
+            "timing",
+            "high skill"
+          ]
+        },
+        {
+          "name": "Defend+",
+          "category": "Passive",
+          "type": "Defense passive",
+          "bp_cost": "4 BP",
+          "activation_cost": "None",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Found on Pit Floor 50 or bought from Sketchy Figure.",
+          "combat_role": "Adds defense, helping stabilize Hard Mode, The Pit, and boss fights with heavy incoming damage.",
+          "tags": [
+            "defense",
+            "The Pit",
+            "Hard Mode"
+          ]
+        },
+        {
+          "name": "Happy SP",
+          "category": "Passive",
+          "type": "SP economy passive",
+          "bp_cost": "1 BP",
+          "activation_cost": "None",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Found in Rugged Rainforest and Red Sun Temple.",
+          "combat_role": "Generates SP over time, making it efficient in long fights, boss fights, and support builds.",
+          "tags": [
+            "SP",
+            "long fights",
+            "low BP"
+          ]
+        },
+        {
+          "name": "HP Drain",
+          "category": "Passive",
+          "type": "Sustain passive",
+          "bp_cost": "1 BP",
+          "activation_cost": "None",
+          "stacking": "Stacks up to 3 copies.",
+          "how_to_get": "Bought from Amber or Sketchy Figure.",
+          "combat_role": "Restores HP on successful hits while reducing damage, supporting attrition builds that value survival over burst.",
+          "tags": [
+            "lifesteal",
+            "sustain",
+            "tradeoff"
+          ]
+        },
+        {
+          "name": "SP Saver",
+          "category": "Passive",
+          "type": "SP cost passive",
+          "bp_cost": "3 BP",
+          "activation_cost": "None",
+          "stacking": "Single-copy passive.",
+          "how_to_get": "Bought from Sketchy Figure.",
+          "combat_role": "Reduces SP card costs by 1 without lowering costs below 1, making action-heavy builds much easier to sustain.",
+          "tags": [
+            "SP economy",
+            "actions",
+            "support"
+          ]
+        },
+        {
+          "name": "Hard Mode",
+          "category": "Difficulty",
+          "type": "Challenge modifier",
+          "bp_cost": "0 BP",
+          "activation_cost": "None",
+          "stacking": "Single difficulty card.",
+          "how_to_get": "Given at the start.",
+          "combat_role": "Increases challenge by doubling damage taken and reducing guard windows while increasing XP gain.",
+          "tags": [
+            "Hard Mode",
+            "challenge",
+            "XP"
+          ]
+        }
+      ]
+    },
+    "cardTierList": {
+      "eyebrow": "Best Cards",
+      "title": "Block Tales Card Tier List",
+      "subtitle": "Compare the best Block Tales cards by real use case: beginner safety, boss fights, The Pit, multiplayer support, Knight builds, and Baller builds.",
+      "intro": "Block Tales cards are strongest when matched to the fight and the build. Damage cards such as Knight, Baller, Ante Up, and Aggressor shine in offense-focused setups, while Happy SP, Defend+, Resurrect, Cure, and Charge DEF are stronger when the goal is survival, support, or long boss fights.",
+      "items": [
+        {
+          "tier": "S - Broad Utility",
+          "summary": "Cards that solve common problems across many builds and stay useful in long fights, boss fights, or team play.",
+          "cards": [
+            {
+              "name": "Happy SP",
+              "bp_cost": "1 BP",
+              "role": "SP engine",
+              "best_for": [
+                "Boss fights",
+                "The Pit",
+                "Support builds"
+              ],
+              "why_it_ranks_here": "Low BP cost and passive SP generation make it useful whenever a fight lasts long enough for extra SP to matter."
+            },
+            {
+              "name": "SP Saver",
+              "bp_cost": "3 BP",
+              "role": "SP cost reduction",
+              "best_for": [
+                "Action-heavy decks",
+                "Support builds",
+                "Boss fights"
+              ],
+              "why_it_ranks_here": "Reduces SP costs for card actions, helping Cure, Resurrect, status cards, and defensive actions stay online."
+            },
+            {
+              "name": "Defend+",
+              "bp_cost": "4 BP",
+              "role": "Defense scaling",
+              "best_for": [
+                "Hard Mode",
+                "The Pit",
+                "High-damage bosses"
+              ],
+              "why_it_ranks_here": "Extra defense is one of the cleanest ways to survive high-pressure fights where missed guards can end a run."
+            },
+            {
+              "name": "Resurrect",
+              "bp_cost": "2 BP",
+              "role": "Revive",
+              "best_for": [
+                "Multiplayer",
+                "Boss fights",
+                "Hard Mode"
+              ],
+              "why_it_ranks_here": "A revive option prevents one mistake from ending a party fight and also gives the user a self-revive trigger when SP is available."
+            },
+            {
+              "name": "Charge DEF",
+              "bp_cost": "1 BP",
+              "role": "Burst defense",
+              "best_for": [
+                "Boss burst turns",
+                "Hard Mode",
+                "New players"
+              ],
+              "why_it_ranks_here": "Halved Damage for multiple turns is strong, cheap protection when a player expects a dangerous attack pattern."
+            }
+          ]
+        },
+        {
+          "tier": "A - Build-Defining Damage",
+          "summary": "Cards that create strong offensive builds but depend heavily on action-command skill, weapon choice, and risk tolerance.",
+          "cards": [
+            {
+              "name": "Knight",
+              "bp_cost": "3 BP",
+              "role": "Sword damage core",
+              "best_for": [
+                "Knight build",
+                "Melee damage",
+                "Single-target pressure"
+              ],
+              "why_it_ranks_here": "Adds Sword-side damage while locking out Ball, making it one of the simplest ways to build around melee offense."
+            },
+            {
+              "name": "Baller",
+              "bp_cost": "3 BP",
+              "role": "Ball damage core",
+              "best_for": [
+                "Baller build",
+                "Ranged damage",
+                "Flying enemies"
+              ],
+              "why_it_ranks_here": "Adds Ball-side damage while locking out Sword, fitting players who prefer ranged targeting and Ball-based attacks."
+            },
+            {
+              "name": "Ante Up",
+              "bp_cost": "4 BP",
+              "role": "High-skill damage",
+              "best_for": [
+                "Clean action-command players",
+                "Boss burst",
+                "Damage races"
+              ],
+              "why_it_ranks_here": "Adds damage but punishes failed timing with zero damage, so it is best when the player can consistently hit commands."
+            },
+            {
+              "name": "Aggressor",
+              "bp_cost": "4 BP",
+              "role": "High-risk damage",
+              "best_for": [
+                "Confident players",
+                "Fast clears",
+                "Controlled fights"
+              ],
+              "why_it_ranks_here": "Adds damage but removes rolling HP, which makes it powerful in controlled fights and dangerous in very hard content."
+            },
+            {
+              "name": "Charge",
+              "bp_cost": "1 BP",
+              "role": "Burst setup",
+              "best_for": [
+                "Boss damage",
+                "Big single hits",
+                "Damage combos"
+              ],
+              "why_it_ranks_here": "Adds a strong next-hit attack boost and fits many offensive turns, especially when stacked with weapon damage passives."
+            }
+          ]
+        },
+        {
+          "tier": "A - Long-Fight Engines",
+          "summary": "Cards that become stronger when a battle lasts many turns or when a run needs consistent recovery instead of short burst.",
+          "cards": [
+            {
+              "name": "SP Regen+",
+              "bp_cost": "2 BP",
+              "role": "Defensive SP engine",
+              "best_for": [
+                "Defend turns",
+                "SP-hungry builds",
+                "The Pit"
+              ],
+              "why_it_ranks_here": "Improves SP gained from defensive play, giving tankier builds more fuel for expensive actions."
+            },
+            {
+              "name": "HP Drain",
+              "bp_cost": "1 BP",
+              "role": "Hit-based sustain",
+              "best_for": [
+                "Attrition builds",
+                "Solo play",
+                "Long fights"
+              ],
+              "why_it_ranks_here": "Trades damage for healing on successful hits, which is valuable when survival matters more than burst."
+            },
+            {
+              "name": "SP Drain",
+              "bp_cost": "1 BP",
+              "role": "Hit-based SP sustain",
+              "best_for": [
+                "Multi-turn fights",
+                "SP cycling",
+                "Low-damage utility builds"
+              ],
+              "why_it_ranks_here": "Restores SP on successful hits while lowering damage, making it a utility choice for players who need more card actions."
+            },
+            {
+              "name": "Safe Guard",
+              "bp_cost": "2 BP",
+              "role": "Guard improvement",
+              "best_for": [
+                "New players",
+                "Hard Mode",
+                "Boss patterns"
+              ],
+              "why_it_ranks_here": "Makes guarding more effective, which matters when damage reduction is more valuable than raw attack."
+            },
+            {
+              "name": "Deep Focus",
+              "bp_cost": "1 BP",
+              "role": "Sword Energy gain",
+              "best_for": [
+                "Special attacks",
+                "Focus turns",
+                "Boss setups"
+              ],
+              "why_it_ranks_here": "Improves Focus turns and supports builds that want to reach Sword Energy attacks more reliably."
+            }
+          ]
+        },
+        {
+          "tier": "B - Team Support",
+          "summary": "Cards that become much stronger in multiplayer because they protect, heal, revive, or feed resources to teammates.",
+          "cards": [
+            {
+              "name": "Cure",
+              "bp_cost": "2 BP",
+              "role": "Single-target heal",
+              "best_for": [
+                "Support players",
+                "Multiplayer",
+                "Boss fights"
+              ],
+              "why_it_ranks_here": "Reliable healing keeps allies alive, especially when one teammate is carrying damage or utility."
+            },
+            {
+              "name": "Bodyguard",
+              "bp_cost": "1 BP",
+              "role": "Ally protection",
+              "best_for": [
+                "Tank builds",
+                "Protecting low-HP allies",
+                "Team bosses"
+              ],
+              "why_it_ranks_here": "Lets one player absorb part of an ally's incoming damage, enabling planned tank-and-support play."
+            },
+            {
+              "name": "Good Vibes",
+              "bp_cost": "2 BP",
+              "role": "Party HP and SP recovery",
+              "best_for": [
+                "Long team fights",
+                "SP support",
+                "Sustain teams"
+              ],
+              "why_it_ranks_here": "Turns the user into a recovery engine while the rest of the team keeps fighting."
+            },
+            {
+              "name": "SP Wire",
+              "bp_cost": "0 BP",
+              "role": "SP transfer",
+              "best_for": [
+                "Coordinated teams",
+                "Revive setups",
+                "Support chains"
+              ],
+              "why_it_ranks_here": "Moves SP to the teammate who needs it most, which is valuable when one player holds Cure, Resurrect, or a key attack card."
+            },
+            {
+              "name": "Sacrifice",
+              "bp_cost": "1 BP",
+              "role": "Party healing",
+              "best_for": [
+                "Tank support",
+                "Emergency recovery",
+                "Multiplayer"
+              ],
+              "why_it_ranks_here": "Converts the user's HP into healing for the rest of the party, making it a strong emergency support option."
+            }
+          ]
+        },
+        {
+          "tier": "Tech - Matchup Picks",
+          "summary": "Cards that are excellent in specific fights, enemy formations, or weapon builds rather than universally best.",
+          "cards": [
+            {
+              "name": "Feel Fine",
+              "bp_cost": "2 BP",
+              "role": "Status prevention",
+              "best_for": [
+                "Status-heavy bosses",
+                "Burn",
+                "Dizzy",
+                "Freeze"
+              ],
+              "why_it_ranks_here": "Strong when status effects are the main threat, but less urgent in fights that only test damage and guarding."
+            },
+            {
+              "name": "Daze",
+              "bp_cost": "1 BP",
+              "role": "Dizzy and splash control",
+              "best_for": [
+                "Grouped enemies",
+                "Dangerous attackers",
+                "Sword decks"
+              ],
+              "why_it_ranks_here": "Useful for control and splash, especially when lowering enemy pressure matters."
+            },
+            {
+              "name": "Minimize",
+              "bp_cost": "1 BP",
+              "role": "Small status",
+              "best_for": [
+                "Direct attackers",
+                "Enemy control",
+                "Safety turns"
+              ],
+              "why_it_ranks_here": "Best when lowering an enemy's threat buys enough time to heal, set up, or finish another target."
+            },
+            {
+              "name": "Cannonball",
+              "bp_cost": "2 BP",
+              "role": "Ball safety tech",
+              "best_for": [
+                "Spiky enemies",
+                "Flaming enemies",
+                "Ball builds"
+              ],
+              "why_it_ranks_here": "Lets Ball hit dangerous contact enemies without popping, which is important in specific matchups."
+            },
+            {
+              "name": "Bombardment",
+              "bp_cost": "1 BP",
+              "role": "Launcher AOE",
+              "best_for": [
+                "Multi-enemy waves",
+                "Defense enemies",
+                "Launcher builds"
+              ],
+              "why_it_ranks_here": "Excellent for area damage when the player can manage Launcher timing and the Exhausted penalty risk."
+            }
+          ]
+        }
+      ]
+    },
+    "bossGuide": {
+      "eyebrow": "Bosses",
+      "title": "Block Tales Boss Guide",
+      "subtitle": "Track the major Block Tales bosses by chapter, location, mechanic, reward, and recommended card approach.",
+      "intro": "Block Tales boss fights often test more than damage. Good guarding, SP management, status control, defensive turns, and the right card package can matter more than a simple attack build, especially in Hard Mode, optional superbosses, and Chapter 5.",
+      "items": [
+        {
+          "name": "Supreme Ant",
+          "chapter": "Chapter 1",
+          "type": "Main boss",
+          "location": "Icy Caves exit",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "10 HP"
+            },
+            {
+              "label": "Summons",
+              "value": "Ant Armies with 2 HP"
+            }
+          ],
+          "core_mechanics": [
+            "Summons Ant Armies during the fight.",
+            "Punishes players who ignore small enemies for too long."
+          ],
+          "recommended_cards": [
+            "Ball",
+            "Linebounce",
+            "Defend",
+            "Charge"
+          ],
+          "strategy_focus": "Clear summons quickly, keep enough SP for defensive turns, and use clean action commands to avoid spending too many recovery items early."
+        },
+        {
+          "name": "Sentient Statue",
+          "chapter": "Chapter 1",
+          "type": "Main boss",
+          "location": "Blackrock Castle",
+          "stats": [
+            {
+              "label": "Role",
+              "value": "Chapter 1 castle boss"
+            }
+          ],
+          "core_mechanics": [
+            "Appears before the Cruel King fight line.",
+            "Tests guard timing and basic resource management."
+          ],
+          "recommended_cards": [
+            "Defend",
+            "Charge DEF",
+            "Cure",
+            "Safe Guard"
+          ],
+          "strategy_focus": "Treat it as a guard-check fight: defend on dangerous turns, conserve SP, and avoid entering Cruel King with a weak item supply."
+        },
+        {
+          "name": "Cruel King",
+          "chapter": "Chapter 1",
+          "type": "Final boss",
+          "location": "Blackrock Castle throne room; Cold Nirvana rematch",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "30 HP"
+            },
+            {
+              "label": "Level",
+              "value": "90"
+            }
+          ],
+          "core_mechanics": [
+            "Uses Scepter Strike, Freeze, Refreshing Heal, and Call for Help.",
+            "Can summon Loyal Knight and Crossbow Crony allies.",
+            "Has a no-damage badge challenge through Stylish."
+          ],
+          "recommended_cards": [
+            "Defend",
+            "Charge DEF",
+            "Cure",
+            "Feel Fine",
+            "Charge"
+          ],
+          "strategy_focus": "Control summoned enemies before they snowball, guard Freeze turns carefully, and keep SP available for healing or defense instead of spending every turn on damage."
+        },
+        {
+          "name": "Supreme Mosquito",
+          "chapter": "Chapter 2",
+          "type": "Optional superboss",
+          "location": "Below the Ant Hill exit after backtracking with the Iron Sword",
+          "stats": [
+            {
+              "label": "Reward",
+              "value": "Investor card"
+            },
+            {
+              "label": "Badge",
+              "value": "Alternate Reality"
+            }
+          ],
+          "core_mechanics": [
+            "Optional backtrack boss tied to a hidden route.",
+            "Rewards an economy-focused passive card after defeat."
+          ],
+          "recommended_cards": [
+            "Cure",
+            "Charge DEF",
+            "Defend",
+            "Happy SP",
+            "Safe Guard"
+          ],
+          "strategy_focus": "Enter with a stable defensive setup, use Defend to protect SP flow, and prioritize survival over risky burst because the reward is optional but valuable."
+        },
+        {
+          "name": "Bubonic Plant",
+          "chapter": "Chapter 2",
+          "type": "Final boss",
+          "location": "Griefer's Crib",
+          "stats": [
+            {
+              "label": "Story role",
+              "value": "Chapter 2 final boss"
+            },
+            {
+              "label": "Badge",
+              "value": "Panacea"
+            }
+          ],
+          "core_mechanics": [
+            "Closes the Chapter 2 Griefer route.",
+            "A key fight for players moving from early-game fundamentals into longer boss patterns."
+          ],
+          "recommended_cards": [
+            "Charge DEF",
+            "Cure",
+            "Feel Fine",
+            "Defend",
+            "Happy SP"
+          ],
+          "strategy_focus": "Keep a balanced setup: one or two defensive options, a reliable heal, and enough SP generation to avoid running dry before the end of the fight."
+        },
+        {
+          "name": "Hatred",
+          "chapter": "Chapter 3",
+          "type": "Final boss",
+          "location": "Dream World",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "50 HP"
+            },
+            {
+              "label": "Defense",
+              "value": "1"
+            },
+            {
+              "label": "Level",
+              "value": "92"
+            }
+          ],
+          "core_mechanics": [
+            "Has Double Turns.",
+            "Uses Corruption, PK Thunder, Charge Outburst, and Call for Help.",
+            "Can pressure players through repeated high-threat turns."
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Cure",
+            "Resurrect",
+            "Feel Fine",
+            "Happy SP"
+          ],
+          "strategy_focus": "Plan for multiple attacks per cycle, use defensive cards before burst windows, and keep revive or healing access ready before HP starts rolling down."
+        },
+        {
+          "name": "Mutant",
+          "chapter": "Chapter 3",
+          "type": "Optional superboss",
+          "location": "Telamon Manor Red Room and basement route",
+          "stats": [
+            {
+              "label": "Badge",
+              "value": "Uncanny Encounter"
+            },
+            {
+              "label": "Reward path",
+              "value": "Manor Attic access"
+            }
+          ],
+          "core_mechanics": [
+            "Optional superboss connected to Telamon Manor progression.",
+            "Defeating it unlocks access to later reward space."
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Cure",
+            "Resurrect",
+            "Safe Guard"
+          ],
+          "strategy_focus": "Bring a defensive loadout first, then add damage once the fight's timing is comfortable; optional superbosses punish underprepared glass-cannon builds."
+        },
+        {
+          "name": "The Ancients",
+          "chapter": "Chapter 4",
+          "type": "Final boss",
+          "location": "Red Sun Temple",
+          "stats": [
+            {
+              "label": "Half-HP shift",
+              "value": "Fine and NRG Disable"
+            },
+            {
+              "label": "Protection",
+              "value": "Invincible while Vessels are alive"
+            }
+          ],
+          "core_mechanics": [
+            "Uses Wheel, Beam, Fireball, Ultra Beam, and Call for Help.",
+            "Summoned Vessels must be defeated before the boss can be damaged again.",
+            "Fireball can apply Burn, and Beam-based attacks can pressure multiple defensive checks."
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Feel Fine",
+            "Launcher",
+            "Baller",
+            "Ante Up",
+            "Resurrect"
+          ],
+          "strategy_focus": "Clear Vessels fast, protect against status pressure, and save defensive resources for Ultra Beam cycles instead of spending every turn on damage."
+        },
+        {
+          "name": "Finn McCool",
+          "chapter": "Chapter 4",
+          "type": "Optional superboss",
+          "location": "South route from Vermillion Village",
+          "stats": [
+            {
+              "label": "Reward",
+              "value": "Aggressor card"
+            },
+            {
+              "label": "Badge",
+              "value": "Converging Timelines"
+            }
+          ],
+          "core_mechanics": [
+            "Optional superboss that rewards a high-risk damage passive.",
+            "Functions as a build check for players who want stronger offensive cards."
+          ],
+          "recommended_cards": [
+            "Defend+",
+            "Charge DEF",
+            "Cure",
+            "Happy SP",
+            "Resurrect"
+          ],
+          "strategy_focus": "Use a stable defensive core first, then add burst tools once guard timing is consistent; the Aggressor reward is strongest after the player can survive without rolling HP."
+        },
+        {
+          "name": "The Magnificent",
+          "chapter": "Chapter 5",
+          "type": "Main boss",
+          "location": "Wizard Tower",
+          "stats": [
+            {
+              "label": "HP",
+              "value": "600 HP"
+            },
+            {
+              "label": "Fight rule",
+              "value": "Ends after several turns when it blows itself up"
+            }
+          ],
+          "core_mechanics": [
+            "The huge HP bar is not meant to be fully depleted normally.",
+            "The fight is about surviving the sequence until the scripted finish."
+          ],
+          "recommended_cards": [
+            "Charge DEF",
+            "Defend+",
+            "Cure",
+            "Good Vibes",
+            "Happy SP"
+          ],
+          "strategy_focus": "Do not over-invest in burst damage; prioritize survival, SP flow, and safe defensive turns until the encounter resolves."
+        },
+        {
+          "name": "The Trinity",
+          "chapter": "Chapter 5",
+          "type": "Main boss trio",
+          "location": "Trinity Castle",
+          "stats": [
+            {
+              "label": "Bosses",
+              "value": "Reginald, Azuri, and Robur"
+            }
+          ],
+          "core_mechanics": [
+            "A trio fight that asks players to manage multiple boss threats at once.",
+            "Rewards builds that can combine damage, support, and resource control."
+          ],
+          "recommended_cards": [
+            "Launcher",
+            "Bombardment",
+            "Cure",
+            "Resurrect",
+            "SP Saver",
+            "Charge DEF"
+          ],
+          "strategy_focus": "Use area or multi-target pressure where possible, keep revive access ready, and avoid letting SP fall too low before the final Chapter 5 stretch."
+        },
+        {
+          "name": "Frostmaw",
+          "chapter": "Chapter 5",
+          "type": "Final boss",
+          "location": "The Windforce",
+          "stats": [
+            {
+              "label": "Loss condition",
+              "value": "Cassie must stay alive"
+            },
+            {
+              "label": "Badge",
+              "value": "Windproof"
+            }
+          ],
+          "core_mechanics": [
+            "Final Chapter 5 boss after The Trinity and Seventh Sanctum route.",
+            "If Cassie is defeated, the fight is lost.",
+            "Commonly pushes players to protect a specific ally instead of only managing personal HP."
+          ],
+          "recommended_cards": [
+            "Bodyguard",
+            "Cure",
+            "Resurrect",
+            "Charge DEF",
+            "Good Vibes",
+            "Happy SP"
+          ],
+          "strategy_focus": "Build around ally protection: keep Cassie safe, preserve SP for recovery, and use defensive cards before dangerous turns rather than reacting after damage lands."
+        }
+      ]
+    },
+    "badgesGuide": {
+      "eyebrow": "Badges e Conclusão",
+      "title": "Guia de Badges de Block Tales",
+      "subtitle": "Encontre conquistas e Badges de Block Tales por capítulo, incluindo Badges de história, conclusões no Hard Mode, marcos de coleção de Cards, Badges ocultas e metas de conclusão da Demo 5.",
+      "intro": "As Badges de Block Tales recompensam o progresso na história, interações ocultas, marcos de conclusão, vitórias contra chefes no Hard Mode, coleta de Cards, coleta de BUX, conclusão de desafios e participação em demos. Use esta seção como um checklist de 100% de conclusão enquanto avança por cada capítulo.",
+      "items": [
+        {
+          "section": "Badges Universais e de Coleção",
+          "description": "Badges que não estão presas a um capítulo da história e podem ser acompanhadas em todo o arquivo de salvamento.",
+          "badges": [
+            {
+              "name": "Começos Humildes",
+              "unlock": "Inicie um novo arquivo de salvamento.",
+              "obtainable": "Sim",
+              "note": "Badge de progressão básica."
+            },
+            {
+              "name": "Baralho Carregado",
+              "unlock": "Alcance 30 BP em um arquivo de salvamento.",
+              "obtainable": "Sim",
+              "note": "Requer alcançar o nível 10 através de escolhas de aumento de nível de BP."
+            },
+            {
+              "name": "Colecionador de Cards",
+              "unlock": "Colete 15 Cards únicos.",
+              "obtainable": "Sim",
+              "note": "Parte da linha de marcos de coleção de Cards."
+            },
+            {
+              "name": "Conhecedor de Cards",
+              "unlock": "Colete 30 Cards únicos.",
+              "obtainable": "Sim",
+              "note": "Continue comprando, encontrando e ganhando Cards ao longo dos capítulos."
+            },
+            {
+              "name": "Acumulador de Cards",
+              "unlock": "Colete 45 Cards únicos.",
+              "obtainable": "Sim",
+              "note": "Requer exploração mais profunda e compras em lojas."
+            },
+            {
+              "name": "Entusiasta de Cards",
+              "unlock": "Colete 60 Cards únicos.",
+              "obtainable": "Sim",
+              "note": "Marco de coleção avançado para jogadores que buscam todos os Cards."
+            },
+            {
+              "name": "Goblin de Cards",
+              "unlock": "Colete 75 Cards únicos.",
+              "obtainable": "Sim",
+              "note": "Marco de coleção de Cards de alto nível."
+            },
+            {
+              "name": "Bombástico",
+              "unlock": "Derrote quatro inimigos com uma única bomba.",
+              "obtainable": "Sim",
+              "note": "Comumente concluído contra grupos de inimigos com baixo HP, como Ant Armies."
+            },
+            {
+              "name": "Salvador",
+              "unlock": "Cure outro jogador após ele sofrer dano mortal.",
+              "obtainable": "Sim",
+              "note": "Uma Badge de recuperação focada em multijogador."
+            },
+            {
+              "name": "DPS Verdadeiro",
+              "unlock": "Cause pelo menos 12 de dano em um único golpe a um inimigo.",
+              "obtainable": "Sim",
+              "note": "Buffs de dano, acúmulos de Charge e Cards de alto dano tornam isso mais fácil."
+            }
+          ]
+        },
+        {
+          "section": "Badges do Prólogo e Capítulo 1",
+          "description": "História inicial, Bizville, Blackrock Castle, Cruel King e Badges de desafio do Capítulo 1.",
+          "badges": [
+            {
+              "name": "Um Preço a Pagar",
+              "unlock": "Escolha a opção de diálogo hostil com Tutorial Terry e perca o encontro.",
+              "obtainable": "Sim",
+              "note": "Interação oculta do prólogo."
+            },
+            {
+              "name": "Dia do Balão Grátis",
+              "unlock": "Corte as cordas do carrinho de balões em Bizville com a espada.",
+              "obtainable": "Sim",
+              "note": "Interação oculta em Bizville."
+            },
+            {
+              "name": "Arrependimento do Comprador",
+              "unlock": "Realoque atributos na Biblioteca de Bizville.",
+              "obtainable": "Sim",
+              "note": "Vinculado ao reset de atributos e experimentação de builds."
+            },
+            {
+              "name": "Rei do Mar",
+              "unlock": "Pesque todos os 10 peixes no local de pesca de Bizville Meadows.",
+              "obtainable": "Sim",
+              "note": "Atividade secundária de estilo de conclusão."
+            },
+            {
+              "name": "Olá Mundo",
+              "unlock": "Complete o prólogo derrotando Red Noob, Blue Noob e Noobador.",
+              "obtainable": "Sim",
+              "note": "Badge de progressão de história."
+            },
+            {
+              "name": "Destronado",
+              "unlock": "Derrote o Cruel King.",
+              "obtainable": "Sim",
+              "note": "Badge principal do chefe final do Capítulo 1."
+            },
+            {
+              "name": "Estiloso",
+              "unlock": "Derrote o Cruel King sem sofrer dano.",
+              "obtainable": "Sim",
+              "note": "Pode ser obtida através da revanche em Cold Nirvana."
+            },
+            {
+              "name": "Bloxxer",
+              "unlock": "Derrote todos os chefes do Capítulo 1 com o Hard Mode equipado.",
+              "obtainable": "Sim",
+              "note": "Cobre Blue Noob, Red Noob, Noobador, Supreme Ant, Banished Knight, Sentient Statue e Cruel King."
+            },
+            {
+              "name": "Entre a Rocha e um Lugar Difícil",
+              "unlock": "Liberte Jim com Dinamite e depois retorne a Roadtown.",
+              "obtainable": "Sim",
+              "note": "Objetivo secundário de Roadtown."
+            },
+            {
+              "name": "Sem Coração",
+              "unlock": "Deixe Jim para trás e derrote o Cruel King.",
+              "obtainable": "Sim",
+              "note": "Badge de desfecho alternativo para Jim."
+            },
+            {
+              "name": "Cadeira Quente",
+              "unlock": "Use Dinamite no Loyal Knight adormecido na prisão de Blackrock Castle.",
+              "obtainable": "Sim",
+              "note": "Interação oculta no castelo."
+            }
+          ]
+        },
+        {
+          "section": "Badges do Capítulo 2",
+          "description": "Rugged Rainforest, rota Griefer, Bubonic Plant, arcade e Badges de superchefes opcionais.",
+          "badges": [
+            {
+              "name": "Panaceia",
+              "unlock": "Derrote a Bubonic Plant.",
+              "obtainable": "Sim",
+              "note": "Badge principal de conclusão do Capítulo 2."
+            },
+            {
+              "name": "Realidade Alternativa",
+              "unlock": "Derrote o Supreme Mosquito abaixo da saída do Ant Hill após limpar a vegetação com a Iron Sword.",
+              "obtainable": "Sim",
+              "note": "Badge de superchefe opcional."
+            },
+            {
+              "name": "Vida Perigosa",
+              "unlock": "Derrote todos os chefes do Capítulo 2 com o Hard Mode equipado.",
+              "obtainable": "Sim",
+              "note": "Cobre Komodo Dragon, ambas as lutas contra Griefer, Bigfoot e Bubonic Plant."
+            },
+            {
+              "name": "Bagagem Pessoal",
+              "unlock": "Alcance Nirvana falando com o Guru a oeste do Aeroporto de Bizville.",
+              "obtainable": "Sim",
+              "note": "Badge de rota e exploração."
+            },
+            {
+              "name": "Mão Amiga",
+              "unlock": "Complete a missão secundária da vovó formiga de fogo.",
+              "obtainable": "Sim",
+              "note": "Badge de missão secundária."
+            },
+            {
+              "name": "Bom Aluno",
+              "unlock": "Bata a pontuação máxima de Mudroads no Arcade de Bizville.",
+              "obtainable": "Sim",
+              "note": "Badge de desafio de arcade."
+            },
+            {
+              "name": "Isso é uma piada?",
+              "unlock": "Seja derrotado por um ataque de Purple Frog.",
+              "obtainable": "Sim",
+              "note": "A derrota deve vir do Purple Frog, em vez de dano próprio ou de outro jogador."
+            }
+          ]
+        },
+        {
+          "section": "Badges do Capítulo 3",
+          "description": "Dream World, Hatred, Telamon Manor, invocação do Cruel King e Badges do Hard Mode.",
+          "badges": [
+            {
+              "name": "Redenção",
+              "unlock": "Derrote Hatred.",
+              "obtainable": "Sim",
+              "note": "Badge principal de conclusão do Capítulo 3."
+            },
+            {
+              "name": "Caçador de Monstros",
+              "unlock": "Derrote todos os chefes do Capítulo 3 com o Hard Mode equipado.",
+              "obtainable": "Sim",
+              "note": "Cobre Green Noob, Purple Noob, Turkey, Slasher, Greed, Solitude, Fear e Hatred."
+            },
+            {
+              "name": "Um Pedido de Socorro!",
+              "unlock": "Lute contra o Cruel King cinco vezes em Cold Nirvana para obter Call: Cruel King.",
+              "obtainable": "Sim",
+              "note": "Vencer as revanches não é obrigatório."
+            },
+            {
+              "name": "Erro Nojento",
+              "unlock": "Consuma Mistake.",
+              "obtainable": "Sim",
+              "note": "Badge oculta de uso de item."
+            },
+            {
+              "name": "Barulhento",
+              "unlock": "Descubra todos os sons de megafone no Dream World em uma única sessão.",
+              "obtainable": "Sim",
+              "note": "Badge de exploração e interação."
+            }
+          ]
+        },
+        {
+          "section": "Badges do Capítulo 4",
+          "description": "Red Sun Temple, The Ancients, Finn McCool, Turitopulis, VLAD e Badges do Hard Mode do Capítulo 4.",
+          "badges": [
+            {
+              "name": "Resistente ao Calor",
+              "unlock": "Derrote The Ancients.",
+              "obtainable": "Sim",
+              "note": "Badge principal de conclusão do Capítulo 4."
+            },
+            {
+              "name": "Sol Vermelho Sangue",
+              "unlock": "Derrote todos os chefes do Capítulo 4 com o Hard Mode equipado.",
+              "obtainable": "Sim",
+              "note": "Cobre Great Flocci, Temple Guardian, Captain Trotter e The Ancients."
+            },
+            {
+              "name": "Linhas Temporais Convergentes",
+              "unlock": "Derrote Finn McCool.",
+              "obtainable": "Sim",
+              "note": "Badge de superchefe opcional vinculada à recompensa do card Aggressor."
+            },
+            {
+              "name": "Gostos Estranhos",
+              "unlock": "Entregue o Cookbook ao Kitchen Wizard e fabrique The Special usando Compost e Onion Ring.",
+              "obtainable": "Sim",
+              "note": "Badge de culinária e objetivo secundário."
+            },
+            {
+              "name": "Panaceia Verdadeira",
+              "unlock": "Fale com o Mayor Thaniyel em Turitopulis após fabricar The Special e deixe a cena acontecer.",
+              "obtainable": "Sim",
+              "note": "Badge de acompanhamento após The Special."
+            },
+            {
+              "name": "Então é verdade...",
+              "unlock": "Use Garlic em batalha contra VLAD.",
+              "obtainable": "Sim",
+              "note": "Interação de batalha oculta."
+            }
+          ]
+        },
+        {
+          "section": "Badges do Capítulo 5 e Demo 5",
+          "description": "Badges da Demo 5, Telamon Manor, Trinity, Frostmaw, metas de evacuação e conclusão do Hard Mode do Capítulo 5.",
+          "badges": [
+            {
+              "name": "Jogou a Demo 5",
+              "unlock": "Jogue Block Tales durante a Demo 5.",
+              "obtainable": "Sim",
+              "note": "Badge de participação na demo atual."
+            },
+            {
+              "name": "Quais são as chances?",
+              "unlock": "Encontre o raro encontro de camelo de 1 em 100.",
+              "obtainable": "Sim",
+              "note": "Badge de evento raro vinculada à exploração da Demo 5."
+            },
+            {
+              "name": "Encontro Estranho",
+              "unlock": "Encontre e derrote Mutant dentro da rota do porão de Telamon Manor.",
+              "obtainable": "Sim",
+              "note": "Badge de superchefe opcional."
+            },
+            {
+              "name": "Sem Problemas...",
+              "unlock": "Recrie a Mona Lisa.",
+              "obtainable": "Sim",
+              "note": "Badge de objetivo oculto da Demo 5."
+            },
+            {
+              "name": "Prova de um Herói",
+              "unlock": "Evacue 10 NPCs espalhados por Trinity interagindo com eles.",
+              "obtainable": "Sim",
+              "note": "Badge de checklist de resgate do Capítulo 5."
+            },
+            {
+              "name": "À Prova de Vento",
+              "unlock": "Complete o Capítulo 5 derrotando Frostmaw.",
+              "obtainable": "Sim",
+              "note": "Badge principal de conclusão do Capítulo 5."
+            },
+            {
+              "name": "Usurpador",
+              "unlock": "Derrote todos os chefes do Capítulo 5 com o Hard Mode equipado.",
+              "obtainable": "Sim",
+              "note": "Cobre The Magnificent, Reginald, The Trinity e Frostmaw."
+            }
+          ]
+        },
+        {
+          "section": "Badges de Legado de Demos",
+          "description": "Participação em demos passadas e Badges de desafios antigos que funcionam como marcadores históricos de conclusão.",
+          "badges": [
+            {
+              "name": "Jogou a Demo 1",
+              "unlock": "Jogou durante a Demo 1.",
+              "obtainable": "Não",
+              "note": "Badge de legado de demo."
+            },
+            {
+              "name": "Jogou a Demo 2",
+              "unlock": "Jogou durante a Demo 2.",
+              "obtainable": "Não",
+              "note": "Badge de legado de demo."
+            },
+            {
+              "name": "Jogou a Demo 3",
+              "unlock": "Jogou durante a Demo 3.",
+              "obtainable": "Não",
+              "note": "Badge de legado de demo."
+            },
+            {
+              "name": "Jogou a Demo 4",
+              "unlock": "Jogou durante a Demo 4.",
+              "obtainable": "Não",
+              "note": "Badge de legado de demo."
+            },
+            {
+              "name": "Lutador do Poço",
+              "unlock": "Limpe todos os andares de The Pit antes da Demo 4.",
+              "obtainable": "Não",
+              "note": "Badge de desafio de legado."
+            },
+            {
+              "name": "Construtor Extravagante",
+              "unlock": "Alcance o nível máximo.",
+              "obtainable": "Não",
+              "note": "Listado como um marco de nível máximo."
+            }
+          ]
+        }
+      ]
+    },
+    "itemsGuide": {
+      "eyebrow": "Inventory Database",
+      "title": "Block Tales Items Guide",
+      "subtitle": "Compare healing foods, SP restorers, attack items, buff items, and key battle consumables before you enter a boss fight.",
+      "intro": "Items in Block Tales restore HP or SP, apply buffs, cure status effects, attack enemies, cook recipes, or support overworld progression. This database highlights practical items players can buy, cook, find, fish, or farm from enemies, so you can quickly decide what to keep, sell, or save for hard fights.",
+      "items": [
+        {
+          "item": "Apple",
+          "category": "Healing / Status Cure",
+          "effect": "Restores 5 HP and cures Poison. Using it gives an Apple Core.",
+          "obtainment": "Sold by Tulip, Darren, and Fridge Raider; also drops from Hedgehog, Gaur, and Toxic Spearman at 10.2%.",
+          "best_use": "Safe early-game healing when poison enemies are common.",
+          "keep_or_spend": "Keep a few for poison-heavy routes; buy only when you need cheap recovery."
+        },
+        {
+          "item": "Apple Core",
+          "category": "Small Healing / Status Cure",
+          "effect": "Restores 1 HP and cures Poison.",
+          "obtainment": "Obtained after using an Apple; sold by Tulip; drops from several poison-themed enemies at 20.7%.",
+          "best_use": "Low-cost poison cleanup when HP loss is minor.",
+          "keep_or_spend": "Use freely; it is more of a utility item than a boss-fight heal."
+        },
+        {
+          "item": "Cheezburger",
+          "category": "Healing",
+          "effect": "Restores 5 HP.",
+          "obtainment": "Sold by Lorenzo, Will, Barley, and Aloe; drops from Ant Army, Devious Rat, Crossbow Crony, Snory Bear, and Hungry Wolf at 6.4%.",
+          "best_use": "Reliable basic healing for early and mid-game routes.",
+          "keep_or_spend": "Keep several as default HP recovery."
+        },
+        {
+          "item": "Double Cheezburger",
+          "category": "Healing",
+          "effect": "Restores 8 HP.",
+          "obtainment": "Sold by Lorenzo and Fridge Raider; drops from Spiky Devil and Flaming Horse at 4.4%, and from several toxic enemies at 2.4%.",
+          "best_use": "Better burst healing before bosses or longer chapter routes.",
+          "keep_or_spend": "Save for harder fights instead of using it on small chip damage."
+        },
+        {
+          "item": "Brownie",
+          "category": "Healing",
+          "effect": "Restores 6 HP and becomes a Bitten Brownie after use.",
+          "obtainment": "Cooked from two Bitten Brownies; sold by Will and Eska; drops from Cheeky Eagle and Spiky Killbot at 0.4%.",
+          "best_use": "Efficient two-stage healing because it leaves another smaller heal behind.",
+          "keep_or_spend": "Good to keep when inventory space allows."
+        },
+        {
+          "item": "Cake",
+          "category": "HP / SP Recovery",
+          "effect": "Restores 5 HP and 15 SP.",
+          "obtainment": "Sold by Will.",
+          "best_use": "Strong sustain item for card-heavy builds that spend SP quickly.",
+          "keep_or_spend": "Save for bosses or The Pit-style endurance fights."
+        },
+        {
+          "item": "Dragonfruit",
+          "category": "SP Recovery / Status Protection",
+          "effect": "Restores 5 SP and grants Fine for 3 turns.",
+          "obtainment": "Sold by Tulip.",
+          "best_use": "Useful before status-heavy fights because Fine helps resist status ailments.",
+          "keep_or_spend": "Buy when your build depends on SP cards."
+        },
+        {
+          "item": "Falafel",
+          "category": "HP / SP Recovery / Defense Buff",
+          "effect": "Restores 6 HP and 6 SP, then grants DEF Up LV 2 for 3 turns.",
+          "obtainment": "Cooked from Chickpeas and Pita.",
+          "best_use": "High-value defensive sustain for bosses and dangerous enemy groups.",
+          "keep_or_spend": "Save for hard encounters rather than routine travel."
+        },
+        {
+          "item": "Hot Chocolate",
+          "category": "Status Protection",
+          "effect": "Grants Fine for 3 turns.",
+          "obtainment": "Sold by Barley; drops from Ant Army, Devious Rat, Crossbow Crony, Snory Bear, Hungry Wolf, Banished Knight, Loyal Knight, Supreme Ant, Sentient Statue, and Cruel King at 9.8%.",
+          "best_use": "Prevents status problems during routes with repeated debuffs.",
+          "keep_or_spend": "Keep for status-heavy areas; use before the danger starts."
+        },
+        {
+          "item": "Bomb",
+          "category": "Attack Item",
+          "effect": "Deals 2 damage to all enemies and also damages the player.",
+          "obtainment": "Sold by Lorenzo and Annihilator; drops from Bee Happy and Winged Zombie at 20.3%, plus many early enemies at lower rates.",
+          "best_use": "Fast area damage when several enemies are alive and your HP can absorb the self-damage.",
+          "keep_or_spend": "Use carefully; avoid when your HP is low."
+        },
+        {
+          "item": "Cherry Bomb",
+          "category": "Attack Item",
+          "effect": "Deals 3 damage to all enemies and also damages the player.",
+          "obtainment": "Cooked from Cherry and Bomb; sold by Fridge Raider; drops from Spiky Devil and Flaming Horse at 12.8%.",
+          "best_use": "Stronger wave-clear option for dangerous multi-enemy battles.",
+          "keep_or_spend": "Save for encounters where ending the fight quickly matters."
+        },
+        {
+          "item": "Flash Bomb",
+          "category": "Attack / Control Item",
+          "effect": "Deals 2 damage and inflicts Dizzy LV 1 on all enemies and the player.",
+          "obtainment": "Cooked from Dizzy Dial and Bomb; sold by Zuka; drops from Vessel, Vulture, Temple Guardian, The Great Flocci, The Ancients, and several Chapter 4 enemies at around 2.6%-2.8%.",
+          "best_use": "Control option when you need to slow a full enemy group.",
+          "keep_or_spend": "Use when the Dizzy tradeoff is worth also affecting yourself."
+        },
+        {
+          "item": "Epicsauce",
+          "category": "Weapon Buff",
+          "effect": "Grants Burn Enchant LV 2, causing the next attack to inflict Burn LV 2 for 1 turn.",
+          "obtainment": "Found in Manor Forest and Dream Path B; drops from Sharp Nooblet at 3.7% and Smugupine at 3.6%.",
+          "best_use": "Boosts pressure before a high-impact attack.",
+          "keep_or_spend": "Keep for bosses or sturdy enemies that benefit from burn pressure."
+        },
+        {
+          "item": "Hot Leaf Juice",
+          "category": "Revive",
+          "effect": "Revives a fallen ally with 5 HP.",
+          "obtainment": "Drops from Hedgehog, Gaur, and Toxic Spearman at 6%.",
+          "best_use": "Emergency recovery in multiplayer or party-focused encounters.",
+          "keep_or_spend": "Save for boss fights and long challenge runs."
+        }
+      ]
+    },
+    "weaponsGuide": {
+      "eyebrow": "Combat Tools",
+      "title": "Block Tales Weapons Guide",
+      "subtitle": "Understand Sword, Ball, replacement weapons, SFOTH swords, and Sword Energy before building your cards around them.",
+      "intro": "Weapons in Block Tales are tied to action cards, overworld abilities, chapter progression, and build identity. Sword and Ball define your base combat options, Slingshot and Launcher replace those slots, and SFOTH swords spend Sword Energy for powerful special effects.",
+      "items": [
+        {
+          "name": "Sword",
+          "slot": "Base Sword",
+          "type": "Action weapon card",
+          "effect": "Hits the first grounded enemy with 1-2 damage and pierces 50% of the target's Defense. Outside combat, it can break barricades, grab close items, and start battles with First Strike LV 1.",
+          "obtainment": "Obtained from Shedletsky after defeating Red Noob and Blue Noob in the Prologue.",
+          "best_use": "Best against grounded enemies with Defense because its partial defense pierce makes it reliable.",
+          "caution": "It skips Flying enemies and can punish the player when hitting Spiky enemies."
+        },
+        {
+          "name": "Iron Sword",
+          "slot": "Sword Upgrade",
+          "type": "Direct Sword upgrade",
+          "effect": "Increases base Sword damage by 1 and allows the player to destroy dense vegetation in the map.",
+          "obtainment": "Obtained after defeating Bigfoot in Mango Tree during Chapter 2.",
+          "best_use": "Important progression upgrade because it improves combat output and unlocks more overworld access.",
+          "caution": "It upgrades Sword directly rather than acting like a separate replacement weapon."
+        },
+        {
+          "name": "Ball",
+          "slot": "Base Ball",
+          "type": "Ranged action weapon card",
+          "effect": "Deals 1 damage by default. A successful action command adds a second hit that deals 1 damage and ignores Defense.",
+          "obtainment": "Obtained from JParty in the Pre-Prologue when meeting the Mysterious Figure.",
+          "best_use": "Best for targeting any enemy, hitting Flying enemies, grabbing faraway items, and breaking cracked stone pillars.",
+          "caution": "Spiky or Flaming enemies pop the Ball on contact, deny damage, and give the player 1 SP unless Cannonball is equipped."
+        },
+        {
+          "name": "Slingshot",
+          "slot": "Sword Replacement",
+          "type": "Alternative weapon card",
+          "effect": "Replaces Sword with a projectile attack. It can deal more damage than base Sword and can hit Flying and Spiky enemies, but it cannot damage enemies with Defense.",
+          "obtainment": "Bought from Tai for 300 TIX or Banished Knight for 150 TIX.",
+          "best_use": "Good when a fight punishes melee contact or requires reliable hits on Flying and Spiky targets.",
+          "caution": "Avoid it against armored or Defense-heavy enemies."
+        },
+        {
+          "name": "Launcher",
+          "slot": "Ball Replacement",
+          "type": "AOE ranged weapon card",
+          "effect": "Replaces Ball with a rocket attack that applies DEF Down LV 1 for 3 turns to the target, pierces 1 Defense on the target, and deals splash damage to adjacent enemies.",
+          "obtainment": "Bought from Tai for 300 TIX or Banished Knight for 150 TIX.",
+          "best_use": "Strong against enemy groups because it mixes ranged targeting, debuffing, and splash damage.",
+          "caution": "Missing the timing causes the user to blow up, deal no damage, and gain Exhaustion for 2 turns."
+        },
+        {
+          "name": "Ice Dagger",
+          "slot": "SFOTH Sword",
+          "type": "Sword Energy special",
+          "effect": "Costs 1 Sword Energy and heals the entire party for 20% of max HP and SP, with a minimum of 5 HP and 3 SP.",
+          "obtainment": "Obtained after defeating Cruel King in Chapter 1.",
+          "best_use": "Best sustain tool for long fights because it restores both HP and SP to the party.",
+          "caution": "It uses Sword Energy, so it competes with offensive SFOTH sword options."
+        },
+        {
+          "name": "Venomshank",
+          "slot": "SFOTH Sword",
+          "type": "Sword Energy special",
+          "effect": "Costs 1 Sword Energy, deals 2 damage to all enemies, ignores all Defense, and applies Poison LV 1 for 3 turns.",
+          "obtainment": "Obtained in Chapter 2 after defeating Bubonic Plant and receiving it from Mayor Thaniyel.",
+          "best_use": "Best against groups of enemies that can be poisoned and need steady damage over time.",
+          "caution": "It does not poison enemies that are immune to Poison, such as Komodo Dragon and Bubonic Plant."
+        },
+        {
+          "name": "Ghostwalker",
+          "slot": "SFOTH Sword",
+          "type": "Sword Energy special",
+          "effect": "Costs 2 Sword Energy and applies Dodgy LV 1 to the entire party.",
+          "obtainment": "Obtained in Chapter 3 after fully purifying the player's soul after defeating Hatred.",
+          "best_use": "Best defensive SFOTH sword when survival matters more than burst damage.",
+          "caution": "It costs more Sword Energy than Ice Dagger or Venomshank."
+        },
+        {
+          "name": "Firebrand",
+          "slot": "SFOTH Sword",
+          "type": "Sword Energy special",
+          "effect": "Costs 2 Sword Energy, deals 5 damage to all enemies, ignores all Defense, applies Burn LV 1, and applies ATK Down LV 2 for 3 turns.",
+          "obtainment": "Obtained in Chapter 4 after defeating The Ancients.",
+          "best_use": "Best late-game AOE pressure tool because it combines damage, burn, and enemy attack reduction.",
+          "caution": "It does not benefit from removed-on-strike status effects."
+        },
+        {
+          "name": "Sword Energy",
+          "slot": "SFOTH Resource",
+          "type": "Battle resource",
+          "effect": "Starts each battle at 0.5, increases through enemy turns and player attacks, and fuels SFOTH swords. Each SFOTH sword obtained increases the maximum NRG bar by 1.",
+          "obtainment": "Gained naturally in battle, through Focus, NRG Regen, and certain items such as Green Tea, Matcha Dorayaki, Chickpeas, Olives, Kunafa, and Starfruit.",
+          "best_use": "Plan it around boss phases: save NRG for Ice Dagger recovery, Ghostwalker defense, or Firebrand burst.",
+          "caution": "Focus gains less Sword Energy in larger parties, so multiplayer pacing differs from solo play."
+        }
+      ]
+    },
+    "statsAndLevelingGuide": {
+      "eyebrow": "Progression",
+      "title": "Block Tales Stats and Leveling Guide",
+      "subtitle": "Learn what HP, SP, BP, Level Up, respec, and Sword Energy do before choosing your next upgrade.",
+      "intro": "Block Tales leveling is built around 100 XP level-ups and three main upgrade choices: HP, SP, and BP. HP keeps you alive, SP lets you use more abilities, and BP decides how many cards your build can equip.",
+      "items": [
+        {
+          "stat_or_system": "Level Up",
+          "role": "Main progression mechanic triggered after reaching 100 XP.",
+          "level_up_change": "Each level-up lets the player choose +5 HP, +5 SP, or +3 BP.",
+          "cap_or_start": "The level cap starts at 4 and increases by 4 at the end of each chapter, including the Prologue. The maximum level is 24 as of Chapter 5's release.",
+          "recovery_or_respec": "A level-up fully restores the player's HP and SP. Bizville Library can change stat options for 15 TIX per point.",
+          "build_advice": "Pick the stat that fixes your current bottleneck: HP for survival, SP for ability usage, BP for card builds."
+        },
+        {
+          "stat_or_system": "Heart Points (HP)",
+          "role": "Player health during combat.",
+          "level_up_change": "+5 maximum HP per HP level-up choice.",
+          "cap_or_start": "Players start with 10 HP and can increase it through level-ups or HP+ cards.",
+          "recovery_or_respec": "Recovered by winning battles, food, Cure, Ice Dagger, Healing Pads, Beds, Happy HP, HP Drain, Sacrifice effects, Good Vibes, and Anchor.",
+          "build_advice": "Prioritize HP when learning enemy patterns, fighting bosses, or running builds that take contact damage from melee or self-damaging items."
+        },
+        {
+          "stat_or_system": "Special Points (SP)",
+          "role": "Action points used to perform abilities and card moves in battle.",
+          "level_up_change": "+5 maximum SP per SP level-up choice.",
+          "cap_or_start": "Maximum SP from level-ups is 90 without cards.",
+          "recovery_or_respec": "Recovered through winning battles, SP-granting items, Ice Dagger, Healing Pads, Beds, Train Spa hot tub, Happy SP, SP Drain, Pity SP, Defending, Passing, and SP Wire for non-users.",
+          "build_advice": "Prioritize SP when your equipped cards are powerful but you run out of resources before the fight ends."
+        },
+        {
+          "stat_or_system": "Build Points (BP)",
+          "role": "Determines how many cards the player can equip.",
+          "level_up_change": "+3 maximum BP per BP level-up choice.",
+          "cap_or_start": "Maximum BP is 30.",
+          "recovery_or_respec": "Removing equipped cards refunds their BP cost.",
+          "build_advice": "Prioritize BP when new cards unlock your build, especially Knight, Baller, support cards, defensive cards, or SP-saving setups."
+        },
+        {
+          "stat_or_system": "Sword Energy (NRG)",
+          "role": "Battle resource used for SFOTH swords such as Ice Dagger, Venomshank, Ghostwalker, and Firebrand.",
+          "level_up_change": "Not a normal level-up choice. Each SFOTH sword obtained increases the NRG bar maximum by 1.",
+          "cap_or_start": "Each battle starts with 0.5 Sword Energy.",
+          "recovery_or_respec": "Gained through enemy turns, player attacks, low-HP attacks, Focus, Deep Focus, NRG Regen, and items such as Green Tea, Matcha Dorayaki, Chickpeas, Olives, Kunafa, and Starfruit.",
+          "build_advice": "Use NRG planning for longer fights: Ice Dagger for recovery, Venomshank for poison pressure, Ghostwalker for defense, and Firebrand for late-game burst."
+        },
+        {
+          "stat_or_system": "Beginner Stat Route",
+          "role": "Simple upgrade path for players still learning action commands and enemy behavior.",
+          "level_up_change": "Open with HP if you are frequently fainting, then add BP once you find cards worth equipping, and add SP when your card moves start draining resources.",
+          "cap_or_start": "Works well before your build becomes specialized.",
+          "recovery_or_respec": "Can be corrected later through the Bizville Library stat-change option.",
+          "build_advice": "A stable beginner build usually values survival first, then card flexibility, then SP economy."
+        },
+        {
+          "stat_or_system": "Boss-Fight Stat Route",
+          "role": "Upgrade logic for longer fights where mistakes, SP costs, and defense matter.",
+          "level_up_change": "Mix HP and SP if you need to survive repeated hits while still casting cards. Add BP when defensive or support cards are the main reason your build works.",
+          "cap_or_start": "Best for chapters where bosses punish low HP or long SP droughts.",
+          "recovery_or_respec": "Carry HP/SP items and plan Sword Energy for Ice Dagger or Ghostwalker turns.",
+          "build_advice": "Boss builds should avoid over-investing in only one stat unless the card setup clearly supports that choice."
+        },
+        {
+          "stat_or_system": "Card-Build Stat Route",
+          "role": "Upgrade logic for Knight, Baller, utility, support, or passive-heavy setups.",
+          "level_up_change": "BP unlocks more cards, while SP determines how often active card moves can be used.",
+          "cap_or_start": "BP has a firm 30-point cap; HP and SP can be extended further with cards.",
+          "recovery_or_respec": "Removing cards refunds BP, making experimentation easier than permanent stat choices.",
+          "build_advice": "If your build feels weak because you cannot equip enough cards, choose BP. If you can equip the cards but cannot afford their moves, choose SP."
+        }
+      ]
+    },
+    "enemyDropsGuide": {
+      "eyebrow": "Loot Farming",
+      "title": "Block Tales Enemy Drops Guide",
+      "subtitle": "Find useful item drops, rare card drops, and farming targets by chapter instead of repeatedly checking every enemy page.",
+      "intro": "Enemies in Block Tales can carry listed items or cards during battle. Visible held drops have a chance to drop after defeat, hidden drops can appear under the enemy health bar, and each enemy can only hold one item or card at a time.",
+      "items": [
+        {
+          "farming_target": "Enemy Drop System",
+          "chapter_or_area": "All chapters",
+          "notable_drops": "Enemies may carry items or cards from their journal entries. A visible held item or card has a 50% drop chance; an item displayed under the enemy health bar is guaranteed.",
+          "best_for": "Understanding why farming works differently when an item is visible, hidden, or not shown.",
+          "farm_note": "Each enemy can only hold one item or card. If an enemy visibly carries something, it cannot also carry a hidden item."
+        },
+        {
+          "farming_target": "Nooblet / Helmet Noob / Cultist Noob / Knightly Noob / Blue Noob / Red Noob / Noobador",
+          "chapter_or_area": "Prologue",
+          "notable_drops": "Apple Juice 7%, Bomb 7%, Hypno Glasses 3.5%, Tickle Stick 3.5%, Hot Chocolate 2.7%, Minimize 1.6%, Slow Go 1.6%.",
+          "best_for": "Early Bombs, Apple Juice, and first utility-card farming.",
+          "farm_note": "Good early route when you need cheap consumables before moving into later chapters."
+        },
+        {
+          "farming_target": "Winged Nooblet",
+          "chapter_or_area": "Prologue",
+          "notable_drops": "Bomb 7.4%, Hypno Glasses 3.7%, Dizzy Dial 3.7%, Cheezburger 3.7%, Bloxy Cola 2.9%, ATK-FX R 1.7%, Slow Go 1.7%.",
+          "best_for": "Farming early flying-enemy drops and small recovery items.",
+          "farm_note": "Bring Ball or another ranged option because Sword does not naturally target Flying enemies."
+        },
+        {
+          "farming_target": "Sharp Nooblet",
+          "chapter_or_area": "Prologue",
+          "notable_drops": "Bomb 7.4%, Epicsauce 3.7%, Hypno Glasses 3.7%, Cheezburger 3.7%, Bloxy Cola 2.9%, Slow Go 1.7%, Softener 1.7%.",
+          "best_for": "Early Epicsauce, Softener, and Bomb farming.",
+          "farm_note": "Avoid careless melee hits if the enemy's Spiky trait is active or relevant to your setup."
+        },
+        {
+          "farming_target": "Ant Army / Devious Rat / Snory Bear / Hungry Wolf / Banished Knight / Loyal Knight / Crossbow Crony / Sentient Statue / Supreme Ant / Cruel King",
+          "chapter_or_area": "Chapter 1: Storming The Castle",
+          "notable_drops": "Worm 19.7%, Hot Chocolate 9.8%, Cheezburger 6.4%, Dizzy Dial 2.5%, Ice Storm 2%, Free Ice 1.2%, Taco 1%, Strawberry Ice Cream 1%.",
+          "best_for": "Hot Chocolate, Cheezburger, and Free Ice farming.",
+          "farm_note": "A strong chapter route for building a basic stock of recovery and cold-themed utility."
+        },
+        {
+          "farming_target": "Cheeky Eagle / Spiky Killbot",
+          "chapter_or_area": "Chapter 1",
+          "notable_drops": "Forbidden Drink 24.8%, Bitten Brownie 4%, Glue 3.2%, Onion Ring 2.8%, Ice Storm 2.5%, Snowball 1.5%, Vanilla Ice Cream 1.2%, Bloxy Cola 1.2%, Brownie 0.4%.",
+          "best_for": "Snowball card attempts and special Chapter 1 consumables.",
+          "farm_note": "Use anti-Flying and anti-Spiky planning because this group includes both traits."
+        },
+        {
+          "farming_target": "Smugupine",
+          "chapter_or_area": "Chapter 1",
+          "notable_drops": "Iron's Choice 5.7%, Bomb 5%, Tickle Stick 4.1%, Epicsauce 3.6%, Hypno Glasses 3.6%, Chocolate Ice Cream 2.9%, ROBAR 2.9%, Storm Tea 0.6%.",
+          "best_for": "Epicsauce, Tickle Stick, and Iron Cafe-style item farming.",
+          "farm_note": "Good target when you want utility items rather than basic HP food."
+        },
+        {
+          "farming_target": "Komodo Dragon / Tree Golem / Toxic Dartman / Venom Wizard / Purple Frog / Bigfoot / Griefer / Bubonic Plant",
+          "chapter_or_area": "Chapter 2: A Toxic Time",
+          "notable_drops": "Apple Core 20.7%, Dumpling 5.3%, Bomb 4.8%, Green Pepper 3.1%, Dizzy Dial 3.1%, Double Cheezburger 2.4%, Feel Fine 1%, Free Poison 0.7%, Green Tea 0.3%.",
+          "best_for": "Poison-area recovery, Dumpling, Double Cheezburger, and Free Poison farming.",
+          "farm_note": "Carry Poison cures and consider farming Apple Cores here because the drop pool strongly supports poison cleanup."
+        },
+        {
+          "farming_target": "Flying Mantis / Mosquito Swarm / Supreme Mosquito",
+          "chapter_or_area": "Chapter 2",
+          "notable_drops": "Papaya 13.9%, Mango 5.4%, Pineapple 3.9%, Jackfruit 3.7%, Orange 3.7%, Chocolate Ice Cream 2.9%, Tickle Stick 1.2%, Free Poison 1%.",
+          "best_for": "Fruit-based healing and Free Poison farming.",
+          "farm_note": "Use Ball, Sword Toss, Slingshot, or other anti-Flying options to keep farming efficient."
+        },
+        {
+          "farming_target": "Hedgehog / Gaur / Toxic Spearman",
+          "chapter_or_area": "Chapter 2",
+          "notable_drops": "Apple 10.2%, Hot Leaf Juice 6%, Red Pepper 5.6%, Lemon 4.7%, Bahulu 4.3%, Cinnamon Roll 2.3%, Thorns 2%, Bomb 1.1%.",
+          "best_for": "Apple, Hot Leaf Juice, and Thorns farming.",
+          "farm_note": "Useful when preparing for harder fights because Hot Leaf Juice can revive a fallen ally."
+        },
+        {
+          "farming_target": "Gorilla",
+          "chapter_or_area": "Chapter 2",
+          "notable_drops": "Banana 20.8%, Worm 12.1%, Coconut 10.1%, Call: Gorilla 7.1%.",
+          "best_for": "Summon-card farming and SP-related food routes.",
+          "farm_note": "One of the clearer farming targets because Call: Gorilla is tied directly to Gorilla."
+        },
+        {
+          "farming_target": "Bandit / Big Bandit / Helmet Bandit / Purple Noob / Green Noob / Zombie / Skeleton / Squatter / VLAD / Ghost of HAX / Turkey / Slasher / Smiling Bear / Borange Boy / Mold Man / Confident Boulder / F'Ella / Greed / Solitude / Fear / Phobia / Apparition / Hatred",
+          "chapter_or_area": "Chapter 3: All Hallows' Eve",
+          "notable_drops": "Bloxy Cola 22.2%, Mr Batty 5.4%, Applesauce 5.1%, Glue 2.9%, Slateskin Potion 2.3%, Cherry Bomb 2.2%, Orange Juice 1.3%, Pie 0.4%.",
+          "best_for": "Applesauce, Cherry Bomb, and broad Halloween-route consumables.",
+          "farm_note": "Good mid-game stock-up route for group healing and AOE attack items."
+        },
+        {
+          "farming_target": "Winged Zombie / Bee Happy",
+          "chapter_or_area": "Chapter 3",
+          "notable_drops": "Bomb 20.3%, Smoked Trout 4.5%, Cherry 3.9%, Gulab Kulfi 2.6%, HP Finder 1.1%, Cookie Dough 1.1%, First Aid Kit 1.1%, Unadon 1.1%.",
+          "best_for": "Bomb farming and HP Finder attempts.",
+          "farm_note": "A strong farming target when you want Bombs quickly."
+        },
+        {
+          "farming_target": "Sharp Zombie / Your Bombing Pal",
+          "chapter_or_area": "Chapter 3",
+          "notable_drops": "Mistake 20.1%, Magnifying Glass 4.8%, Dumpling 4.8%, Haunted Cheezburger 4%, Milkshake 2.9%, Malay Spongecake 2.1%, Anchor 1.6%, Cherry Pie 1%.",
+          "best_for": "Anchor, Haunted Cheezburger, and cooking-related item farming.",
+          "farm_note": "Good route for players collecting special food and passive-card drops."
+        },
+        {
+          "farming_target": "Nasty Badger / Tomb Raider / Deleter / Scorched Statue / Pirate / Flintlock Pirate / Anubis / Scarab / Camel? / Ramblin' Pot / Mummy / Flame Warrior / Pirate Spirit / Megaphone Man / Shotgun Bloke / The Right Hand / The Left Hand / Captain Trotter / Finn McCool",
+          "chapter_or_area": "Chapter 4: Excavation Exploration",
+          "notable_drops": "Garlic 14.3%, Olives 12.8%, Egg 3.3%, Kiwi 2.9%, Relic 2.8%, Flash Bomb 2.6%, Fig 2%, Free Fire 1.5%.",
+          "best_for": "Chapter 4 food, Relic, Flash Bomb, and Free Fire farming.",
+          "farm_note": "Useful late-game route when preparing for fire-themed or desert-area fights."
+        },
+        {
+          "farming_target": "Vulture / Vessel / The Great Flocci / Temple Guardian / The Ancients",
+          "chapter_or_area": "Chapter 4",
+          "notable_drops": "Hardtack 11.7%, Couscous 10.3%, Chickpeas 10.1%, Thunder Bolt 2.8%, Grapes 2.8%, Flash Bomb 2.8%, Kunafa 2%, Fireball 1.2%, Shish Tawook 0.4%.",
+          "best_for": "Fireball card attempts, Kunafa, Chickpeas, and late-game SP/NRG food support.",
+          "farm_note": "Bring reliable Flying-target options because this group contains Flying enemies."
+        },
+        {
+          "farming_target": "Spiky Devil / Flaming Horse",
+          "chapter_or_area": "Chapter 4",
+          "notable_drops": "Cherry Bomb 12.8%, Relic 9.3%, Double Cheezburger 4.4%, Thunder Bolt 4%, Stinky Latte 3.7%, Mammoul 1.8%, Cookie 1.8%, Sand 0.5%.",
+          "best_for": "Cherry Bomb and Relic farming.",
+          "farm_note": "Avoid relying on Ball contact against Flaming or Spiky enemies unless your setup handles those traits."
+        },
+        {
+          "farming_target": "Mimic",
+          "chapter_or_area": "Chapter 4",
+          "notable_drops": "Sand 8%, Witches Brew 6%, Cherry 6%, Cookie Dough 6%, Pumpkin 4%, Haunted Cheezburger 4%, Pie 4%, Relic 4%, Cookie 2%, Shawarma 0.2%.",
+          "best_for": "Rare food, Relic, and special cooking material farming.",
+          "farm_note": "Best for collectors who want unusual drops rather than basic recovery items."
+        },
+        {
+          "farming_target": "Enemy Card Drops",
+          "chapter_or_area": "All chapters",
+          "notable_drops": "Snowball 1.5%, Minimize 1.6%, Fireball 1.2%, Softener 1.7%, Free Ice 1.5%, Free Poison 1%, Free Fire 1.5%, Feel Fine 1%, Call: Gorilla 7.1%, Thorns 1.8%, Slow Go around 1.6%-1.7%, Anchor 1.6%, HP Finder 1.1%.",
+          "best_for": "Players farming specific cards instead of consumable items.",
+          "farm_note": "Farm the enemy group tied to the card instead of farming a whole chapter blindly."
+        }
+      ]
+    },
+    "locationsAndMapGuide": {
+      "eyebrow": "World Map",
+      "title": "Block Tales Locations and Map Guide",
+      "subtitle": "Find the main hubs, chapter routes, shops, card vendors, boss entrances, and travel connections across Block Tales.",
+      "intro": "Use this Block Tales map guide as a route index: start from Bizville, move through Roblox HQ, follow each chapter area in order, and jump to the place tied to the card, item, boss, or story objective you need.",
+      "items": [
+        {
+          "name": "Bizville",
+          "chapter": "Pre-Prologue / Hub",
+          "region_type": "Main town hub",
+          "how_to_access": "Loaded when a new save file starts, then revisited between chapters.",
+          "main_uses": [
+            "Lorenzo's Shop for HP and SP recovery items",
+            "The Library for stat respecs",
+            "Alleyway card purchases from Sketchy Figure during the Prologue",
+            "The Docks route to Vermillion Village after Chapter 3",
+            "The Sewers entrance to The Pit of 100 Trials"
+          ],
+          "connected_routes": [
+            "Roblox HQ",
+            "Bizville Meadows",
+            "West Bizville Airport",
+            "Bizville Railways",
+            "The Docks",
+            "The Pit of 100 Trials"
+          ]
+        },
+        {
+          "name": "Roblox HQ and Bizville Meadows",
+          "chapter": "Prologue: Hello World!",
+          "region_type": "Story hub and early combat route",
+          "how_to_access": "Head through East Bizville into Bizville Meadows, then enter Roblox HQ near the Meadows entrance.",
+          "main_uses": [
+            "Progress the early story after the VIP Convention setup",
+            "Fight Red Noob and Blue Noob inside Roblox HQ",
+            "Use the Meadows route toward the Caves",
+            "Visit the Fishing Spot for fish items"
+          ],
+          "connected_routes": [
+            "Bizville",
+            "Bizville Meadows",
+            "Caves",
+            "Noobador boss route"
+          ]
+        },
+        {
+          "name": "Blackrock Castle",
+          "chapter": "Chapter One: Storming the Castle",
+          "region_type": "Castle dungeon and first SFOTH sword finale",
+          "how_to_access": "Progress from the Caves through Roadtown, Mount Blackrock, and Snowy Thicket.",
+          "main_uses": [
+            "Solve the prison-cell code route",
+            "Get the Blackrock Diner Key and access the castle kitchen path",
+            "Pick up the Shrinking card in the Blackrock Kitchen route",
+            "Reach the throne room for the Cruel King fight",
+            "Obtain the Ice Dagger after Chapter One"
+          ],
+          "connected_routes": [
+            "Roadtown",
+            "Snowy Thicket",
+            "Blackrock Castle Entrance",
+            "Blackrock Castle Lobby",
+            "Blackrock Kitchen",
+            "Blackrock Throne Room"
+          ]
+        },
+        {
+          "name": "Rugged Rainforest and Sacred Hollow",
+          "chapter": "Chapter Two: A Toxic Time",
+          "region_type": "Jungle progression and Venomshank route",
+          "how_to_access": "Use the West Bizville Airport route to Plainstown, then continue through Savannah, Turitopulis, and the rainforest.",
+          "main_uses": [
+            "Fight the Komodo Dragon and receive Rocket Boots",
+            "Use Coconut Water Machine interactions",
+            "Follow Griefer encounters through the rainforest",
+            "Reach Mango Tree, Sacred Hollow, and Griefer's Crib",
+            "Obtain the Venomshank after defeating Bubonic Plant"
+          ],
+          "connected_routes": [
+            "Plainstown",
+            "Savannah",
+            "Turitopulis",
+            "Rugged Rainforest",
+            "Mango Tree",
+            "Sacred Hollow",
+            "Griefer's Crib"
+          ]
+        },
+        {
+          "name": "Bizville Railways, Spooksville, and Telamon's Manor",
+          "chapter": "Chapter Three: All Hallows' Eve",
+          "region_type": "Train route, haunted manor, and Ghostwalker route",
+          "how_to_access": "Receive the Train Ticket from Shedletsky, then board from Bizville Railways in West Bizville.",
+          "main_uses": [
+            "Clear the invaded train route",
+            "Reach Spooksville and the cemetery path",
+            "Enter Telamon's Manor and its haunted version",
+            "Complete Ghost Chef ingredient objectives",
+            "Descend into the Catacombs and trigger the Dream World route"
+          ],
+          "connected_routes": [
+            "Bizville Railways",
+            "Spooksville",
+            "Cemetery",
+            "Telamon's Manor",
+            "Haunted Manor",
+            "Catacombs",
+            "Dream World"
+          ]
+        },
+        {
+          "name": "Dream World",
+          "chapter": "Chapter Three: All Hallows' Eve",
+          "region_type": "Mindscape dungeon and emotion-boss route",
+          "how_to_access": "Touch the Ghostwalker in the Catacombs, then progress through the player's mind.",
+          "main_uses": [
+            "Move through The House, The Path, and Dream World Hub",
+            "Clear Greed, Solitude, and Fear paths",
+            "Use Ghost Potion timing in the red-tinted Hatred route",
+            "Defeat Hatred and purify the player's soul",
+            "Obtain the Ghostwalker after Chapter Three"
+          ],
+          "connected_routes": [
+            "Dream World Hub",
+            "Greed Path",
+            "Solitude Path",
+            "Fear Path",
+            "Hatred Maze",
+            "Hatred Boss Fight"
+          ]
+        },
+        {
+          "name": "Scorched Dunes and Temple of the Red Sun",
+          "chapter": "Chapter Four: Excavation Exploration",
+          "region_type": "Desert route, puzzle temple, and Firebrand route",
+          "how_to_access": "Use Bizville Docks after Chapter Three, then travel by boat to the Scorched Dunes.",
+          "main_uses": [
+            "Clear desert enemies and cave-style puzzle sections",
+            "Defeat The Great Flocci and obtain the Bottled Ship",
+            "Visit Vermillion Village for cards and items",
+            "Solve four Scorched Ruins puzzles to open the Temple of the Red Sun",
+            "Use temple orb, sequence, and mirror puzzles before the Firebrand finale"
+          ],
+          "connected_routes": [
+            "Outer Scorched Dunes",
+            "Scorched Dunes",
+            "Ancient Tomb",
+            "Oasis",
+            "Pirate Camp",
+            "Vermillion Village",
+            "Temple of the Red Sun",
+            "Red Sun River"
+          ]
+        },
+        {
+          "name": "The Heights",
+          "chapter": "Chapter Five: Trouble on the Heights",
+          "region_type": "Demo 5 sky route and Windforce chapter route",
+          "how_to_access": "Use the West Bizville In the Cards building route and helicopter-pad path unlocked for Chapter Five progression.",
+          "main_uses": [
+            "Enter the Demo 5 chapter route",
+            "Clear the Wizard Tower boss path",
+            "Travel through Redcliff toward Reginald",
+            "Challenge the Trinity in Trinity Castle",
+            "Complete the Seventh Sanctum and fight Frostmaw for the Windforce finale"
+          ],
+          "connected_routes": [
+            "Wizard Tower",
+            "Redcliff",
+            "Reginald's Throne",
+            "Trinity Castle",
+            "The Windforce",
+            "Seventh Sanctum"
+          ]
+        }
+      ]
+    },
+    "pitOf100TrialsGuide": {
+      "eyebrow": "Challenge Mode",
+      "title": "Block Tales Pit of 100 Trials Guide",
+      "subtitle": "Plan your Pit run by floor range, enemy theme, TIX payout, checkpoint floors, and card rewards.",
+      "intro": "The Block Tales Pit of 100 Trials is entered through the Bizville Sewers after obtaining Shrinking from Blackrock Castle. Enemy sets escalate by chapter theme, and every tenth floor acts as a reward floor with a Healing Pad, spawn point, and card reward.",
+      "items": [
+        {
+          "range": "Entry and Floor 0",
+          "theme": "Unlock and staging area",
+          "enemy_focus": [],
+          "safe_floor_reward": "Bed and spawn point on Floor 0",
+          "base_tix": "0",
+          "recommended_prep": [
+            "Bring HP and SP recovery before entering",
+            "Equip a simple survival build before pushing beyond the first checkpoint",
+            "Use Shrinking to enter the tunnel toward the sewers"
+          ]
+        },
+        {
+          "range": "Floors 1-10",
+          "theme": "Prologue enemies",
+          "enemy_focus": [
+            "Helmet Noob",
+            "Knightly Noob",
+            "Cultist Noob",
+            "Sharp Nooblet",
+            "Winged Nooblet",
+            "Red Noob",
+            "Blue Noob",
+            "Noobador"
+          ],
+          "safe_floor_reward": "Floor 10: Healing Pad, spawn point, Daze card",
+          "base_tix": "90",
+          "recommended_prep": [
+            "Use this range for early TIX practice",
+            "Prioritize consistent blocks and basic HP sustain",
+            "Treat Floor 9 as the first boss-check floor"
+          ]
+        },
+        {
+          "range": "Floors 11-20",
+          "theme": "Chapter One enemies",
+          "enemy_focus": [
+            "Hungry Wolf",
+            "Cheeky Eagle",
+            "Crossbow Crony",
+            "Banished Knight",
+            "Sentient Statue",
+            "Spiky Killbot",
+            "Supreme Ant"
+          ],
+          "safe_floor_reward": "Floor 20: Healing Pad, spawn point, Free Ice card",
+          "base_tix": "132",
+          "recommended_prep": [
+            "Prepare for higher incoming damage from castle and mountain enemies",
+            "Bring multi-target options for grouped enemies",
+            "Use bombs or strong single-target damage when bulky enemies appear"
+          ]
+        },
+        {
+          "range": "Floors 21-30",
+          "theme": "Chapter Two enemies",
+          "enemy_focus": [
+            "Hedgehog",
+            "Flying Mantis",
+            "Purple Frog",
+            "Mosquito Swarm",
+            "Gaur",
+            "Gorilla",
+            "Toxic Dartman",
+            "Toxic Spearman",
+            "Venom Wizard",
+            "Bigfoot",
+            "Komodo Dragon"
+          ],
+          "safe_floor_reward": "Floor 30: Healing Pad, spawn point, Thorns card",
+          "base_tix": "137",
+          "recommended_prep": [
+            "Carry healing for poison-heavy jungle waves",
+            "Use defensive cards before Floor 29 Komodo Dragon pressure",
+            "Keep enough SP for enemies that punish slow single-target clears"
+          ]
+        },
+        {
+          "range": "Floors 31-40",
+          "theme": "Chapter Three and Dream World enemies",
+          "enemy_focus": [
+            "Bandit",
+            "Helmet Bandit",
+            "Big Bandit",
+            "Winged Zombie",
+            "Sharp Zombie",
+            "Turkey",
+            "Slasher",
+            "Greed",
+            "Solitude",
+            "Fear"
+          ],
+          "safe_floor_reward": "Floor 40: Healing Pad, spawn point, Deep Focus card",
+          "base_tix": "155",
+          "recommended_prep": [
+            "Bring status control and SP recovery",
+            "Expect mixed physical and spooky enemy patterns",
+            "Save resources for Floors 38-39 where emotion bosses appear"
+          ]
+        },
+        {
+          "range": "Floors 41-50",
+          "theme": "Chapter Four desert and temple enemies",
+          "enemy_focus": [
+            "Nasty Badger",
+            "Spiky Devil",
+            "Vulture",
+            "Deleter",
+            "Tomb Raider",
+            "Ramblin' Pot",
+            "Anubis",
+            "Scarab",
+            "Flame Warrior",
+            "Temple Guardian",
+            "Captain Trotter"
+          ],
+          "safe_floor_reward": "Floor 50: Healing Pad, spawn point, Defend+ card",
+          "base_tix": "187",
+          "recommended_prep": [
+            "Use fire-resistant routing and strong guard timing",
+            "Reserve burst damage for Floor 49 Captain Trotter lineup",
+            "Defensive builds gain strong value from the Defend+ reward"
+          ]
+        },
+        {
+          "range": "Floors 51-60",
+          "theme": "Demo 5 and Chapter Five enemies",
+          "enemy_focus": [
+            "Chosen",
+            "Flying Cloudie",
+            "Pterosaur",
+            "Basher",
+            "Redcliff Knight",
+            "Mage Walker",
+            "Redcliff Archer",
+            "Sky Knight",
+            "Astral Elite",
+            "Astral Summoner",
+            "Wind Spirit",
+            "Dark Spirit",
+            "The Magnificent",
+            "Reginald",
+            "Robur",
+            "Azuri"
+          ],
+          "safe_floor_reward": "Floor 60: Healing Pad, spawn point, Pack Tactics card",
+          "base_tix": "High-floor TIX range",
+          "recommended_prep": [
+            "Bring a late-game survival build before pushing this range",
+            "Plan around mixed Chapter Five enemies and returning boss threats",
+            "Keep ally, defense, and SP tools ready for the final stretch"
+          ]
+        }
+      ]
+    },
+    "updatesAndPatchNotes": {
+      "eyebrow": "Atualizações",
+      "title": "Atualizações e Notas de Patch de Block Tales",
+      "subtitle": "Acompanhe os principais lançamentos de Block Tales, mudanças da Demo 5, novos capítulos, expansões do Pit, Cards, itens, ajustes de equilíbrio e o status oficial do jogo.",
+      "intro": "Este hub de atualizações de Block Tales foi criado para buscas de datas de lançamento, notas de patch e intenção de busca da próxima demo. Cada entrada foca no que mudou para os jogadores: novo conteúdo de história, novos intervalos de andares, novos Cards e itens, atualizações de equilíbrio, mudanças na UI e recursos de progressão.",
+      "items": [
+        {
+          "date": "25 de abril de 2026",
+          "release": "Demo 5 - Lançamento do Capítulo 5 + Rewrite",
+          "type": "Atualização principal",
+          "highlights": [
+            "Capítulo Cinco: Trouble on the Heights lançado",
+            "10 novos andares do Pit adicionados",
+            "26 novos inimigos adicionados",
+            "22 novos itens adicionados",
+            "12 novos Cards adicionados",
+            "Bizville Bank adicionado",
+            "Recurso de armazenar todos os itens adicionado",
+            "Nomeação de arquivos de salvamento adicionada",
+            "Animações de Power Shot adicionadas",
+            "Avatar e Idle Flavors expandidos"
+          ],
+          "story_changes": [
+            "Cenas da Mysterious Figure adicionadas",
+            "Mudanças faciais em personagens importantes adicionadas",
+            "Cutscenes do Capítulo 2 e Capítulo 4 adicionadas",
+            "Cutscene final do Capítulo 4 atualizada",
+            "Terminologia VOICES substituída por VISIONS"
+          ],
+          "balance_changes": [
+            "Slingshot e Dynamite receberam um novo comando de ação",
+            "O quique da Hyperball tornou-se uma ação",
+            "Ícones de inimigos atualizados",
+            "Thorns retrabalhado",
+            "Drops de TIX ajustados"
+          ]
+        },
+        {
+          "date": "25 de abril de 2026",
+          "release": "Correção de dia de lançamento da Demo 5",
+          "type": "Hotfix",
+          "highlights": [
+            "Corrigido um softlock de diálogo causado por caracteres estrangeiros nos nomes de exibição"
+          ],
+          "story_changes": [],
+          "balance_changes": []
+        },
+        {
+          "date": "31 de maio de 2025",
+          "release": "Demo 4 - Lançamento do Capítulo 4 + Pré-Prólogo",
+          "type": "Atualização principal",
+          "highlights": [
+            "Pré-Prólogo adicionado à campanha principal",
+            "Capítulo Quatro adicionado à campanha principal",
+            "Andares 41-49 do Pit desbloqueados",
+            "24 novos itens adicionados",
+            "Cards Aggressor, Infect e Free Fire adicionados",
+            "Loadouts de Deck de Cards adicionados",
+            "Caixa de armazenamento de itens adicionada",
+            "Culinária de receita dupla adicionada",
+            "Dois slots de salvamento adicionais adicionados"
+          ],
+          "story_changes": [
+            "Retorno a Turitopulis após o Capítulo 2 para visitar o Mayor Thaniyel e saber sobre a condição de Griefer",
+            "Rota do superboss de Vermillion Village adicionada após o Capítulo 4"
+          ],
+          "balance_changes": [
+            "Dano da Dynamite aumentado",
+            "Dano do Linebounce ajustado",
+            "Escalonamento de HP do Summoner melhorado",
+            "Free Fire, Free Ice e Free Poison não restringem mais o slot de Ball",
+            "Múltiplos custos de BP ajustados"
+          ]
+        },
+        {
+          "date": "21 de outubro de 2024",
+          "release": "Demo 3 - Lançamento do Capítulo 3",
+          "type": "Atualização principal",
+          "highlights": [
+            "Capítulo Três adicionado à campanha principal",
+            "Andares 31-39 do Pit desbloqueados",
+            "Aliados adicionados para ajudar na batalha",
+            "Recurso de atualização de estatísticas na Library adicionado",
+            "7 novos Cards adicionados",
+            "25 novos itens adicionados",
+            "Culinária adicionada através do Kitchen Wizard",
+            "Índice de Inimigos adicionado"
+          ],
+          "story_changes": [
+            "Telamon's Manor, a rota da Haunted Manor, Catacombs e Dream World tornaram-se o caminho central do Capítulo Três"
+          ],
+          "balance_changes": [
+            "HP e dano da maioria dos inimigos reduzidos",
+            "Velocidade do medidor de vida rolante reduzida quando não está pensando",
+            "Taxas de drop de itens tornaram-se visíveis através do Índice de Inimigos",
+            "Vários efeitos de Cards e itens ajustados"
+          ]
+        },
+        {
+          "date": "6 de julho de 2024",
+          "release": "Demo 2 - Lançamento do Capítulo 2",
+          "type": "Atualização principal",
+          "highlights": [
+            "Capítulo Dois adicionado à história principal",
+            "Próximos dez andares do Pit desbloqueados",
+            "Lutas repetidas contra chefes finais adicionadas perto da rota do aeroporto",
+            "Minijogos infinitos de Arcade adicionados",
+            "Armas Slingshot e Launcher adicionadas em Turitopulis",
+            "Cinco Cards de dificuldade adicionados em Bizville",
+            "Banca de doadores adicionada em Bizville",
+            "25 novos itens de loja adicionados"
+          ],
+          "story_changes": [
+            "Plainstown, Turitopulis, Rugged Rainforest, Sacred Hollow, Griefer e Venomshank tornaram-se o caminho principal do Capítulo Dois"
+          ],
+          "balance_changes": [
+            "Hard Mode reajustado",
+            "Recuperação de grupo da Ice Dagger ajustada",
+            "Custo de SP para empilhamento de Cards alterado",
+            "Cards tornaram-se vendáveis para mercadores por TIX",
+            "Chance de drop de itens de inimigos aumentada"
+          ]
+        },
+        {
+          "date": "16 de maio de 2024",
+          "release": "Demo 1 - Lançamento Público",
+          "type": "Atualização de lançamento",
+          "highlights": [
+            "Lançamento público de Block Tales Demo 1",
+            "Rota do Prólogo e Capítulo Um estabelecida",
+            "Blackrock Castle e Cruel King tornaram-se o primeiro grande final de capítulo"
+          ],
+          "story_changes": [
+            "Configuração do sequestro do Builderman, missão de Shedletsky e a primeira caçada às espadas SFOTH começaram"
+          ],
+          "balance_changes": [
+            "Escalonamento da UI do menu do Tablet corrigido",
+            "Softlock no tutorial de superball do Terry corrigido",
+            "Inicialização do navegador da UI de batalha corrigida para Xbox e PC",
+            "HP do Spiky Killbot reduzido"
+          ]
+        }
+      ]
+    },
+    "storyAndLoreRecap": {
+      "eyebrow": "Resumo da História",
+      "title": "Resumo da História e Lore de Block Tales",
+      "subtitle": "Fique por dentro da história principal, da caçada às espadas SFOTH, da ordem dos capítulos, personagens principais e grandes reviravoltas antes de começar a demo mais recente.",
+      "intro": "Block Tales segue o jogador após o sequestro de Builderman e o pedido de Shedletsky para recuperar as espadas de Sword Fight on the Heights. Cada capítulo principal envia o jogador para uma nova região, termina com um grande confronto contra um chefe e adiciona uma nova espada da história ao arsenal do jogador.",
+      "items": [
+        {
+          "heading": "Pré-Prólogo: A Convenção VIP do Roblox",
+          "summary": "A história começa na Convenção VIP do Roblox no Roblox HQ, onde Builderman faz um discurso antes que a Mysterious Figure interrompa, critique o Roblox moderno e ordene que seus capangas amarrem Builderman. O jogador é empurrado para a primeira luta quando o Elder Penguin pede que ele se levante e use a Superball.",
+          "key_characters": [
+            "Jogador",
+            "Builderman",
+            "Mysterious Figure",
+            "JParty",
+            "Elder Penguin",
+            "Harry",
+            "Mary"
+          ],
+          "key_locations": [
+            "Hotel",
+            "Bizville",
+            "Roblox HQ"
+          ],
+          "sword_reward": "Nenhum"
+        },
+        {
+          "heading": "Prólogo: Hello World!",
+          "summary": "O jogador acorda na cama de Tutorial Terry e descobre que Builderman foi sequestrado. Após chegar ao Roblox HQ, o jogador encontra Shedletsky ferido, derrota Red Noob e Blue Noob, recebe uma espada de madeira e segue a rota de Meadows em direção a Noobador.",
+          "key_characters": [
+            "Jogador",
+            "Tutorial Terry",
+            "Shedletsky",
+            "Red Noob",
+            "Blue Noob",
+            "Noobador"
+          ],
+          "key_locations": [
+            "Bizville",
+            "Roblox HQ",
+            "Bizville Meadows",
+            "Caves"
+          ],
+          "sword_reward": "Nenhum"
+        },
+        {
+          "heading": "Capítulo Um: Invadindo o Castelo",
+          "summary": "O jogador escala as Caves e chega a Roadtown, uma cidade presa em um inverno não natural. A jornada continua através de Snowy Thicket e para dentro do Blackrock Castle, terminando com o Cruel King usando a Ice Dagger como a arma do chefe final do capítulo.",
+          "key_characters": [
+            "Cruel King",
+            "Mayor Monty",
+            "Accountant Jim",
+            "Banished Knight",
+            "Kitchen Wizard",
+            "Tutorial Terry"
+          ],
+          "key_locations": [
+            "Caves",
+            "Roadtown",
+            "Snowy Thicket",
+            "Blackrock Castle",
+            "Blackrock Throne Room"
+          ],
+          "sword_reward": "Ice Dagger"
+        },
+        {
+          "heading": "Capítulo Dois: Um Tempo Tóxico",
+          "summary": "Após a Ice Dagger ser recuperada, Shedletsky envia o jogador em direção a Plainstown e à Rugged Rainforest para recuperar a Venomshank. O capítulo foca no Mayor Thaniyel, Griefer, travessia na selva, Rocket Boots, Sacred Hollow e a transformação de Griefer em Bubonic Plant.",
+          "key_characters": [
+            "Shedletsky",
+            "Mayor Thaniyel",
+            "Griefer",
+            "Komodo Dragon",
+            "Bigfoot",
+            "Bubonic Plant"
+          ],
+          "key_locations": [
+            "Plainstown",
+            "Savannah",
+            "Turitopulis",
+            "Rugged Rainforest",
+            "Mango Tree",
+            "Sacred Hollow",
+            "Griefer's Crib"
+          ],
+          "sword_reward": "Venomshank"
+        },
+        {
+          "heading": "Capítulo Três: Noite de Halloween",
+          "summary": "Shedletsky envia o jogador para a Telamon's Manor para recuperar a Ghostwalker. O trem para Spooksville é invadido, a mansão torna-se assombrada, as Catacombs levam à Ghostwalker, e tocá-la envia o jogador para o Dream World para enfrentar Greed, Solitude, Fear e Hatred.",
+          "key_characters": [
+            "Shedletsky",
+            "Noobador",
+            "Red Noob",
+            "Blue Noob",
+            "Green Noob",
+            "Purple Noob",
+            "Ghost Chef",
+            "Hatred"
+          ],
+          "key_locations": [
+            "Bizville Railways",
+            "Spooksville",
+            "Telamon's Manor",
+            "Haunted Manor",
+            "Catacombs",
+            "Dream World"
+          ],
+          "sword_reward": "Ghostwalker"
+        },
+        {
+          "heading": "Capítulo Quatro: Exploração de Escavação",
+          "summary": "Após a Ghostwalker ser garantida, Shedletsky envia o jogador através das Bizville Docks para as Scorched Dunes para recuperar a Firebrand no Temple of the Red Sun. A rota introduz The Great Flocci, Captain Trotter, Calypso, quebra-cabeças no deserto, guardiões do templo e o final da Firebrand envolvendo The Ancients.",
+          "key_characters": [
+            "Shedletsky",
+            "The Great Flocci",
+            "Captain Trotter",
+            "Calypso",
+            "Temple Guardian",
+            "The Ancients"
+          ],
+          "key_locations": [
+            "Scorched Dunes",
+            "Ancient Tomb",
+            "Oasis",
+            "Pirate Camp",
+            "Vermillion Village",
+            "Temple of the Red Sun",
+            "Red Sun River",
+            "Mount Red Sun"
+          ],
+          "sword_reward": "Firebrand"
+        },
+        {
+          "heading": "Capítulo Cinco: Problemas nas Alturas",
+          "summary": "O Capítulo Cinco envia o jogador para a rota de Heights introduzida com a Demo 5. O caminho de progressão inclui Wizard Tower, Redcliff, Reginald's Throne, Trinity Castle, o Seventh Sanctum e Frostmaw como o encontro final do chefe da Windforce.",
+          "key_characters": [
+            "The Magnificent",
+            "Reginald",
+            "Azuri",
+            "Robur",
+            "Cassie",
+            "Frostmaw"
+          ],
+          "key_locations": [
+            "The Heights",
+            "Wizard Tower",
+            "Redcliff",
+            "Reginald's Throne",
+            "Trinity Castle",
+            "Seventh Sanctum",
+            "The Windforce"
+          ],
+          "sword_reward": "Windforce"
+        },
+        {
+          "heading": "Ordem das Espadas SFOTH",
+          "summary": "A progressão principal das espadas segue a estrutura de recompensa dos capítulos: Ice Dagger após o Capítulo Um, Venomshank após o Capítulo Dois, Ghostwalker após o Capítulo Três, Firebrand após o Capítulo Quatro e Windforce após o Capítulo Cinco. A Energia da Espada, também chamada de NRG, é o recurso de batalha usado para ações das espadas SFOTH.",
+          "key_characters": [
+            "Shedletsky",
+            "Jogador"
+          ],
+          "key_locations": [
+            "Blackrock Castle",
+            "Rugged Rainforest",
+            "Catacombs",
+            "Temple of the Red Sun",
+            "The Heights"
+          ],
+          "sword_reward": "Ice Dagger, Venomshank, Ghostwalker, Firebrand, Windforce"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas Frequentes de Block Tales",
+    "titleHighlight": "Perguntas",
+    "subtitle": "Tudo o que os jogadores precisam saber sobre capítulos, Cards, chefes, Badges, códigos e a Demo 5 de Block Tales.",
+    "questions": [
+      {
+        "question": "O que é Block Tales?",
+        "answer": "Block Tales é um RPG de turnos no Roblox criado pela Spaceman Moonbase com rotas de capítulos, builds de Cards, chefes, Badges, BUX e atualizações de história."
+      },
+      {
+        "question": "Block Tales tem códigos?",
+        "answer": "O módulo de Códigos de Block Tales rastreia o status das recompensas principais do RPG e as separa de listas de códigos de spin-offs com nomes semelhantes."
+      },
+      {
+        "question": "O que os novos jogadores de Block Tales devem aprender primeiro?",
+        "answer": "Novos jogadores de Block Tales devem aprender sobre HP, SP, BP, Cards, bloqueio, escolhas de subida de nível e a rota do Prólogo antes de avançar para capítulos posteriores."
+      },
+      {
+        "question": "O que mudou na Demo 5 de Block Tales?",
+        "answer": "A Demo 5 de Block Tales adicionou o Capítulo Cinco, Trouble on the Heights, progressão da Windforce, novos inimigos, novos itens, novos Cards, andares do Pit e mudanças de rewrite."
+      },
+      {
+        "question": "Como o Detonado de Block Tales ajuda?",
+        "answer": "O Detonado de Block Tales organiza cada capítulo atual por objetivo, áreas principais, desbloqueios, lutas importantes e dicas de rota."
+      },
+      {
+        "question": "Onde posso jogar Block Tales?",
+        "answer": "Você pode jogar Block Tales no Roblox a partir da página oficial do jogo Block Tales."
+      },
+      {
+        "question": "Como devo usar o Guia de Cards de Block Tales?",
+        "answer": "Use o Guia de Cards de Block Tales para comparar tipos de Cards, custo de BP, custo de SP, fonte de desbloqueio, regras de empilhamento e função em combate antes de mudar sua build."
+      },
+      {
+        "question": "O que o Guia de Chefes de Block Tales cobre?",
+        "answer": "O Guia de Chefes de Block Tales cobre chefes de capítulos, superbosses opcionais, localizações, mecânicas centrais, Cards recomendados e foco estratégico para cada luta importante."
+      },
+      {
+        "question": "O Guia de Badges de Block Tales pode ajudar na conclusão?",
+        "answer": "Sim. O Guia de Badges de Block Tales agrupa Badges de história, ocultas, de coleção, Hard Mode, Demo 5 e legadas em checklists de conclusão baseadas em capítulos."
+      },
+      {
+        "question": "Como devo usar o Guia de Itens de Block Tales?",
+        "answer": "Use o Guia de Itens de Block Tales para comparar cura, recuperação de SP, proteção de status, itens de ataque, opções de reviver e escolhas de inventário para preparação de chefes."
+      },
+      {
+        "question": "O que o Guia de Armas de Block Tales explica?",
+        "answer": "O Guia de Armas de Block Tales explica Espada, Ball, armas de substituição, espadas SFOTH, Energia da Espada, rotas de obtenção, melhores usos e cuidados."
+      },
+      {
+        "question": "Quais estatísticas importam mais no Guia de Stats e Nível de Block Tales?",
+        "answer": "O Guia de Stats e Nível de Block Tales cobre HP, SP, BP, escolhas de Level Up, opções de respec, Energia da Espada e rotas de build práticas."
+      },
+      {
+        "question": "Como o Guia de Drops de Inimigos de Block Tales ajuda no farming?",
+        "answer": "O Guia de Drops de Inimigos de Block Tales agrupa drops de itens, drops de Cards, alvos de farming, capítulos e notas de rota para que os jogadores possam farmar com um objetivo claro."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para jogar Block Tales?",
+    "description": "Junte-se à comunidade Block Tales para atualizações de capítulos, dicas de chefes, builds de Cards, rotas de BUX e descobertas de jogadores.",
+    "joinCommunity": "Entrar no Discord de Block Tales",
+    "joinGame": "Jogar Block Tales no Roblox"
+  },
+  "footer": {
+    "title": "Block Tales Wiki",
+    "description": "Seu hub de recursos completo para capítulos, Cards, chefes, localizações de BUX, Badges, itens e guias de atualização de Block Tales.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Block Tales Discord",
+    "twitter": "Block Tales no X",
+    "reddit": "r/blocktales",
+    "robloxGroup": "Spaceman Moonbase",
+    "robloxGame": "Jogar no Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "Copyright 2026 Block Tales Wiki. Não afiliado à Roblox Corporation ou Spaceman Moonbase.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "updates": {
+      "title": "Atualizações de Block Tales",
+      "description": "Acompanhe a Demo 5 de Block Tales, lançamentos de capítulos, reescritas de história, notas de atualização e conteúdos futuros em um único hub de atualizações.",
+      "metaTitle": "Atualizações de Block Tales - Demo 5, Notícias de Capítulos e Notas de Atualização",
+      "metaDescription": "Acompanhe as atualizações de Block Tales com cobertura da Demo 5, notícias de capítulos, notas de atualização, reescritas de história, novos chefes, Cards, itens e conteúdos futuros.",
+      "categoryLabel": "ATUALIZAÇÕES",
+      "whatIs": "O que são as Atualizações de Block Tales?",
+      "whatIsDescription": "As atualizações de Block Tales reúnem notícias de lançamento, mudanças na Demo 5, adições de capítulos, notas de reescrita de história, novos chefes, mudanças de balanceamento e sinais de conteúdos futuros.",
+      "why": "Por que ler as atualizações de Block Tales?",
+      "whySteps": {
+        "step1Title": "Acompanhe Novos Capítulos",
+        "step1Description": "Veja quais demos, capítulos, áreas, chefes e arcos de história de Block Tales estão disponíveis ou foram anunciados recentemente.",
+        "step2Title": "Revise Mudanças na Jogabilidade",
+        "step2Description": "Acompanhe mudanças em Cards, itens, inimigos, rotas e balanceamento que afetam o progresso atual em Block Tales.",
+        "step3Title": "Planeje seu Retorno",
+        "step3Description": "Saiba quais missões, áreas e builds de Block Tales revisitar quando uma demo ou patch importante chegar."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Atualizações de Block Tales"
+    },
+    "characters": {
+      "title": "Personagens de Block Tales",
+      "description": "Explore personagens, chefes, NPCs, papéis na história, notas de encontro e guias de personagens específicos de capítulos de Block Tales.",
+      "metaTitle": "Personagens de Block Tales - Chefes, NPCs e Guia de História",
+      "metaDescription": "Navegue pelos guias de personagens de Block Tales cobrindo chefes, NPCs, papéis na história, localizações, encontros e contexto de guias de capítulos.",
+      "categoryLabel": "PERSONAGENS",
+      "whatIs": "O que são os Personagens de Block Tales?",
+      "whatIsDescription": "Os personagens de Block Tales incluem figuras importantes da história, chefes, aliados, NPCs e alvos de encontros ligados à progressão de capítulos e ao planejamento de combate.",
+      "why": "Por que estudar os personagens de Block Tales?",
+      "whySteps": {
+        "step1Title": "Entenda os Papéis na História",
+        "step1Description": "Conecte personagens de Block Tales a capítulos, objetivos, facções e pontos de virada importantes da história.",
+        "step2Title": "Prepare-se para Encontros",
+        "step2Description": "Revise o contexto de chefes e NPCs antes de entrar em lutas ou missões importantes de Block Tales.",
+        "step3Title": "Encontre NPCs Importantes",
+        "step3Description": "Use guias de personagens para localizar doadores de missões, aliados, lojas e interações específicas de capítulos em Block Tales."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Personagens de Block Tales"
+    },
+    "guide": {
+      "title": "Guia de Block Tales",
+      "description": "Use os artigos do guia de Block Tales para dicas de progressão, rotas de desbloqueio, respostas de quebra-cabeças, acesso a itens, comandos e ajuda com capítulos.",
+      "metaTitle": "Guia de Block Tales - Progressão, Desbloqueios, Quebra-cabeças e Dicas",
+      "metaDescription": "Leia artigos do guia de Block Tales para desbloqueios de cavaleiro, primeiros socorros, comandos, soluções de quebra-cabeças, ingredientes, rotas de itens e fundamentos da jogabilidade.",
+      "categoryLabel": "GUIA",
+      "whatIs": "O que é o Guia de Block Tales?",
+      "whatIsDescription": "A categoria do guia de Block Tales cobre artigos práticos de 'como fazer' para mecânicas, desbloqueios, quebra-cabeças, comandos, consumíveis, rotas e objetivos de capítulos.",
+      "why": "Por que usar o guia de Block Tales?",
+      "whySteps": {
+        "step1Title": "Resolva Bloqueios de Progressão",
+        "step1Description": "Obtenha passos diretos de Block Tales para quebra-cabeças, caminhos bloqueados, receitas e objetivos específicos de rotas.",
+        "step2Title": "Desbloqueie Ferramentas Úteis",
+        "step2Description": "Encontre Cards, itens, configurações de comandos e opções de recuperação que tornam os capítulos de Block Tales mais tranquilos.",
+        "step3Title": "Melhore sua Jogabilidade",
+        "step3Description": "Fortaleça o tempo de reação, planejamento, uso de recursos e hábitos de exploração em todas as demos de Block Tales."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos do Guia de Block Tales"
+    },
+    "cards": {
+      "title": "Cards de Block Tales",
+      "description": "Domine os Cards de Block Tales com planejamento de pontos de Badges, efeitos de Cards, papéis de combate, notas de aquisição e sinergias de builds.",
+      "metaTitle": "Cards de Block Tales - Efeitos, Localizações e Planejamento de Build",
+      "metaDescription": "Aprenda sobre Cards de Block Tales incluindo HP Finder, Safe Guard, Aggressor, Griefer, Drawback Cards, custos de BP, efeitos, localizações e sinergias de builds.",
+      "categoryLabel": "CARDS",
+      "whatIs": "O que são os Cards de Block Tales?",
+      "whatIsDescription": "Cards de Block Tales são as principais ferramentas de build para combate, defesa, utilidade, recuperação, configurações de risco-recompensa e estratégia específica de encontros.",
+      "why": "Por que aprender sobre os Cards de Block Tales?",
+      "whySteps": {
+        "step1Title": "Molde sua Build",
+        "step1Description": "Gaste pontos de Badges de Block Tales em Cards que combinem com sua arma, papel no grupo e rota do capítulo.",
+        "step2Title": "Lide com Lutas Importantes",
+        "step2Description": "Escolha Cards ofensivos, defensivos e de utilidade para chefes, encontros ocultos e rotas de masmorras mais longas.",
+        "step3Title": "Encontre Fontes de Cards",
+        "step3Description": "Use os guias de Cards de Block Tales para identificar requisitos de desbloqueio, localizações, missões e casos de uso prático."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Cards de Block Tales"
+    },
+    "builds": {
+      "title": "Builds de Block Tales",
+      "description": "Planeje builds de Block Tales em torno de armas, Cards, BP, SP, papéis no grupo, estratégia de chefes e mudanças de balanceamento da Demo 5.",
+      "metaTitle": "Builds de Block Tales - Melhores Cards, Armas e Setups da Demo 5",
+      "metaDescription": "Crie builds de Block Tales com sinergia de Cards, escolhas de armas, planejamento de BP, economia de SP, estratégia de chefes e conselhos de configuração da Demo 5.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "O que são as Builds de Block Tales?",
+      "whatIsDescription": "Builds de Block Tales combinam escolha de arma, conjunto de Cards, gastos de pontos de Badges, economia de pontos de habilidade, itens e papéis no grupo em um estilo de jogo focado.",
+      "why": "Por que planejar builds de Block Tales?",
+      "whySteps": {
+        "step1Title": "Combine com sua Arma",
+        "step1Description": "Combine Cards e recursos de Block Tales com Ball, Launcher, suporte ou outras estratégias centradas em armas.",
+        "step2Title": "Gaste BP de Forma Eficiente",
+        "step2Description": "Evite desperdiçar pontos de Badges escolhendo Cards que suportem seu plano de dano, defesa ou utilidade em Block Tales.",
+        "step3Title": "Adapte-se aos Chefes",
+        "step3Description": "Ajuste builds de Block Tales para fases de chefes, efeitos de status, controle de grupo e longos encontros da Demo 5."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Builds de Block Tales"
+    }
   }
 }

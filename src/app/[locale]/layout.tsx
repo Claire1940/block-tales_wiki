@@ -38,8 +38,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
 	const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://block-tales.wiki').replace(/\/$/, '')
 	const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
-	const title = 'Block Tales Wiki - Cards, Bosses & Chapter Guide'
-	const description = 'Explore Block Tales Wiki for cards, bosses, chapters, badges, BUX, weapons, locations, beginner tips, and updates for the Roblox turn-based RPG.'
+	const title = 'Block Tales Wiki - Cards, Bosses & Chapter Guide 2026'
+	const description = 'Explore Block Tales Wiki for cards, bosses, chapters, badges, BUX, weapons, locations, beginner tips, builds, and updates for the Roblox turn-based RPG.'
 
 	return {
 		metadataBase: new URL(siteUrl),
