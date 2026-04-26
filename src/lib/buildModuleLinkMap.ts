@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  codes: { field: 'items', nameKey: 'code' },
+  beginnerGuide: { field: 'steps', nameKey: 'title' },
+  demo5Guide: { field: 'items', nameKey: 'title' },
+  walkthrough: { field: 'chapters', nameKey: 'title' },
+  cardsGuide: { field: 'items', nameKey: 'name' },
+  cardTierList: { field: 'items', nameKey: 'tier' },
+  bossGuide: { field: 'items', nameKey: 'name' },
+  badgesGuide: { field: 'items', nameKey: 'section' },
+  itemsGuide: { field: 'items', nameKey: 'item' },
+  weaponsGuide: { field: 'items', nameKey: 'name' },
+  statsAndLevelingGuide: { field: 'items', nameKey: 'stat_or_system' },
+  enemyDropsGuide: { field: 'items', nameKey: 'farming_target' },
+  locationsAndMapGuide: { field: 'items', nameKey: 'name' },
+  pitOf100TrialsGuide: { field: 'items', nameKey: 'range' },
+  updatesAndPatchNotes: { field: 'items', nameKey: 'release' },
+  storyAndLoreRecap: { field: 'items', nameKey: 'heading' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  codes: ['active codes', 'reward', 'redeem', 'working codes', 'game page'],
+  beginnerGuide: ['beginner', 'how to be good', 'first aid', 'keybinds', 'starter route'],
+  demo5Guide: ['demo 5', 'chapter 5', 'release date', 'trinity', 'windforce'],
+  walkthrough: ['walkthrough', 'last puzzle', 'ingredients', 'chef', 'chapter 5'],
+  cardsGuide: ['cards', 'safe guard', 'hp finder', 'griefer', 'drawback', 'aggressor'],
+  cardTierList: ['tier list', 'aggressor', 'safe guard', 'hp finder', 'drawback', 'baller'],
+  bossGuide: ['boss', 'super boss', 'aggressor', 'converging timelines', 'griefer'],
+  badgesGuide: ['badges', 'converging timelines', 'completion', 'challenge clears'],
+  itemsGuide: ['items', 'shawarma', 'compost', 'first aid', 'ingredients', 'chef'],
+  weaponsGuide: ['weapons', 'windforce', 'paintball gun', 'ice dagger', 'chapter 5'],
+  statsAndLevelingGuide: ['stats', 'leveling', 'bp', 'sp', 'hp', 'baller build'],
+  enemyDropsGuide: ['enemy drops', 'farming', 'compost', 'griefer', 'drops'],
+  locationsAndMapGuide: ['locations', 'map', 'trinity', 'vermalon', 'chef', 'chapter 5'],
+  pitOf100TrialsGuide: ['pit of 100 trials', 'floors', 'sewers', 'challenge', 'rewards'],
+  updatesAndPatchNotes: ['updates', 'patch notes', 'demo 5', 'release date', 'upcoming content'],
+  storyAndLoreRecap: ['story', 'lore', 'builderman', 'shedletsky', 'telamon', 'chapter 5'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['block', 'tales', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of "Block Tales")
+  const strippedQuery = normalizedQuery.replace(/block tales?\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/block tales?\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }

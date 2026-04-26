@@ -49,7 +49,7 @@ interface HomePageClientProps {
   locale: string
 }
 
-export default function HomePageClient({ latestArticles, locale }: HomePageClientProps) {
+export default function HomePageClient({ latestArticles, moduleLinkMap, locale }: HomePageClientProps) {
   const localeMessages = useMessages() as any
   const homepageMessages = enMessages as any
   const t = {
@@ -61,6 +61,24 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
     faq: homepageMessages.faq,
     cta: homepageMessages.cta,
     footer: homepageMessages.footer,
+  }
+  const renderModuleTitle = (moduleKey: string, title: string) => {
+    const link = moduleLinkMap[moduleKey]
+    if (!link) return title
+
+    const href = locale === 'en' ? link.url : `/${locale}${link.url}`
+    return (
+      <a
+        href={href}
+        title={link.title}
+        className="inline-block hover:text-[hsl(var(--nav-theme-light))] transition-colors
+                   focus-visible:outline-none focus-visible:ring-2
+                   focus-visible:ring-[hsl(var(--nav-theme))] focus-visible:ring-offset-2
+                   focus-visible:ring-offset-background rounded-sm"
+      >
+        {title}
+      </a>
+    )
   }
 
   // Scroll reveal animation
@@ -601,7 +619,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <ClipboardCheck className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.codes.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.codes.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('codes', t.modules.codes.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.codes.subtitle}
             </p>
@@ -657,7 +675,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <BookOpen className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.beginnerGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.beginnerGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('beginnerGuide', t.modules.beginnerGuide.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.beginnerGuide.subtitle}
             </p>
@@ -698,7 +716,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.demo5Guide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.demo5Guide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('demo5Guide', t.modules.demo5Guide.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.demo5Guide.subtitle}
             </p>
@@ -744,7 +762,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Gamepad2 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.walkthrough.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.walkthrough.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('walkthrough', t.modules.walkthrough.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.walkthrough.subtitle}
             </p>
@@ -822,7 +840,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.cardsGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.cardsGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('cardsGuide', t.modules.cardsGuide.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.cardsGuide.subtitle}
             </p>
@@ -880,7 +898,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.cardTierList.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.cardTierList.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('cardTierList', t.modules.cardTierList.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.cardTierList.subtitle}
             </p>
@@ -937,7 +955,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.bossGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.bossGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('bossGuide', t.modules.bossGuide.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.bossGuide.subtitle}
             </p>
@@ -1009,7 +1027,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Star className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.badgesGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.badgesGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('badgesGuide', t.modules.badgesGuide.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.badgesGuide.subtitle}
             </p>
@@ -1085,7 +1103,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <ShoppingBag className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.itemsGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.itemsGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('itemsGuide', t.modules.itemsGuide.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.itemsGuide.subtitle}
             </p>
@@ -1163,7 +1181,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Swords className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.weaponsGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.weaponsGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('weaponsGuide', t.modules.weaponsGuide.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.weaponsGuide.subtitle}
             </p>
@@ -1217,7 +1235,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <BarChart3 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.statsAndLevelingGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.statsAndLevelingGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('statsAndLevelingGuide', t.modules.statsAndLevelingGuide.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.statsAndLevelingGuide.subtitle}
             </p>
@@ -1297,7 +1315,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Gem className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.enemyDropsGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.enemyDropsGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('enemyDropsGuide', t.modules.enemyDropsGuide.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.enemyDropsGuide.subtitle}
             </p>
@@ -1347,7 +1365,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Map className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.locationsAndMapGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.locationsAndMapGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('locationsAndMapGuide', t.modules.locationsAndMapGuide.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.locationsAndMapGuide.subtitle}
             </p>
@@ -1417,7 +1435,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Trophy className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.pitOf100TrialsGuide.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.pitOf100TrialsGuide.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('pitOf100TrialsGuide', t.modules.pitOf100TrialsGuide.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.pitOf100TrialsGuide.subtitle}
             </p>
@@ -1491,7 +1509,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <Newspaper className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.updatesAndPatchNotes.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.updatesAndPatchNotes.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('updatesAndPatchNotes', t.modules.updatesAndPatchNotes.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.updatesAndPatchNotes.subtitle}
             </p>
@@ -1575,7 +1593,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               <ScrollText className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               <span className="text-sm font-medium">{t.modules.storyAndLoreRecap.eyebrow}</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.storyAndLoreRecap.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('storyAndLoreRecap', t.modules.storyAndLoreRecap.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
               {t.modules.storyAndLoreRecap.subtitle}
             </p>
