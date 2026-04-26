@@ -11,13 +11,17 @@ import {
   ExternalLink,
   Gamepad2,
   Gem,
+  Map,
+  Newspaper,
   Package,
+  ScrollText,
   Shield,
   ShoppingBag,
   Sparkles,
   Star,
   Swords,
   TrendingUp,
+  Trophy,
 } from 'lucide-react'
 import { useMessages } from 'next-intl'
 import { VideoFeature } from '@/components/home/VideoFeature'
@@ -78,6 +82,11 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
 
     return () => observer.disconnect()
   }, [])
+
+  const locationIcons = [Map, Gamepad2, Shield, Sparkles, Clock, BookOpen, Swords, Star]
+  const pitIcons = [Trophy, Shield, Swords, Package, Gem, BarChart3, Star]
+  const updateIcons = [Newspaper, Clock, TrendingUp, Sparkles, Package, ClipboardCheck]
+  const loreIcons = [ScrollText, BookOpen, Shield, Swords, Clock, Map, Star, Trophy]
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -477,6 +486,102 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{t.tools.cards[11].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[11].description}</p>
+            </a>
+
+            <a
+              href="#locations-and-map-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('locations-and-map-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[12].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <Map className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[12].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[12].description}</p>
+            </a>
+
+            <a
+              href="#pit-of-100-trials-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('pit-of-100-trials-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[13].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <Trophy className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[13].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[13].description}</p>
+            </a>
+
+            <a
+              href="#updates-and-patch-notes"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('updates-and-patch-notes')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[14].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <Newspaper className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[14].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[14].description}</p>
+            </a>
+
+            <a
+              href="#story-and-lore-recap"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('story-and-lore-recap')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[15].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <ScrollText className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[15].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[15].description}</p>
             </a>
           </div>
         </div>
@@ -1230,6 +1335,307 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                 </div>
               </details>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 13: Block Tales Locations and Map Guide */}
+      <section id="locations-and-map-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Map className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.locationsAndMapGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.locationsAndMapGuide.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.locationsAndMapGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.locationsAndMapGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-5">
+            {t.modules.locationsAndMapGuide.items.map((region: any, index: number) => {
+              const LocationIcon = locationIcons[index % locationIcons.length]
+
+              return (
+                <div key={region.name} className="p-6 bg-card border border-border rounded-lg hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-5">
+                    <div>
+                      <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-1">{region.chapter}</p>
+                      <h3 className="text-2xl font-bold mb-2">{region.name}</h3>
+                      <p className="text-sm text-muted-foreground">{region.region_type}</p>
+                    </div>
+                    <div className="w-12 h-12 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                      <LocationIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                  </div>
+
+                  <div className="p-4 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.3)] mb-5">
+                    <h4 className="text-sm font-semibold mb-2">How to Access</h4>
+                    <p className="text-sm text-muted-foreground">{region.how_to_access}</p>
+                  </div>
+
+                  <div className="grid grid-cols-1 xl:grid-cols-2 gap-4">
+                    <div>
+                      <h4 className="font-semibold mb-3">Main Uses</h4>
+                      <div className="space-y-2">
+                        {region.main_uses.map((use: string) => (
+                          <div key={`${region.name}-${use}`} className="flex items-start gap-2 text-sm text-muted-foreground">
+                            <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                            <span>{use}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    <div>
+                      <h4 className="font-semibold mb-3">Connected Routes</h4>
+                      <div className="flex flex-wrap gap-2">
+                        {region.connected_routes.map((route: string) => (
+                          <span key={`${region.name}-${route}`} className="text-xs px-2 py-1 rounded-full bg-white/5 border border-border text-muted-foreground">
+                            {route}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 14: Block Tales Pit of 100 Trials Guide */}
+      <section id="pit-of-100-trials-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Trophy className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.pitOf100TrialsGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.pitOf100TrialsGuide.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.pitOf100TrialsGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.pitOf100TrialsGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal relative pl-6 border-l-2 border-[hsl(var(--nav-theme)/0.3)] space-y-6">
+            {t.modules.pitOf100TrialsGuide.items.map((floor: any, index: number) => {
+              const PitIcon = pitIcons[index % pitIcons.length]
+
+              return (
+                <div key={floor.range} className="relative">
+                  <div className="absolute -left-[1.55rem] top-6 w-5 h-5 rounded-full bg-background border-2 border-[hsl(var(--nav-theme))] flex items-center justify-center">
+                    <div className="w-2 h-2 rounded-full bg-[hsl(var(--nav-theme))]" />
+                  </div>
+                  <div className="p-6 bg-card border border-border rounded-lg hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                    <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-4 mb-5">
+                      <div>
+                        <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs text-[hsl(var(--nav-theme-light))] mb-3">
+                          <PitIcon className="w-3.5 h-3.5" />
+                          {floor.range}
+                        </div>
+                        <h3 className="text-2xl font-bold mb-2">{floor.theme}</h3>
+                        <p className="text-sm text-muted-foreground">{floor.safe_floor_reward}</p>
+                      </div>
+                      <div className="p-4 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.3)] min-w-32">
+                        <p className="text-xs text-[hsl(var(--nav-theme-light))] mb-1">Base TIX</p>
+                        <p className="text-lg font-bold">{floor.base_tix}</p>
+                      </div>
+                    </div>
+
+                    {floor.enemy_focus.length > 0 && (
+                      <div className="mb-5">
+                        <h4 className="font-semibold mb-3">Enemy Focus</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {floor.enemy_focus.map((enemy: string) => (
+                            <span key={`${floor.range}-${enemy}`} className="text-xs px-2 py-1 rounded-full bg-white/5 border border-border text-muted-foreground">
+                              {enemy}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+
+                    <div>
+                      <h4 className="font-semibold mb-3">Recommended Prep</h4>
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                        {floor.recommended_prep.map((prep: string) => (
+                          <div key={`${floor.range}-${prep}`} className="flex items-start gap-2 p-3 rounded-lg bg-white/5 border border-border text-sm text-muted-foreground">
+                            <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                            <span>{prep}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: Block Tales Updates and Patch Notes */}
+      <section id="updates-and-patch-notes" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Newspaper className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.updatesAndPatchNotes.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.updatesAndPatchNotes.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.updatesAndPatchNotes.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.updatesAndPatchNotes.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-5">
+            {t.modules.updatesAndPatchNotes.items.map((update: any, index: number) => {
+              const UpdateIcon = updateIcons[index % updateIcons.length]
+
+              return (
+                <div key={`${update.date}-${update.release}`} className="p-6 bg-card border border-border rounded-lg hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                  <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-5">
+                    <div>
+                      <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs text-[hsl(var(--nav-theme-light))] mb-3">
+                        <UpdateIcon className="w-3.5 h-3.5" />
+                        {update.date}
+                      </div>
+                      <h3 className="text-2xl font-bold mb-2">{update.release}</h3>
+                      <p className="text-sm text-muted-foreground">{update.type}</p>
+                    </div>
+                  </div>
+
+                  <div className="mb-5">
+                    <h4 className="font-semibold mb-3">Highlights</h4>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                      {update.highlights.map((highlight: string) => (
+                        <div key={`${update.release}-${highlight}`} className="flex items-start gap-2 text-sm text-muted-foreground">
+                          <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                          <span>{highlight}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {(update.story_changes.length > 0 || update.balance_changes.length > 0) && (
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {update.story_changes.length > 0 && (
+                        <div className="p-4 rounded-lg bg-white/5 border border-border">
+                          <h4 className="font-semibold mb-3">Story Changes</h4>
+                          <div className="space-y-2">
+                            {update.story_changes.map((change: string) => (
+                              <div key={`${update.release}-${change}`} className="flex items-start gap-2 text-sm text-muted-foreground">
+                                <ScrollText className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                                <span>{change}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+
+                      {update.balance_changes.length > 0 && (
+                        <div className="p-4 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.3)]">
+                          <h4 className="font-semibold mb-3">Balance Changes</h4>
+                          <div className="space-y-2">
+                            {update.balance_changes.map((change: string) => (
+                              <div key={`${update.release}-${change}`} className="flex items-start gap-2 text-sm text-muted-foreground">
+                                <BarChart3 className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                                <span>{change}</span>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: Block Tales Story and Lore Recap */}
+      <section id="story-and-lore-recap" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <ScrollText className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.storyAndLoreRecap.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.storyAndLoreRecap.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.storyAndLoreRecap.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.storyAndLoreRecap.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-4">
+            {t.modules.storyAndLoreRecap.items.map((chapter: any, index: number) => {
+              const LoreIcon = loreIcons[index % loreIcons.length]
+
+              return (
+                <details key={chapter.heading} className="group bg-card border border-border rounded-lg overflow-hidden">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-4 p-5 hover:bg-white/5 transition-colors">
+                    <div className="flex items-start gap-4">
+                      <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                        <LoreIcon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold mb-2">{chapter.heading}</h3>
+                        <p className="text-sm text-muted-foreground">{chapter.summary}</p>
+                      </div>
+                    </div>
+                    <ArrowRight className="summary-icon w-5 h-5 text-[hsl(var(--nav-theme-light))] mt-3 flex-shrink-0 transition-transform group-open:rotate-90" />
+                  </summary>
+
+                  <div className="border-t border-border p-5">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                      <div className="p-4 rounded-lg bg-white/5 border border-border">
+                        <h4 className="font-semibold mb-3">Key Characters</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {chapter.key_characters.map((character: string) => (
+                            <span key={`${chapter.heading}-${character}`} className="text-xs px-2 py-1 rounded-full bg-white/5 border border-border text-muted-foreground">
+                              {character}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+
+                      <div className="p-4 rounded-lg bg-white/5 border border-border">
+                        <h4 className="font-semibold mb-3">Key Locations</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {chapter.key_locations.map((location: string) => (
+                            <span key={`${chapter.heading}-${location}`} className="text-xs px-2 py-1 rounded-full bg-white/5 border border-border text-muted-foreground">
+                              {location}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+
+                      <div className="p-4 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.3)]">
+                        <h4 className="font-semibold mb-3">Sword Reward</h4>
+                        <p className="text-sm text-muted-foreground">{chapter.sword_reward}</p>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+              )
+            })}
           </div>
         </div>
       </section>

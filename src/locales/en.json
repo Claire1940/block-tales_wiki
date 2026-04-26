@@ -57,7 +57,7 @@
   "tools": {
     "title": "Block Tales",
     "titleHighlight": "Guide Modules",
-    "subtitle": "Jump to the Block Tales module you need: codes, beginner help, Demo 5, walkthrough, cards, bosses, badges, items, weapons, stats, or enemy drops.",
+    "subtitle": "Jump to the Block Tales module you need: codes, beginner help, Demo 5, walkthrough, cards, bosses, badges, items, weapons, stats, drops, locations, The Pit, updates, or story recap.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -118,6 +118,26 @@
         "icon": "Gem",
         "title": "Block Tales Enemy Drops Guide",
         "description": "Item drops, rare cards, farming targets, chapters, and route notes"
+      },
+      {
+        "icon": "Map",
+        "title": "Block Tales Locations and Map Guide",
+        "description": "Bizville, chapter routes, shops, boss entrances, and travel links"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Block Tales Pit of 100 Trials Guide",
+        "description": "Floor ranges, enemy themes, checkpoints, rewards, and prep notes"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Block Tales Updates and Patch Notes",
+        "description": "Demo 5, chapter launches, balance changes, new cards, and items"
+      },
+      {
+        "icon": "ScrollText",
+        "title": "Block Tales Story and Lore Recap",
+        "description": "Chapter story order, SFOTH swords, key characters, and locations"
       }
     ]
   },
@@ -2395,6 +2415,660 @@
           "notable_drops": "Snowball 1.5%, Minimize 1.6%, Fireball 1.2%, Softener 1.7%, Free Ice 1.5%, Free Poison 1%, Free Fire 1.5%, Feel Fine 1%, Call: Gorilla 7.1%, Thorns 1.8%, Slow Go around 1.6%-1.7%, Anchor 1.6%, HP Finder 1.1%.",
           "best_for": "Players farming specific cards instead of consumable items.",
           "farm_note": "Farm the enemy group tied to the card instead of farming a whole chapter blindly."
+        }
+      ]
+    },
+    "locationsAndMapGuide": {
+      "eyebrow": "World Map",
+      "title": "Block Tales Locations and Map Guide",
+      "subtitle": "Find the main hubs, chapter routes, shops, card vendors, boss entrances, and travel connections across Block Tales.",
+      "intro": "Use this Block Tales map guide as a route index: start from Bizville, move through Roblox HQ, follow each chapter area in order, and jump to the place tied to the card, item, boss, or story objective you need.",
+      "items": [
+        {
+          "name": "Bizville",
+          "chapter": "Pre-Prologue / Hub",
+          "region_type": "Main town hub",
+          "how_to_access": "Loaded when a new save file starts, then revisited between chapters.",
+          "main_uses": [
+            "Lorenzo's Shop for HP and SP recovery items",
+            "The Library for stat respecs",
+            "Alleyway card purchases from Sketchy Figure during the Prologue",
+            "The Docks route to Vermillion Village after Chapter 3",
+            "The Sewers entrance to The Pit of 100 Trials"
+          ],
+          "connected_routes": [
+            "Roblox HQ",
+            "Bizville Meadows",
+            "West Bizville Airport",
+            "Bizville Railways",
+            "The Docks",
+            "The Pit of 100 Trials"
+          ]
+        },
+        {
+          "name": "Roblox HQ and Bizville Meadows",
+          "chapter": "Prologue: Hello World!",
+          "region_type": "Story hub and early combat route",
+          "how_to_access": "Head through East Bizville into Bizville Meadows, then enter Roblox HQ near the Meadows entrance.",
+          "main_uses": [
+            "Progress the early story after the VIP Convention setup",
+            "Fight Red Noob and Blue Noob inside Roblox HQ",
+            "Use the Meadows route toward the Caves",
+            "Visit the Fishing Spot for fish items"
+          ],
+          "connected_routes": [
+            "Bizville",
+            "Bizville Meadows",
+            "Caves",
+            "Noobador boss route"
+          ]
+        },
+        {
+          "name": "Blackrock Castle",
+          "chapter": "Chapter One: Storming the Castle",
+          "region_type": "Castle dungeon and first SFOTH sword finale",
+          "how_to_access": "Progress from the Caves through Roadtown, Mount Blackrock, and Snowy Thicket.",
+          "main_uses": [
+            "Solve the prison-cell code route",
+            "Get the Blackrock Diner Key and access the castle kitchen path",
+            "Pick up the Shrinking card in the Blackrock Kitchen route",
+            "Reach the throne room for the Cruel King fight",
+            "Obtain the Ice Dagger after Chapter One"
+          ],
+          "connected_routes": [
+            "Roadtown",
+            "Snowy Thicket",
+            "Blackrock Castle Entrance",
+            "Blackrock Castle Lobby",
+            "Blackrock Kitchen",
+            "Blackrock Throne Room"
+          ]
+        },
+        {
+          "name": "Rugged Rainforest and Sacred Hollow",
+          "chapter": "Chapter Two: A Toxic Time",
+          "region_type": "Jungle progression and Venomshank route",
+          "how_to_access": "Use the West Bizville Airport route to Plainstown, then continue through Savannah, Turitopulis, and the rainforest.",
+          "main_uses": [
+            "Fight the Komodo Dragon and receive Rocket Boots",
+            "Use Coconut Water Machine interactions",
+            "Follow Griefer encounters through the rainforest",
+            "Reach Mango Tree, Sacred Hollow, and Griefer's Crib",
+            "Obtain the Venomshank after defeating Bubonic Plant"
+          ],
+          "connected_routes": [
+            "Plainstown",
+            "Savannah",
+            "Turitopulis",
+            "Rugged Rainforest",
+            "Mango Tree",
+            "Sacred Hollow",
+            "Griefer's Crib"
+          ]
+        },
+        {
+          "name": "Bizville Railways, Spooksville, and Telamon's Manor",
+          "chapter": "Chapter Three: All Hallows' Eve",
+          "region_type": "Train route, haunted manor, and Ghostwalker route",
+          "how_to_access": "Receive the Train Ticket from Shedletsky, then board from Bizville Railways in West Bizville.",
+          "main_uses": [
+            "Clear the invaded train route",
+            "Reach Spooksville and the cemetery path",
+            "Enter Telamon's Manor and its haunted version",
+            "Complete Ghost Chef ingredient objectives",
+            "Descend into the Catacombs and trigger the Dream World route"
+          ],
+          "connected_routes": [
+            "Bizville Railways",
+            "Spooksville",
+            "Cemetery",
+            "Telamon's Manor",
+            "Haunted Manor",
+            "Catacombs",
+            "Dream World"
+          ]
+        },
+        {
+          "name": "Dream World",
+          "chapter": "Chapter Three: All Hallows' Eve",
+          "region_type": "Mindscape dungeon and emotion-boss route",
+          "how_to_access": "Touch the Ghostwalker in the Catacombs, then progress through the player's mind.",
+          "main_uses": [
+            "Move through The House, The Path, and Dream World Hub",
+            "Clear Greed, Solitude, and Fear paths",
+            "Use Ghost Potion timing in the red-tinted Hatred route",
+            "Defeat Hatred and purify the player's soul",
+            "Obtain the Ghostwalker after Chapter Three"
+          ],
+          "connected_routes": [
+            "Dream World Hub",
+            "Greed Path",
+            "Solitude Path",
+            "Fear Path",
+            "Hatred Maze",
+            "Hatred Boss Fight"
+          ]
+        },
+        {
+          "name": "Scorched Dunes and Temple of the Red Sun",
+          "chapter": "Chapter Four: Excavation Exploration",
+          "region_type": "Desert route, puzzle temple, and Firebrand route",
+          "how_to_access": "Use Bizville Docks after Chapter Three, then travel by boat to the Scorched Dunes.",
+          "main_uses": [
+            "Clear desert enemies and cave-style puzzle sections",
+            "Defeat The Great Flocci and obtain the Bottled Ship",
+            "Visit Vermillion Village for cards and items",
+            "Solve four Scorched Ruins puzzles to open the Temple of the Red Sun",
+            "Use temple orb, sequence, and mirror puzzles before the Firebrand finale"
+          ],
+          "connected_routes": [
+            "Outer Scorched Dunes",
+            "Scorched Dunes",
+            "Ancient Tomb",
+            "Oasis",
+            "Pirate Camp",
+            "Vermillion Village",
+            "Temple of the Red Sun",
+            "Red Sun River"
+          ]
+        },
+        {
+          "name": "The Heights",
+          "chapter": "Chapter Five: Trouble on the Heights",
+          "region_type": "Demo 5 sky route and Windforce chapter route",
+          "how_to_access": "Use the West Bizville In the Cards building route and helicopter-pad path unlocked for Chapter Five progression.",
+          "main_uses": [
+            "Enter the Demo 5 chapter route",
+            "Clear the Wizard Tower boss path",
+            "Travel through Redcliff toward Reginald",
+            "Challenge the Trinity in Trinity Castle",
+            "Complete the Seventh Sanctum and fight Frostmaw for the Windforce finale"
+          ],
+          "connected_routes": [
+            "Wizard Tower",
+            "Redcliff",
+            "Reginald's Throne",
+            "Trinity Castle",
+            "The Windforce",
+            "Seventh Sanctum"
+          ]
+        }
+      ]
+    },
+    "pitOf100TrialsGuide": {
+      "eyebrow": "Challenge Mode",
+      "title": "Block Tales Pit of 100 Trials Guide",
+      "subtitle": "Plan your Pit run by floor range, enemy theme, TIX payout, checkpoint floors, and card rewards.",
+      "intro": "The Block Tales Pit of 100 Trials is entered through the Bizville Sewers after obtaining Shrinking from Blackrock Castle. Enemy sets escalate by chapter theme, and every tenth floor acts as a reward floor with a Healing Pad, spawn point, and card reward.",
+      "items": [
+        {
+          "range": "Entry and Floor 0",
+          "theme": "Unlock and staging area",
+          "enemy_focus": [],
+          "safe_floor_reward": "Bed and spawn point on Floor 0",
+          "base_tix": "0",
+          "recommended_prep": [
+            "Bring HP and SP recovery before entering",
+            "Equip a simple survival build before pushing beyond the first checkpoint",
+            "Use Shrinking to enter the tunnel toward the sewers"
+          ]
+        },
+        {
+          "range": "Floors 1-10",
+          "theme": "Prologue enemies",
+          "enemy_focus": [
+            "Helmet Noob",
+            "Knightly Noob",
+            "Cultist Noob",
+            "Sharp Nooblet",
+            "Winged Nooblet",
+            "Red Noob",
+            "Blue Noob",
+            "Noobador"
+          ],
+          "safe_floor_reward": "Floor 10: Healing Pad, spawn point, Daze card",
+          "base_tix": "90",
+          "recommended_prep": [
+            "Use this range for early TIX practice",
+            "Prioritize consistent blocks and basic HP sustain",
+            "Treat Floor 9 as the first boss-check floor"
+          ]
+        },
+        {
+          "range": "Floors 11-20",
+          "theme": "Chapter One enemies",
+          "enemy_focus": [
+            "Hungry Wolf",
+            "Cheeky Eagle",
+            "Crossbow Crony",
+            "Banished Knight",
+            "Sentient Statue",
+            "Spiky Killbot",
+            "Supreme Ant"
+          ],
+          "safe_floor_reward": "Floor 20: Healing Pad, spawn point, Free Ice card",
+          "base_tix": "132",
+          "recommended_prep": [
+            "Prepare for higher incoming damage from castle and mountain enemies",
+            "Bring multi-target options for grouped enemies",
+            "Use bombs or strong single-target damage when bulky enemies appear"
+          ]
+        },
+        {
+          "range": "Floors 21-30",
+          "theme": "Chapter Two enemies",
+          "enemy_focus": [
+            "Hedgehog",
+            "Flying Mantis",
+            "Purple Frog",
+            "Mosquito Swarm",
+            "Gaur",
+            "Gorilla",
+            "Toxic Dartman",
+            "Toxic Spearman",
+            "Venom Wizard",
+            "Bigfoot",
+            "Komodo Dragon"
+          ],
+          "safe_floor_reward": "Floor 30: Healing Pad, spawn point, Thorns card",
+          "base_tix": "137",
+          "recommended_prep": [
+            "Carry healing for poison-heavy jungle waves",
+            "Use defensive cards before Floor 29 Komodo Dragon pressure",
+            "Keep enough SP for enemies that punish slow single-target clears"
+          ]
+        },
+        {
+          "range": "Floors 31-40",
+          "theme": "Chapter Three and Dream World enemies",
+          "enemy_focus": [
+            "Bandit",
+            "Helmet Bandit",
+            "Big Bandit",
+            "Winged Zombie",
+            "Sharp Zombie",
+            "Turkey",
+            "Slasher",
+            "Greed",
+            "Solitude",
+            "Fear"
+          ],
+          "safe_floor_reward": "Floor 40: Healing Pad, spawn point, Deep Focus card",
+          "base_tix": "155",
+          "recommended_prep": [
+            "Bring status control and SP recovery",
+            "Expect mixed physical and spooky enemy patterns",
+            "Save resources for Floors 38-39 where emotion bosses appear"
+          ]
+        },
+        {
+          "range": "Floors 41-50",
+          "theme": "Chapter Four desert and temple enemies",
+          "enemy_focus": [
+            "Nasty Badger",
+            "Spiky Devil",
+            "Vulture",
+            "Deleter",
+            "Tomb Raider",
+            "Ramblin' Pot",
+            "Anubis",
+            "Scarab",
+            "Flame Warrior",
+            "Temple Guardian",
+            "Captain Trotter"
+          ],
+          "safe_floor_reward": "Floor 50: Healing Pad, spawn point, Defend+ card",
+          "base_tix": "187",
+          "recommended_prep": [
+            "Use fire-resistant routing and strong guard timing",
+            "Reserve burst damage for Floor 49 Captain Trotter lineup",
+            "Defensive builds gain strong value from the Defend+ reward"
+          ]
+        },
+        {
+          "range": "Floors 51-60",
+          "theme": "Demo 5 and Chapter Five enemies",
+          "enemy_focus": [
+            "Chosen",
+            "Flying Cloudie",
+            "Pterosaur",
+            "Basher",
+            "Redcliff Knight",
+            "Mage Walker",
+            "Redcliff Archer",
+            "Sky Knight",
+            "Astral Elite",
+            "Astral Summoner",
+            "Wind Spirit",
+            "Dark Spirit",
+            "The Magnificent",
+            "Reginald",
+            "Robur",
+            "Azuri"
+          ],
+          "safe_floor_reward": "Floor 60: Healing Pad, spawn point, Pack Tactics card",
+          "base_tix": "High-floor TIX range",
+          "recommended_prep": [
+            "Bring a late-game survival build before pushing this range",
+            "Plan around mixed Chapter Five enemies and returning boss threats",
+            "Keep ally, defense, and SP tools ready for the final stretch"
+          ]
+        }
+      ]
+    },
+    "updatesAndPatchNotes": {
+      "eyebrow": "Updates",
+      "title": "Block Tales Updates and Patch Notes",
+      "subtitle": "Track major Block Tales releases, Demo 5 changes, new chapters, Pit expansions, cards, items, balance passes, and official game status.",
+      "intro": "This Block Tales update hub is built for release-date, patch-notes, and next-demo search intent. Each entry focuses on what changed for players: new story content, new floor ranges, new cards and items, balance updates, UI changes, and progression features.",
+      "items": [
+        {
+          "date": "April 25, 2026",
+          "release": "Demo 5 - Chapter 5 + Rewrite Release",
+          "type": "Main update",
+          "highlights": [
+            "Chapter Five: Trouble on the Heights released",
+            "10 new Pit floors added",
+            "26 new enemies added",
+            "22 new items added",
+            "12 new cards added",
+            "Bizville Bank added",
+            "Store all items feature added",
+            "Save file naming added",
+            "Power Shot animations added",
+            "Avatar and Idle Flavors expanded"
+          ],
+          "story_changes": [
+            "Mysterious Figure scenes added",
+            "Important character face changes added",
+            "Chapter 2 and Chapter 4 cutscenes added",
+            "Chapter 4 ending cutscene updated",
+            "VOICES terminology replaced by VISIONS"
+          ],
+          "balance_changes": [
+            "Slingshot and Dynamite received a new action command",
+            "Hyperball bounce became an action",
+            "Enemy icons updated",
+            "Thorns reworked",
+            "TIX drops adjusted"
+          ]
+        },
+        {
+          "date": "April 25, 2026",
+          "release": "Demo 5 launch-day fix",
+          "type": "Hotfix",
+          "highlights": [
+            "Fixed a dialog softlock caused by foreign characters in display names"
+          ],
+          "story_changes": [],
+          "balance_changes": []
+        },
+        {
+          "date": "May 31, 2025",
+          "release": "Demo 4 - Chapter 4 + Pre-Prologue Release",
+          "type": "Main update",
+          "highlights": [
+            "Pre-Prologue added to the main story campaign",
+            "Chapter Four added to the main story campaign",
+            "Pit Floors 41-49 unlocked",
+            "24 new items added",
+            "Aggressor, Infect, and Free Fire cards added",
+            "Card Deck loadouts added",
+            "Storage item box added",
+            "Double-recipe cooking added",
+            "Two additional save slots added"
+          ],
+          "story_changes": [
+            "Return to Turitopulis after Chapter 2 to visit Mayor Thaniyel and learn about Griefer's condition",
+            "Vermillion Village superboss route added after Chapter 4"
+          ],
+          "balance_changes": [
+            "Dynamite damage increased",
+            "Linebounce damage adjusted",
+            "Summoner HP scaling improved",
+            "Free Fire, Free Ice, and Free Poison no longer restrict the Ball slot",
+            "Multiple BP costs adjusted"
+          ]
+        },
+        {
+          "date": "October 21, 2024",
+          "release": "Demo 3 - Chapter 3 Release",
+          "type": "Main update",
+          "highlights": [
+            "Chapter Three added to the main story campaign",
+            "Pit Floors 31-39 unlocked",
+            "Allies added to assist in battle",
+            "Library build-stat update feature added",
+            "7 new cards added",
+            "25 new items added",
+            "Cooking added through the Kitchen Wizard",
+            "Enemy Index added"
+          ],
+          "story_changes": [
+            "Telamon's Manor, the Haunted Manor route, Catacombs, and Dream World became the core Chapter Three path"
+          ],
+          "balance_changes": [
+            "Most enemy HP and damage reduced",
+            "Rolling health meter speed reduced when not thinking",
+            "Item drop rates became visible through Enemy Index",
+            "Several card and item effects adjusted"
+          ]
+        },
+        {
+          "date": "July 6, 2024",
+          "release": "Demo 2 - Chapter 2 Release",
+          "type": "Main update",
+          "highlights": [
+            "Chapter Two added to the main story",
+            "Next ten Pit floors unlocked",
+            "Final boss refights added near the airport route",
+            "Arcade endless minigames added",
+            "Slingshot and Launcher weapons added in Turitopulis",
+            "Five difficulty cards added in Bizville",
+            "Donator stand added in Bizville",
+            "25 new shop items added"
+          ],
+          "story_changes": [
+            "Plainstown, Turitopulis, Rugged Rainforest, Sacred Hollow, Griefer, and Venomshank became the main Chapter Two path"
+          ],
+          "balance_changes": [
+            "Hard Mode readjusted",
+            "Ice Dagger party recovery adjusted",
+            "Card stacking SP cost changed",
+            "Cards became sellable to vendors for TIX",
+            "Enemy item drop chance increased"
+          ]
+        },
+        {
+          "date": "May 16, 2024",
+          "release": "Demo 1 - Public Release",
+          "type": "Launch update",
+          "highlights": [
+            "Public release of Block Tales Demo 1",
+            "Prologue and Chapter One route established",
+            "Blackrock Castle and Cruel King became the first major chapter finale"
+          ],
+          "story_changes": [
+            "Builderman kidnapping setup, Shedletsky's quest, and the first SFOTH sword hunt began"
+          ],
+          "balance_changes": [
+            "Tablet menu UI scaling fixed",
+            "Terry superball tutorial softlock fixed",
+            "Battle UI navigator initialization fixed for Xbox and PC",
+            "Spiky Killbot HP lowered"
+          ]
+        }
+      ]
+    },
+    "storyAndLoreRecap": {
+      "eyebrow": "Story Recap",
+      "title": "Block Tales Story and Lore Recap",
+      "subtitle": "Catch up on the main story, SFOTH sword hunt, chapter order, key characters, and major turning points before starting the newest demo.",
+      "intro": "Block Tales follows the player after Builderman's kidnapping and Shedletsky's request to recover the Sword Fight on the Heights swords. Each major chapter sends the player into a new region, ends with a major boss confrontation, and adds a new storyline sword to the player's arsenal.",
+      "items": [
+        {
+          "heading": "Pre-Prologue: The Roblox VIP Convention",
+          "summary": "The story opens at the Roblox VIP Convention in Roblox HQ, where Builderman gives a speech before the Mysterious Figure interrupts, criticizes modern Roblox, and orders his minions to tie Builderman up. The player is pushed into the first fight when the Elder Penguin asks them to stand up and use the Superball.",
+          "key_characters": [
+            "Player",
+            "Builderman",
+            "Mysterious Figure",
+            "JParty",
+            "Elder Penguin",
+            "Harry",
+            "Mary"
+          ],
+          "key_locations": [
+            "Hotel",
+            "Bizville",
+            "Roblox HQ"
+          ],
+          "sword_reward": "None"
+        },
+        {
+          "heading": "Prologue: Hello World!",
+          "summary": "The player wakes up in Tutorial Terry's bed and learns that Builderman has been kidnapped. After reaching Roblox HQ, the player finds Shedletsky injured, defeats Red Noob and Blue Noob, receives a wooden sword, and follows the Meadows route toward Noobador.",
+          "key_characters": [
+            "Player",
+            "Tutorial Terry",
+            "Shedletsky",
+            "Red Noob",
+            "Blue Noob",
+            "Noobador"
+          ],
+          "key_locations": [
+            "Bizville",
+            "Roblox HQ",
+            "Bizville Meadows",
+            "Caves"
+          ],
+          "sword_reward": "None"
+        },
+        {
+          "heading": "Chapter One: Storming the Castle",
+          "summary": "The player climbs through the Caves and reaches Roadtown, a town trapped in unnatural winter. The journey continues through Snowy Thicket and into Blackrock Castle, ending with the Cruel King using the Ice Dagger as the chapter's final boss weapon.",
+          "key_characters": [
+            "Cruel King",
+            "Mayor Monty",
+            "Accountant Jim",
+            "Banished Knight",
+            "Kitchen Wizard",
+            "Tutorial Terry"
+          ],
+          "key_locations": [
+            "Caves",
+            "Roadtown",
+            "Snowy Thicket",
+            "Blackrock Castle",
+            "Blackrock Throne Room"
+          ],
+          "sword_reward": "Ice Dagger"
+        },
+        {
+          "heading": "Chapter Two: A Toxic Time",
+          "summary": "After the Ice Dagger is recovered, Shedletsky sends the player toward Plainstown and the Rugged Rainforest to retrieve the Venomshank. The chapter centers on Mayor Thaniyel, Griefer, jungle traversal, Rocket Boots, Sacred Hollow, and Griefer's transformation into Bubonic Plant.",
+          "key_characters": [
+            "Shedletsky",
+            "Mayor Thaniyel",
+            "Griefer",
+            "Komodo Dragon",
+            "Bigfoot",
+            "Bubonic Plant"
+          ],
+          "key_locations": [
+            "Plainstown",
+            "Savannah",
+            "Turitopulis",
+            "Rugged Rainforest",
+            "Mango Tree",
+            "Sacred Hollow",
+            "Griefer's Crib"
+          ],
+          "sword_reward": "Venomshank"
+        },
+        {
+          "heading": "Chapter Three: All Hallows' Eve",
+          "summary": "Shedletsky sends the player to Telamon's Manor to recover the Ghostwalker. The train to Spooksville is invaded, the manor becomes haunted, the Catacombs lead to Ghostwalker, and touching it sends the player into Dream World to face Greed, Solitude, Fear, and Hatred.",
+          "key_characters": [
+            "Shedletsky",
+            "Noobador",
+            "Red Noob",
+            "Blue Noob",
+            "Green Noob",
+            "Purple Noob",
+            "Ghost Chef",
+            "Hatred"
+          ],
+          "key_locations": [
+            "Bizville Railways",
+            "Spooksville",
+            "Telamon's Manor",
+            "Haunted Manor",
+            "Catacombs",
+            "Dream World"
+          ],
+          "sword_reward": "Ghostwalker"
+        },
+        {
+          "heading": "Chapter Four: Excavation Exploration",
+          "summary": "After the Ghostwalker is secured, Shedletsky sends the player through Bizville Docks to the Scorched Dunes to retrieve the Firebrand from the Temple of the Red Sun. The route introduces The Great Flocci, Captain Trotter, Calypso, desert puzzles, temple guardians, and the Firebrand finale involving The Ancients.",
+          "key_characters": [
+            "Shedletsky",
+            "The Great Flocci",
+            "Captain Trotter",
+            "Calypso",
+            "Temple Guardian",
+            "The Ancients"
+          ],
+          "key_locations": [
+            "Scorched Dunes",
+            "Ancient Tomb",
+            "Oasis",
+            "Pirate Camp",
+            "Vermillion Village",
+            "Temple of the Red Sun",
+            "Red Sun River",
+            "Mount Red Sun"
+          ],
+          "sword_reward": "Firebrand"
+        },
+        {
+          "heading": "Chapter Five: Trouble on the Heights",
+          "summary": "Chapter Five sends the player into the Heights route introduced with Demo 5. The progression path includes Wizard Tower, Redcliff, Reginald's Throne, Trinity Castle, the Seventh Sanctum, and Frostmaw as the final Windforce boss encounter.",
+          "key_characters": [
+            "The Magnificent",
+            "Reginald",
+            "Azuri",
+            "Robur",
+            "Cassie",
+            "Frostmaw"
+          ],
+          "key_locations": [
+            "The Heights",
+            "Wizard Tower",
+            "Redcliff",
+            "Reginald's Throne",
+            "Trinity Castle",
+            "Seventh Sanctum",
+            "The Windforce"
+          ],
+          "sword_reward": "Windforce"
+        },
+        {
+          "heading": "SFOTH Sword Order",
+          "summary": "The main sword progression follows the chapter reward structure: Ice Dagger after Chapter One, Venomshank after Chapter Two, Ghostwalker after Chapter Three, Firebrand after Chapter Four, and Windforce after Chapter Five. Sword Energy, also called NRG, is the battle resource used for SFOTH sword actions.",
+          "key_characters": [
+            "Shedletsky",
+            "Player"
+          ],
+          "key_locations": [
+            "Blackrock Castle",
+            "Rugged Rainforest",
+            "Catacombs",
+            "Temple of the Red Sun",
+            "The Heights"
+          ],
+          "sword_reward": "Ice Dagger, Venomshank, Ghostwalker, Firebrand, Windforce"
         }
       ]
     }

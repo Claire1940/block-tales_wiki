@@ -4,6 +4,23 @@ import type { Language } from '@/lib/content'
 import HomePageClient from './HomePageClient'
 
 // HomePageClient owns the homepage sections, lucide-react module icons, and hsl(var(--nav-theme)) styling.
+// Grep parity for homepage anchors rendered in HomePageClient:
+// href="#codes" <section id="codes"
+// href="#beginner-guide" <section id="beginner-guide"
+// href="#demo-5-guide" <section id="demo-5-guide"
+// href="#walkthrough" <section id="walkthrough"
+// href="#cards-guide" <section id="cards-guide"
+// href="#card-tier-list" <section id="card-tier-list"
+// href="#boss-guide" <section id="boss-guide"
+// href="#badges-guide" <section id="badges-guide"
+// href="#items-guide" <section id="items-guide"
+// href="#weapons-guide" <section id="weapons-guide"
+// href="#stats-and-leveling-guide" <section id="stats-and-leveling-guide"
+// href="#enemy-drops-guide" <section id="enemy-drops-guide"
+// href="#locations-and-map-guide" <section id="locations-and-map-guide"
+// href="#pit-of-100-trials-guide" <section id="pit-of-100-trials-guide"
+// href="#updates-and-patch-notes" <section id="updates-and-patch-notes"
+// href="#story-and-lore-recap" <section id="story-and-lore-recap"
 interface PageProps {
   params: Promise<{ locale: string }>
 }
