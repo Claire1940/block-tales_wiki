@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Block Tales Wiki - Cards, Bosses & Chapter Guide",
+      "description": "Explore Block Tales Wiki for cards, bosses, chapters, badges, BUX, weapons, locations, beginner tips, and updates for the Roblox turn-based RPG.",
+      "keywords": "",
+      "ogTitle": "Block Tales Wiki - Cards, Bosses & Chapter Guide",
+      "ogDescription": "Explore Block Tales Wiki for cards, bosses, chapters, badges, BUX, weapons, locations, beginner tips, and updates for the Roblox turn-based RPG.",
+      "twitterTitle": "Block Tales Wiki - Cards, Bosses & Chapter Guide",
+      "twitterDescription": "Block Tales Wiki covers cards, bosses, chapters, badges, BUX, weapons, locations, beginner tips, and Roblox RPG updates."
     }
   },
   "nav": {
@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Retro Turn-Based Roblox RPG",
+    "title": "Block Tales Wiki",
+    "description": "Block Tales Wiki helps players master the retro Roblox turn-based RPG with chapter walkthroughs, cards, bosses, BUX locations, badges, and update guides.",
+    "getFreeCodesCTA": "View Guides",
+    "playOnRobloxCTA": "Play on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "117M+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "84K+",
+        "label": "Active Players"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "781K+",
+        "label": "Favorites"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "95%",
+        "label": "Rating"
       }
     }
   },
@@ -784,26 +784,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Play Block Tales?",
+    "description": "Join the Block Tales Discord for chapter updates, boss tips, card builds, BUX routes, and community discoveries.",
+    "joinCommunity": "Join Block Tales Discord",
+    "joinGame": "Play Block Tales on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Block Tales Wiki",
+    "description": "Your complete resource hub for Block Tales chapters, cards, bosses, BUX locations, badges, items, and update guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "discord": "Block Tales Discord",
+    "twitter": "Block Tales on X",
+    "reddit": "r/blocktales",
+    "robloxGroup": "Spaceman Moonbase",
+    "robloxGame": "Play on Roblox",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Block Tales Wiki. Not affiliated with Roblox Corporation or Spaceman Moonbase.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {

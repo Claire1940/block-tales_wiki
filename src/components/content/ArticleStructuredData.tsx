@@ -13,7 +13,8 @@ export function ArticleStructuredData({
 	locale,
 	slug,
 }: ArticleStructuredDataProps) {
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+	const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || 'https://block-tales.wiki').replace(/\/$/, '')
+	const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 	const articleUrl =
 		locale === 'en'
 			? `${siteUrl}/${contentType}/${slug}`
@@ -49,19 +50,19 @@ export function ArticleStructuredData({
 		'@type': 'Article',
 		headline: frontmatter.title,
 		description: frontmatter.description,
-		image: frontmatter.image || `${siteUrl}/default-article-image.jpg`,
+		image: frontmatter.image || heroImageUrl,
 		datePublished: frontmatter.date,
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
 		author: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki Team',
+			name: 'Block Tales Wiki Team',
 		},
 		publisher: {
 			'@type': 'Organization',
-			name: 'Lucid Blocks Wiki',
+			name: 'Block Tales Wiki',
 			logo: {
 				'@type': 'ImageObject',
-				url: `${siteUrl}/images/hero.webp`,
+				url: new URL('/android-chrome-512x512.png', siteUrl).toString(),
 			},
 		},
 		mainEntityOfPage: {
