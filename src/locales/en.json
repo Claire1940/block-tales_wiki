@@ -10,14 +10,7 @@
       "twitterDescription": "Block Tales Wiki covers cards, bosses, chapters, badges, BUX, weapons, locations, beginner tips, and Roblox RPG updates."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
