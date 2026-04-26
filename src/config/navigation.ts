@@ -1,3 +1,4 @@
+import { BookOpen, Hammer, Newspaper, ScrollText, Users } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {
@@ -7,12 +8,43 @@ export interface NavigationItem {
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{
+		key: 'updates',
+		path: '/updates',
+		icon: Newspaper,
+		isContentType: true,
+	},
+	{
+		key: 'characters',
+		path: '/characters',
+		icon: Users,
+		isContentType: true,
+	},
+	{
+		key: 'guide',
+		path: '/guide',
+		icon: BookOpen,
+		isContentType: true,
+	},
+	{
+		key: 'cards',
+		path: '/cards',
+		icon: ScrollText,
+		isContentType: true,
+	},
+	{
+		key: 'builds',
+		path: '/builds',
+		icon: Hammer,
+		isContentType: true,
+	},
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(
 	(item) => item.path.slice(1),
-) // 移除开头的 '/' -> ['codes', 'build', 'combat', 'guides']
+) // 移除开头的 '/' -> ['updates', 'characters', 'guide', 'cards', 'builds']
 
 export type ContentType = (typeof CONTENT_TYPES)[number]
 

@@ -1,1 +1,9 @@
-{}
+{
+  "nav": {
+    "updates": "Updates",
+    "characters": "Characters",
+    "guide": "Guide",
+    "cards": "Cards",
+    "builds": "Builds"
+  }
+}

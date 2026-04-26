@@ -10,7 +10,13 @@
       "twitterDescription": "Block Tales Wiki covers cards, bosses, chapters, badges, BUX, weapons, locations, beginner tips, and Roblox RPG updates."
     }
   },
-  "nav": {},
+  "nav": {
+    "updates": "Updates",
+    "characters": "Characters",
+    "guide": "Guide",
+    "cards": "Cards",
+    "builds": "Builds"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -3157,125 +3163,105 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Block Tales Guides",
-      "description": "Complete Block Tales gameplay guides from beginner basics to advanced chapter and boss strategies.",
-      "metaTitle": "Block Tales Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Block Tales guides covering beginner tips, chapter routes, cards, bosses, badges, BUX, and Roblox RPG updates.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Block Tales Guides?",
-      "whatIsDescription": "Block Tales guides cover gameplay mechanics, chapter routes, cards, bosses, badges, BUX, items, and update paths.",
-      "why": "Why read Block Tales guides?",
+    "updates": {
+      "title": "Block Tales Updates",
+      "description": "Follow Block Tales Demo 5, chapter releases, story rewrites, patch notes, and upcoming content in one update hub.",
+      "metaTitle": "Block Tales Updates - Demo 5, Chapter News & Patch Notes",
+      "metaDescription": "Track Block Tales updates with Demo 5 coverage, chapter news, patch notes, story rewrites, new bosses, cards, items, and upcoming content.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What are Block Tales Updates?",
+      "whatIsDescription": "Block Tales updates collect release news, Demo 5 changes, chapter additions, story rewrite notes, new bosses, balance changes, and future content signals.",
+      "why": "Why read Block Tales updates?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand HP, SP, BP, cards, blocking, and level-up choices",
-        "step2Title": "Follow Chapter Routes",
-        "step2Description": "Move through Block Tales chapters with clear objective and unlock notes",
-        "step3Title": "Prepare for Bosses",
-        "step3Description": "Use cards, items, and route planning to handle major Block Tales fights"
+        "step1Title": "Track New Chapters",
+        "step1Description": "See which Block Tales demos, chapters, areas, bosses, and story beats are live or newly announced.",
+        "step2Title": "Review Gameplay Changes",
+        "step2Description": "Follow card, item, enemy, route, and balance changes that affect current Block Tales progression.",
+        "step3Title": "Plan Your Return",
+        "step3Description": "Know which Block Tales quests, areas, and builds to revisit when a major demo or patch arrives."
       },
       "featured": "Featured & Essential",
-      "all": "All Block Tales Guides"
+      "all": "All Block Tales Updates"
     },
-    "crafting": {
+    "characters": {
+      "title": "Block Tales Characters",
+      "description": "Explore Block Tales characters, bosses, NPCs, story roles, encounter notes, and chapter-specific character guides.",
+      "metaTitle": "Block Tales Characters - Bosses, NPCs & Story Guide",
+      "metaDescription": "Browse Block Tales character guides covering bosses, NPCs, story roles, locations, encounters, and chapter walkthrough context.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What are Block Tales Characters?",
+      "whatIsDescription": "Block Tales characters include major story figures, bosses, allies, NPCs, and encounter targets tied to chapter progression and combat planning.",
+      "why": "Why study Block Tales characters?",
+      "whySteps": {
+        "step1Title": "Understand Story Roles",
+        "step1Description": "Connect Block Tales characters to chapters, objectives, factions, and major story turning points.",
+        "step2Title": "Prepare for Encounters",
+        "step2Description": "Review boss and NPC context before entering important Block Tales fights or quests.",
+        "step3Title": "Find Key NPCs",
+        "step3Description": "Use character guides to locate Block Tales quest givers, allies, shops, and chapter-specific interactions."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Block Tales Characters"
+    },
+    "guide": {
+      "title": "Block Tales Guide",
+      "description": "Use Block Tales guide articles for progression tips, unlock routes, puzzle answers, item access, keybinds, and chapter help.",
+      "metaTitle": "Block Tales Guide - Progression, Unlocks, Puzzles & Tips",
+      "metaDescription": "Read Block Tales guide articles for knight unlocks, first aid, keybinds, puzzle solutions, ingredients, item routes, and gameplay fundamentals.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Block Tales Guide?",
+      "whatIsDescription": "The Block Tales guide category covers practical how-to articles for mechanics, unlocks, puzzles, keybinds, consumables, routes, and chapter objectives.",
+      "why": "Why use the Block Tales guide?",
+      "whySteps": {
+        "step1Title": "Solve Progression Blocks",
+        "step1Description": "Get direct Block Tales steps for puzzles, locked paths, recipes, and route-specific objectives.",
+        "step2Title": "Unlock Useful Tools",
+        "step2Description": "Find cards, items, keybind settings, and recovery options that make Block Tales chapters smoother.",
+        "step3Title": "Improve Core Play",
+        "step3Description": "Strengthen timing, planning, resource use, and exploration habits across Block Tales demos."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Block Tales Guide Articles"
+    },
+    "cards": {
       "title": "Block Tales Cards",
-      "description": "Master Block Tales cards with BP costs, SP use, sources, and build planning.",
-      "metaTitle": "Block Tales Cards - Card Effects & Build Guide",
-      "metaDescription": "Learn Block Tales cards, BP costs, SP usage, combat roles, and build planning for bosses, exploration, and The Pit.",
-      "categoryLabel": "CARDS SYSTEM",
+      "description": "Master Block Tales cards with badge point planning, card effects, combat roles, acquisition notes, and build synergies.",
+      "metaTitle": "Block Tales Cards - Effects, Locations & Build Planning",
+      "metaDescription": "Learn Block Tales cards including HP Finder, Safe Guard, Aggressor, Griefer, Drawback Cards, BP costs, effects, locations, and build synergies.",
+      "categoryLabel": "CARDS",
       "whatIs": "What are Block Tales Cards?",
-      "whatIsDescription": "Cards are the main Block Tales build system, changing attacks, defense, utility, and battle strategy.",
-      "why": "Why master Block Tales cards?",
+      "whatIsDescription": "Block Tales cards are the main build tools for combat, defense, utility, recovery, risk-reward setups, and encounter-specific strategy.",
+      "why": "Why learn Block Tales cards?",
       "whySteps": {
         "step1Title": "Shape Your Build",
-        "step1Description": "Use BP to equip the cards that match your Block Tales playstyle",
-        "step2Title": "Spend SP Efficiently",
-        "step2Description": "Plan active card use around SP cost and fight length",
-        "step3Title": "Adapt to Bosses",
-        "step3Description": "Switch cards for boss mechanics, exploration, and team support"
+        "step1Description": "Spend Block Tales badge points on cards that match your weapon, party role, and chapter route.",
+        "step2Title": "Handle Major Fights",
+        "step2Description": "Choose offensive, defensive, and utility cards for bosses, hidden encounters, and longer dungeon routes.",
+        "step3Title": "Find Card Sources",
+        "step3Description": "Use Block Tales card guides to identify unlock requirements, locations, quests, and practical use cases."
       },
       "featured": "Featured & Essential",
       "all": "All Block Tales Cards"
     },
-    "items": {
-      "title": "Block Tales Items",
-      "description": "Detailed Block Tales item guides covering consumables, key items, BUX, TIX, shops, and enemy drops.",
-      "metaTitle": "Block Tales Items - BUX, TIX & Item Guide",
-      "metaDescription": "Complete Block Tales item database covering consumables, key items, BUX, TIX, shops, enemy drops, and chapter utility.",
-      "categoryLabel": "ITEMS & CURRENCY",
-      "whatIs": "What are Block Tales Items?",
-      "whatIsDescription": "Block Tales items include recovery items, combat tools, key objects, currencies, shop goods, and progression tools.",
-      "why": "Why check Block Tales item guides?",
+    "builds": {
+      "title": "Block Tales Builds",
+      "description": "Plan Block Tales builds around weapons, cards, BP, SP, party roles, boss strategy, and Demo 5 balance changes.",
+      "metaTitle": "Block Tales Builds - Best Cards, Weapons & Demo 5 Setups",
+      "metaDescription": "Create Block Tales builds with card synergy, weapon choices, BP planning, SP economy, boss strategy, and Demo 5 setup advice.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "What are Block Tales Builds?",
+      "whatIsDescription": "Block Tales builds combine weapon choice, card loadout, badge point spending, skill point economy, items, and party roles into a focused playstyle.",
+      "why": "Why plan Block Tales builds?",
       "whySteps": {
-        "step1Title": "Plan Purchases",
-        "step1Description": "Know which Block Tales shop items help your current chapter",
-        "step2Title": "Track BUX and TIX",
-        "step2Description": "Use currency and collection routes more efficiently",
-        "step3Title": "Prepare for Fights",
-        "step3Description": "Carry items that support your card build and boss plan"
+        "step1Title": "Match Your Weapon",
+        "step1Description": "Pair Block Tales cards and resources with Ball, Launcher, support, or other weapon-centered strategies.",
+        "step2Title": "Spend BP Efficiently",
+        "step2Description": "Avoid wasted badge points by choosing cards that support your Block Tales damage, defense, or utility plan.",
+        "step3Title": "Adapt to Bosses",
+        "step3Description": "Tune Block Tales builds for boss phases, status effects, crowd control, and long Demo 5 encounters."
       },
       "featured": "Featured & Essential",
-      "all": "All Block Tales Items"
-    },
-    "biomes": {
-      "title": "Block Tales Locations",
-      "description": "Explore Block Tales regions, chapter entrances, shops, NPCs, route blockers, and hidden locations.",
-      "metaTitle": "Block Tales Locations - Map & Area Guide",
-      "metaDescription": "Explore Block Tales locations including Bizville, Roblox HQ, Roadtown, Blackrock Castle, Spooksville, Scorched Dunes, and The Heights.",
-      "categoryLabel": "LOCATIONS & MAPS",
-      "whatIs": "What are Block Tales Locations?",
-      "whatIsDescription": "Block Tales locations cover chapter areas, NPC hubs, shops, routes, hidden spots, and story progression entrances.",
-      "why": "Why explore Block Tales locations?",
-      "whySteps": {
-        "step1Title": "Find Route Entrances",
-        "step1Description": "Move between Block Tales chapters and key regions without losing track",
-        "step2Title": "Locate NPCs and Shops",
-        "step2Description": "Find characters, shop inventories, and quest interactions",
-        "step3Title": "Return with New Tools",
-        "step3Description": "Revisit blocked paths after unlocking weapons, cards, or traversal tools"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Block Tales Locations"
-    },
-    "building": {
-      "title": "Block Tales Walkthrough",
-      "description": "Follow the Block Tales story route from Prologue through Chapter Five with objectives, unlocks, and major fights.",
-      "metaTitle": "Block Tales Walkthrough - Chapter Route Guide",
-      "metaDescription": "Follow the Block Tales walkthrough from Prologue through Chapter Five with objectives, key areas, unlocks, bosses, and route tips.",
-      "categoryLabel": "STORY ROUTES",
-      "whatIs": "What is the Block Tales Walkthrough?",
-      "whatIsDescription": "The Block Tales Walkthrough organizes each chapter by objectives, key areas, unlocks, major fights, and route advice.",
-      "why": "Why use the Block Tales walkthrough?",
-      "whySteps": {
-        "step1Title": "Know the Next Objective",
-        "step1Description": "Find what to do next in each Block Tales chapter",
-        "step2Title": "Track Key Unlocks",
-        "step2Description": "Understand when cards, tools, and story items open new paths",
-        "step3Title": "Prepare for Major Fights",
-        "step3Description": "Review boss and route notes before entering critical areas"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Block Tales Walkthroughs"
-    },
-    "support": {
-      "title": "Block Tales Updates",
-      "description": "Track Block Tales Demo 5, future chapters, patch notes, cards, enemies, items, and official announcements.",
-      "metaTitle": "Block Tales Updates - Demo 5 & Patch Notes",
-      "metaDescription": "Track Block Tales updates, Demo 5 changes, Chapter Five, patch notes, cards, enemies, items, balance changes, and future chapters.",
-      "categoryLabel": "UPDATES & PATCH NOTES",
-      "whatIs": "What are Block Tales Updates?",
-      "whatIsDescription": "Block Tales updates cover new chapters, card changes, enemy additions, item changes, rewrite notes, and patch announcements.",
-      "why": "Why check Block Tales updates?",
-      "whySteps": {
-        "step1Title": "See New Content",
-        "step1Description": "Review new Block Tales chapters, cards, enemies, and items",
-        "step2Title": "Understand Balance Changes",
-        "step2Description": "Track combat, card, and item adjustments",
-        "step3Title": "Plan Return Routes",
-        "step3Description": "Know what to play first when a Block Tales demo update releases"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Block Tales Updates"
+      "all": "All Block Tales Builds"
     }
   }
 }
