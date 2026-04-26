@@ -3,16 +3,20 @@
 import { useEffect, Suspense, lazy } from 'react'
 import {
   ArrowRight,
+  BarChart3,
   BookOpen,
   Check,
   ClipboardCheck,
   Clock,
   ExternalLink,
   Gamepad2,
+  Gem,
   Package,
   Shield,
+  ShoppingBag,
   Sparkles,
   Star,
+  Swords,
   TrendingUp,
 } from 'lucide-react'
 import { useMessages } from 'next-intl'
@@ -377,6 +381,102 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
               </div>
               <h3 className="font-semibold mb-2">{t.tools.cards[7].title}</h3>
               <p className="text-sm text-muted-foreground">{t.tools.cards[7].description}</p>
+            </a>
+
+            <a
+              href="#items-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('items-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[8].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <ShoppingBag className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[8].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[8].description}</p>
+            </a>
+
+            <a
+              href="#weapons-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('weapons-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[9].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <Swords className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[9].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[9].description}</p>
+            </a>
+
+            <a
+              href="#stats-and-leveling-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('stats-and-leveling-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[10].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <BarChart3 className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[10].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[10].description}</p>
+            </a>
+
+            <a
+              href="#enemy-drops-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('enemy-drops-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-lg border border-border
+                         bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
+                         transition-all duration-300 text-left
+                         hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]
+                         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[hsl(var(--nav-theme))]"
+              aria-label={`Jump to ${t.tools.cards[11].title}`}
+            >
+              <div className="w-12 h-12 rounded-lg mb-4
+                              bg-[hsl(var(--nav-theme)/0.1)]
+                              flex items-center justify-center
+                              group-hover:bg-[hsl(var(--nav-theme)/0.2)]
+                              transition-colors">
+                <Gem className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{t.tools.cards[11].title}</h3>
+              <p className="text-sm text-muted-foreground">{t.tools.cards[11].description}</p>
             </a>
           </div>
         </div>
@@ -864,6 +964,268 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                         <p className="text-xs text-muted-foreground border-t border-border pt-3">{badge.note}</p>
                       </div>
                     ))}
+                  </div>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 9: Block Tales Items Guide */}
+      <section id="items-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <ShoppingBag className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.itemsGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.itemsGuide.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.itemsGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.itemsGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal hidden lg:block overflow-x-auto rounded-lg border border-border bg-card">
+            <table className="w-full text-sm">
+              <thead className="bg-white/5">
+                <tr className="text-left">
+                  <th className="p-4 font-semibold">Item</th>
+                  <th className="p-4 font-semibold">Category</th>
+                  <th className="p-4 font-semibold">Effect</th>
+                  <th className="p-4 font-semibold">Obtainment</th>
+                  <th className="p-4 font-semibold">Best Use</th>
+                  <th className="p-4 font-semibold">Keep or Spend</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.itemsGuide.items.map((item: any) => (
+                  <tr key={item.item} className="border-t border-border align-top">
+                    <td className="p-4 font-semibold text-[hsl(var(--nav-theme-light))]">{item.item}</td>
+                    <td className="p-4">
+                      <span className="inline-flex px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs">
+                        {item.category}
+                      </span>
+                    </td>
+                    <td className="p-4 text-muted-foreground">{item.effect}</td>
+                    <td className="p-4 text-muted-foreground">{item.obtainment}</td>
+                    <td className="p-4 text-muted-foreground">{item.best_use}</td>
+                    <td className="p-4 text-muted-foreground">{item.keep_or_spend}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal lg:hidden grid grid-cols-1 gap-4">
+            {t.modules.itemsGuide.items.map((item: any) => (
+              <div key={item.item} className="p-5 bg-card border border-border rounded-lg hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
+                  <h3 className="text-xl font-bold">{item.item}</h3>
+                  <span className="text-xs px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                    {item.category}
+                  </span>
+                </div>
+                <p className="text-sm text-muted-foreground mb-4">{item.effect}</p>
+                <div className="space-y-3 text-sm">
+                  <div className="p-3 rounded-lg bg-white/5 border border-border">
+                    <p className="text-xs text-[hsl(var(--nav-theme-light))] mb-1">Obtainment</p>
+                    <p className="text-muted-foreground">{item.obtainment}</p>
+                  </div>
+                  <div className="p-3 rounded-lg bg-white/5 border border-border">
+                    <p className="text-xs text-[hsl(var(--nav-theme-light))] mb-1">Best Use</p>
+                    <p className="text-muted-foreground">{item.best_use}</p>
+                  </div>
+                  <div className="p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    <p className="text-xs text-[hsl(var(--nav-theme-light))] mb-1">Keep or Spend</p>
+                    <p className="text-muted-foreground">{item.keep_or_spend}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 10: Block Tales Weapons Guide */}
+      <section id="weapons-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Swords className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.weaponsGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.weaponsGuide.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.weaponsGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.weaponsGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
+            {t.modules.weaponsGuide.items.map((weapon: any) => (
+              <div key={weapon.name} className="p-6 bg-card border border-border rounded-lg hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-5">
+                  <div>
+                    <p className="text-sm text-[hsl(var(--nav-theme-light))] mb-1">{weapon.slot}</p>
+                    <h3 className="text-2xl font-bold mb-2">{weapon.name}</h3>
+                    <p className="text-sm text-muted-foreground">{weapon.type}</p>
+                  </div>
+                  <div className="w-12 h-12 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                    <Swords className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                </div>
+
+                <p className="text-sm text-muted-foreground mb-5">{weapon.effect}</p>
+
+                <div className="grid grid-cols-1 gap-3 mb-5">
+                  <div className="p-4 rounded-lg bg-white/5 border border-border">
+                    <h4 className="text-sm font-semibold mb-2">Obtainment</h4>
+                    <p className="text-sm text-muted-foreground">{weapon.obtainment}</p>
+                  </div>
+                  <div className="p-4 rounded-lg bg-white/5 border border-border">
+                    <h4 className="text-sm font-semibold mb-2">Best Use</h4>
+                    <p className="text-sm text-muted-foreground">{weapon.best_use}</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-2 p-4 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.3)] text-sm text-muted-foreground">
+                  <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                  <span>{weapon.caution}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 11: Block Tales Stats and Leveling Guide */}
+      <section id="stats-and-leveling-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <BarChart3 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.statsAndLevelingGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.statsAndLevelingGuide.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.statsAndLevelingGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.statsAndLevelingGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal hidden lg:block overflow-x-auto rounded-lg border border-border bg-card">
+            <table className="w-full text-sm">
+              <thead className="bg-white/5">
+                <tr className="text-left">
+                  <th className="p-4 font-semibold">Stat or System</th>
+                  <th className="p-4 font-semibold">Role</th>
+                  <th className="p-4 font-semibold">Level-Up Change</th>
+                  <th className="p-4 font-semibold">Cap or Start</th>
+                  <th className="p-4 font-semibold">Recovery or Respec</th>
+                  <th className="p-4 font-semibold">Build Advice</th>
+                </tr>
+              </thead>
+              <tbody>
+                {t.modules.statsAndLevelingGuide.items.map((stat: any) => (
+                  <tr key={stat.stat_or_system} className="border-t border-border align-top">
+                    <td className="p-4 font-semibold text-[hsl(var(--nav-theme-light))]">{stat.stat_or_system}</td>
+                    <td className="p-4 text-muted-foreground">{stat.role}</td>
+                    <td className="p-4 text-muted-foreground">{stat.level_up_change}</td>
+                    <td className="p-4 text-muted-foreground">{stat.cap_or_start}</td>
+                    <td className="p-4 text-muted-foreground">{stat.recovery_or_respec}</td>
+                    <td className="p-4 text-muted-foreground">{stat.build_advice}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal lg:hidden grid grid-cols-1 gap-4">
+            {t.modules.statsAndLevelingGuide.items.map((stat: any) => (
+              <div key={stat.stat_or_system} className="p-5 bg-card border border-border rounded-lg hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                    <BarChart3 className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold">{stat.stat_or_system}</h3>
+                    <p className="text-sm text-muted-foreground">{stat.role}</p>
+                  </div>
+                </div>
+                <div className="space-y-3 text-sm">
+                  <div className="p-3 rounded-lg bg-white/5 border border-border">
+                    <p className="text-xs text-[hsl(var(--nav-theme-light))] mb-1">Level-Up Change</p>
+                    <p className="text-muted-foreground">{stat.level_up_change}</p>
+                  </div>
+                  <div className="p-3 rounded-lg bg-white/5 border border-border">
+                    <p className="text-xs text-[hsl(var(--nav-theme-light))] mb-1">Cap or Start</p>
+                    <p className="text-muted-foreground">{stat.cap_or_start}</p>
+                  </div>
+                  <div className="p-3 rounded-lg bg-white/5 border border-border">
+                    <p className="text-xs text-[hsl(var(--nav-theme-light))] mb-1">Recovery or Respec</p>
+                    <p className="text-muted-foreground">{stat.recovery_or_respec}</p>
+                  </div>
+                  <div className="p-3 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.3)]">
+                    <p className="text-xs text-[hsl(var(--nav-theme-light))] mb-1">Build Advice</p>
+                    <p className="text-muted-foreground">{stat.build_advice}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 12: Block Tales Enemy Drops Guide */}
+      <section id="enemy-drops-guide" className="scroll-mt-24 px-4 py-20 bg-white/[0.02]">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] mb-4">
+              <Gem className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              <span className="text-sm font-medium">{t.modules.enemyDropsGuide.eyebrow}</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t.modules.enemyDropsGuide.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-3">
+              {t.modules.enemyDropsGuide.subtitle}
+            </p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">
+              {t.modules.enemyDropsGuide.intro}
+            </p>
+          </div>
+
+          <div className="scroll-reveal space-y-4">
+            {t.modules.enemyDropsGuide.items.map((drop: any) => (
+              <details key={drop.farming_target} className="group bg-card border border-border rounded-lg overflow-hidden">
+                <summary className="flex cursor-pointer list-none items-start justify-between gap-4 p-5 hover:bg-white/5 transition-colors">
+                  <div>
+                    <div className="flex flex-wrap items-center gap-2 mb-3">
+                      <span className="text-xs px-2.5 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                        {drop.chapter_or_area}
+                      </span>
+                    </div>
+                    <h3 className="text-xl font-bold mb-2">{drop.farming_target}</h3>
+                    <p className="text-sm text-muted-foreground">{drop.best_for}</p>
+                  </div>
+                  <ArrowRight className="summary-icon w-5 h-5 text-[hsl(var(--nav-theme-light))] mt-1 flex-shrink-0 transition-transform group-open:rotate-90" />
+                </summary>
+                <div className="border-t border-border p-5">
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                    <div className="p-4 rounded-lg bg-white/5 border border-border">
+                      <h4 className="font-semibold mb-3">Notable Drops</h4>
+                      <p className="text-sm text-muted-foreground">{drop.notable_drops}</p>
+                    </div>
+                    <div className="p-4 rounded-lg bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.3)]">
+                      <h4 className="font-semibold mb-3">Farm Note</h4>
+                      <p className="text-sm text-muted-foreground">{drop.farm_note}</p>
+                    </div>
                   </div>
                 </div>
               </details>

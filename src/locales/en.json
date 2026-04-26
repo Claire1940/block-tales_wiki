@@ -57,7 +57,7 @@
   "tools": {
     "title": "Block Tales",
     "titleHighlight": "Guide Modules",
-    "subtitle": "Jump to the Block Tales module you need: codes, beginner help, Demo 5, walkthrough, cards, tier list, bosses, or badges.",
+    "subtitle": "Jump to the Block Tales module you need: codes, beginner help, Demo 5, walkthrough, cards, bosses, badges, items, weapons, stats, or enemy drops.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -98,6 +98,26 @@
         "icon": "Star",
         "title": "Block Tales Badges Guide",
         "description": "Story, hidden, collection, Hard Mode, and Demo 5 badge goals"
+      },
+      {
+        "icon": "ShoppingBag",
+        "title": "Block Tales Items Guide",
+        "description": "Healing foods, SP restorers, attack items, buffs, and boss prep choices"
+      },
+      {
+        "icon": "Swords",
+        "title": "Block Tales Weapons Guide",
+        "description": "Sword, Ball, replacement weapons, SFOTH swords, and Sword Energy"
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Block Tales Stats and Leveling Guide",
+        "description": "HP, SP, BP, Level Up, respec, Sword Energy, and build routes"
+      },
+      {
+        "icon": "Gem",
+        "title": "Block Tales Enemy Drops Guide",
+        "description": "Item drops, rare cards, farming targets, chapters, and route notes"
       }
     ]
   },
@@ -1946,6 +1966,437 @@
           ]
         }
       ]
+    },
+    "itemsGuide": {
+      "eyebrow": "Inventory Database",
+      "title": "Block Tales Items Guide",
+      "subtitle": "Compare healing foods, SP restorers, attack items, buff items, and key battle consumables before you enter a boss fight.",
+      "intro": "Items in Block Tales restore HP or SP, apply buffs, cure status effects, attack enemies, cook recipes, or support overworld progression. This database highlights practical items players can buy, cook, find, fish, or farm from enemies, so you can quickly decide what to keep, sell, or save for hard fights.",
+      "items": [
+        {
+          "item": "Apple",
+          "category": "Healing / Status Cure",
+          "effect": "Restores 5 HP and cures Poison. Using it gives an Apple Core.",
+          "obtainment": "Sold by Tulip, Darren, and Fridge Raider; also drops from Hedgehog, Gaur, and Toxic Spearman at 10.2%.",
+          "best_use": "Safe early-game healing when poison enemies are common.",
+          "keep_or_spend": "Keep a few for poison-heavy routes; buy only when you need cheap recovery."
+        },
+        {
+          "item": "Apple Core",
+          "category": "Small Healing / Status Cure",
+          "effect": "Restores 1 HP and cures Poison.",
+          "obtainment": "Obtained after using an Apple; sold by Tulip; drops from several poison-themed enemies at 20.7%.",
+          "best_use": "Low-cost poison cleanup when HP loss is minor.",
+          "keep_or_spend": "Use freely; it is more of a utility item than a boss-fight heal."
+        },
+        {
+          "item": "Cheezburger",
+          "category": "Healing",
+          "effect": "Restores 5 HP.",
+          "obtainment": "Sold by Lorenzo, Will, Barley, and Aloe; drops from Ant Army, Devious Rat, Crossbow Crony, Snory Bear, and Hungry Wolf at 6.4%.",
+          "best_use": "Reliable basic healing for early and mid-game routes.",
+          "keep_or_spend": "Keep several as default HP recovery."
+        },
+        {
+          "item": "Double Cheezburger",
+          "category": "Healing",
+          "effect": "Restores 8 HP.",
+          "obtainment": "Sold by Lorenzo and Fridge Raider; drops from Spiky Devil and Flaming Horse at 4.4%, and from several toxic enemies at 2.4%.",
+          "best_use": "Better burst healing before bosses or longer chapter routes.",
+          "keep_or_spend": "Save for harder fights instead of using it on small chip damage."
+        },
+        {
+          "item": "Brownie",
+          "category": "Healing",
+          "effect": "Restores 6 HP and becomes a Bitten Brownie after use.",
+          "obtainment": "Cooked from two Bitten Brownies; sold by Will and Eska; drops from Cheeky Eagle and Spiky Killbot at 0.4%.",
+          "best_use": "Efficient two-stage healing because it leaves another smaller heal behind.",
+          "keep_or_spend": "Good to keep when inventory space allows."
+        },
+        {
+          "item": "Cake",
+          "category": "HP / SP Recovery",
+          "effect": "Restores 5 HP and 15 SP.",
+          "obtainment": "Sold by Will.",
+          "best_use": "Strong sustain item for card-heavy builds that spend SP quickly.",
+          "keep_or_spend": "Save for bosses or The Pit-style endurance fights."
+        },
+        {
+          "item": "Dragonfruit",
+          "category": "SP Recovery / Status Protection",
+          "effect": "Restores 5 SP and grants Fine for 3 turns.",
+          "obtainment": "Sold by Tulip.",
+          "best_use": "Useful before status-heavy fights because Fine helps resist status ailments.",
+          "keep_or_spend": "Buy when your build depends on SP cards."
+        },
+        {
+          "item": "Falafel",
+          "category": "HP / SP Recovery / Defense Buff",
+          "effect": "Restores 6 HP and 6 SP, then grants DEF Up LV 2 for 3 turns.",
+          "obtainment": "Cooked from Chickpeas and Pita.",
+          "best_use": "High-value defensive sustain for bosses and dangerous enemy groups.",
+          "keep_or_spend": "Save for hard encounters rather than routine travel."
+        },
+        {
+          "item": "Hot Chocolate",
+          "category": "Status Protection",
+          "effect": "Grants Fine for 3 turns.",
+          "obtainment": "Sold by Barley; drops from Ant Army, Devious Rat, Crossbow Crony, Snory Bear, Hungry Wolf, Banished Knight, Loyal Knight, Supreme Ant, Sentient Statue, and Cruel King at 9.8%.",
+          "best_use": "Prevents status problems during routes with repeated debuffs.",
+          "keep_or_spend": "Keep for status-heavy areas; use before the danger starts."
+        },
+        {
+          "item": "Bomb",
+          "category": "Attack Item",
+          "effect": "Deals 2 damage to all enemies and also damages the player.",
+          "obtainment": "Sold by Lorenzo and Annihilator; drops from Bee Happy and Winged Zombie at 20.3%, plus many early enemies at lower rates.",
+          "best_use": "Fast area damage when several enemies are alive and your HP can absorb the self-damage.",
+          "keep_or_spend": "Use carefully; avoid when your HP is low."
+        },
+        {
+          "item": "Cherry Bomb",
+          "category": "Attack Item",
+          "effect": "Deals 3 damage to all enemies and also damages the player.",
+          "obtainment": "Cooked from Cherry and Bomb; sold by Fridge Raider; drops from Spiky Devil and Flaming Horse at 12.8%.",
+          "best_use": "Stronger wave-clear option for dangerous multi-enemy battles.",
+          "keep_or_spend": "Save for encounters where ending the fight quickly matters."
+        },
+        {
+          "item": "Flash Bomb",
+          "category": "Attack / Control Item",
+          "effect": "Deals 2 damage and inflicts Dizzy LV 1 on all enemies and the player.",
+          "obtainment": "Cooked from Dizzy Dial and Bomb; sold by Zuka; drops from Vessel, Vulture, Temple Guardian, The Great Flocci, The Ancients, and several Chapter 4 enemies at around 2.6%-2.8%.",
+          "best_use": "Control option when you need to slow a full enemy group.",
+          "keep_or_spend": "Use when the Dizzy tradeoff is worth also affecting yourself."
+        },
+        {
+          "item": "Epicsauce",
+          "category": "Weapon Buff",
+          "effect": "Grants Burn Enchant LV 2, causing the next attack to inflict Burn LV 2 for 1 turn.",
+          "obtainment": "Found in Manor Forest and Dream Path B; drops from Sharp Nooblet at 3.7% and Smugupine at 3.6%.",
+          "best_use": "Boosts pressure before a high-impact attack.",
+          "keep_or_spend": "Keep for bosses or sturdy enemies that benefit from burn pressure."
+        },
+        {
+          "item": "Hot Leaf Juice",
+          "category": "Revive",
+          "effect": "Revives a fallen ally with 5 HP.",
+          "obtainment": "Drops from Hedgehog, Gaur, and Toxic Spearman at 6%.",
+          "best_use": "Emergency recovery in multiplayer or party-focused encounters.",
+          "keep_or_spend": "Save for boss fights and long challenge runs."
+        }
+      ]
+    },
+    "weaponsGuide": {
+      "eyebrow": "Combat Tools",
+      "title": "Block Tales Weapons Guide",
+      "subtitle": "Understand Sword, Ball, replacement weapons, SFOTH swords, and Sword Energy before building your cards around them.",
+      "intro": "Weapons in Block Tales are tied to action cards, overworld abilities, chapter progression, and build identity. Sword and Ball define your base combat options, Slingshot and Launcher replace those slots, and SFOTH swords spend Sword Energy for powerful special effects.",
+      "items": [
+        {
+          "name": "Sword",
+          "slot": "Base Sword",
+          "type": "Action weapon card",
+          "effect": "Hits the first grounded enemy with 1-2 damage and pierces 50% of the target's Defense. Outside combat, it can break barricades, grab close items, and start battles with First Strike LV 1.",
+          "obtainment": "Obtained from Shedletsky after defeating Red Noob and Blue Noob in the Prologue.",
+          "best_use": "Best against grounded enemies with Defense because its partial defense pierce makes it reliable.",
+          "caution": "It skips Flying enemies and can punish the player when hitting Spiky enemies."
+        },
+        {
+          "name": "Iron Sword",
+          "slot": "Sword Upgrade",
+          "type": "Direct Sword upgrade",
+          "effect": "Increases base Sword damage by 1 and allows the player to destroy dense vegetation in the map.",
+          "obtainment": "Obtained after defeating Bigfoot in Mango Tree during Chapter 2.",
+          "best_use": "Important progression upgrade because it improves combat output and unlocks more overworld access.",
+          "caution": "It upgrades Sword directly rather than acting like a separate replacement weapon."
+        },
+        {
+          "name": "Ball",
+          "slot": "Base Ball",
+          "type": "Ranged action weapon card",
+          "effect": "Deals 1 damage by default. A successful action command adds a second hit that deals 1 damage and ignores Defense.",
+          "obtainment": "Obtained from JParty in the Pre-Prologue when meeting the Mysterious Figure.",
+          "best_use": "Best for targeting any enemy, hitting Flying enemies, grabbing faraway items, and breaking cracked stone pillars.",
+          "caution": "Spiky or Flaming enemies pop the Ball on contact, deny damage, and give the player 1 SP unless Cannonball is equipped."
+        },
+        {
+          "name": "Slingshot",
+          "slot": "Sword Replacement",
+          "type": "Alternative weapon card",
+          "effect": "Replaces Sword with a projectile attack. It can deal more damage than base Sword and can hit Flying and Spiky enemies, but it cannot damage enemies with Defense.",
+          "obtainment": "Bought from Tai for 300 TIX or Banished Knight for 150 TIX.",
+          "best_use": "Good when a fight punishes melee contact or requires reliable hits on Flying and Spiky targets.",
+          "caution": "Avoid it against armored or Defense-heavy enemies."
+        },
+        {
+          "name": "Launcher",
+          "slot": "Ball Replacement",
+          "type": "AOE ranged weapon card",
+          "effect": "Replaces Ball with a rocket attack that applies DEF Down LV 1 for 3 turns to the target, pierces 1 Defense on the target, and deals splash damage to adjacent enemies.",
+          "obtainment": "Bought from Tai for 300 TIX or Banished Knight for 150 TIX.",
+          "best_use": "Strong against enemy groups because it mixes ranged targeting, debuffing, and splash damage.",
+          "caution": "Missing the timing causes the user to blow up, deal no damage, and gain Exhaustion for 2 turns."
+        },
+        {
+          "name": "Ice Dagger",
+          "slot": "SFOTH Sword",
+          "type": "Sword Energy special",
+          "effect": "Costs 1 Sword Energy and heals the entire party for 20% of max HP and SP, with a minimum of 5 HP and 3 SP.",
+          "obtainment": "Obtained after defeating Cruel King in Chapter 1.",
+          "best_use": "Best sustain tool for long fights because it restores both HP and SP to the party.",
+          "caution": "It uses Sword Energy, so it competes with offensive SFOTH sword options."
+        },
+        {
+          "name": "Venomshank",
+          "slot": "SFOTH Sword",
+          "type": "Sword Energy special",
+          "effect": "Costs 1 Sword Energy, deals 2 damage to all enemies, ignores all Defense, and applies Poison LV 1 for 3 turns.",
+          "obtainment": "Obtained in Chapter 2 after defeating Bubonic Plant and receiving it from Mayor Thaniyel.",
+          "best_use": "Best against groups of enemies that can be poisoned and need steady damage over time.",
+          "caution": "It does not poison enemies that are immune to Poison, such as Komodo Dragon and Bubonic Plant."
+        },
+        {
+          "name": "Ghostwalker",
+          "slot": "SFOTH Sword",
+          "type": "Sword Energy special",
+          "effect": "Costs 2 Sword Energy and applies Dodgy LV 1 to the entire party.",
+          "obtainment": "Obtained in Chapter 3 after fully purifying the player's soul after defeating Hatred.",
+          "best_use": "Best defensive SFOTH sword when survival matters more than burst damage.",
+          "caution": "It costs more Sword Energy than Ice Dagger or Venomshank."
+        },
+        {
+          "name": "Firebrand",
+          "slot": "SFOTH Sword",
+          "type": "Sword Energy special",
+          "effect": "Costs 2 Sword Energy, deals 5 damage to all enemies, ignores all Defense, applies Burn LV 1, and applies ATK Down LV 2 for 3 turns.",
+          "obtainment": "Obtained in Chapter 4 after defeating The Ancients.",
+          "best_use": "Best late-game AOE pressure tool because it combines damage, burn, and enemy attack reduction.",
+          "caution": "It does not benefit from removed-on-strike status effects."
+        },
+        {
+          "name": "Sword Energy",
+          "slot": "SFOTH Resource",
+          "type": "Battle resource",
+          "effect": "Starts each battle at 0.5, increases through enemy turns and player attacks, and fuels SFOTH swords. Each SFOTH sword obtained increases the maximum NRG bar by 1.",
+          "obtainment": "Gained naturally in battle, through Focus, NRG Regen, and certain items such as Green Tea, Matcha Dorayaki, Chickpeas, Olives, Kunafa, and Starfruit.",
+          "best_use": "Plan it around boss phases: save NRG for Ice Dagger recovery, Ghostwalker defense, or Firebrand burst.",
+          "caution": "Focus gains less Sword Energy in larger parties, so multiplayer pacing differs from solo play."
+        }
+      ]
+    },
+    "statsAndLevelingGuide": {
+      "eyebrow": "Progression",
+      "title": "Block Tales Stats and Leveling Guide",
+      "subtitle": "Learn what HP, SP, BP, Level Up, respec, and Sword Energy do before choosing your next upgrade.",
+      "intro": "Block Tales leveling is built around 100 XP level-ups and three main upgrade choices: HP, SP, and BP. HP keeps you alive, SP lets you use more abilities, and BP decides how many cards your build can equip.",
+      "items": [
+        {
+          "stat_or_system": "Level Up",
+          "role": "Main progression mechanic triggered after reaching 100 XP.",
+          "level_up_change": "Each level-up lets the player choose +5 HP, +5 SP, or +3 BP.",
+          "cap_or_start": "The level cap starts at 4 and increases by 4 at the end of each chapter, including the Prologue. The maximum level is 24 as of Chapter 5's release.",
+          "recovery_or_respec": "A level-up fully restores the player's HP and SP. Bizville Library can change stat options for 15 TIX per point.",
+          "build_advice": "Pick the stat that fixes your current bottleneck: HP for survival, SP for ability usage, BP for card builds."
+        },
+        {
+          "stat_or_system": "Heart Points (HP)",
+          "role": "Player health during combat.",
+          "level_up_change": "+5 maximum HP per HP level-up choice.",
+          "cap_or_start": "Players start with 10 HP and can increase it through level-ups or HP+ cards.",
+          "recovery_or_respec": "Recovered by winning battles, food, Cure, Ice Dagger, Healing Pads, Beds, Happy HP, HP Drain, Sacrifice effects, Good Vibes, and Anchor.",
+          "build_advice": "Prioritize HP when learning enemy patterns, fighting bosses, or running builds that take contact damage from melee or self-damaging items."
+        },
+        {
+          "stat_or_system": "Special Points (SP)",
+          "role": "Action points used to perform abilities and card moves in battle.",
+          "level_up_change": "+5 maximum SP per SP level-up choice.",
+          "cap_or_start": "Maximum SP from level-ups is 90 without cards.",
+          "recovery_or_respec": "Recovered through winning battles, SP-granting items, Ice Dagger, Healing Pads, Beds, Train Spa hot tub, Happy SP, SP Drain, Pity SP, Defending, Passing, and SP Wire for non-users.",
+          "build_advice": "Prioritize SP when your equipped cards are powerful but you run out of resources before the fight ends."
+        },
+        {
+          "stat_or_system": "Build Points (BP)",
+          "role": "Determines how many cards the player can equip.",
+          "level_up_change": "+3 maximum BP per BP level-up choice.",
+          "cap_or_start": "Maximum BP is 30.",
+          "recovery_or_respec": "Removing equipped cards refunds their BP cost.",
+          "build_advice": "Prioritize BP when new cards unlock your build, especially Knight, Baller, support cards, defensive cards, or SP-saving setups."
+        },
+        {
+          "stat_or_system": "Sword Energy (NRG)",
+          "role": "Battle resource used for SFOTH swords such as Ice Dagger, Venomshank, Ghostwalker, and Firebrand.",
+          "level_up_change": "Not a normal level-up choice. Each SFOTH sword obtained increases the NRG bar maximum by 1.",
+          "cap_or_start": "Each battle starts with 0.5 Sword Energy.",
+          "recovery_or_respec": "Gained through enemy turns, player attacks, low-HP attacks, Focus, Deep Focus, NRG Regen, and items such as Green Tea, Matcha Dorayaki, Chickpeas, Olives, Kunafa, and Starfruit.",
+          "build_advice": "Use NRG planning for longer fights: Ice Dagger for recovery, Venomshank for poison pressure, Ghostwalker for defense, and Firebrand for late-game burst."
+        },
+        {
+          "stat_or_system": "Beginner Stat Route",
+          "role": "Simple upgrade path for players still learning action commands and enemy behavior.",
+          "level_up_change": "Open with HP if you are frequently fainting, then add BP once you find cards worth equipping, and add SP when your card moves start draining resources.",
+          "cap_or_start": "Works well before your build becomes specialized.",
+          "recovery_or_respec": "Can be corrected later through the Bizville Library stat-change option.",
+          "build_advice": "A stable beginner build usually values survival first, then card flexibility, then SP economy."
+        },
+        {
+          "stat_or_system": "Boss-Fight Stat Route",
+          "role": "Upgrade logic for longer fights where mistakes, SP costs, and defense matter.",
+          "level_up_change": "Mix HP and SP if you need to survive repeated hits while still casting cards. Add BP when defensive or support cards are the main reason your build works.",
+          "cap_or_start": "Best for chapters where bosses punish low HP or long SP droughts.",
+          "recovery_or_respec": "Carry HP/SP items and plan Sword Energy for Ice Dagger or Ghostwalker turns.",
+          "build_advice": "Boss builds should avoid over-investing in only one stat unless the card setup clearly supports that choice."
+        },
+        {
+          "stat_or_system": "Card-Build Stat Route",
+          "role": "Upgrade logic for Knight, Baller, utility, support, or passive-heavy setups.",
+          "level_up_change": "BP unlocks more cards, while SP determines how often active card moves can be used.",
+          "cap_or_start": "BP has a firm 30-point cap; HP and SP can be extended further with cards.",
+          "recovery_or_respec": "Removing cards refunds BP, making experimentation easier than permanent stat choices.",
+          "build_advice": "If your build feels weak because you cannot equip enough cards, choose BP. If you can equip the cards but cannot afford their moves, choose SP."
+        }
+      ]
+    },
+    "enemyDropsGuide": {
+      "eyebrow": "Loot Farming",
+      "title": "Block Tales Enemy Drops Guide",
+      "subtitle": "Find useful item drops, rare card drops, and farming targets by chapter instead of repeatedly checking every enemy page.",
+      "intro": "Enemies in Block Tales can carry listed items or cards during battle. Visible held drops have a chance to drop after defeat, hidden drops can appear under the enemy health bar, and each enemy can only hold one item or card at a time.",
+      "items": [
+        {
+          "farming_target": "Enemy Drop System",
+          "chapter_or_area": "All chapters",
+          "notable_drops": "Enemies may carry items or cards from their journal entries. A visible held item or card has a 50% drop chance; an item displayed under the enemy health bar is guaranteed.",
+          "best_for": "Understanding why farming works differently when an item is visible, hidden, or not shown.",
+          "farm_note": "Each enemy can only hold one item or card. If an enemy visibly carries something, it cannot also carry a hidden item."
+        },
+        {
+          "farming_target": "Nooblet / Helmet Noob / Cultist Noob / Knightly Noob / Blue Noob / Red Noob / Noobador",
+          "chapter_or_area": "Prologue",
+          "notable_drops": "Apple Juice 7%, Bomb 7%, Hypno Glasses 3.5%, Tickle Stick 3.5%, Hot Chocolate 2.7%, Minimize 1.6%, Slow Go 1.6%.",
+          "best_for": "Early Bombs, Apple Juice, and first utility-card farming.",
+          "farm_note": "Good early route when you need cheap consumables before moving into later chapters."
+        },
+        {
+          "farming_target": "Winged Nooblet",
+          "chapter_or_area": "Prologue",
+          "notable_drops": "Bomb 7.4%, Hypno Glasses 3.7%, Dizzy Dial 3.7%, Cheezburger 3.7%, Bloxy Cola 2.9%, ATK-FX R 1.7%, Slow Go 1.7%.",
+          "best_for": "Farming early flying-enemy drops and small recovery items.",
+          "farm_note": "Bring Ball or another ranged option because Sword does not naturally target Flying enemies."
+        },
+        {
+          "farming_target": "Sharp Nooblet",
+          "chapter_or_area": "Prologue",
+          "notable_drops": "Bomb 7.4%, Epicsauce 3.7%, Hypno Glasses 3.7%, Cheezburger 3.7%, Bloxy Cola 2.9%, Slow Go 1.7%, Softener 1.7%.",
+          "best_for": "Early Epicsauce, Softener, and Bomb farming.",
+          "farm_note": "Avoid careless melee hits if the enemy's Spiky trait is active or relevant to your setup."
+        },
+        {
+          "farming_target": "Ant Army / Devious Rat / Snory Bear / Hungry Wolf / Banished Knight / Loyal Knight / Crossbow Crony / Sentient Statue / Supreme Ant / Cruel King",
+          "chapter_or_area": "Chapter 1: Storming The Castle",
+          "notable_drops": "Worm 19.7%, Hot Chocolate 9.8%, Cheezburger 6.4%, Dizzy Dial 2.5%, Ice Storm 2%, Free Ice 1.2%, Taco 1%, Strawberry Ice Cream 1%.",
+          "best_for": "Hot Chocolate, Cheezburger, and Free Ice farming.",
+          "farm_note": "A strong chapter route for building a basic stock of recovery and cold-themed utility."
+        },
+        {
+          "farming_target": "Cheeky Eagle / Spiky Killbot",
+          "chapter_or_area": "Chapter 1",
+          "notable_drops": "Forbidden Drink 24.8%, Bitten Brownie 4%, Glue 3.2%, Onion Ring 2.8%, Ice Storm 2.5%, Snowball 1.5%, Vanilla Ice Cream 1.2%, Bloxy Cola 1.2%, Brownie 0.4%.",
+          "best_for": "Snowball card attempts and special Chapter 1 consumables.",
+          "farm_note": "Use anti-Flying and anti-Spiky planning because this group includes both traits."
+        },
+        {
+          "farming_target": "Smugupine",
+          "chapter_or_area": "Chapter 1",
+          "notable_drops": "Iron's Choice 5.7%, Bomb 5%, Tickle Stick 4.1%, Epicsauce 3.6%, Hypno Glasses 3.6%, Chocolate Ice Cream 2.9%, ROBAR 2.9%, Storm Tea 0.6%.",
+          "best_for": "Epicsauce, Tickle Stick, and Iron Cafe-style item farming.",
+          "farm_note": "Good target when you want utility items rather than basic HP food."
+        },
+        {
+          "farming_target": "Komodo Dragon / Tree Golem / Toxic Dartman / Venom Wizard / Purple Frog / Bigfoot / Griefer / Bubonic Plant",
+          "chapter_or_area": "Chapter 2: A Toxic Time",
+          "notable_drops": "Apple Core 20.7%, Dumpling 5.3%, Bomb 4.8%, Green Pepper 3.1%, Dizzy Dial 3.1%, Double Cheezburger 2.4%, Feel Fine 1%, Free Poison 0.7%, Green Tea 0.3%.",
+          "best_for": "Poison-area recovery, Dumpling, Double Cheezburger, and Free Poison farming.",
+          "farm_note": "Carry Poison cures and consider farming Apple Cores here because the drop pool strongly supports poison cleanup."
+        },
+        {
+          "farming_target": "Flying Mantis / Mosquito Swarm / Supreme Mosquito",
+          "chapter_or_area": "Chapter 2",
+          "notable_drops": "Papaya 13.9%, Mango 5.4%, Pineapple 3.9%, Jackfruit 3.7%, Orange 3.7%, Chocolate Ice Cream 2.9%, Tickle Stick 1.2%, Free Poison 1%.",
+          "best_for": "Fruit-based healing and Free Poison farming.",
+          "farm_note": "Use Ball, Sword Toss, Slingshot, or other anti-Flying options to keep farming efficient."
+        },
+        {
+          "farming_target": "Hedgehog / Gaur / Toxic Spearman",
+          "chapter_or_area": "Chapter 2",
+          "notable_drops": "Apple 10.2%, Hot Leaf Juice 6%, Red Pepper 5.6%, Lemon 4.7%, Bahulu 4.3%, Cinnamon Roll 2.3%, Thorns 2%, Bomb 1.1%.",
+          "best_for": "Apple, Hot Leaf Juice, and Thorns farming.",
+          "farm_note": "Useful when preparing for harder fights because Hot Leaf Juice can revive a fallen ally."
+        },
+        {
+          "farming_target": "Gorilla",
+          "chapter_or_area": "Chapter 2",
+          "notable_drops": "Banana 20.8%, Worm 12.1%, Coconut 10.1%, Call: Gorilla 7.1%.",
+          "best_for": "Summon-card farming and SP-related food routes.",
+          "farm_note": "One of the clearer farming targets because Call: Gorilla is tied directly to Gorilla."
+        },
+        {
+          "farming_target": "Bandit / Big Bandit / Helmet Bandit / Purple Noob / Green Noob / Zombie / Skeleton / Squatter / VLAD / Ghost of HAX / Turkey / Slasher / Smiling Bear / Borange Boy / Mold Man / Confident Boulder / F'Ella / Greed / Solitude / Fear / Phobia / Apparition / Hatred",
+          "chapter_or_area": "Chapter 3: All Hallows' Eve",
+          "notable_drops": "Bloxy Cola 22.2%, Mr Batty 5.4%, Applesauce 5.1%, Glue 2.9%, Slateskin Potion 2.3%, Cherry Bomb 2.2%, Orange Juice 1.3%, Pie 0.4%.",
+          "best_for": "Applesauce, Cherry Bomb, and broad Halloween-route consumables.",
+          "farm_note": "Good mid-game stock-up route for group healing and AOE attack items."
+        },
+        {
+          "farming_target": "Winged Zombie / Bee Happy",
+          "chapter_or_area": "Chapter 3",
+          "notable_drops": "Bomb 20.3%, Smoked Trout 4.5%, Cherry 3.9%, Gulab Kulfi 2.6%, HP Finder 1.1%, Cookie Dough 1.1%, First Aid Kit 1.1%, Unadon 1.1%.",
+          "best_for": "Bomb farming and HP Finder attempts.",
+          "farm_note": "A strong farming target when you want Bombs quickly."
+        },
+        {
+          "farming_target": "Sharp Zombie / Your Bombing Pal",
+          "chapter_or_area": "Chapter 3",
+          "notable_drops": "Mistake 20.1%, Magnifying Glass 4.8%, Dumpling 4.8%, Haunted Cheezburger 4%, Milkshake 2.9%, Malay Spongecake 2.1%, Anchor 1.6%, Cherry Pie 1%.",
+          "best_for": "Anchor, Haunted Cheezburger, and cooking-related item farming.",
+          "farm_note": "Good route for players collecting special food and passive-card drops."
+        },
+        {
+          "farming_target": "Nasty Badger / Tomb Raider / Deleter / Scorched Statue / Pirate / Flintlock Pirate / Anubis / Scarab / Camel? / Ramblin' Pot / Mummy / Flame Warrior / Pirate Spirit / Megaphone Man / Shotgun Bloke / The Right Hand / The Left Hand / Captain Trotter / Finn McCool",
+          "chapter_or_area": "Chapter 4: Excavation Exploration",
+          "notable_drops": "Garlic 14.3%, Olives 12.8%, Egg 3.3%, Kiwi 2.9%, Relic 2.8%, Flash Bomb 2.6%, Fig 2%, Free Fire 1.5%.",
+          "best_for": "Chapter 4 food, Relic, Flash Bomb, and Free Fire farming.",
+          "farm_note": "Useful late-game route when preparing for fire-themed or desert-area fights."
+        },
+        {
+          "farming_target": "Vulture / Vessel / The Great Flocci / Temple Guardian / The Ancients",
+          "chapter_or_area": "Chapter 4",
+          "notable_drops": "Hardtack 11.7%, Couscous 10.3%, Chickpeas 10.1%, Thunder Bolt 2.8%, Grapes 2.8%, Flash Bomb 2.8%, Kunafa 2%, Fireball 1.2%, Shish Tawook 0.4%.",
+          "best_for": "Fireball card attempts, Kunafa, Chickpeas, and late-game SP/NRG food support.",
+          "farm_note": "Bring reliable Flying-target options because this group contains Flying enemies."
+        },
+        {
+          "farming_target": "Spiky Devil / Flaming Horse",
+          "chapter_or_area": "Chapter 4",
+          "notable_drops": "Cherry Bomb 12.8%, Relic 9.3%, Double Cheezburger 4.4%, Thunder Bolt 4%, Stinky Latte 3.7%, Mammoul 1.8%, Cookie 1.8%, Sand 0.5%.",
+          "best_for": "Cherry Bomb and Relic farming.",
+          "farm_note": "Avoid relying on Ball contact against Flaming or Spiky enemies unless your setup handles those traits."
+        },
+        {
+          "farming_target": "Mimic",
+          "chapter_or_area": "Chapter 4",
+          "notable_drops": "Sand 8%, Witches Brew 6%, Cherry 6%, Cookie Dough 6%, Pumpkin 4%, Haunted Cheezburger 4%, Pie 4%, Relic 4%, Cookie 2%, Shawarma 0.2%.",
+          "best_for": "Rare food, Relic, and special cooking material farming.",
+          "farm_note": "Best for collectors who want unusual drops rather than basic recovery items."
+        },
+        {
+          "farming_target": "Enemy Card Drops",
+          "chapter_or_area": "All chapters",
+          "notable_drops": "Snowball 1.5%, Minimize 1.6%, Fireball 1.2%, Softener 1.7%, Free Ice 1.5%, Free Poison 1%, Free Fire 1.5%, Feel Fine 1%, Call: Gorilla 7.1%, Thorns 1.8%, Slow Go around 1.6%-1.7%, Anchor 1.6%, HP Finder 1.1%.",
+          "best_for": "Players farming specific cards instead of consumable items.",
+          "farm_note": "Farm the enemy group tied to the card instead of farming a whole chapter blindly."
+        }
+      ]
     }
   },
   "faq": {
@@ -1988,6 +2439,22 @@
       {
         "question": "Can the Block Tales Badges Guide help with completion?",
         "answer": "Yes. The Block Tales Badges Guide groups story, hidden, collection, Hard Mode, Demo 5, and legacy badges into chapter-based completion checklists."
+      },
+      {
+        "question": "How should I use the Block Tales Items Guide?",
+        "answer": "Use the Block Tales Items Guide to compare healing, SP recovery, status protection, attack items, revive options, and boss-prep inventory choices."
+      },
+      {
+        "question": "What does the Block Tales Weapons Guide explain?",
+        "answer": "The Block Tales Weapons Guide explains Sword, Ball, replacement weapons, SFOTH swords, Sword Energy, obtainment routes, best uses, and cautions."
+      },
+      {
+        "question": "What stats matter most in the Block Tales Stats and Leveling Guide?",
+        "answer": "The Block Tales Stats and Leveling Guide covers HP, SP, BP, Level Up choices, respec options, Sword Energy, and practical build routes."
+      },
+      {
+        "question": "How does the Block Tales Enemy Drops Guide help farming?",
+        "answer": "The Block Tales Enemy Drops Guide groups item drops, card drops, farming targets, chapters, and route notes so players can farm with a clear goal."
       }
     ]
   },
