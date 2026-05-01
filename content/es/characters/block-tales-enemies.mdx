@@ -1,0 +1,179 @@
+export const metadata = {
+  title: "Enemigos de Block Tales: Guía completa de patrones de combate, counters y farmeo 2026",
+  description: "Domina a los enemigos de Block Tales con una guía práctica de 2026 sobre lectura de ataques, roles de equipo, control de estados, rutas de farmeo y preparación para jefes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/4c1d95/fff?text=Block+Tales+Enemies+Guide",
+  date: "2026-05-01",
+  author: "Equipo de Block Wiki"
+}
+
+Si tus runs siguen desmoronándose en las mismas salas, el problema normalmente no es tu nivel: es tu lectura. Los **enemigos de Block Tales** están diseñados en torno a patrones, ventanas de presión y comprobaciones de rol, así que machacar botones al azar se castiga rápido. En 2026, la mejor forma de mejorar es tratar cada encuentro como un rompecabezas corto: identificar el tipo de amenaza, controlar el ritmo y gastar recursos solo cuando la recompensa sea clara. Esta guía desglosa a los **enemigos de block tales** en categorías prácticas que puedes reconocer a simple vista, y luego te da counters repetibles para juego en solitario y en equipo. También obtendrás lógica de farmeo, listas de preparación para jefes y errores comunes que drenan runs en silencio. Sigue esta estructura y tus clears serán más limpios, rápidos y menos dependientes de drops de suerte.
+
+## Enemigos de Block Tales de un Vistazo: Tipos de Amenaza que Debes Aprender Primero
+
+Antes de optimizar builds, aprende qué tipo de enemigo tienes delante. La mayoría de wipes vienen de una mala clasificación (por ejemplo, tratar una unidad de burst como un bruiser lento).
+
+| Arquetipo de Enemigo | Qué Hace | Mayor Riesgo | Mejor Respuesta Inmediata |
+|---|---|---|---|
+| **Rusher** | Cierra distancia rápido y encadena ataques cortos | Te bajan la vida antes de preparar setup | **Cometa en diagonal**, castiga tras el último golpe |
+| **Bruiser** | Carga lenta, golpe pesado, comportamiento tipo armadura | Un error cuesta muchísima vida | **Guarda cooldowns**, esquiva tarde, contraataca fuerte |
+| **Caster** | Presión a distancia, efectos de estado, negación de zona | Se rompe la dispersión del equipo | **Rompe línea de visión**, prioridad de interrupción |
+| **Summoner** | Invoca mobs más débiles para alargar la pelea | Drenaje de recursos con el tiempo | **Elimina adds primero**, luego burst al summoner |
+| **Disruptor** | Debuffs, aturdimientos, pulls o rompe formación | Niega combos y provoca pánico | **Timing de cleanse** y movimiento escalonado |
+
+Un modelo mental rápido para los **enemigos de Block Tales**:  
+1) “¿Puede matarme rápido?”  
+2) “¿Puede impedir que actúe?”  
+3) “¿Puede multiplicar la pelea?”
+
+Si la respuesta es sí a dos de esas, ese enemigo es tu primer objetivo.
+
+> **⚠️ Advertencia:** Los jugadores suelen obsesionarse con objetivos de mucha vida porque “parecen” jefes. En la práctica, los disruptores de poca vida causan más muertes que los bruisers con frecuencia.
+
+## Leer Patrones de Ataque y Señales de Animación
+
+Las showcases de la época demo destacaron una mayor claridad en animaciones, y eso importa para el rendimiento. No necesitas reacciones perfectas al frame: necesitas reconocer señales de forma consistente.
+
+<div style={{ position: "relative", paddingBottom: "56.25%", height: 0, margin: "2rem 0", borderRadius: "0.5rem", overflow: "hidden" }}>
+  <iframe
+    style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%" }}
+    src="https://www.youtube.com/embed/wTQNLE2xbUY"
+    title="Block Tales Demo 5 Animation Showcase - Enemies & Cutscenes"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  ></iframe>
+</div>
+
+Usa esta escalera de señales durante los combates:
+
+| Etapa de Señal | Qué Notas | Qué Deberías Hacer |
+|---|---|---|
+| **Postura de pre-casteo** | El enemigo fija postura, cambia el ángulo del arma | Deja de atacar por codicia, prepara movimiento |
+| **Frame de compromiso** | Movimiento claro hacia delante o destello de efecto | Esquiva/bloquea en esta etapa, no antes |
+| **Recuperación** | La animación se ralentiza o aparece retroceso | Mete tu burst o debuff |
+| **Reinicio** | Vuelve al comportamiento de idle/deambular | Reposiciónate y reevalúa objetivos |
+
+### Regla práctica de timing (fácil de recordar)
+- **Esquiva temprana** vs rushers rápidos de múltiples golpes  
+- **Esquiva tardía** vs slams pesados de bruisers  
+- **Mantén la esquiva** vs amagos señuelo de mobs avanzados
+
+Solo esto mejora la consistencia contra muchos **enemigos de block tales**, especialmente cuando el desorden de la sala vuelve ruidosos los visuales.
+
+## Mejores Roles de Equipo y Counters para Clears Consistentes
+
+Incluso en grupos de habilidad mixta, una asignación clara de roles reduce el caos de forma drástica. No necesitas “composición perfecta”, pero sí cobertura.
+
+| Rol | Trabajo Principal | Estadísticas Prioritarias | Error a Evitar |
+|---|---|---|---|
+| **Frontliner** | Anclar aggro y crear espacio seguro | Defensa, uptime de guardia, sustain | Perseguir kills fuera de posición |
+| **DPS Burst** | Borrar amenazas prioritarias durante ventanas | Alineación de crit/burst con cooldowns | Gastar burst en objetivos aleatorios de baja amenaza |
+| **Control/Utility** | Ralentizar, interrumpir, debuffear, cleanse | Reducción de cooldown, uptime de efectos | Solapar CC sobre el mismo objetivo |
+| **Support** | Mantener ritmo de curas, escudos, rescate | Economía de recursos, timing | Curar en pánico con estados de vida aún altos |
+
+### Marco de orden de objetivos (funciona en la mayoría de encuentros)
+1. **Disruptor/Caster**  
+2. **Summoner/productor de adds**  
+3. **Grupo de rushers**  
+4. **Bruiser al final** (a menos que el temporizador de enrage fuerce cambio)
+
+> **💡 Consejo:** Llama objetivos por función, no por apariencia: “caster izquierda”, “summoner backline”, “disruptor marcado”. Las llamadas funcionales reducen confusión en grupos nuevos.
+
+Si juegas sobre todo en solitario, imita esta prioridad gestionando tu propia rotación de “micro-roles”: control primero, burst segundo, sustain tercero.
+
+## Rutas de Farmeo: ¿Qué Enemigos de Block Tales Valen Tu Tiempo?
+
+Farmear todo es ineficiente. Mejor enfoque: elige una ruta según lo que necesites ahora (XP, materiales o seguridad de progresión).
+
+| Objetivo | Mejor Perfil de Enemigo | Por Qué Funciona | Duración de Sesión |
+|---|---|---|---|
+| **XP rápida** | Grupos de vida media con poco control | Kills frecuentes, poco tiempo muerto | Bucles de 20–30 min |
+| **Farmeo de materiales** | Variantes élite con spawns predecibles | Mejores tablas de drop, pathing repetible | Runs de 30–45 min |
+| **Progresión segura** | Enemigos de bajo burst con señales claras | Menor riesgo de wipe durante mejoras | Ciclos de 15–25 min |
+| **Práctica de mecánicas** | Packs mixtos (rusher + caster) | Construye reacción y disciplina de prioridad | Drills de 10–20 min |
+
+### Checklist de optimización de ruta
+- Entra con un **objetivo principal** (XP o drops, no ambos).
+- Mide tu ritmo de clear cada 10 minutos.
+- Si los wipes superan dos por sesión, baja un tier y recupera eficiencia.
+- Guarda ganancias antes de que llegue el síndrome de “solo un pull más”.
+
+Muchos jugadores pierden progreso por quedarse de más en rutas difíciles. Cuando los **enemigos de Block Tales** empiezan a forzarte peleas cargadas de pociones, tu ganancia neta por minuto ya está bajando.
+
+Para actualizaciones oficiales y enlaces de páginas, sigue la presencia del juego en la plataforma y las notas de parche mediante la [página oficial del juego Block Tales en Roblox](https://www.roblox.com/).
+
+## Preparación para Jefes: Construye en Torno a Mecánicas, No Daño Bruto
+
+Cuando los jugadores preguntan por qué los jefes se sienten aleatorios, el problema real suele ser una mala planificación previa. Los **enemigos de block tales** tipo jefe suelen combinar múltiples arquetipos por fases.
+
+### Prioridades de loadout antes del combate
+| Categoría de Preparación | Estándar Mínimo | Prioridad de Mejora |
+|---|---|---|
+| **Capa defensiva** | Una herramienta fiable de mitigación | Mejora uptime antes de acumular HP bruta |
+| **Cleanse/Recuperación** | Al menos una respuesta a estados | Añade sustain de respaldo para peleas largas |
+| **Herramienta de ventana de burst** | Un cooldown alineado con ventanas de castigo | Sincronízalo con debuffs de compañeros |
+| **Opción de movilidad** | Una habilidad consistente de reposicionamiento | Reduce cooldown para transiciones de fase |
+
+### Plantilla de planificación por fases
+1. **Fase 1:** Aprende la cadencia, no te sobrecomprometas.
+2. **Fase 2:** Guarda interrupciones solo para casteos clave.
+3. **Fase 3:** Gasta recursos de forma agresiva cuando aparezcan señales de enrage.
+
+> **⚠️ Advertencia:** Entrar a salas de jefe con builds de “todo ofensiva” puede limpiar más rápido en runs perfectas, pero castiga mucho los errores. Para clears de progresión, los kits equilibrados son más fiables.
+
+## Errores Comunes Contra Enemigos de Block Tales (y Arreglos Rápidos)
+
+Puedes corregir la mayoría de puntos de fallo con cambios simples de hábito.
+
+| Error | Qué Ocurre | Arreglo Rápido |
+|---|---|---|
+| **Codicia tras derribo** | Recibes represalia y pierdes ritmo | Cuenta un pulso extra antes de reenganchar |
+| **Volcar todos los cooldowns** | Te quedas sin respuestas en ventanas peligrosas | Escalona habilidades por fase de amenaza |
+| **Sin callouts de objetivo** | El equipo divide DPS y alarga la pelea | Usa llamadas de 2 palabras: “caster primero” |
+| **Ignorar adds** | La presión de la sala se descontrola | Asigna a un jugador al control de adds |
+| **Movimiento en pánico** | Te metes en AoE o líneas de compañeros | Muévete con pasos cortos y deliberados |
+
+### Disciplina de “dos ventanas” para un combate más limpio
+Compromete cooldowns mayores solo cuando ambas cosas sean ciertas:
+- El enemigo está en **recuperación** o **animación bloqueada**
+- Tu equipo está **estable** (sin reanimaciones/curas de emergencia necesarias)
+
+Este enfoque mejora muchísimo la consistencia contra **enemigos de Block Tales** avanzados y evita que pierdas runs por una sola sobreextensión mala.
+
+## Notas del Meta 2026: Qué Priorizar a Medida que se Expande el Contenido
+
+A medida que evoluciona el diseño de encuentros, el hábito más fuerte es la adaptabilidad. En vez de memorizar una ruta para siempre, construye un proceso reutilizable:
+
+- Clasifica la amenaza en los primeros 5 segundos.
+- Prueba un castigo seguro.
+- Confirma si el enemigo tiene timing de amago.
+- Ajusta el timing de esquiva antes de ajustar la build.
+- Solo entonces optimiza daño.
+
+Esto evita frustración cuando se añaden nuevos **enemigos de block tales** o cuando los antiguos reciben actualizaciones de animación o comportamiento.
+
+Si quieres mejorar rápido, haz “sets de entrenamiento” cortos:
+- 3 intentos centrados solo en esquivar  
+- 3 intentos centrados solo en velocidad de prioridad de objetivos  
+- 3 intentos completos combinando ambos
+
+Aprendes más rápido aislando habilidades que farmeando a fuerza bruta.
+
+## FAQ
+
+**Q: What are the hardest block tales enemies for newer players?**
+
+A: Los jugadores nuevos suelen tener más problemas con enemigos tipo disruptor y caster porque rompen el ritmo y castigan el mal posicionamiento. Practica movimiento de línea de visión y guarda una interrupción para casteos de alto impacto.
+
+**Q: How often should I change my build for Block Tales enemies?**
+
+A: Cámbiala cuando tu patrón de fallo se repita (por ejemplo, muertes por estado o por burst), no después de cada derrota. Ajustes pequeños y específicos superan a reconstrucciones completas.
+
+**Q: Is farming elite enemies better than clearing easy rooms fast?**
+
+A: Depende de tu objetivo. Los élites pueden ser mejores para drops específicos, mientras que limpiar salas fáciles rápido suele ganar en XP/hora y progresión de bajo riesgo. Lleva registro del rendimiento de tu sesión para decidir.
+
+**Q: What is the single best habit for dealing with block tales enemies in 2026?**
+
+A: Disciplina de prioridades. Enfócate primero en objetivos disruptivos y luego convierte ventanas seguras de castigo. Un mejor orden de objetivos suele mejorar más tus runs que las mejoras de daño bruto.
