@@ -1,0 +1,1418 @@
+{
+  "en": {
+    "builds": [
+      {
+        "slug": "Block-Tales-baller-build",
+        "file": "Block-Tales-baller-build"
+      },
+      {
+        "slug": "Block-Tales-best-build",
+        "file": "Block-Tales-best-build"
+      },
+      {
+        "slug": "Block-Tales-support-build",
+        "file": "Block-Tales-support-build"
+      }
+    ],
+    "cards": [
+      {
+        "slug": "Block-Tales-aggressor-card",
+        "file": "Block-Tales-aggressor-card"
+      },
+      {
+        "slug": "Block-Tales-all-cards",
+        "file": "Block-Tales-all-cards"
+      },
+      {
+        "slug": "Block-Tales-baller-card",
+        "file": "Block-Tales-baller-card"
+      },
+      {
+        "slug": "Block-Tales-drawback-cards",
+        "file": "Block-Tales-drawback-cards"
+      },
+      {
+        "slug": "Block-Tales-griefer-card",
+        "file": "Block-Tales-griefer-card"
+      },
+      {
+        "slug": "Block-Tales-hp-finder",
+        "file": "Block-Tales-hp-finder"
+      },
+      {
+        "slug": "Block-Tales-safe-guard",
+        "file": "Block-Tales-safe-guard"
+      },
+      {
+        "slug": "Block-Tales-thorns",
+        "file": "Block-Tales-thorns"
+      },
+      {
+        "slug": "block-tales-best-cards",
+        "file": "block-tales-best-cards"
+      },
+      {
+        "slug": "block-tales-bombardment",
+        "file": "block-tales-bombardment"
+      },
+      {
+        "slug": "block-tales-cards-tier-list",
+        "file": "block-tales-cards-tier-list"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Block-Tales-accountant-jim",
+        "file": "Block-Tales-accountant-jim"
+      },
+      {
+        "slug": "Block-Tales-builderman",
+        "file": "Block-Tales-builderman"
+      },
+      {
+        "slug": "Block-Tales-calypso",
+        "file": "Block-Tales-calypso"
+      },
+      {
+        "slug": "Block-Tales-kyoko",
+        "file": "Block-Tales-kyoko"
+      },
+      {
+        "slug": "Block-Tales-player",
+        "file": "Block-Tales-player"
+      },
+      {
+        "slug": "Block-Tales-shedletsky",
+        "file": "Block-Tales-shedletsky"
+      },
+      {
+        "slug": "Block-Tales-telamon",
+        "file": "Block-Tales-telamon"
+      },
+      {
+        "slug": "block-tales-barbarian-king",
+        "file": "block-tales-barbarian-king"
+      },
+      {
+        "slug": "block-tales-bosses",
+        "file": "block-tales-bosses"
+      },
+      {
+        "slug": "block-tales-cassie",
+        "file": "block-tales-cassie"
+      },
+      {
+        "slug": "block-tales-characters",
+        "file": "block-tales-characters"
+      },
+      {
+        "slug": "block-tales-enemies",
+        "file": "block-tales-enemies"
+      },
+      {
+        "slug": "block-tales-high-councilman",
+        "file": "block-tales-high-councilman"
+      },
+      {
+        "slug": "block-tales-high-scholar",
+        "file": "block-tales-high-scholar"
+      },
+      {
+        "slug": "block-tales-npcs",
+        "file": "block-tales-npcs"
+      },
+      {
+        "slug": "block-tales-spaceman-sam",
+        "file": "block-tales-spaceman-sam"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Block-Tales-find-all-ingredients-for-the-chef",
+        "file": "Block-Tales-find-all-ingredients-for-the-chef"
+      },
+      {
+        "slug": "Block-Tales-how-to-be-good",
+        "file": "Block-Tales-how-to-be-good"
+      },
+      {
+        "slug": "Block-Tales-how-to-change-keybinds",
+        "file": "Block-Tales-how-to-change-keybinds"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-compost",
+        "file": "Block-Tales-how-to-get-compost"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-first-aid",
+        "file": "Block-Tales-how-to-get-first-aid"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-knight",
+        "file": "Block-Tales-how-to-get-knight"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-shawarma",
+        "file": "Block-Tales-how-to-get-shawarma"
+      },
+      {
+        "slug": "Block-Tales-how-to-level-up",
+        "file": "Block-Tales-how-to-level-up"
+      },
+      {
+        "slug": "Block-Tales-how-to-solve-the-last-puzzle",
+        "file": "Block-Tales-how-to-solve-the-last-puzzle"
+      },
+      {
+        "slug": "Block-Tales-max-level",
+        "file": "Block-Tales-max-level"
+      },
+      {
+        "slug": "block-tales-achievements",
+        "file": "block-tales-achievements"
+      },
+      {
+        "slug": "block-tales-animation-flavors",
+        "file": "block-tales-animation-flavors"
+      },
+      {
+        "slug": "block-tales-demo-5-guide",
+        "file": "block-tales-demo-5-guide"
+      },
+      {
+        "slug": "block-tales-fast-travel-locations",
+        "file": "block-tales-fast-travel-locations"
+      },
+      {
+        "slug": "block-tales-gold-bar",
+        "file": "block-tales-gold-bar"
+      },
+      {
+        "slug": "block-tales-npcs",
+        "file": "block-tales-npcs"
+      },
+      {
+        "slug": "block-tales-seventh-sanctum",
+        "file": "block-tales-seventh-sanctum"
+      },
+      {
+        "slug": "how-to-beat-opticus-block-tales",
+        "file": "how-to-beat-opticus-block-tales"
+      },
+      {
+        "slug": "how-to-beat-opticus-in-block-tales",
+        "file": "how-to-beat-opticus-in-block-tales"
+      },
+      {
+        "slug": "how-to-beat-opticus-the-magnificent",
+        "file": "how-to-beat-opticus-the-magnificent"
+      },
+      {
+        "slug": "how-to-beat-the-magnificent-in-block-tales-demo-5",
+        "file": "how-to-beat-the-magnificent-in-block-tales-demo-5"
+      },
+      {
+        "slug": "how-to-beat-the-trinity-council-block-tales",
+        "file": "how-to-beat-the-trinity-council-block-tales"
+      },
+      {
+        "slug": "how-to-beat-the-trinity-council-in-block-tales",
+        "file": "how-to-beat-the-trinity-council-in-block-tales"
+      },
+      {
+        "slug": "how-to-defeat-opticus-in-block-tales",
+        "file": "how-to-defeat-opticus-in-block-tales"
+      },
+      {
+        "slug": "seventh-sanctum-block-tales",
+        "file": "seventh-sanctum-block-tales"
+      },
+      {
+        "slug": "telamon-block-tales",
+        "file": "telamon-block-tales"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "Block-Tales-chapter-5",
+        "file": "Block-Tales-chapter-5"
+      },
+      {
+        "slug": "Block-Tales-demo-4",
+        "file": "Block-Tales-demo-4"
+      },
+      {
+        "slug": "Block-Tales-demo-5-release-date",
+        "file": "Block-Tales-demo-5-release-date"
+      },
+      {
+        "slug": "Block-Tales-demo-5",
+        "file": "Block-Tales-demo-5"
+      },
+      {
+        "slug": "Block-Tales-news",
+        "file": "Block-Tales-news"
+      },
+      {
+        "slug": "Block-Tales-upcoming-content",
+        "file": "Block-Tales-upcoming-content"
+      },
+      {
+        "slug": "block-tales-chapter-5-release-date",
+        "file": "block-tales-chapter-5-release-date"
+      },
+      {
+        "slug": "block-tales-court-answers",
+        "file": "block-tales-court-answers"
+      },
+      {
+        "slug": "block-tales-demo-1-release-date",
+        "file": "block-tales-demo-1-release-date"
+      },
+      {
+        "slug": "block-tales-demo-5-cassie",
+        "file": "block-tales-demo-5-cassie"
+      },
+      {
+        "slug": "block-tales-demo-5-council",
+        "file": "block-tales-demo-5-council"
+      },
+      {
+        "slug": "block-tales-demo-5-court",
+        "file": "block-tales-demo-5-court"
+      },
+      {
+        "slug": "block-tales-demo-5-interrogation",
+        "file": "block-tales-demo-5-interrogation"
+      },
+      {
+        "slug": "block-tales-demo-5-opticus",
+        "file": "block-tales-demo-5-opticus"
+      },
+      {
+        "slug": "block-tales-demo-5-secrets",
+        "file": "block-tales-demo-5-secrets"
+      },
+      {
+        "slug": "block-tales-demo-5-story",
+        "file": "block-tales-demo-5-story"
+      },
+      {
+        "slug": "block-tales-demo-5-walkthrough",
+        "file": "block-tales-demo-5-walkthrough"
+      },
+      {
+        "slug": "block-tales-demo-6-release-date",
+        "file": "block-tales-demo-6-release-date"
+      },
+      {
+        "slug": "block-tales-emotes",
+        "file": "block-tales-emotes"
+      },
+      {
+        "slug": "demo-5-block-tales",
+        "file": "demo-5-block-tales"
+      },
+      {
+        "slug": "high-councilman-block-tales",
+        "file": "high-councilman-block-tales"
+      },
+      {
+        "slug": "the-council-block-tales",
+        "file": "the-council-block-tales"
+      }
+    ]
+  },
+  "es": {
+    "builds": [
+      {
+        "slug": "Block-Tales-baller-build",
+        "file": "Block-Tales-baller-build"
+      },
+      {
+        "slug": "Block-Tales-best-build",
+        "file": "Block-Tales-best-build"
+      },
+      {
+        "slug": "Block-Tales-support-build",
+        "file": "Block-Tales-support-build"
+      }
+    ],
+    "cards": [
+      {
+        "slug": "Block-Tales-aggressor-card",
+        "file": "Block-Tales-aggressor-card"
+      },
+      {
+        "slug": "Block-Tales-all-cards",
+        "file": "Block-Tales-all-cards"
+      },
+      {
+        "slug": "Block-Tales-baller-card",
+        "file": "Block-Tales-baller-card"
+      },
+      {
+        "slug": "Block-Tales-drawback-cards",
+        "file": "Block-Tales-drawback-cards"
+      },
+      {
+        "slug": "Block-Tales-griefer-card",
+        "file": "Block-Tales-griefer-card"
+      },
+      {
+        "slug": "Block-Tales-hp-finder",
+        "file": "Block-Tales-hp-finder"
+      },
+      {
+        "slug": "Block-Tales-safe-guard",
+        "file": "Block-Tales-safe-guard"
+      },
+      {
+        "slug": "Block-Tales-thorns",
+        "file": "Block-Tales-thorns"
+      },
+      {
+        "slug": "block-tales-best-cards",
+        "file": "block-tales-best-cards"
+      },
+      {
+        "slug": "block-tales-bombardment",
+        "file": "block-tales-bombardment"
+      },
+      {
+        "slug": "block-tales-cards-tier-list",
+        "file": "block-tales-cards-tier-list"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Block-Tales-accountant-jim",
+        "file": "Block-Tales-accountant-jim"
+      },
+      {
+        "slug": "Block-Tales-builderman",
+        "file": "Block-Tales-builderman"
+      },
+      {
+        "slug": "Block-Tales-calypso",
+        "file": "Block-Tales-calypso"
+      },
+      {
+        "slug": "Block-Tales-kyoko",
+        "file": "Block-Tales-kyoko"
+      },
+      {
+        "slug": "Block-Tales-player",
+        "file": "Block-Tales-player"
+      },
+      {
+        "slug": "Block-Tales-shedletsky",
+        "file": "Block-Tales-shedletsky"
+      },
+      {
+        "slug": "Block-Tales-telamon",
+        "file": "Block-Tales-telamon"
+      },
+      {
+        "slug": "block-tales-barbarian-king",
+        "file": "block-tales-barbarian-king"
+      },
+      {
+        "slug": "block-tales-bosses",
+        "file": "block-tales-bosses"
+      },
+      {
+        "slug": "block-tales-cassie",
+        "file": "block-tales-cassie"
+      },
+      {
+        "slug": "block-tales-characters",
+        "file": "block-tales-characters"
+      },
+      {
+        "slug": "block-tales-enemies",
+        "file": "block-tales-enemies"
+      },
+      {
+        "slug": "block-tales-high-councilman",
+        "file": "block-tales-high-councilman"
+      },
+      {
+        "slug": "block-tales-high-scholar",
+        "file": "block-tales-high-scholar"
+      },
+      {
+        "slug": "block-tales-npcs",
+        "file": "block-tales-npcs"
+      },
+      {
+        "slug": "block-tales-spaceman-sam",
+        "file": "block-tales-spaceman-sam"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Block-Tales-find-all-ingredients-for-the-chef",
+        "file": "Block-Tales-find-all-ingredients-for-the-chef"
+      },
+      {
+        "slug": "Block-Tales-how-to-be-good",
+        "file": "Block-Tales-how-to-be-good"
+      },
+      {
+        "slug": "Block-Tales-how-to-change-keybinds",
+        "file": "Block-Tales-how-to-change-keybinds"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-compost",
+        "file": "Block-Tales-how-to-get-compost"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-first-aid",
+        "file": "Block-Tales-how-to-get-first-aid"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-knight",
+        "file": "Block-Tales-how-to-get-knight"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-shawarma",
+        "file": "Block-Tales-how-to-get-shawarma"
+      },
+      {
+        "slug": "Block-Tales-how-to-level-up",
+        "file": "Block-Tales-how-to-level-up"
+      },
+      {
+        "slug": "Block-Tales-how-to-solve-the-last-puzzle",
+        "file": "Block-Tales-how-to-solve-the-last-puzzle"
+      },
+      {
+        "slug": "Block-Tales-max-level",
+        "file": "Block-Tales-max-level"
+      },
+      {
+        "slug": "block-tales-achievements",
+        "file": "block-tales-achievements"
+      },
+      {
+        "slug": "block-tales-animation-flavors",
+        "file": "block-tales-animation-flavors"
+      },
+      {
+        "slug": "block-tales-demo-5-guide",
+        "file": "block-tales-demo-5-guide"
+      },
+      {
+        "slug": "block-tales-fast-travel-locations",
+        "file": "block-tales-fast-travel-locations"
+      },
+      {
+        "slug": "block-tales-gold-bar",
+        "file": "block-tales-gold-bar"
+      },
+      {
+        "slug": "block-tales-npcs",
+        "file": "block-tales-npcs"
+      },
+      {
+        "slug": "block-tales-seventh-sanctum",
+        "file": "block-tales-seventh-sanctum"
+      },
+      {
+        "slug": "how-to-beat-opticus-block-tales",
+        "file": "how-to-beat-opticus-block-tales"
+      },
+      {
+        "slug": "how-to-beat-opticus-in-block-tales",
+        "file": "how-to-beat-opticus-in-block-tales"
+      },
+      {
+        "slug": "how-to-beat-opticus-the-magnificent",
+        "file": "how-to-beat-opticus-the-magnificent"
+      },
+      {
+        "slug": "how-to-beat-the-magnificent-in-block-tales-demo-5",
+        "file": "how-to-beat-the-magnificent-in-block-tales-demo-5"
+      },
+      {
+        "slug": "how-to-beat-the-trinity-council-block-tales",
+        "file": "how-to-beat-the-trinity-council-block-tales"
+      },
+      {
+        "slug": "how-to-beat-the-trinity-council-in-block-tales",
+        "file": "how-to-beat-the-trinity-council-in-block-tales"
+      },
+      {
+        "slug": "how-to-defeat-opticus-in-block-tales",
+        "file": "how-to-defeat-opticus-in-block-tales"
+      },
+      {
+        "slug": "seventh-sanctum-block-tales",
+        "file": "seventh-sanctum-block-tales"
+      },
+      {
+        "slug": "telamon-block-tales",
+        "file": "telamon-block-tales"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "Block-Tales-chapter-5",
+        "file": "Block-Tales-chapter-5"
+      },
+      {
+        "slug": "Block-Tales-demo-4",
+        "file": "Block-Tales-demo-4"
+      },
+      {
+        "slug": "Block-Tales-demo-5-release-date",
+        "file": "Block-Tales-demo-5-release-date"
+      },
+      {
+        "slug": "Block-Tales-demo-5",
+        "file": "Block-Tales-demo-5"
+      },
+      {
+        "slug": "Block-Tales-news",
+        "file": "Block-Tales-news"
+      },
+      {
+        "slug": "Block-Tales-upcoming-content",
+        "file": "Block-Tales-upcoming-content"
+      },
+      {
+        "slug": "block-tales-chapter-5-release-date",
+        "file": "block-tales-chapter-5-release-date"
+      },
+      {
+        "slug": "block-tales-court-answers",
+        "file": "block-tales-court-answers"
+      },
+      {
+        "slug": "block-tales-demo-1-release-date",
+        "file": "block-tales-demo-1-release-date"
+      },
+      {
+        "slug": "block-tales-demo-5-cassie",
+        "file": "block-tales-demo-5-cassie"
+      },
+      {
+        "slug": "block-tales-demo-5-council",
+        "file": "block-tales-demo-5-council"
+      },
+      {
+        "slug": "block-tales-demo-5-court",
+        "file": "block-tales-demo-5-court"
+      },
+      {
+        "slug": "block-tales-demo-5-interrogation",
+        "file": "block-tales-demo-5-interrogation"
+      },
+      {
+        "slug": "block-tales-demo-5-opticus",
+        "file": "block-tales-demo-5-opticus"
+      },
+      {
+        "slug": "block-tales-demo-5-secrets",
+        "file": "block-tales-demo-5-secrets"
+      },
+      {
+        "slug": "block-tales-demo-5-story",
+        "file": "block-tales-demo-5-story"
+      },
+      {
+        "slug": "block-tales-demo-5-walkthrough",
+        "file": "block-tales-demo-5-walkthrough"
+      },
+      {
+        "slug": "block-tales-demo-6-release-date",
+        "file": "block-tales-demo-6-release-date"
+      },
+      {
+        "slug": "block-tales-emotes",
+        "file": "block-tales-emotes"
+      },
+      {
+        "slug": "demo-5-block-tales",
+        "file": "demo-5-block-tales"
+      },
+      {
+        "slug": "high-councilman-block-tales",
+        "file": "high-councilman-block-tales"
+      },
+      {
+        "slug": "the-council-block-tales",
+        "file": "the-council-block-tales"
+      }
+    ]
+  },
+  "ja": {
+    "builds": [
+      {
+        "slug": "Block-Tales-baller-build",
+        "file": "Block-Tales-baller-build"
+      },
+      {
+        "slug": "Block-Tales-best-build",
+        "file": "Block-Tales-best-build"
+      },
+      {
+        "slug": "Block-Tales-support-build",
+        "file": "Block-Tales-support-build"
+      }
+    ],
+    "cards": [
+      {
+        "slug": "Block-Tales-aggressor-card",
+        "file": "Block-Tales-aggressor-card"
+      },
+      {
+        "slug": "Block-Tales-all-cards",
+        "file": "Block-Tales-all-cards"
+      },
+      {
+        "slug": "Block-Tales-baller-card",
+        "file": "Block-Tales-baller-card"
+      },
+      {
+        "slug": "Block-Tales-drawback-cards",
+        "file": "Block-Tales-drawback-cards"
+      },
+      {
+        "slug": "Block-Tales-griefer-card",
+        "file": "Block-Tales-griefer-card"
+      },
+      {
+        "slug": "Block-Tales-hp-finder",
+        "file": "Block-Tales-hp-finder"
+      },
+      {
+        "slug": "Block-Tales-safe-guard",
+        "file": "Block-Tales-safe-guard"
+      },
+      {
+        "slug": "Block-Tales-thorns",
+        "file": "Block-Tales-thorns"
+      },
+      {
+        "slug": "block-tales-best-cards",
+        "file": "block-tales-best-cards"
+      },
+      {
+        "slug": "block-tales-bombardment",
+        "file": "block-tales-bombardment"
+      },
+      {
+        "slug": "block-tales-cards-tier-list",
+        "file": "block-tales-cards-tier-list"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Block-Tales-accountant-jim",
+        "file": "Block-Tales-accountant-jim"
+      },
+      {
+        "slug": "Block-Tales-builderman",
+        "file": "Block-Tales-builderman"
+      },
+      {
+        "slug": "Block-Tales-calypso",
+        "file": "Block-Tales-calypso"
+      },
+      {
+        "slug": "Block-Tales-kyoko",
+        "file": "Block-Tales-kyoko"
+      },
+      {
+        "slug": "Block-Tales-player",
+        "file": "Block-Tales-player"
+      },
+      {
+        "slug": "Block-Tales-shedletsky",
+        "file": "Block-Tales-shedletsky"
+      },
+      {
+        "slug": "Block-Tales-telamon",
+        "file": "Block-Tales-telamon"
+      },
+      {
+        "slug": "block-tales-barbarian-king",
+        "file": "block-tales-barbarian-king"
+      },
+      {
+        "slug": "block-tales-bosses",
+        "file": "block-tales-bosses"
+      },
+      {
+        "slug": "block-tales-cassie",
+        "file": "block-tales-cassie"
+      },
+      {
+        "slug": "block-tales-characters",
+        "file": "block-tales-characters"
+      },
+      {
+        "slug": "block-tales-enemies",
+        "file": "block-tales-enemies"
+      },
+      {
+        "slug": "block-tales-high-councilman",
+        "file": "block-tales-high-councilman"
+      },
+      {
+        "slug": "block-tales-high-scholar",
+        "file": "block-tales-high-scholar"
+      },
+      {
+        "slug": "block-tales-npcs",
+        "file": "block-tales-npcs"
+      },
+      {
+        "slug": "block-tales-spaceman-sam",
+        "file": "block-tales-spaceman-sam"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Block-Tales-find-all-ingredients-for-the-chef",
+        "file": "Block-Tales-find-all-ingredients-for-the-chef"
+      },
+      {
+        "slug": "Block-Tales-how-to-be-good",
+        "file": "Block-Tales-how-to-be-good"
+      },
+      {
+        "slug": "Block-Tales-how-to-change-keybinds",
+        "file": "Block-Tales-how-to-change-keybinds"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-compost",
+        "file": "Block-Tales-how-to-get-compost"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-first-aid",
+        "file": "Block-Tales-how-to-get-first-aid"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-knight",
+        "file": "Block-Tales-how-to-get-knight"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-shawarma",
+        "file": "Block-Tales-how-to-get-shawarma"
+      },
+      {
+        "slug": "Block-Tales-how-to-level-up",
+        "file": "Block-Tales-how-to-level-up"
+      },
+      {
+        "slug": "Block-Tales-how-to-solve-the-last-puzzle",
+        "file": "Block-Tales-how-to-solve-the-last-puzzle"
+      },
+      {
+        "slug": "Block-Tales-max-level",
+        "file": "Block-Tales-max-level"
+      },
+      {
+        "slug": "block-tales-achievements",
+        "file": "block-tales-achievements"
+      },
+      {
+        "slug": "block-tales-animation-flavors",
+        "file": "block-tales-animation-flavors"
+      },
+      {
+        "slug": "block-tales-demo-5-guide",
+        "file": "block-tales-demo-5-guide"
+      },
+      {
+        "slug": "block-tales-fast-travel-locations",
+        "file": "block-tales-fast-travel-locations"
+      },
+      {
+        "slug": "block-tales-gold-bar",
+        "file": "block-tales-gold-bar"
+      },
+      {
+        "slug": "block-tales-npcs",
+        "file": "block-tales-npcs"
+      },
+      {
+        "slug": "block-tales-seventh-sanctum",
+        "file": "block-tales-seventh-sanctum"
+      },
+      {
+        "slug": "how-to-beat-opticus-block-tales",
+        "file": "how-to-beat-opticus-block-tales"
+      },
+      {
+        "slug": "how-to-beat-opticus-in-block-tales",
+        "file": "how-to-beat-opticus-in-block-tales"
+      },
+      {
+        "slug": "how-to-beat-opticus-the-magnificent",
+        "file": "how-to-beat-opticus-the-magnificent"
+      },
+      {
+        "slug": "how-to-beat-the-magnificent-in-block-tales-demo-5",
+        "file": "how-to-beat-the-magnificent-in-block-tales-demo-5"
+      },
+      {
+        "slug": "how-to-beat-the-trinity-council-block-tales",
+        "file": "how-to-beat-the-trinity-council-block-tales"
+      },
+      {
+        "slug": "how-to-beat-the-trinity-council-in-block-tales",
+        "file": "how-to-beat-the-trinity-council-in-block-tales"
+      },
+      {
+        "slug": "how-to-defeat-opticus-in-block-tales",
+        "file": "how-to-defeat-opticus-in-block-tales"
+      },
+      {
+        "slug": "seventh-sanctum-block-tales",
+        "file": "seventh-sanctum-block-tales"
+      },
+      {
+        "slug": "telamon-block-tales",
+        "file": "telamon-block-tales"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "Block-Tales-chapter-5",
+        "file": "Block-Tales-chapter-5"
+      },
+      {
+        "slug": "Block-Tales-demo-4",
+        "file": "Block-Tales-demo-4"
+      },
+      {
+        "slug": "Block-Tales-demo-5-release-date",
+        "file": "Block-Tales-demo-5-release-date"
+      },
+      {
+        "slug": "Block-Tales-demo-5",
+        "file": "Block-Tales-demo-5"
+      },
+      {
+        "slug": "Block-Tales-news",
+        "file": "Block-Tales-news"
+      },
+      {
+        "slug": "Block-Tales-upcoming-content",
+        "file": "Block-Tales-upcoming-content"
+      },
+      {
+        "slug": "block-tales-chapter-5-release-date",
+        "file": "block-tales-chapter-5-release-date"
+      },
+      {
+        "slug": "block-tales-court-answers",
+        "file": "block-tales-court-answers"
+      },
+      {
+        "slug": "block-tales-demo-1-release-date",
+        "file": "block-tales-demo-1-release-date"
+      },
+      {
+        "slug": "block-tales-demo-5-cassie",
+        "file": "block-tales-demo-5-cassie"
+      },
+      {
+        "slug": "block-tales-demo-5-council",
+        "file": "block-tales-demo-5-council"
+      },
+      {
+        "slug": "block-tales-demo-5-court",
+        "file": "block-tales-demo-5-court"
+      },
+      {
+        "slug": "block-tales-demo-5-interrogation",
+        "file": "block-tales-demo-5-interrogation"
+      },
+      {
+        "slug": "block-tales-demo-5-opticus",
+        "file": "block-tales-demo-5-opticus"
+      },
+      {
+        "slug": "block-tales-demo-5-secrets",
+        "file": "block-tales-demo-5-secrets"
+      },
+      {
+        "slug": "block-tales-demo-5-story",
+        "file": "block-tales-demo-5-story"
+      },
+      {
+        "slug": "block-tales-demo-5-walkthrough",
+        "file": "block-tales-demo-5-walkthrough"
+      },
+      {
+        "slug": "block-tales-demo-6-release-date",
+        "file": "block-tales-demo-6-release-date"
+      },
+      {
+        "slug": "block-tales-emotes",
+        "file": "block-tales-emotes"
+      },
+      {
+        "slug": "demo-5-block-tales",
+        "file": "demo-5-block-tales"
+      },
+      {
+        "slug": "high-councilman-block-tales",
+        "file": "high-councilman-block-tales"
+      },
+      {
+        "slug": "the-council-block-tales",
+        "file": "the-council-block-tales"
+      }
+    ]
+  },
+  "pt": {
+    "builds": [
+      {
+        "slug": "Block-Tales-baller-build",
+        "file": "Block-Tales-baller-build"
+      },
+      {
+        "slug": "Block-Tales-support-build",
+        "file": "Block-Tales-support-build"
+      }
+    ],
+    "cards": [
+      {
+        "slug": "Block-Tales-aggressor-card",
+        "file": "Block-Tales-aggressor-card"
+      },
+      {
+        "slug": "Block-Tales-drawback-cards",
+        "file": "Block-Tales-drawback-cards"
+      },
+      {
+        "slug": "Block-Tales-griefer-card",
+        "file": "Block-Tales-griefer-card"
+      },
+      {
+        "slug": "Block-Tales-hp-finder",
+        "file": "Block-Tales-hp-finder"
+      },
+      {
+        "slug": "Block-Tales-safe-guard",
+        "file": "Block-Tales-safe-guard"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Block-Tales-accountant-jim",
+        "file": "Block-Tales-accountant-jim"
+      },
+      {
+        "slug": "Block-Tales-builderman",
+        "file": "Block-Tales-builderman"
+      },
+      {
+        "slug": "Block-Tales-player",
+        "file": "Block-Tales-player"
+      },
+      {
+        "slug": "Block-Tales-shedletsky",
+        "file": "Block-Tales-shedletsky"
+      },
+      {
+        "slug": "Block-Tales-telamon",
+        "file": "Block-Tales-telamon"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Block-Tales-find-all-ingredients-for-the-chef",
+        "file": "Block-Tales-find-all-ingredients-for-the-chef"
+      },
+      {
+        "slug": "Block-Tales-how-to-be-good",
+        "file": "Block-Tales-how-to-be-good"
+      },
+      {
+        "slug": "Block-Tales-how-to-change-keybinds",
+        "file": "Block-Tales-how-to-change-keybinds"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-compost",
+        "file": "Block-Tales-how-to-get-compost"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-first-aid",
+        "file": "Block-Tales-how-to-get-first-aid"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-knight",
+        "file": "Block-Tales-how-to-get-knight"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-shawarma",
+        "file": "Block-Tales-how-to-get-shawarma"
+      },
+      {
+        "slug": "Block-Tales-how-to-level-up",
+        "file": "Block-Tales-how-to-level-up"
+      },
+      {
+        "slug": "Block-Tales-how-to-solve-the-last-puzzle",
+        "file": "Block-Tales-how-to-solve-the-last-puzzle"
+      },
+      {
+        "slug": "Block-Tales-max-level",
+        "file": "Block-Tales-max-level"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "Block-Tales-chapter-5",
+        "file": "Block-Tales-chapter-5"
+      },
+      {
+        "slug": "Block-Tales-demo-5-release-date",
+        "file": "Block-Tales-demo-5-release-date"
+      },
+      {
+        "slug": "Block-Tales-demo-5",
+        "file": "Block-Tales-demo-5"
+      },
+      {
+        "slug": "Block-Tales-news",
+        "file": "Block-Tales-news"
+      },
+      {
+        "slug": "Block-Tales-upcoming-content",
+        "file": "Block-Tales-upcoming-content"
+      }
+    ]
+  },
+  "pt-br": {
+    "builds": [
+      {
+        "slug": "Block-Tales-baller-build",
+        "file": "Block-Tales-baller-build"
+      },
+      {
+        "slug": "Block-Tales-best-build",
+        "file": "Block-Tales-best-build"
+      },
+      {
+        "slug": "Block-Tales-support-build",
+        "file": "Block-Tales-support-build"
+      }
+    ],
+    "cards": [
+      {
+        "slug": "Block-Tales-aggressor-card",
+        "file": "Block-Tales-aggressor-card"
+      },
+      {
+        "slug": "Block-Tales-all-cards",
+        "file": "Block-Tales-all-cards"
+      },
+      {
+        "slug": "Block-Tales-baller-card",
+        "file": "Block-Tales-baller-card"
+      },
+      {
+        "slug": "Block-Tales-drawback-cards",
+        "file": "Block-Tales-drawback-cards"
+      },
+      {
+        "slug": "Block-Tales-griefer-card",
+        "file": "Block-Tales-griefer-card"
+      },
+      {
+        "slug": "Block-Tales-hp-finder",
+        "file": "Block-Tales-hp-finder"
+      },
+      {
+        "slug": "Block-Tales-safe-guard",
+        "file": "Block-Tales-safe-guard"
+      },
+      {
+        "slug": "Block-Tales-thorns",
+        "file": "Block-Tales-thorns"
+      },
+      {
+        "slug": "block-tales-best-cards",
+        "file": "block-tales-best-cards"
+      },
+      {
+        "slug": "block-tales-bombardment",
+        "file": "block-tales-bombardment"
+      },
+      {
+        "slug": "block-tales-cards-tier-list",
+        "file": "block-tales-cards-tier-list"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Block-Tales-accountant-jim",
+        "file": "Block-Tales-accountant-jim"
+      },
+      {
+        "slug": "Block-Tales-builderman",
+        "file": "Block-Tales-builderman"
+      },
+      {
+        "slug": "Block-Tales-calypso",
+        "file": "Block-Tales-calypso"
+      },
+      {
+        "slug": "Block-Tales-kyoko",
+        "file": "Block-Tales-kyoko"
+      },
+      {
+        "slug": "Block-Tales-player",
+        "file": "Block-Tales-player"
+      },
+      {
+        "slug": "Block-Tales-shedletsky",
+        "file": "Block-Tales-shedletsky"
+      },
+      {
+        "slug": "Block-Tales-telamon",
+        "file": "Block-Tales-telamon"
+      },
+      {
+        "slug": "block-tales-barbarian-king",
+        "file": "block-tales-barbarian-king"
+      },
+      {
+        "slug": "block-tales-bosses",
+        "file": "block-tales-bosses"
+      },
+      {
+        "slug": "block-tales-cassie",
+        "file": "block-tales-cassie"
+      },
+      {
+        "slug": "block-tales-characters",
+        "file": "block-tales-characters"
+      },
+      {
+        "slug": "block-tales-enemies",
+        "file": "block-tales-enemies"
+      },
+      {
+        "slug": "block-tales-high-councilman",
+        "file": "block-tales-high-councilman"
+      },
+      {
+        "slug": "block-tales-high-scholar",
+        "file": "block-tales-high-scholar"
+      },
+      {
+        "slug": "block-tales-npcs",
+        "file": "block-tales-npcs"
+      },
+      {
+        "slug": "block-tales-spaceman-sam",
+        "file": "block-tales-spaceman-sam"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Block-Tales-find-all-ingredients-for-the-chef",
+        "file": "Block-Tales-find-all-ingredients-for-the-chef"
+      },
+      {
+        "slug": "Block-Tales-how-to-be-good",
+        "file": "Block-Tales-how-to-be-good"
+      },
+      {
+        "slug": "Block-Tales-how-to-change-keybinds",
+        "file": "Block-Tales-how-to-change-keybinds"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-compost",
+        "file": "Block-Tales-how-to-get-compost"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-first-aid",
+        "file": "Block-Tales-how-to-get-first-aid"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-knight",
+        "file": "Block-Tales-how-to-get-knight"
+      },
+      {
+        "slug": "Block-Tales-how-to-get-shawarma",
+        "file": "Block-Tales-how-to-get-shawarma"
+      },
+      {
+        "slug": "Block-Tales-how-to-level-up",
+        "file": "Block-Tales-how-to-level-up"
+      },
+      {
+        "slug": "Block-Tales-how-to-solve-the-last-puzzle",
+        "file": "Block-Tales-how-to-solve-the-last-puzzle"
+      },
+      {
+        "slug": "Block-Tales-max-level",
+        "file": "Block-Tales-max-level"
+      },
+      {
+        "slug": "block-tales-achievements",
+        "file": "block-tales-achievements"
+      },
+      {
+        "slug": "block-tales-animation-flavors",
+        "file": "block-tales-animation-flavors"
+      },
+      {
+        "slug": "block-tales-demo-5-guide",
+        "file": "block-tales-demo-5-guide"
+      },
+      {
+        "slug": "block-tales-fast-travel-locations",
+        "file": "block-tales-fast-travel-locations"
+      },
+      {
+        "slug": "block-tales-gold-bar",
+        "file": "block-tales-gold-bar"
+      },
+      {
+        "slug": "block-tales-npcs",
+        "file": "block-tales-npcs"
+      },
+      {
+        "slug": "block-tales-seventh-sanctum",
+        "file": "block-tales-seventh-sanctum"
+      },
+      {
+        "slug": "how-to-beat-opticus-block-tales",
+        "file": "how-to-beat-opticus-block-tales"
+      },
+      {
+        "slug": "how-to-beat-opticus-in-block-tales",
+        "file": "how-to-beat-opticus-in-block-tales"
+      },
+      {
+        "slug": "how-to-beat-opticus-the-magnificent",
+        "file": "how-to-beat-opticus-the-magnificent"
+      },
+      {
+        "slug": "how-to-beat-the-magnificent-in-block-tales-demo-5",
+        "file": "how-to-beat-the-magnificent-in-block-tales-demo-5"
+      },
+      {
+        "slug": "how-to-beat-the-trinity-council-block-tales",
+        "file": "how-to-beat-the-trinity-council-block-tales"
+      },
+      {
+        "slug": "how-to-beat-the-trinity-council-in-block-tales",
+        "file": "how-to-beat-the-trinity-council-in-block-tales"
+      },
+      {
+        "slug": "how-to-defeat-opticus-in-block-tales",
+        "file": "how-to-defeat-opticus-in-block-tales"
+      },
+      {
+        "slug": "seventh-sanctum-block-tales",
+        "file": "seventh-sanctum-block-tales"
+      },
+      {
+        "slug": "telamon-block-tales",
+        "file": "telamon-block-tales"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "Block-Tales-chapter-5",
+        "file": "Block-Tales-chapter-5"
+      },
+      {
+        "slug": "Block-Tales-demo-4",
+        "file": "Block-Tales-demo-4"
+      },
+      {
+        "slug": "Block-Tales-demo-5-release-date",
+        "file": "Block-Tales-demo-5-release-date"
+      },
+      {
+        "slug": "Block-Tales-demo-5",
+        "file": "Block-Tales-demo-5"
+      },
+      {
+        "slug": "Block-Tales-news",
+        "file": "Block-Tales-news"
+      },
+      {
+        "slug": "Block-Tales-upcoming-content",
+        "file": "Block-Tales-upcoming-content"
+      },
+      {
+        "slug": "block-tales-chapter-5-release-date",
+        "file": "block-tales-chapter-5-release-date"
+      },
+      {
+        "slug": "block-tales-court-answers",
+        "file": "block-tales-court-answers"
+      },
+      {
+        "slug": "block-tales-demo-1-release-date",
+        "file": "block-tales-demo-1-release-date"
+      },
+      {
+        "slug": "block-tales-demo-5-cassie",
+        "file": "block-tales-demo-5-cassie"
+      },
+      {
+        "slug": "block-tales-demo-5-council",
+        "file": "block-tales-demo-5-council"
+      },
+      {
+        "slug": "block-tales-demo-5-court",
+        "file": "block-tales-demo-5-court"
+      },
+      {
+        "slug": "block-tales-demo-5-interrogation",
+        "file": "block-tales-demo-5-interrogation"
+      },
+      {
+        "slug": "block-tales-demo-5-opticus",
+        "file": "block-tales-demo-5-opticus"
+      },
+      {
+        "slug": "block-tales-demo-5-secrets",
+        "file": "block-tales-demo-5-secrets"
+      },
+      {
+        "slug": "block-tales-demo-5-story",
+        "file": "block-tales-demo-5-story"
+      },
+      {
+        "slug": "block-tales-demo-5-walkthrough",
+        "file": "block-tales-demo-5-walkthrough"
+      },
+      {
+        "slug": "block-tales-demo-6-release-date",
+        "file": "block-tales-demo-6-release-date"
+      },
+      {
+        "slug": "block-tales-emotes",
+        "file": "block-tales-emotes"
+      },
+      {
+        "slug": "demo-5-block-tales",
+        "file": "demo-5-block-tales"
+      },
+      {
+        "slug": "high-councilman-block-tales",
+        "file": "high-councilman-block-tales"
+      },
+      {
+        "slug": "the-council-block-tales",
+        "file": "the-council-block-tales"
+      }
+    ]
+  }
+}
